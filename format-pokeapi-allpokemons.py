@@ -3,8 +3,6 @@ import re
 import sys
 import unicodedata
 
-import pandas as pd
-
 with open(sys.argv[1], "r") as file:
     data = json.load(file)
 

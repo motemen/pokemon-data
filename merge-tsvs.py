@@ -74,22 +74,135 @@ def pokeapi_row_to_normalized_variant(row):
             "mega-y": "メガY",
             "": "",
         },
+        "ケンタロス": {
+            "paldea-aqua-breed": "パルデア水",
+            "paldea-blaze-breed": "パルデア炎",
+            "paldea-combat-breed": "パルデア単",
+        },
+        "デオキシス": {
+            "attack": "アタック",
+            "defense": "ディフェンス",
+            "normal": "ノーマル",
+            "speed": "スピード",
+        },
+        "ミノマダム": {
+            "plant": "くさき",
+            "sandy": "すなち",
+            "trash": "ゴミ",
+        },
+        "ロトム": {
+            "fan": "スピン",
+            "frost": "フロスト",
+            "heat": "ヒート",
+            "mow": "カット",
+            "wash": "ウォッシュ",
+        },
+        "シェイミ": {
+            "land": "ランド",
+            "sky": "スカイ",
+        },
+        "ギラティナ": {
+            "altered": "アナザー",
+        },
+        "バスラオ": {
+            "blue-striped": "青",
+            "red-striped": "赤",
+            "white-striped": "白",
+        },
+        "ヒヒダルマ": {
+            "standard": "",
+            "zen": "ダルマ",
+            "galar-standard": "ガラル",
+            "galar-zen": "ダルマ・ガラル",
+        },
+        "ケルディオ": {
+            "ordinary": "いつも",
+            "resolute": "覚悟",
+        },
+        "メロエッタ": {
+            "aria": "ボイス",
+            "pirouette": "ステップ",
+        },
+        "ゲッコウガ": {
+            "ash": "サトシ",
+        },
+        "ギルガルド": {
+            "shield": "シールド",
+            "blade": "ブレード",
+        },
+        "バケッチャ": {
+            "average": "普通",
+            "small": "小",
+            "large": "大",
+            "super": "特大",
+        },
+        "パンプジン": {
+            "average": "普通",
+            "small": "小",
+            "large": "大",
+            "super": "特大",
+        },
+        "ジガルデ": {
+            "10": "10%",
+            "50": "50%",
+            "complete": "パーフェクト",
+        },
+        "フーパ": {
+            "": "いましめ",
+            "unbound": "ときはな",
+        },
+        "オドリドリ": {
+            "baile": "めらめら",
+            "pau": "ふらふら",
+            "pom-pom": "ぱちぱち",
+            "sensu": "まいまい",
+        },
+        "ルガルガン": {
+            "midday": "まひる",
+            "midnight": "まよなか",
+            "dusk": "たそがれ",
+        },
+        "ヨワシ": {"school": "群れ", "single": "単独"},
+        "ミミッキュ": {
+            "disguised": "",
+        },
         "バドレックス": {
             "ice": "はくば",
             "shadow": "こくば",
         },
-        "オーガポン": {
-            "wellspring-mask": "いど",
-            "hearthflame-mask": "かまど",
-            "cornerstone-mask": "いしずえ",
+        "ネクロズマ": {
+            "dusk": "日食",
+            "dawn": "月食",
+            "ultra": "ウルトラ",
+        },
+        "ストリンダー": {
+            "amped": "ハイ",
+            "low-key": "ロー",
+        },
+        "コオリッポ": {
+            "ice": "アイス",
+            "noice": "ナイス",
+        },
+        "ウーラオス": {
+            "single-strike": "いちげき",
+            "rapid-strike": "れんげき",
+        },
+        "パフュートン": {
+            "": "♂",
         },
         "イルカマン": {
             "": "ナイーブ",
             "hero": "マイティ",
         },
-        "ウーラオス": {
-            "single": "いちげき",
-            "rapid": "れんげき",
+        "コレクレー": {"roaming": "とほ", "": "はこ"},
+        "オーガポン": {
+            "wellspring-mask": "いど",
+            "hearthflame-mask": "かまど",
+            "cornerstone-mask": "いしずえ",
+        },
+        "テラパゴス": {
+            "terastal": "テラスタル",
+            "stellar": "ステラ",
         },
     }
 
@@ -121,4 +234,4 @@ df_merged["id_pokeapi"] = df_merged["id_pokeapi"].astype("Int64")
 # import code
 # code.interact(local=locals())
 
-print(df_merged.to_csv(sep="\t", index=False))
+print(df_merged.to_csv(sep="\t", index=False), end="")
