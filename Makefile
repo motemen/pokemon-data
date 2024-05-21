@@ -1,13 +1,17 @@
 # manual:
 # - yakkuncom-zukan.html
 
+POKEMON_ALL.tsv: always
+	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv > $@
+
 yakkuncom.tsv: source/yakkuncom-zukan.html
-	echo "全国図鑑No	ID	名前	変種" > $@
+	echo "national_pokedex_number	id	name_ja	variant" > $@
 	cat $< | iconv -f euc-jp -t utf8 | perl -nle 'm#li .*?data-no="([0-9]+)"[^>]+>.*?<a href="/sv/zukan/([^"]+)">.*?</i>(.+?)(?:<span>\((.+?)\)</span>)?</a></li># and print join "\t", $$1, $$2, $$3, $$4' | sort -n >> $@
 
 pokeapi.tsv: source/pokeapi-allpokemons.json
-	npx tsx mangle-pokeapi-allpokemons.ts $< > $@
+	python format-pokeapi-allpokemons.py $< > $@
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 	curl https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
 
+always:

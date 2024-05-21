@@ -35,7 +35,9 @@ function mustDropPrefix(s: string, prefix: string): string {
   return s.slice(prefix.length + 1);
 }
 
-console.log(["全国図鑑No", "ID", "名前", "名前(en)", "変種(en)"].join("\t"));
+console.log(
+  ["national_pokedex_number", "id", "name_ja", "name_en", "variant"].join("\t")
+);
 
 for (const { name_ja, species } of data.data.species_names) {
   const pokedex_number = species.pokedex_numbers[0].pokedex_number;

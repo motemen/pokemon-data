@@ -1,4 +1,4 @@
-全国図鑑No	ID	名前	名前(en)	変種(en)
+national_pokedex_number	id	name_ja	name_en	variant
 1	1	フシギダネ	bulbasaur	
 2	2	フシギソウ	ivysaur	
 3	3	フシギバナ	venusaur	
