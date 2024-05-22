@@ -1,5 +1,5 @@
 {
-  "query": "query {
+  "query": "{
     species_names: pokemon_v2_pokemonspeciesname(where: {language_id: {_eq: 1}}) {
       name_ja: name
       species: pokemon_v2_pokemonspecy {
@@ -12,6 +12,12 @@
         pokemons: pokemon_v2_pokemons {
           name_en: name
           pokeapi_id: id
+          is_default
+        }
+        gen9_pokedex_aggregate: pokemon_v2_pokemondexnumbers_aggregate(where: {pokemon_v2_pokedex: {pokemon_v2_region: {pokemon_v2_generation: {name: {_eq: \"generation-ix\"}}}}}) {
+          aggregate {
+            count
+          }
         }
       }
     }

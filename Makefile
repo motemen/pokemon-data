@@ -1,7 +1,4 @@
-# manual:
-# - yakkuncom-zukan.html
-
-POKEMON_ALL.tsv: always
+POKEMON_ALL.tsv: yakkuncom.tsv pokeapi.tsv
 	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv > $@
 
 yakkuncom.tsv: source/yakkuncom-zukan.html
@@ -13,5 +10,3 @@ pokeapi.tsv: source/pokeapi-allpokemons.json
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 	curl https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
-
-always:

@@ -1,11 +1,19 @@
+import argparse
 import re
 import sys
 
 import pandas as pd
 
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--repl", action="store_true", default=False)
+parser.add_argument("yakkuncom_tsv")
+parser.add_argument("pokeapi_tsv")
+args = parser.parse_args()
+
 # Read in the first file
-df_yakkun = pd.read_csv(sys.argv[1], sep="\t")
-df_pokeapi = pd.read_csv(sys.argv[2], sep="\t")
+df_yakkun = pd.read_csv(args.yakkuncom_tsv, sep="\t")
+df_pokeapi = pd.read_csv(args.pokeapi_tsv, sep="\t")
 
 ## Cleanup Yakkun
 
@@ -49,7 +57,7 @@ def yakkun_row_to_normalized_variant(row):
 
 df_yakkun["normalized_variant"] = df_yakkun.apply(
     yakkun_row_to_normalized_variant, axis="columns"
-)
+).fillna("")
 
 
 ## Cleanup PokeAPI
@@ -103,6 +111,7 @@ def pokeapi_row_to_normalized_variant(row):
         },
         "ギラティナ": {
             "altered": "アナザー",
+            "origin": "オリジン",
         },
         "バスラオ": {
             "blue-striped": "青",
@@ -162,7 +171,7 @@ def pokeapi_row_to_normalized_variant(row):
             "midnight": "まよなか",
             "dusk": "たそがれ",
         },
-        "ヨワシ": {"school": "群れ", "single": "単独"},
+        "ヨワシ": {"school": "群れ", "solo": "単独"},
         "ミミッキュ": {
             "disguised": "",
         },
@@ -187,8 +196,12 @@ def pokeapi_row_to_normalized_variant(row):
             "single-strike": "いちげき",
             "rapid-strike": "れんげき",
         },
+        "ムゲンダイナ": {
+            "eternamax": "ムゲン",
+        },
         "パフュートン": {
             "": "♂",
+            "female": "♀",
         },
         "イルカマン": {
             "": "ナイーブ",
@@ -200,6 +213,7 @@ def pokeapi_row_to_normalized_variant(row):
             "hearthflame-mask": "かまど",
             "cornerstone-mask": "いしずえ",
         },
+        "ガチグマ": {"bloodmoon": "アカツキ"},
         "テラパゴス": {
             "terastal": "テラスタル",
             "stellar": "ステラ",
@@ -212,8 +226,12 @@ def pokeapi_row_to_normalized_variant(row):
     else:
         normalized_variant = POKEMON_EN2JA[None].get(row["variant"], None)
 
-    return normalized_variant or row["variant"]
+    if normalized_variant is None:
+        return row["variant"]
+    return normalized_variant
 
+
+df_pokeapi["variant"] = df_pokeapi["variant"].fillna("")
 
 df_pokeapi["normalized_variant"] = df_pokeapi.apply(
     pokeapi_row_to_normalized_variant, axis="columns"
@@ -227,11 +245,17 @@ df_merged = pd.merge(
     on=["national_pokedex_number", "normalized_variant"],
     how="outer",
     suffixes=("_yakkuncom", "_pokeapi"),
-).drop(columns=["normalized_variant"])
+)
 
 df_merged["id_pokeapi"] = df_merged["id_pokeapi"].astype("Int64")
 
-# import code
-# code.interact(local=locals())
+if args.repl:
+    import code
 
+    code.interact(local=locals())
+
+# TODO: warn if id_yakkuncom != None and id_pokeapi == None
+print(df_merged[df_merged["id_pokeapi"].isnull()])
+
+df_merged = df_merged.drop(columns=["normalized_variant"])
 print(df_merged.to_csv(sep="\t", index=False), end="")

@@ -16,12 +16,24 @@ def must_drop_prefix(s, prefix):
 
 
 output = []
-output.append(["national_pokedex_number", "id", "name_ja", "name_en", "variant"])
+output.append(
+    [
+        "national_pokedex_number",
+        "id",
+        "name_ja",
+        "name_en",
+        "variant",
+        "is_default",
+        "is_gen9",
+    ]
+)
 
 for item in data["data"]["species_names"]:
     name_ja = item["name_ja"]
     species = item["species"]
-    pokedex_number = species["pokedex_numbers"][0]["pokedex_number"]
+    national_pokedex_number = species["pokedex_numbers"][0]["pokedex_number"]
+    is_gen9 = species["gen9_pokedex_aggregate"]["aggregate"]["count"] > 0
+
     name_root = (
         species["name_en"][0]["name"]
         .lower()
@@ -34,11 +46,13 @@ for item in data["data"]["species_names"]:
     for pokemon in species["pokemons"]:
         output.append(
             [
-                pokedex_number,
+                national_pokedex_number,
                 pokemon["pokeapi_id"],
                 name_ja,
                 pokemon["name_en"],
                 must_drop_prefix(pokemon["name_en"], name_root),
+                1 if pokemon["is_default"] else "",
+                1 if is_gen9 else "",
             ]
         )
 
