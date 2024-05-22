@@ -1,0 +1,1312 @@
+national_pokedex_number	id_yakkuncom	name_ja	variant	id_pokeapi	name_en
+1	n1	フシギダネ		1	bulbasaur
+2	n2	フシギソウ		2	ivysaur
+3	n3	フシギバナ		3	venusaur
+3				10195	venusaur-gmax
+3	n3m	メガフシギバナ		10033	venusaur-mega
+4	n4	ヒトカゲ		4	charmander
+5	n5	リザード		5	charmeleon
+6	n6	リザードン		6	charizard
+6				10196	charizard-gmax
+6	n6x	メガリザードンX		10034	charizard-mega-x
+6	n6y	メガリザードンY		10035	charizard-mega-y
+7	n7	ゼニガメ		7	squirtle
+8	n8	カメール		8	wartortle
+9	n9	カメックス		9	blastoise
+9				10197	blastoise-gmax
+9	n9m	メガカメックス		10036	blastoise-mega
+10	n10	キャタピー		10	caterpie
+11	n11	トランセル		11	metapod
+12	n12	バタフリー		12	butterfree
+12				10198	butterfree-gmax
+13	n13	ビードル		13	weedle
+14	n14	コクーン		14	kakuna
+15	n15	スピアー		15	beedrill
+15	n15m	メガスピアー		10090	beedrill-mega
+16	n16	ポッポ		16	pidgey
+17	n17	ピジョン		17	pidgeotto
+18	n18	ピジョット		18	pidgeot
+18	n18m	メガピジョット		10073	pidgeot-mega
+19	n19	コラッタ		19	rattata
+19	n19a	コラッタ	アローラ	10091	rattata-alola
+20	n20	ラッタ		20	raticate
+20				10093	raticate-totem-alola
+20	n20a	ラッタ	アローラ	10092	raticate-alola
+21	n21	オニスズメ		21	spearow
+22	n22	オニドリル		22	fearow
+23	n23	アーボ		23	ekans
+24	n24	アーボック		24	arbok
+25	n25	ピカチュウ		25	pikachu
+25				10099	pikachu-alola-cap
+25				10081	pikachu-belle
+25				10085	pikachu-cosplay
+25				10199	pikachu-gmax
+25				10095	pikachu-hoenn-cap
+25				10098	pikachu-kalos-cap
+25				10084	pikachu-libre
+25				10094	pikachu-original-cap
+25				10148	pikachu-partner-cap
+25				10083	pikachu-phd
+25				10082	pikachu-pop-star
+25				10080	pikachu-rock-star
+25				10096	pikachu-sinnoh-cap
+25				10158	pikachu-starter
+25				10097	pikachu-unova-cap
+25				10160	pikachu-world-cap
+26	n26	ライチュウ		26	raichu
+26	n26a	ライチュウ	アローラ	10100	raichu-alola
+27	n27	サンド		27	sandshrew
+27	n27a	サンド	アローラ	10101	sandshrew-alola
+28	n28	サンドパン		28	sandslash
+28	n28a	サンドパン	アローラ	10102	sandslash-alola
+29	n29	ニドラン♀		29	nidoran-f
+30	n30	ニドリーナ		30	nidorina
+31	n31	ニドクイン		31	nidoqueen
+32	n32	ニドラン♂		32	nidoran-m
+33	n33	ニドリーノ		33	nidorino
+34	n34	ニドキング		34	nidoking
+35	n35	ピッピ		35	clefairy
+36	n36	ピクシー		36	clefable
+37	n37	ロコン		37	vulpix
+37	n37a	ロコン	アローラ	10103	vulpix-alola
+38	n38	キュウコン		38	ninetales
+38	n38a	キュウコン	アローラ	10104	ninetales-alola
+39	n39	プリン		39	jigglypuff
+40	n40	プクリン		40	wigglytuff
+41	n41	ズバット		41	zubat
+42	n42	ゴルバット		42	golbat
+43	n43	ナゾノクサ		43	oddish
+44	n44	クサイハナ		44	gloom
+45	n45	ラフレシア		45	vileplume
+46	n46	パラス		46	paras
+47	n47	パラセクト		47	parasect
+48	n48	コンパン		48	venonat
+49	n49	モルフォン		49	venomoth
+50	n50	ディグダ		50	diglett
+50	n50a	ディグダ	アローラ	10105	diglett-alola
+51	n51	ダグトリオ		51	dugtrio
+51	n51a	ダグトリオ	アローラ	10106	dugtrio-alola
+52	n52	ニャース		52	meowth
+52				10200	meowth-gmax
+52	n52a	ニャース	アローラ	10107	meowth-alola
+52	n52g	ニャース	ガラル	10161	meowth-galar
+53	n53	ペルシアン		53	persian
+53	n53a	ペルシアン	アローラ	10108	persian-alola
+54	n54	コダック		54	psyduck
+55	n55	ゴルダック		55	golduck
+56	n56	マンキー		56	mankey
+57	n57	オコリザル		57	primeape
+58	n58	ガーディ		58	growlithe
+58	n58h	ガーディ	ヒスイ	10229	growlithe-hisui
+59	n59	ウインディ		59	arcanine
+59	n59h	ウインディ	ヒスイ	10230	arcanine-hisui
+60	n60	ニョロモ		60	poliwag
+61	n61	ニョロゾ		61	poliwhirl
+62	n62	ニョロボン		62	poliwrath
+63	n63	ケーシィ		63	abra
+64	n64	ユンゲラー		64	kadabra
+65	n65	フーディン		65	alakazam
+65	n65m	メガフーディン		10037	alakazam-mega
+66	n66	ワンリキー		66	machop
+67	n67	ゴーリキー		67	machoke
+68	n68	カイリキー		68	machamp
+68				10201	machamp-gmax
+69	n69	マダツボミ		69	bellsprout
+70	n70	ウツドン		70	weepinbell
+71	n71	ウツボット		71	victreebel
+72	n72	メノクラゲ		72	tentacool
+73	n73	ドククラゲ		73	tentacruel
+74	n74	イシツブテ		74	geodude
+74	n74a	イシツブテ	アローラ	10109	geodude-alola
+75	n75	ゴローン		75	graveler
+75	n75a	ゴローン	アローラ	10110	graveler-alola
+76	n76	ゴローニャ		76	golem
+76	n76a	ゴローニャ	アローラ	10111	golem-alola
+77	n77	ポニータ		77	ponyta
+77	n77g	ポニータ	ガラル	10162	ponyta-galar
+78	n78	ギャロップ		78	rapidash
+78	n78g	ギャロップ	ガラル	10163	rapidash-galar
+79	n79	ヤドン		79	slowpoke
+79	n79g	ヤドン	ガラル	10164	slowpoke-galar
+80	n80	ヤドラン		80	slowbro
+80	n80g	ヤドラン	ガラル	10165	slowbro-galar
+80	n80m	メガヤドラン		10071	slowbro-mega
+81	n81	コイル		81	magnemite
+82	n82	レアコイル		82	magneton
+83	n83	カモネギ		83	farfetchd
+83	n83g	カモネギ	ガラル	10166	farfetchd-galar
+84	n84	ドードー		84	doduo
+85	n85	ドードリオ		85	dodrio
+86	n86	パウワウ		86	seel
+87	n87	ジュゴン		87	dewgong
+88	n88	ベトベター		88	grimer
+88	n88a	ベトベター	アローラ	10112	grimer-alola
+89	n89	ベトベトン		89	muk
+89	n89a	ベトベトン	アローラ	10113	muk-alola
+90	n90	シェルダー		90	shellder
+91	n91	パルシェン		91	cloyster
+92	n92	ゴース		92	gastly
+93	n93	ゴースト		93	haunter
+94	n94	ゲンガー		94	gengar
+94				10202	gengar-gmax
+94	n94m	メガゲンガー		10038	gengar-mega
+95	n95	イワーク		95	onix
+96	n96	スリープ		96	drowzee
+97	n97	スリーパー		97	hypno
+98	n98	クラブ		98	krabby
+99	n99	キングラー		99	kingler
+99				10203	kingler-gmax
+100	n100	ビリリダマ		100	voltorb
+100	n100h	ビリリダマ	ヒスイ	10231	voltorb-hisui
+101	n101	マルマイン		101	electrode
+101	n101h	マルマイン	ヒスイ	10232	electrode-hisui
+102	n102	タマタマ		102	exeggcute
+103	n103	ナッシー		103	exeggutor
+103	n103a	ナッシー	アローラ	10114	exeggutor-alola
+104	n104	カラカラ		104	cubone
+105	n105	ガラガラ		105	marowak
+105				10149	marowak-totem
+105	n105a	ガラガラ	アローラ	10115	marowak-alola
+106	n106	サワムラー		106	hitmonlee
+107	n107	エビワラー		107	hitmonchan
+108	n108	ベロリンガ		108	lickitung
+109	n109	ドガース		109	koffing
+110	n110	マタドガス		110	weezing
+110	n110g	マタドガス	ガラル	10167	weezing-galar
+111	n111	サイホーン		111	rhyhorn
+112	n112	サイドン		112	rhydon
+113	n113	ラッキー		113	chansey
+114	n114	モンジャラ		114	tangela
+115	n115	ガルーラ		115	kangaskhan
+115	n115m	メガガルーラ		10039	kangaskhan-mega
+116	n116	タッツー		116	horsea
+117	n117	シードラ		117	seadra
+118	n118	トサキント		118	goldeen
+119	n119	アズマオウ		119	seaking
+120	n120	ヒトデマン		120	staryu
+121	n121	スターミー		121	starmie
+122	n122	バリヤード		122	mr-mime
+122	n122g	バリヤード	ガラル	10168	mr-mime-galar
+123	n123	ストライク		123	scyther
+124	n124	ルージュラ		124	jynx
+125	n125	エレブー		125	electabuzz
+126	n126	ブーバー		126	magmar
+127	n127	カイロス		127	pinsir
+127	n127m	メガカイロス		10040	pinsir-mega
+128	n128	ケンタロス		128	tauros
+128	n128a	ケンタロス	パルデア単	10250	tauros-paldea-combat-breed
+128	n128c	ケンタロス	パルデア水	10252	tauros-paldea-aqua-breed
+128	n128b	ケンタロス	パルデア炎	10251	tauros-paldea-blaze-breed
+129	n129	コイキング		129	magikarp
+130	n130	ギャラドス		130	gyarados
+130	n130m	メガギャラドス		10041	gyarados-mega
+131	n131	ラプラス		131	lapras
+131				10204	lapras-gmax
+132	n132	メタモン		132	ditto
+133	n133	イーブイ		133	eevee
+133				10205	eevee-gmax
+133				10159	eevee-starter
+134	n134	シャワーズ		134	vaporeon
+135	n135	サンダース		135	jolteon
+136	n136	ブースター		136	flareon
+137	n137	ポリゴン		137	porygon
+138	n138	オムナイト		138	omanyte
+139	n139	オムスター		139	omastar
+140	n140	カブト		140	kabuto
+141	n141	カブトプス		141	kabutops
+142	n142	プテラ		142	aerodactyl
+142	n142m	メガプテラ		10042	aerodactyl-mega
+143	n143	カビゴン		143	snorlax
+143				10206	snorlax-gmax
+144	n144	フリーザー		144	articuno
+144	n144g	フリーザー	ガラル	10169	articuno-galar
+145	n145	サンダー		145	zapdos
+145	n145g	サンダー	ガラル	10170	zapdos-galar
+146	n146	ファイヤー		146	moltres
+146	n146g	ファイヤー	ガラル	10171	moltres-galar
+147	n147	ミニリュウ		147	dratini
+148	n148	ハクリュー		148	dragonair
+149	n149	カイリュー		149	dragonite
+150	n150	ミュウツー		150	mewtwo
+150	n150x	メガミュウツーX		10043	mewtwo-mega-x
+150	n150y	メガミュウツーY		10044	mewtwo-mega-y
+151	n151	ミュウ		151	mew
+152	n152	チコリータ		152	chikorita
+153	n153	ベイリーフ		153	bayleef
+154	n154	メガニウム		154	meganium
+155	n155	ヒノアラシ		155	cyndaquil
+156	n156	マグマラシ		156	quilava
+157	n157	バクフーン		157	typhlosion
+157	n157h	バクフーン	ヒスイ	10233	typhlosion-hisui
+158	n158	ワニノコ		158	totodile
+159	n159	アリゲイツ		159	croconaw
+160	n160	オーダイル		160	feraligatr
+161	n161	オタチ		161	sentret
+162	n162	オオタチ		162	furret
+163	n163	ホーホー		163	hoothoot
+164	n164	ヨルノズク		164	noctowl
+165	n165	レディバ		165	ledyba
+166	n166	レディアン		166	ledian
+167	n167	イトマル		167	spinarak
+168	n168	アリアドス		168	ariados
+169	n169	クロバット		169	crobat
+170	n170	チョンチー		170	chinchou
+171	n171	ランターン		171	lanturn
+172	n172	ピチュー		172	pichu
+173	n173	ピィ		173	cleffa
+174	n174	ププリン		174	igglybuff
+175	n175	トゲピー		175	togepi
+176	n176	トゲチック		176	togetic
+177	n177	ネイティ		177	natu
+178	n178	ネイティオ		178	xatu
+179	n179	メリープ		179	mareep
+180	n180	モココ		180	flaaffy
+181	n181	デンリュウ		181	ampharos
+181	n181m	メガデンリュウ		10045	ampharos-mega
+182	n182	キレイハナ		182	bellossom
+183	n183	マリル		183	marill
+184	n184	マリルリ		184	azumarill
+185	n185	ウソッキー		185	sudowoodo
+186	n186	ニョロトノ		186	politoed
+187	n187	ハネッコ		187	hoppip
+188	n188	ポポッコ		188	skiploom
+189	n189	ワタッコ		189	jumpluff
+190	n190	エイパム		190	aipom
+191	n191	ヒマナッツ		191	sunkern
+192	n192	キマワリ		192	sunflora
+193	n193	ヤンヤンマ		193	yanma
+194	n194	ウパー		194	wooper
+194	n194p	ウパー	パルデア	10253	wooper-paldea
+195	n195	ヌオー		195	quagsire
+196	n196	エーフィ		196	espeon
+197	n197	ブラッキー		197	umbreon
+198	n198	ヤミカラス		198	murkrow
+199	n199	ヤドキング		199	slowking
+199	n199g	ヤドキング	ガラル	10172	slowking-galar
+200	n200	ムウマ		200	misdreavus
+201	n201	アンノーン		201	unown
+202	n202	ソーナンス		202	wobbuffet
+203	n203	キリンリキ		203	girafarig
+204	n204	クヌギダマ		204	pineco
+205	n205	フォレトス		205	forretress
+206	n206	ノコッチ		206	dunsparce
+207	n207	グライガー		207	gligar
+208	n208	ハガネール		208	steelix
+208	n208m	メガハガネール		10072	steelix-mega
+209	n209	ブルー		209	snubbull
+210	n210	グランブル		210	granbull
+211	n211	ハリーセン		211	qwilfish
+211	n211h	ハリーセン	ヒスイ	10234	qwilfish-hisui
+212	n212	ハッサム		212	scizor
+212	n212m	メガハッサム		10046	scizor-mega
+213	n213	ツボツボ		213	shuckle
+214	n214	ヘラクロス		214	heracross
+214	n214m	メガヘラクロス		10047	heracross-mega
+215	n215	ニューラ		215	sneasel
+215	n215h	ニューラ	ヒスイ	10235	sneasel-hisui
+216	n216	ヒメグマ		216	teddiursa
+217	n217	リングマ		217	ursaring
+218	n218	マグマッグ		218	slugma
+219	n219	マグカルゴ		219	magcargo
+220	n220	ウリムー		220	swinub
+221	n221	イノムー		221	piloswine
+222	n222	サニーゴ		222	corsola
+222	n222g	サニーゴ	ガラル	10173	corsola-galar
+223	n223	テッポウオ		223	remoraid
+224	n224	オクタン		224	octillery
+225	n225	デリバード		225	delibird
+226	n226	マンタイン		226	mantine
+227	n227	エアームド		227	skarmory
+228	n228	デルビル		228	houndour
+229	n229	ヘルガー		229	houndoom
+229	n229m	メガヘルガー		10048	houndoom-mega
+230	n230	キングドラ		230	kingdra
+231	n231	ゴマゾウ		231	phanpy
+232	n232	ドンファン		232	donphan
+233	n233	ポリゴン2		233	porygon2
+234	n234	オドシシ		234	stantler
+235	n235	ドーブル		235	smeargle
+236	n236	バルキー		236	tyrogue
+237	n237	カポエラー		237	hitmontop
+238	n238	ムチュール		238	smoochum
+239	n239	エレキッド		239	elekid
+240	n240	ブビィ		240	magby
+241	n241	ミルタンク		241	miltank
+242	n242	ハピナス		242	blissey
+243	n243	ライコウ		243	raikou
+244	n244	エンテイ		244	entei
+245	n245	スイクン		245	suicune
+246	n246	ヨーギラス		246	larvitar
+247	n247	サナギラス		247	pupitar
+248	n248	バンギラス		248	tyranitar
+248	n248m	メガバンギラス		10049	tyranitar-mega
+249	n249	ルギア		249	lugia
+250	n250	ホウオウ		250	ho-oh
+251	n251	セレビィ		251	celebi
+252	n252	キモリ		252	treecko
+253	n253	ジュプトル		253	grovyle
+254	n254	ジュカイン		254	sceptile
+254	n254m	メガジュカイン		10065	sceptile-mega
+255	n255	アチャモ		255	torchic
+256	n256	ワカシャモ		256	combusken
+257	n257	バシャーモ		257	blaziken
+257	n257m	メガバシャーモ		10050	blaziken-mega
+258	n258	ミズゴロウ		258	mudkip
+259	n259	ヌマクロー		259	marshtomp
+260	n260	ラグラージ		260	swampert
+260	n260m	メガラグラージ		10064	swampert-mega
+261	n261	ポチエナ		261	poochyena
+262	n262	グラエナ		262	mightyena
+263	n263	ジグザグマ		263	zigzagoon
+263	n263g	ジグザグマ	ガラル	10174	zigzagoon-galar
+264	n264	マッスグマ		264	linoone
+264	n264g	マッスグマ	ガラル	10175	linoone-galar
+265	n265	ケムッソ		265	wurmple
+266	n266	カラサリス		266	silcoon
+267	n267	アゲハント		267	beautifly
+268	n268	マユルド		268	cascoon
+269	n269	ドクケイル		269	dustox
+270	n270	ハスボー		270	lotad
+271	n271	ハスブレロ		271	lombre
+272	n272	ルンパッパ		272	ludicolo
+273	n273	タネボー		273	seedot
+274	n274	コノハナ		274	nuzleaf
+275	n275	ダーテング		275	shiftry
+276	n276	スバメ		276	taillow
+277	n277	オオスバメ		277	swellow
+278	n278	キャモメ		278	wingull
+279	n279	ペリッパー		279	pelipper
+280	n280	ラルトス		280	ralts
+281	n281	キルリア		281	kirlia
+282	n282	サーナイト		282	gardevoir
+282	n282m	メガサーナイト		10051	gardevoir-mega
+283	n283	アメタマ		283	surskit
+284	n284	アメモース		284	masquerain
+285	n285	キノココ		285	shroomish
+286	n286	キノガッサ		286	breloom
+287	n287	ナマケロ		287	slakoth
+288	n288	ヤルキモノ		288	vigoroth
+289	n289	ケッキング		289	slaking
+290	n290	ツチニン		290	nincada
+291	n291	テッカニン		291	ninjask
+292	n292	ヌケニン		292	shedinja
+293	n293	ゴニョニョ		293	whismur
+294	n294	ドゴーム		294	loudred
+295	n295	バクオング		295	exploud
+296	n296	マクノシタ		296	makuhita
+297	n297	ハリテヤマ		297	hariyama
+298	n298	ルリリ		298	azurill
+299	n299	ノズパス		299	nosepass
+300	n300	エネコ		300	skitty
+301	n301	エネコロロ		301	delcatty
+302	n302	ヤミラミ		302	sableye
+302	n302m	メガヤミラミ		10066	sableye-mega
+303	n303	クチート		303	mawile
+303	n303m	メガクチート		10052	mawile-mega
+304	n304	ココドラ		304	aron
+305	n305	コドラ		305	lairon
+306	n306	ボスゴドラ		306	aggron
+306	n306m	メガボスゴドラ		10053	aggron-mega
+307	n307	アサナン		307	meditite
+308	n308	チャーレム		308	medicham
+308	n308m	メガチャーレム		10054	medicham-mega
+309	n309	ラクライ		309	electrike
+310	n310	ライボルト		310	manectric
+310	n310m	メガライボルト		10055	manectric-mega
+311	n311	プラスル		311	plusle
+312	n312	マイナン		312	minun
+313	n313	バルビート		313	volbeat
+314	n314	イルミーゼ		314	illumise
+315	n315	ロゼリア		315	roselia
+316	n316	ゴクリン		316	gulpin
+317	n317	マルノーム		317	swalot
+318	n318	キバニア		318	carvanha
+319	n319	サメハダー		319	sharpedo
+319	n319m	メガサメハダー		10070	sharpedo-mega
+320	n320	ホエルコ		320	wailmer
+321	n321	ホエルオー		321	wailord
+322	n322	ドンメル		322	numel
+323	n323	バクーダ		323	camerupt
+323	n323m	メガバクーダ		10087	camerupt-mega
+324	n324	コータス		324	torkoal
+325	n325	バネブー		325	spoink
+326	n326	ブーピッグ		326	grumpig
+327	n327	パッチール		327	spinda
+328	n328	ナックラー		328	trapinch
+329	n329	ビブラーバ		329	vibrava
+330	n330	フライゴン		330	flygon
+331	n331	サボネア		331	cacnea
+332	n332	ノクタス		332	cacturne
+333	n333	チルット		333	swablu
+334	n334	チルタリス		334	altaria
+334	n334m	メガチルタリス		10067	altaria-mega
+335	n335	ザングース		335	zangoose
+336	n336	ハブネーク		336	seviper
+337	n337	ルナトーン		337	lunatone
+338	n338	ソルロック		338	solrock
+339	n339	ドジョッチ		339	barboach
+340	n340	ナマズン		340	whiscash
+341	n341	ヘイガニ		341	corphish
+342	n342	シザリガー		342	crawdaunt
+343	n343	ヤジロン		343	baltoy
+344	n344	ネンドール		344	claydol
+345	n345	リリーラ		345	lileep
+346	n346	ユレイドル		346	cradily
+347	n347	アノプス		347	anorith
+348	n348	アーマルド		348	armaldo
+349	n349	ヒンバス		349	feebas
+350	n350	ミロカロス		350	milotic
+351	n351	ポワルン		351	castform
+351				10014	castform-rainy
+351				10015	castform-snowy
+351				10013	castform-sunny
+352	n352	カクレオン		352	kecleon
+353	n353	カゲボウズ		353	shuppet
+354	n354	ジュペッタ		354	banette
+354	n354m	メガジュペッタ		10056	banette-mega
+355	n355	ヨマワル		355	duskull
+356	n356	サマヨール		356	dusclops
+357	n357	トロピウス		357	tropius
+358	n358	チリーン		358	chimecho
+359	n359	アブソル		359	absol
+359	n359m	メガアブソル		10057	absol-mega
+360	n360	ソーナノ		360	wynaut
+361	n361	ユキワラシ		361	snorunt
+362	n362	オニゴーリ		362	glalie
+362	n362m	メガオニゴーリ		10074	glalie-mega
+363	n363	タマザラシ		363	spheal
+364	n364	トドグラー		364	sealeo
+365	n365	トドゼルガ		365	walrein
+366	n366	パールル		366	clamperl
+367	n367	ハンテール		367	huntail
+368	n368	サクラビス		368	gorebyss
+369	n369	ジーランス		369	relicanth
+370	n370	ラブカス		370	luvdisc
+371	n371	タツベイ		371	bagon
+372	n372	コモルー		372	shelgon
+373	n373	ボーマンダ		373	salamence
+373	n373m	メガボーマンダ		10089	salamence-mega
+374	n374	ダンバル		374	beldum
+375	n375	メタング		375	metang
+376	n376	メタグロス		376	metagross
+376	n376m	メガメタグロス		10076	metagross-mega
+377	n377	レジロック		377	regirock
+378	n378	レジアイス		378	regice
+379	n379	レジスチル		379	registeel
+380	n380	ラティアス		380	latias
+380	n380m	メガラティアス		10062	latias-mega
+381	n381	ラティオス		381	latios
+381	n381m	メガラティオス		10063	latios-mega
+382	n382	カイオーガ		382	kyogre
+382	n382p	ゲンシカイオーガ		10077	kyogre-primal
+383	n383	グラードン		383	groudon
+383	n383p	ゲンシグラードン		10078	groudon-primal
+384	n384	レックウザ		384	rayquaza
+384	n384m	メガレックウザ		10079	rayquaza-mega
+385	n385	ジラーチ		385	jirachi
+386	n386a	デオキシス	アタック	10001	deoxys-attack
+386	n386s	デオキシス	スピード	10003	deoxys-speed
+386	n386d	デオキシス	ディフェンス	10002	deoxys-defense
+386	n386	デオキシス	ノーマル	386	deoxys-normal
+387	n387	ナエトル		387	turtwig
+388	n388	ハヤシガメ		388	grotle
+389	n389	ドダイトス		389	torterra
+390	n390	ヒコザル		390	chimchar
+391	n391	モウカザル		391	monferno
+392	n392	ゴウカザル		392	infernape
+393	n393	ポッチャマ		393	piplup
+394	n394	ポッタイシ		394	prinplup
+395	n395	エンペルト		395	empoleon
+396	n396	ムックル		396	starly
+397	n397	ムクバード		397	staravia
+398	n398	ムクホーク		398	staraptor
+399	n399	ビッパ		399	bidoof
+400	n400	ビーダル		400	bibarel
+401	n401	コロボーシ		401	kricketot
+402	n402	コロトック		402	kricketune
+403	n403	コリンク		403	shinx
+404	n404	ルクシオ		404	luxio
+405	n405	レントラー		405	luxray
+406	n406	スボミー		406	budew
+407	n407	ロズレイド		407	roserade
+408	n408	ズガイドス		408	cranidos
+409	n409	ラムパルド		409	rampardos
+410	n410	タテトプス		410	shieldon
+411	n411	トリデプス		411	bastiodon
+412	n412	ミノムッチ		412	burmy
+413	n413	ミノマダム	くさき	413	wormadam-plant
+413	n413s	ミノマダム	すなち	10004	wormadam-sandy
+413	n413d	ミノマダム	ゴミ	10005	wormadam-trash
+414	n414	ガーメイル		414	mothim
+415	n415	ミツハニー		415	combee
+416	n416	ビークイン		416	vespiquen
+417	n417	パチリス		417	pachirisu
+418	n418	ブイゼル		418	buizel
+419	n419	フローゼル		419	floatzel
+420	n420	チェリンボ		420	cherubi
+421	n421	チェリム		421	cherrim
+422	n422	カラナクシ		422	shellos
+423	n423	トリトドン		423	gastrodon
+424	n424	エテボース		424	ambipom
+425	n425	フワンテ		425	drifloon
+426	n426	フワライド		426	drifblim
+427	n427	ミミロル		427	buneary
+428	n428	ミミロップ		428	lopunny
+428	n428m	メガミミロップ		10088	lopunny-mega
+429	n429	ムウマージ		429	mismagius
+430	n430	ドンカラス		430	honchkrow
+431	n431	ニャルマー		431	glameow
+432	n432	ブニャット		432	purugly
+433	n433	リーシャン		433	chingling
+434	n434	スカンプー		434	stunky
+435	n435	スカタンク		435	skuntank
+436	n436	ドーミラー		436	bronzor
+437	n437	ドータクン		437	bronzong
+438	n438	ウソハチ		438	bonsly
+439	n439	マネネ		439	mime-jr
+440	n440	ピンプク		440	happiny
+441	n441	ペラップ		441	chatot
+442	n442	ミカルゲ		442	spiritomb
+443	n443	フカマル		443	gible
+444	n444	ガバイト		444	gabite
+445	n445	ガブリアス		445	garchomp
+445	n445m	メガガブリアス		10058	garchomp-mega
+446	n446	ゴンベ		446	munchlax
+447	n447	リオル		447	riolu
+448	n448	ルカリオ		448	lucario
+448	n448m	メガルカリオ		10059	lucario-mega
+449	n449	ヒポポタス		449	hippopotas
+450	n450	カバルドン		450	hippowdon
+451	n451	スコルピ		451	skorupi
+452	n452	ドラピオン		452	drapion
+453	n453	グレッグル		453	croagunk
+454	n454	ドクロッグ		454	toxicroak
+455	n455	マスキッパ		455	carnivine
+456	n456	ケイコウオ		456	finneon
+457	n457	ネオラント		457	lumineon
+458	n458	タマンタ		458	mantyke
+459	n459	ユキカブリ		459	snover
+460	n460	ユキノオー		460	abomasnow
+460	n460m	メガユキノオー		10060	abomasnow-mega
+461	n461	マニューラ		461	weavile
+462	n462	ジバコイル		462	magnezone
+463	n463	ベロベルト		463	lickilicky
+464	n464	ドサイドン		464	rhyperior
+465	n465	モジャンボ		465	tangrowth
+466	n466	エレキブル		466	electivire
+467	n467	ブーバーン		467	magmortar
+468	n468	トゲキッス		468	togekiss
+469	n469	メガヤンマ		469	yanmega
+470	n470	リーフィア		470	leafeon
+471	n471	グレイシア		471	glaceon
+472	n472	グライオン		472	gliscor
+473	n473	マンムー		473	mamoswine
+474	n474	ポリゴンZ		474	porygon-z
+475	n475	エルレイド		475	gallade
+475	n475m	メガエルレイド		10068	gallade-mega
+476	n476	ダイノーズ		476	probopass
+477	n477	ヨノワール		477	dusknoir
+478	n478	ユキメノコ		478	froslass
+479	n479	ロトム		479	rotom
+479	n479w	ウォッシュロトム		10009	rotom-wash
+479	n479c	カットロトム		10012	rotom-mow
+479	n479s	スピンロトム		10011	rotom-fan
+479	n479h	ヒートロトム		10008	rotom-heat
+479	n479f	フロストロトム		10010	rotom-frost
+480	n480	ユクシー		480	uxie
+481	n481	エムリット		481	mesprit
+482	n482	アグノム		482	azelf
+483	n483	ディアルガ		483	dialga
+483	n483o	ディアルガ	オリジン	10245	dialga-origin
+484	n484	パルキア		484	palkia
+484	n484o	パルキア	オリジン	10246	palkia-origin
+485	n485	ヒードラン		485	heatran
+486	n486	レジギガス		486	regigigas
+487				10007	giratina-origin
+487	n487	ギラティナ	アナザー	487	giratina-altered
+487	n487o	ギラティナ	オリジン		
+488	n488	クレセリア		488	cresselia
+489	n489	フィオネ		489	phione
+490	n490	マナフィ		490	manaphy
+491	n491	ダークライ		491	darkrai
+492	n492s	シェイミ	スカイ	10006	shaymin-sky
+492	n492	シェイミ	ランド	492	shaymin-land
+493	n493	アルセウス		493	arceus
+494	n494	ビクティニ		494	victini
+495	n495	ツタージャ		495	snivy
+496	n496	ジャノビー		496	servine
+497	n497	ジャローダ		497	serperior
+498	n498	ポカブ		498	tepig
+499	n499	チャオブー		499	pignite
+500	n500	エンブオー		500	emboar
+501	n501	ミジュマル		501	oshawott
+502	n502	フタチマル		502	dewott
+503	n503	ダイケンキ		503	samurott
+503	n503h	ダイケンキ	ヒスイ	10236	samurott-hisui
+504	n504	ミネズミ		504	patrat
+505	n505	ミルホッグ		505	watchog
+506	n506	ヨーテリー		506	lillipup
+507	n507	ハーデリア		507	herdier
+508	n508	ムーランド		508	stoutland
+509	n509	チョロネコ		509	purrloin
+510	n510	レパルダス		510	liepard
+511	n511	ヤナップ		511	pansage
+512	n512	ヤナッキー		512	simisage
+513	n513	バオップ		513	pansear
+514	n514	バオッキー		514	simisear
+515	n515	ヒヤップ		515	panpour
+516	n516	ヒヤッキー		516	simipour
+517	n517	ムンナ		517	munna
+518	n518	ムシャーナ		518	musharna
+519	n519	マメパト		519	pidove
+520	n520	ハトーボー		520	tranquill
+521	n521	ケンホロウ		521	unfezant
+522	n522	シママ		522	blitzle
+523	n523	ゼブライカ		523	zebstrika
+524	n524	ダンゴロ		524	roggenrola
+525	n525	ガントル		525	boldore
+526	n526	ギガイアス		526	gigalith
+527	n527	コロモリ		527	woobat
+528	n528	ココロモリ		528	swoobat
+529	n529	モグリュー		529	drilbur
+530	n530	ドリュウズ		530	excadrill
+531	n531	タブンネ		531	audino
+531	n531m	メガタブンネ		10069	audino-mega
+532	n532	ドッコラー		532	timburr
+533	n533	ドテッコツ		533	gurdurr
+534	n534	ローブシン		534	conkeldurr
+535	n535	オタマロ		535	tympole
+536	n536	ガマガル		536	palpitoad
+537	n537	ガマゲロゲ		537	seismitoad
+538	n538	ナゲキ		538	throh
+539	n539	ダゲキ		539	sawk
+540	n540	クルミル		540	sewaddle
+541	n541	クルマユ		541	swadloon
+542	n542	ハハコモリ		542	leavanny
+543	n543	フシデ		543	venipede
+544	n544	ホイーガ		544	whirlipede
+545	n545	ペンドラー		545	scolipede
+546	n546	モンメン		546	cottonee
+547	n547	エルフーン		547	whimsicott
+548	n548	チュリネ		548	petilil
+549	n549	ドレディア		549	lilligant
+549	n549h	ドレディア	ヒスイ	10237	lilligant-hisui
+550	n550w	バスラオ	白	10247	basculin-white-striped
+550	n550	バスラオ	赤	550	basculin-red-striped
+550	n550f	バスラオ	青	10016	basculin-blue-striped
+551	n551	メグロコ		551	sandile
+552	n552	ワルビル		552	krokorok
+553	n553	ワルビアル		553	krookodile
+554	n554	ダルマッカ		554	darumaka
+554	n554g	ダルマッカ	ガラル	10176	darumaka-galar
+555	n555	ヒヒダルマ			
+555				555	darmanitan-standard
+555	n555g	ヒヒダルマ	ガラル	10177	darmanitan-galar-standard
+555	n555f	ヒヒダルマ	ダルマ	10017	darmanitan-zen
+555	n555h	ヒヒダルマ	ダルマ・ガラル	10178	darmanitan-galar-zen
+556	n556	マラカッチ		556	maractus
+557	n557	イシズマイ		557	dwebble
+558	n558	イワパレス		558	crustle
+559	n559	ズルッグ		559	scraggy
+560	n560	ズルズキン		560	scrafty
+561	n561	シンボラー		561	sigilyph
+562	n562	デスマス		562	yamask
+562	n562g	デスマス	ガラル	10179	yamask-galar
+563	n563	デスカーン		563	cofagrigus
+564	n564	プロトーガ		564	tirtouga
+565	n565	アバゴーラ		565	carracosta
+566	n566	アーケン		566	archen
+567	n567	アーケオス		567	archeops
+568	n568	ヤブクロン		568	trubbish
+569	n569	ダストダス		569	garbodor
+569				10207	garbodor-gmax
+570	n570	ゾロア		570	zorua
+570	n570h	ゾロア	ヒスイ	10238	zorua-hisui
+571	n571	ゾロアーク		571	zoroark
+571	n571h	ゾロアーク	ヒスイ	10239	zoroark-hisui
+572	n572	チラーミィ		572	minccino
+573	n573	チラチーノ		573	cinccino
+574	n574	ゴチム		574	gothita
+575	n575	ゴチミル		575	gothorita
+576	n576	ゴチルゼル		576	gothitelle
+577	n577	ユニラン		577	solosis
+578	n578	ダブラン		578	duosion
+579	n579	ランクルス		579	reuniclus
+580	n580	コアルヒー		580	ducklett
+581	n581	スワンナ		581	swanna
+582	n582	バニプッチ		582	vanillite
+583	n583	バニリッチ		583	vanillish
+584	n584	バイバニラ		584	vanilluxe
+585	n585	シキジカ		585	deerling
+586	n586	メブキジカ		586	sawsbuck
+587	n587	エモンガ		587	emolga
+588	n588	カブルモ		588	karrablast
+589	n589	シュバルゴ		589	escavalier
+590	n590	タマゲタケ		590	foongus
+591	n591	モロバレル		591	amoonguss
+592	n592	プルリル		592	frillish
+593	n593	ブルンゲル		593	jellicent
+594	n594	ママンボウ		594	alomomola
+595	n595	バチュル		595	joltik
+596	n596	デンチュラ		596	galvantula
+597	n597	テッシード		597	ferroseed
+598	n598	ナットレイ		598	ferrothorn
+599	n599	ギアル		599	klink
+600	n600	ギギアル		600	klang
+601	n601	ギギギアル		601	klinklang
+602	n602	シビシラス		602	tynamo
+603	n603	シビビール		603	eelektrik
+604	n604	シビルドン		604	eelektross
+605	n605	リグレー		605	elgyem
+606	n606	オーベム		606	beheeyem
+607	n607	ヒトモシ		607	litwick
+608	n608	ランプラー		608	lampent
+609	n609	シャンデラ		609	chandelure
+610	n610	キバゴ		610	axew
+611	n611	オノンド		611	fraxure
+612	n612	オノノクス		612	haxorus
+613	n613	クマシュン		613	cubchoo
+614	n614	ツンベアー		614	beartic
+615	n615	フリージオ		615	cryogonal
+616	n616	チョボマキ		616	shelmet
+617	n617	アギルダー		617	accelgor
+618	n618	マッギョ		618	stunfisk
+618	n618g	マッギョ	ガラル	10180	stunfisk-galar
+619	n619	コジョフー		619	mienfoo
+620	n620	コジョンド		620	mienshao
+621	n621	クリムガン		621	druddigon
+622	n622	ゴビット		622	golett
+623	n623	ゴルーグ		623	golurk
+624	n624	コマタナ		624	pawniard
+625	n625	キリキザン		625	bisharp
+626	n626	バッフロン		626	bouffalant
+627	n627	ワシボン		627	rufflet
+628	n628	ウォーグル		628	braviary
+628	n628h	ウォーグル	ヒスイ	10240	braviary-hisui
+629	n629	バルチャイ		629	vullaby
+630	n630	バルジーナ		630	mandibuzz
+631	n631	クイタラン		631	heatmor
+632	n632	アイアント		632	durant
+633	n633	モノズ		633	deino
+634	n634	ジヘッド		634	zweilous
+635	n635	サザンドラ		635	hydreigon
+636	n636	メラルバ		636	larvesta
+637	n637	ウルガモス		637	volcarona
+638	n638	コバルオン		638	cobalion
+639	n639	テラキオン		639	terrakion
+640	n640	ビリジオン		640	virizion
+641	n641	トルネロス	化身	641	tornadus-incarnate
+641	n641a	トルネロス	霊獣	10019	tornadus-therian
+642	n642	ボルトロス	化身	642	thundurus-incarnate
+642	n642a	ボルトロス	霊獣	10020	thundurus-therian
+643	n643	レシラム		643	reshiram
+644	n644	ゼクロム		644	zekrom
+645	n645	ランドロス	化身	645	landorus-incarnate
+645	n645a	ランドロス	霊獣	10021	landorus-therian
+646	n646	キュレム		646	kyurem
+646	n646b	ブラックキュレム		10022	kyurem-black
+646	n646w	ホワイトキュレム		10023	kyurem-white
+647	n647	ケルディオ	いつも	647	keldeo-ordinary
+647	n647k	ケルディオ	覚悟	10024	keldeo-resolute
+648	n648f	メロエッタ	ステップ	10018	meloetta-pirouette
+648	n648	メロエッタ	ボイス	648	meloetta-aria
+649	n649	ゲノセクト		649	genesect
+650	n650	ハリマロン		650	chespin
+651	n651	ハリボーグ		651	quilladin
+652	n652	ブリガロン		652	chesnaught
+653	n653	フォッコ		653	fennekin
+654	n654	テールナー		654	braixen
+655	n655	マフォクシー		655	delphox
+656	n656	ケロマツ		656	froakie
+657	n657	ゲコガシラ		657	frogadier
+658	n658	ゲッコウガ		658	greninja
+658				10116	greninja-battle-bond
+658	n658f	サトシゲッコウガ		10117	greninja-ash
+659	n659	ホルビー		659	bunnelby
+660	n660	ホルード		660	diggersby
+661	n661	ヤヤコマ		661	fletchling
+662	n662	ヒノヤコマ		662	fletchinder
+663	n663	ファイアロー		663	talonflame
+664	n664	コフキムシ		664	scatterbug
+665	n665	コフーライ		665	spewpa
+666	n666	ビビヨン		666	vivillon
+667	n667	シシコ		667	litleo
+668	n668	カエンジシ		668	pyroar
+669	n669	フラベベ		669	flabebe
+670	n670	フラエッテ		670	floette
+670				10061	floette-eternal
+671	n671	フラージェス		671	florges
+672	n672	メェークル		672	skiddo
+673	n673	ゴーゴート		673	gogoat
+674	n674	ヤンチャム		674	pancham
+675	n675	ゴロンダ		675	pangoro
+676	n676	トリミアン		676	furfrou
+677	n677	ニャスパー		677	espurr
+678	n678f	ニャオニクス♀		10025	meowstic-female
+678	n678	ニャオニクス♂		678	meowstic-male
+679	n679	ヒトツキ		679	honedge
+680	n680	ニダンギル		680	doublade
+681	n681	ギルガルド	シールド	681	aegislash-shield
+681	n681b	ギルガルド	ブレード	10026	aegislash-blade
+682	n682	シュシュプ		682	spritzee
+683	n683	フレフワン		683	aromatisse
+684	n684	ペロッパフ		684	swirlix
+685	n685	ペロリーム		685	slurpuff
+686	n686	マーイーカ		686	inkay
+687	n687	カラマネロ		687	malamar
+688	n688	カメテテ		688	binacle
+689	n689	ガメノデス		689	barbaracle
+690	n690	クズモー		690	skrelp
+691	n691	ドラミドロ		691	dragalge
+692	n692	ウデッポウ		692	clauncher
+693	n693	ブロスター		693	clawitzer
+694	n694	エリキテル		694	helioptile
+695	n695	エレザード		695	heliolisk
+696	n696	チゴラス		696	tyrunt
+697	n697	ガチゴラス		697	tyrantrum
+698	n698	アマルス		698	amaura
+699	n699	アマルルガ		699	aurorus
+700	n700	ニンフィア		700	sylveon
+701	n701	ルチャブル		701	hawlucha
+702	n702	デデンネ		702	dedenne
+703	n703	メレシー		703	carbink
+704	n704	ヌメラ		704	goomy
+705	n705	ヌメイル		705	sliggoo
+705	n705h	ヌメイル	ヒスイ	10241	sliggoo-hisui
+706	n706	ヌメルゴン		706	goodra
+706	n706h	ヌメルゴン	ヒスイ	10242	goodra-hisui
+707	n707	クレッフィ		707	klefki
+708	n708	ボクレー		708	phantump
+709	n709	オーロット		709	trevenant
+710	n710l	バケッチャ	大	10028	pumpkaboo-large
+710	n710s	バケッチャ	小	10027	pumpkaboo-small
+710	n710	バケッチャ	普通	710	pumpkaboo-average
+710	n710k	バケッチャ	特大	10029	pumpkaboo-super
+711	n711l	パンプジン	大	10031	gourgeist-large
+711	n711s	パンプジン	小	10030	gourgeist-small
+711	n711	パンプジン	普通	711	gourgeist-average
+711	n711k	パンプジン	特大	10032	gourgeist-super
+712	n712	カチコール		712	bergmite
+713	n713	クレベース		713	avalugg
+713	n713h	クレベース	ヒスイ	10243	avalugg-hisui
+714	n714	オンバット		714	noibat
+715	n715	オンバーン		715	noivern
+716	n716	ゼルネアス		716	xerneas
+717	n717	イベルタル		717	yveltal
+718	n718t	ジガルデ	10%	10181	zygarde-10
+718				10118	zygarde-10-power-construct
+718	n718	ジガルデ	50%	718	zygarde-50
+718				10119	zygarde-50-power-construct
+718	n718c	ジガルデ	パーフェクト	10120	zygarde-complete
+719	n719	ディアンシー		719	diancie
+719	n719m	メガディアンシー		10075	diancie-mega
+720	n720	フーパ	いましめ	720	hoopa
+720	n720u	フーパ	ときはな	10086	hoopa-unbound
+721	n721	ボルケニオン		721	volcanion
+722	n722	モクロー		722	rowlet
+723	n723	フクスロー		723	dartrix
+724	n724	ジュナイパー		724	decidueye
+724	n724h	ジュナイパー	ヒスイ	10244	decidueye-hisui
+725	n725	ニャビー		725	litten
+726	n726	ニャヒート		726	torracat
+727	n727	ガオガエン		727	incineroar
+728	n728	アシマリ		728	popplio
+729	n729	オシャマリ		729	brionne
+730	n730	アシレーヌ		730	primarina
+731	n731	ツツケラ		731	pikipek
+732	n732	ケララッパ		732	trumbeak
+733	n733	ドデカバシ		733	toucannon
+734	n734	ヤングース		734	yungoos
+735	n735	デカグース		735	gumshoos
+735				10121	gumshoos-totem
+736	n736	アゴジムシ		736	grubbin
+737	n737	デンヂムシ		737	charjabug
+738	n738	クワガノン		738	vikavolt
+738				10122	vikavolt-totem
+739	n739	マケンカニ		739	crabrawler
+740	n740	ケケンカニ		740	crabominable
+741	n741p	オドリドリ	ぱちぱち	10123	oricorio-pom-pom
+741	n741f	オドリドリ	ふらふら	10124	oricorio-pau
+741	n741m	オドリドリ	まいまい	10125	oricorio-sensu
+741	n741	オドリドリ	めらめら	741	oricorio-baile
+742	n742	アブリー		742	cutiefly
+743	n743	アブリボン		743	ribombee
+743				10150	ribombee-totem
+744	n744	イワンコ		744	rockruff
+744				10151	rockruff-own-tempo
+745	n745d	ルガルガン	たそがれ	10152	lycanroc-dusk
+745	n745	ルガルガン	まひる	745	lycanroc-midday
+745	n745f	ルガルガン	まよなか	10126	lycanroc-midnight
+746				746	wishiwashi-solo
+746	n746	ヨワシ	単独		
+746	n746f	ヨワシ	群れ	10127	wishiwashi-school
+747	n747	ヒドイデ		747	mareanie
+748	n748	ドヒドイデ		748	toxapex
+749	n749	ドロバンコ		749	mudbray
+750	n750	バンバドロ		750	mudsdale
+751	n751	シズクモ		751	dewpider
+752	n752	オニシズクモ		752	araquanid
+752				10153	araquanid-totem
+753	n753	カリキリ		753	fomantis
+754	n754	ラランテス		754	lurantis
+754				10128	lurantis-totem
+755	n755	ネマシュ		755	morelull
+756	n756	マシェード		756	shiinotic
+757	n757	ヤトウモリ		757	salandit
+758	n758	エンニュート		758	salazzle
+758				10129	salazzle-totem
+759	n759	ヌイコグマ		759	stufful
+760	n760	キテルグマ		760	bewear
+761	n761	アマカジ		761	bounsweet
+762	n762	アママイコ		762	steenee
+763	n763	アマージョ		763	tsareena
+764	n764	キュワワー		764	comfey
+765	n765	ヤレユータン		765	oranguru
+766	n766	ナゲツケサル		766	passimian
+767	n767	コソクムシ		767	wimpod
+768	n768	グソクムシャ		768	golisopod
+769	n769	スナバァ		769	sandygast
+770	n770	シロデスナ		770	palossand
+771	n771	ナマコブシ		771	pyukumuku
+772	n772	タイプ：ヌル		772	type-null
+773	n773	シルヴァディ		773	silvally
+774				10140	minior-blue
+774				10133	minior-blue-meteor
+774				10139	minior-green
+774				10132	minior-green-meteor
+774				10141	minior-indigo
+774				10134	minior-indigo-meteor
+774				10137	minior-orange
+774				10130	minior-orange-meteor
+774				10136	minior-red
+774				774	minior-red-meteor
+774				10142	minior-violet
+774				10135	minior-violet-meteor
+774				10138	minior-yellow
+774				10131	minior-yellow-meteor
+774	n774f	メテノ	コア		
+774	n774	メテノ	流星		
+775	n775	ネッコアラ		775	komala
+776	n776	バクガメス		776	turtonator
+777	n777	トゲデマル		777	togedemaru
+777				10154	togedemaru-totem
+778	n778	ミミッキュ			
+778				10143	mimikyu-busted
+778				778	mimikyu-disguised
+778				10145	mimikyu-totem-busted
+778				10144	mimikyu-totem-disguised
+779	n779	ハギギシリ		779	bruxish
+780	n780	ジジーロン		780	drampa
+781	n781	ダダリン		781	dhelmise
+782	n782	ジャラコ		782	jangmo-o
+783	n783	ジャランゴ		783	hakamo-o
+784	n784	ジャラランガ		784	kommo-o
+784				10146	kommo-o-totem
+785	n785	カプ・コケコ		785	tapu-koko
+786	n786	カプ・テテフ		786	tapu-lele
+787	n787	カプ・ブルル		787	tapu-bulu
+788	n788	カプ・レヒレ		788	tapu-fini
+789	n789	コスモッグ		789	cosmog
+790	n790	コスモウム		790	cosmoem
+791	n791	ソルガレオ		791	solgaleo
+792	n792	ルナアーラ		792	lunala
+793	n793	ウツロイド		793	nihilego
+794	n794	マッシブーン		794	buzzwole
+795	n795	フェローチェ		795	pheromosa
+796	n796	デンジュモク		796	xurkitree
+797	n797	テッカグヤ		797	celesteela
+798	n798	カミツルギ		798	kartana
+799	n799	アクジキング		799	guzzlord
+800	n800	ネクロズマ		800	necrozma
+800	n800u	ウルトラネクロズマ		10157	necrozma-ultra
+800	n800s	ネクロズマ	日食	10155	necrozma-dusk
+800	n800m	ネクロズマ	月食	10156	necrozma-dawn
+801	n801	マギアナ		801	magearna
+801				10147	magearna-original
+802	n802	マーシャドー		802	marshadow
+803	n803	ベベノム		803	poipole
+804	n804	アーゴヨン		804	naganadel
+805	n805	ツンデツンデ		805	stakataka
+806	n806	ズガドーン		806	blacephalon
+807	n807	ゼラオラ		807	zeraora
+808	n808	メルタン		808	meltan
+809	n809	メルメタル		809	melmetal
+809				10208	melmetal-gmax
+810	n810	サルノリ		810	grookey
+811	n811	バチンキー		811	thwackey
+812	n812	ゴリランダー		812	rillaboom
+812				10209	rillaboom-gmax
+813	n813	ヒバニー		813	scorbunny
+814	n814	ラビフット		814	raboot
+815	n815	エースバーン		815	cinderace
+815				10210	cinderace-gmax
+816	n816	メッソン		816	sobble
+817	n817	ジメレオン		817	drizzile
+818	n818	インテレオン		818	inteleon
+818				10211	inteleon-gmax
+819	n819	ホシガリス		819	skwovet
+820	n820	ヨクバリス		820	greedent
+821	n821	ココガラ		821	rookidee
+822	n822	アオガラス		822	corvisquire
+823	n823	アーマーガア		823	corviknight
+823				10212	corviknight-gmax
+824	n824	サッチムシ		824	blipbug
+825	n825	レドームシ		825	dottler
+826	n826	イオルブ		826	orbeetle
+826				10213	orbeetle-gmax
+827	n827	クスネ		827	nickit
+828	n828	フォクスライ		828	thievul
+829	n829	ヒメンカ		829	gossifleur
+830	n830	ワタシラガ		830	eldegoss
+831	n831	ウールー		831	wooloo
+832	n832	バイウールー		832	dubwool
+833	n833	カムカメ		833	chewtle
+834	n834	カジリガメ		834	drednaw
+834				10214	drednaw-gmax
+835	n835	ワンパチ		835	yamper
+836	n836	パルスワン		836	boltund
+837	n837	タンドン		837	rolycoly
+838	n838	トロッゴン		838	carkol
+839	n839	セキタンザン		839	coalossal
+839				10215	coalossal-gmax
+840	n840	カジッチュ		840	applin
+841	n841	アップリュー		841	flapple
+841				10216	flapple-gmax
+842	n842	タルップル		842	appletun
+842				10217	appletun-gmax
+843	n843	スナヘビ		843	silicobra
+844	n844	サダイジャ		844	sandaconda
+844				10218	sandaconda-gmax
+845	n845	ウッウ		845	cramorant
+845				10183	cramorant-gorging
+845				10182	cramorant-gulping
+846	n846	サシカマス		846	arrokuda
+847	n847	カマスジョー		847	barraskewda
+848	n848	エレズン		848	toxel
+849				10219	toxtricity-amped-gmax
+849				10228	toxtricity-low-key-gmax
+849	n849	ストリンダー	ハイ	849	toxtricity-amped
+849	n849f	ストリンダー	ロー	10184	toxtricity-low-key
+850	n850	ヤクデ		850	sizzlipede
+851	n851	マルヤクデ		851	centiskorch
+851				10220	centiskorch-gmax
+852	n852	タタッコ		852	clobbopus
+853	n853	オトスパス		853	grapploct
+854	n854	ヤバチャ		854	sinistea
+855	n855	ポットデス		855	polteageist
+856	n856	ミブリム		856	hatenna
+857	n857	テブリム		857	hattrem
+858	n858	ブリムオン		858	hatterene
+858				10221	hatterene-gmax
+859	n859	ベロバー		859	impidimp
+860	n860	ギモー		860	morgrem
+861	n861	オーロンゲ		861	grimmsnarl
+861				10222	grimmsnarl-gmax
+862	n862	タチフサグマ		862	obstagoon
+863	n863	ニャイキング		863	perrserker
+864	n864	サニゴーン		864	cursola
+865	n865	ネギガナイト		865	sirfetchd
+866	n866	バリコオル		866	mr-rime
+867	n867	デスバーン		867	runerigus
+868	n868	マホミル		868	milcery
+869	n869	マホイップ		869	alcremie
+869				10223	alcremie-gmax
+870	n870	タイレーツ		870	falinks
+871	n871	バチンウニ		871	pincurchin
+872	n872	ユキハミ		872	snom
+873	n873	モスノウ		873	frosmoth
+874	n874	イシヘンジン		874	stonjourner
+875	n875	コオリッポ	アイス	875	eiscue-ice
+875	n875f	コオリッポ	ナイス	10185	eiscue-noice
+876	n876f	イエッサン♀		10186	indeedee-female
+876	n876	イエッサン♂		876	indeedee-male
+877	n877	モルペコ			
+877				877	morpeko-full-belly
+877				10187	morpeko-hangry
+878	n878	ゾウドウ		878	cufant
+879	n879	ダイオウドウ		879	copperajah
+879				10224	copperajah-gmax
+880	n880	パッチラゴン		880	dracozolt
+881	n881	パッチルドン		881	arctozolt
+882	n882	ウオノラゴン		882	dracovish
+883	n883	ウオチルドン		883	arctovish
+884	n884	ジュラルドン		884	duraludon
+884				10225	duraludon-gmax
+885	n885	ドラメシヤ		885	dreepy
+886	n886	ドロンチ		886	drakloak
+887	n887	ドラパルト		887	dragapult
+888	n888	ザシアン		888	zacian
+888	n888f	ザシアン	王	10188	zacian-crowned
+889	n889	ザマゼンタ		889	zamazenta
+889	n889f	ザマゼンタ	王	10189	zamazenta-crowned
+890	n890	ムゲンダイナ		890	eternatus
+890				10190	eternatus-eternamax
+890	n890f	ムゲンダイナ	ムゲン		
+891	n891	ダクマ		891	kubfu
+892				10227	urshifu-rapid-strike-gmax
+892				10226	urshifu-single-strike-gmax
+892	n892	ウーラオス	いちげき	892	urshifu-single-strike
+892	n892r	ウーラオス	れんげき	10191	urshifu-rapid-strike
+893	n893	ザルード		893	zarude
+893				10192	zarude-dada
+894	n894	レジエレキ		894	regieleki
+895	n895	レジドラゴ		895	regidrago
+896	n896	ブリザポス		896	glastrier
+897	n897	レイスポス		897	spectrier
+898	n898	バドレックス		898	calyrex
+898	n898b	バドレックス	こくば	10194	calyrex-shadow
+898	n898w	バドレックス	はくば	10193	calyrex-ice
+899	n899	アヤシシ		899	wyrdeer
+900	n900	バサギリ		900	kleavor
+901	n901	ガチグマ		901	ursaluna
+901				10272	ursaluna-bloodmoon
+901	n901f	ガチグマ	アカツキ		
+902	n902f	イダイトウ♀		10248	basculegion-female
+902	n902	イダイトウ♂		902	basculegion-male
+903	n903	オオニューラ		903	sneasler
+904	n904	ハリーマン		904	overqwil
+905	n905	ラブトロス	化身	905	enamorus-incarnate
+905	n905a	ラブトロス	霊獣	10249	enamorus-therian
+906	n906	ニャオハ		906	sprigatito
+907	n907	ニャローテ		907	floragato
+908	n908	マスカーニャ		908	meowscarada
+909	n909	ホゲータ		909	fuecoco
+910	n910	アチゲータ		910	crocalor
+911	n911	ラウドボーン		911	skeledirge
+912	n912	クワッス		912	quaxly
+913	n913	ウェルカモ		913	quaxwell
+914	n914	ウェーニバル		914	quaquaval
+915	n915	グルトン		915	lechonk
+916	n916f	パフュートン♀		10254	oinkologne-female
+916	n916	パフュートン♂		916	oinkologne
+917	n918	タマンチュラ		917	tarountula
+918	n919	ワナイダー		918	spidops
+919	n920	マメバッタ		919	nymble
+920	n921	エクスレッグ		920	lokix
+921	n954	パモ		921	pawmi
+922	n955	パモット		922	pawmo
+923	n956	パーモット		923	pawmot
+924	n945	ワッカネズミ		924	tandemaus
+925	n946	イッカネズミ		925	maushold
+925				10257	maushold-family-of-three
+926	n970	パピモッチ		926	fidough
+927	n971	バウッツェル		927	dachsbun
+928	n935	ミニーブ		928	smoliv
+929	n936	オリーニョ		929	dolliv
+930	n937	オリーヴァ		930	arboliva
+931	n960	イキリンコ		931	squawkabilly
+931				10260	squawkabilly-blue-plumage
+931				10262	squawkabilly-white-plumage
+931				10261	squawkabilly-yellow-plumage
+932	n963	コジオ		932	nacli
+933	n964	ジオヅム		933	naclstack
+934	n965	キョジオーン		934	garganacl
+935	n1003	カルボウ		935	charcadet
+936	n1004	グレンアルマ		936	armarouge
+937	n1005	ソウブレイズ		937	ceruledge
+938	n940	ズピカ		938	tadbulb
+939	n941	ハラバリー		939	bellibolt
+940	n957	カイデン		940	wattrel
+941	n958	タイカイデン		941	kilowattrel
+942	n972	オラチフ		942	maschiff
+943	n973	マフィティフ		943	mabosstiff
+944	n968	シルシュルー		944	shroodle
+945	n969	タギングル		945	grafaiai
+946	n974	アノクサ		946	bramblin
+947	n975	アノホラグサ		947	brambleghast
+948	n1006	ノノクラゲ		948	toedscool
+949	n1007	リククラゲ		949	toedscruel
+950	n962	ガケガニ		950	klawf
+951	n938	カプサイジ		951	capsakid
+952	n939	スコヴィラン		952	scovillain
+953	n922	シガロコ		953	rellor
+954	n923	ベラカス		954	rabsca
+955	n926	ヒラヒナ		955	flittle
+956	n927	クエスパトラ		956	espathra
+957	n1000	カヌチャン		957	tinkatink
+958	n1001	ナカヌチャン		958	tinkatuff
+959	n1002	デカヌチャン		959	tinkaton
+960	n929	ウミディグダ		960	wiglett
+961	n930	ウミトリオ		961	wugtrio
+962	n959	オトシドリ		962	bombirdier
+963	n933	ナミイルカ		963	finizen
+964	n934	イルカマン	ナイーブ	964	palafin
+964	n934f	イルカマン	マイティ	10256	palafin-hero
+965	n942	ブロロン		965	varoom
+966	n943	ブロロローム		966	revavroom
+967	n953	モトトカゲ		967	cyclizar
+968	n944	ミミズズ		968	orthworm
+969	n966	キラーメ		969	glimmet
+970	n967	キラフロル		970	glimmora
+971	n924	ボチ		971	greavard
+972	n925	ハカドッグ		972	houndstone
+973	n961	カラミンゴ		973	flamigo
+974	n947	アルクジラ		974	cetoddle
+975	n948	ハルクジラ		975	cetitan
+976	n932	ミガルーサ		976	veluza
+977	n931	ヘイラッシャ		977	dondozo
+978	n952	シャリタツ		978	tatsugiri
+978				10258	tatsugiri-droopy
+978				10259	tatsugiri-stretchy
+979	n1010	コノヨザル		979	annihilape
+980	n1009	ドオー		980	clodsire
+981	n928	リキキリン		981	farigiraf
+982	n917	ノココッチ		982	dudunsparce
+982				10255	dudunsparce-three-segment
+983	n1008	ドドゲザン		983	kingambit
+984	n978	イダイナキバ		984	great-tusk
+985	n982	サケブシッポ		985	scream-tail
+986	n979	アラブルタケ		986	brute-bonnet
+987	n983	ハバタクカミ		987	flutter-mane
+988	n984	チヲハウハネ		988	slither-wing
+989	n981	スナノケガワ		989	sandy-shocks
+990	n986	テツノワダチ		990	iron-treads
+991	n992	テツノツツミ		991	iron-bundle
+992	n989	テツノカイナ		992	iron-hands
+993	n990	テツノコウベ		993	iron-jugulis
+994	n988	テツノドクガ		994	iron-moth
+995	n991	テツノイバラ		995	iron-thorns
+996	n949	セビエ		996	frigibax
+997	n950	セゴール		997	arctibax
+998	n951	セグレイブ		998	baxcalibur
+999	n976f	コレクレー	とほ	10263	gimmighoul-roaming
+999	n976	コレクレー	はこ	999	gimmighoul
+1000	n977	サーフゴー		1000	gholdengo
+1001	n996	チオンジェン		1001	wo-chien
+1002	n995	パオジアン		1002	chien-pao
+1003	n994	ディンルー		1003	ting-lu
+1004	n997	イーユイ		1004	chi-yu
+1005	n985	トドロクツキ		1005	roaring-moon
+1006	n993	テツノブジン		1006	iron-valiant
+1007	n998	コライドン		1007	koraidon
+1007				10267	koraidon-gliding-build
+1007				10264	koraidon-limited-build
+1007				10265	koraidon-sprinting-build
+1007				10266	koraidon-swimming-build
+1008	n999	ミライドン		1008	miraidon
+1008				10270	miraidon-aquatic-mode
+1008				10269	miraidon-drive-mode
+1008				10271	miraidon-glide-mode
+1008				10268	miraidon-low-power-mode
+1009	n980	ウネルミナモ		1009	walking-wake
+1010	n987	テツノイサハ		1010	iron-leaves
+1011	n1012	カミッチュ		1011	dipplin
+1012	n1024	チャデス		1012	poltchageist
+1013	n1025	ヤバソチャ		1013	sinistcha
+1014	n1014	イイネイヌ		1014	okidogi
+1015	n1015	マシマシラ		1015	munkidori
+1016	n1016	キチキギス		1016	fezandipiti
+1017	n1011	オーガポン		1017	ogerpon
+1017	n1011c	オーガポン	いしずえ	10275	ogerpon-cornerstone-mask
+1017	n1011w	オーガポン	いど	10273	ogerpon-wellspring-mask
+1017	n1011h	オーガポン	かまど	10274	ogerpon-hearthflame-mask
+1018	n1023	ブリジュラス		1018	archaludon
+1019	n1013	カミツオロチ		1019	hydrapple
+1020	n1017	ウガツホムラ		1020	gouging-fire
+1021	n1018	タケルライコ		1021	raging-bolt
+1022	n1020	テツノイワオ		1022	iron-boulder
+1023	n1019	テツノカシラ		1023	iron-crown
+1024	n1021	テラパゴス		1024	terapagos
+1024	n1021s	テラパゴス	ステラ	10277	terapagos-stellar
+1024	n1021t	テラパゴス	テラスタル	10276	terapagos-terastal
+1025	n1022	モモワロウ		1025	pecharunt
