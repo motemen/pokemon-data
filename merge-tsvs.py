@@ -218,6 +218,13 @@ def pokeapi_row_to_normalized_variant(row):
             "terastal": "テラスタル",
             "stellar": "ステラ",
         },
+        "メテノ": {
+            "red": "コア",
+            "red-meteor": "流星",
+        },
+        "モルペコ": {
+            "full-belly": "",
+        },
     }
 
     normalized_variant = None
@@ -254,8 +261,34 @@ if args.repl:
 
     code.interact(local=locals())
 
-# TODO: warn if id_yakkuncom != None and id_pokeapi == None
-print(df_merged[df_merged["id_pokeapi"].isnull()])
 
-df_merged = df_merged.drop(columns=["normalized_variant"])
+def combine_yakkuncom_name(row):
+    if pd.isna(row["name_ja"]):
+        return ""
+    if pd.isna(row["variant"]):
+        return row["name_ja"]
+    return f"{row["name_ja"]}({row["variant"]})"
+
+
+df_merged["yakkuncom_name"] = df_merged.apply(combine_yakkuncom_name, axis="columns")
+df_merged = df_merged.drop(columns=["normalized_variant", "name_ja", "variant"])
+df_merged.rename(
+    {
+        "id_yakkuncom": "yakkuncom_id",
+        "id_pokeapi": "pokeapi_id",
+        "name_en": "pokeapi_name",
+    },
+    axis="columns",
+    inplace=True,
+)
+df_merged = df_merged.reindex(
+    columns=["yakkuncom_id", "yakkuncom_name", "pokeapi_id", "pokeapi_name"]
+)
+
+
+# Output each row to stderr
+for index, row in df_merged[df_merged["pokeapi_id"].isnull()].iterrows():
+    print(f"no match in pokeapi: {row["yakkuncom_name"]}", file=sys.stderr)
+
+
 print(df_merged.to_csv(sep="\t", index=False), end="")
