@@ -14,18 +14,18 @@ A table of Pokémon ID correspondences across multiple sites.
 - `yakkuncom_name`
   - The name of the Pokémon on [ポケモン徹底攻略][]. (for readability)
 - `pokeapi_id`
-  - The ID of the Pokémon on [PokeAPI][].
+  - The ID of the Pokémon on [PokéAPI][].
 - `pokeapi_name`
-  - The name of the Pokémon on [PokeAPI][]. (for readability)
+  - The name of the Pokémon on [PokéAPI][]. (for readability)
 - `pokedbtokyo_id`
   - The ID of the Pokémon on [ポケモンバトルデータベース][].
 
 ## Supported sites
 
 - [ポケモン徹底攻略][]
-- [PokeAPI][]
+- [PokéAPI][]
 - [ポケモンバトルデータベース][]
 
 [ポケモン徹底攻略]: https://yakkun.com/
-[PokeAPI]: https://pokeapi.co/
+[PokéAPI]: https://pokeapi.co/
 [ポケモンバトルデータベース]: https://sv.pokedb.tokyo/
