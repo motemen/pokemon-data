@@ -9,22 +9,25 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--repl", action="store_true", default=False)
 parser.add_argument("yakkuncom_tsv")
 parser.add_argument("pokeapi_tsv")
+parser.add_argument("pokeapi_pokedbtokyo_tsv")
 args = parser.parse_args()
 
 # Read in the first file
 df_yakkun = pd.read_csv(args.yakkuncom_tsv, sep="\t")
 df_pokeapi = pd.read_csv(args.pokeapi_tsv, sep="\t")
+df_pokeapi_pokedbtokyo = pd.read_csv(args.pokeapi_pokedbtokyo_tsv, sep="\t")
 
 ## Cleanup Yakkun
 
 # ポワルンは同じIDで複数回出現する（フォルム違い）ので落とす
-df_yakkun = df_yakkun.drop(
+df_yakkun.drop(
     df_yakkun[
         (df_yakkun["name_ja"] == "ポワルン") & (df_yakkun["variant"].notna())
-    ].index
+    ].index,
+    inplace=True,
 )
 # モルペコなど
-df_yakkun = df_yakkun.drop_duplicates()
+df_yakkun.drop_duplicates(inplace=True)
 
 
 # 名前から変種を生成
@@ -58,6 +61,29 @@ def yakkun_row_to_normalized_variant(row):
 df_yakkun["normalized_variant"] = df_yakkun.apply(
     yakkun_row_to_normalized_variant, axis="columns"
 ).fillna("")
+
+df_yakkun.rename({"id": "yakkuncom_id"}, axis="columns", inplace=True)
+
+
+def combine_yakkuncom_name(row):
+    if pd.isna(row["name_ja"]):
+        return ""
+    if pd.isna(row["variant"]):
+        return row["name_ja"]
+    return f"{row["name_ja"]}({row["variant"]})"
+
+
+df_yakkun["yakkuncom_name"] = df_yakkun.apply(combine_yakkuncom_name, axis="columns")
+df_yakkun.drop(columns=["name_ja", "variant"], inplace=True)
+
+assert set(df_yakkun.columns) == set(
+    [
+        "national_pokedex_number",
+        "yakkuncom_id",
+        "yakkuncom_name",
+        "normalized_variant",
+    ]
+)
 
 
 ## Cleanup PokeAPI
@@ -227,34 +253,66 @@ def pokeapi_row_to_normalized_variant(row):
         },
     }
 
+    variant = "" if pd.isna(row["variant"]) else row["variant"]
+
     normalized_variant = None
     if row["name_ja"] in POKEMON_EN2JA:
-        normalized_variant = POKEMON_EN2JA[row["name_ja"]].get(row["variant"], None)
+        normalized_variant = POKEMON_EN2JA[row["name_ja"]].get(variant, None)
     else:
-        normalized_variant = POKEMON_EN2JA[None].get(row["variant"], None)
+        normalized_variant = POKEMON_EN2JA[None].get(variant, None)
 
     if normalized_variant is None:
-        return row["variant"]
+        return variant
     return normalized_variant
 
-
-df_pokeapi["variant"] = df_pokeapi["variant"].fillna("")
 
 df_pokeapi["normalized_variant"] = df_pokeapi.apply(
     pokeapi_row_to_normalized_variant, axis="columns"
 )
 
+df_pokeapi.rename(
+    {"id": "pokeapi_id", "name_en": "pokeapi_name"}, axis="columns", inplace=True
+)
+
 df_merged = pd.merge(
     df_yakkun[
-        ["national_pokedex_number", "normalized_variant", "id", "name_ja", "variant"]
+        [
+            "national_pokedex_number",
+            "normalized_variant",
+            "yakkuncom_id",
+            "yakkuncom_name",
+        ]
     ],
-    df_pokeapi[["national_pokedex_number", "normalized_variant", "id", "name_en"]],
+    df_pokeapi[
+        ["national_pokedex_number", "normalized_variant", "pokeapi_id", "pokeapi_name"]
+    ],
     on=["national_pokedex_number", "normalized_variant"],
     how="outer",
     suffixes=("_yakkuncom", "_pokeapi"),
 )
 
-df_merged["id_pokeapi"] = df_merged["id_pokeapi"].astype("Int64")
+df_merged["pokeapi_id"] = df_merged["pokeapi_id"].astype("Int64")
+
+df_pokeapi_pokedbtokyo_single = df_pokeapi[
+    ~df_pokeapi.duplicated("national_pokedex_number", keep=False)
+][["national_pokedex_number", "pokeapi_id", "pokeapi_name"]]
+df_pokeapi_pokedbtokyo_single["pokedbtokyo_id"] = df_pokeapi_pokedbtokyo_single.apply(
+    lambda row: f"{row["national_pokedex_number"]:04}-00", axis="columns"
+)
+
+df_pokeapi_pokedbtokyo = pd.concat(
+    [
+        df_pokeapi_pokedbtokyo,
+        df_pokeapi_pokedbtokyo_single,
+    ]
+)
+
+df_merged = pd.merge(
+    df_merged,
+    df_pokeapi_pokedbtokyo[["pokeapi_id", "pokedbtokyo_id"]],
+    on="pokeapi_id",
+    how="left",
+)
 
 if args.repl:
     import code
@@ -262,32 +320,22 @@ if args.repl:
     code.interact(local=locals())
 
 
-def combine_yakkuncom_name(row):
-    if pd.isna(row["name_ja"]):
-        return ""
-    if pd.isna(row["variant"]):
-        return row["name_ja"]
-    return f"{row["name_ja"]}({row["variant"]})"
-
-
-df_merged["yakkuncom_name"] = df_merged.apply(combine_yakkuncom_name, axis="columns")
-df_merged = df_merged.drop(columns=["normalized_variant", "name_ja", "variant"])
-df_merged.rename(
-    {
-        "id_yakkuncom": "yakkuncom_id",
-        "id_pokeapi": "pokeapi_id",
-        "name_en": "pokeapi_name",
-    },
-    axis="columns",
-    inplace=True,
-)
 df_merged = df_merged.reindex(
-    columns=["yakkuncom_id", "yakkuncom_name", "pokeapi_id", "pokeapi_name"]
+    columns=[
+        "yakkuncom_id",
+        "yakkuncom_name",
+        "pokeapi_id",
+        "pokeapi_name",
+        "pokedbtokyo_id",
+    ],
 )
-
 
 # Output each row to stderr
 for index, row in df_merged[df_merged["pokeapi_id"].isnull()].iterrows():
+    print(f"no match in pokeapi: {row["yakkuncom_name"]}", file=sys.stderr)
+for index, row in df_merged[
+    df_merged["yakkuncom_id"].notnull() & df_merged["pokedbtokyo_id"].isnull()
+].iterrows():
     print(f"no match in pokeapi: {row["yakkuncom_name"]}", file=sys.stderr)
 
 

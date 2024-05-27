@@ -1,5 +1,5 @@
-POKEMON_ALL.tsv: yakkuncom.tsv pokeapi.tsv
-	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv > $@
+POKEMON_ALL.tsv: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
+	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv > $@
 
 yakkuncom.tsv: source/yakkuncom-zukan.html
 	echo "national_pokedex_number	id	name_ja	variant" > $@

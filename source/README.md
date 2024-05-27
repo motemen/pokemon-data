@@ -1,0 +1,4 @@
+- pokeapi-pokedbtokyo.tsv
+  - 手動で作った、pokeapi-pokedbtokyo のマッチング（national_pokedex_number が重複しているもののみ）。
+- yakkuncom-zukan.html
+  - https://yakkun.com/sv/zukan/ を手動で保存。
