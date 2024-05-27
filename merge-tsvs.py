@@ -10,6 +10,8 @@ parser.add_argument("--repl", action="store_true", default=False)
 parser.add_argument("yakkuncom_tsv")
 parser.add_argument("pokeapi_tsv")
 parser.add_argument("pokeapi_pokedbtokyo_tsv")
+parser.add_argument("--out_tsv")
+parser.add_argument("--out_json")
 args = parser.parse_args()
 
 # Read in the first file
@@ -338,5 +340,8 @@ for index, row in df_merged[
 ].iterrows():
     print(f"no match in pokeapi: {row["yakkuncom_name"]}", file=sys.stderr)
 
+if args.out_tsv:
+    df_merged.to_csv(args.out_tsv, sep="\t", index=False)
 
-print(df_merged.to_csv(sep="\t", index=False), end="")
+if args.out_json:
+    df_merged.to_json(args.out_json, orient="records", indent=2, force_ascii=False)
