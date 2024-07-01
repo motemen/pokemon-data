@@ -23,8 +23,8 @@ output.append(
         "name_ja",
         "name_en",
         "variant",
+        "form_name_ja",
         "is_default",
-        "is_gen9",
     ]
 )
 
@@ -43,6 +43,17 @@ for item in data["data"]["species_names"]:
     )
     name_root = re.sub("[^a-z0-9-]", "", unicodedata.normalize("NFKD", name_root))
 
+    def pokemon_form_name_ja(pokemon):
+        d = pokemon
+        for key in ["forms", 0, "form_names_ja", 0, "name"]:
+            try:
+                d = d[key]
+            except (KeyError, IndexError):
+                d = None
+            if d is None:
+                return None
+        return d
+
     for pokemon in species["pokemons"]:
         output.append(
             [
@@ -51,8 +62,8 @@ for item in data["data"]["species_names"]:
                 name_ja,
                 pokemon["name_en"],
                 must_drop_prefix(pokemon["name_en"], name_root),
+                pokemon_form_name_ja(pokemon),
                 1 if pokemon["is_default"] else "",
-                1 if is_gen9 else "",
             ]
         )
 

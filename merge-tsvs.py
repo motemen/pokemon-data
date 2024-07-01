@@ -273,7 +273,13 @@ df_pokeapi["normalized_variant"] = df_pokeapi.apply(
 )
 
 df_pokeapi.rename(
-    {"id": "pokeapi_id", "name_en": "pokeapi_name"}, axis="columns", inplace=True
+    {
+        "id": "pokeapi_id",
+        "name_en": "pokeapi_name",
+        "form_name_ja": "pokeapi_form_name_ja",
+    },
+    axis="columns",
+    inplace=True,
 )
 
 df_merged = pd.merge(
@@ -286,7 +292,13 @@ df_merged = pd.merge(
         ]
     ],
     df_pokeapi[
-        ["national_pokedex_number", "normalized_variant", "pokeapi_id", "pokeapi_name"]
+        [
+            "national_pokedex_number",
+            "normalized_variant",
+            "pokeapi_id",
+            "pokeapi_name",
+            "pokeapi_form_name_ja",
+        ]
     ],
     on=["national_pokedex_number", "normalized_variant"],
     how="outer",
@@ -328,6 +340,7 @@ df_merged = df_merged.reindex(
         "yakkuncom_name",
         "pokeapi_id",
         "pokeapi_name",
+        "pokeapi_form_name_ja",
         "pokedbtokyo_id",
     ],
 )
