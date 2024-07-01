@@ -17,6 +17,10 @@ A table of Pokémon ID correspondences across multiple sites.
   - The ID of the Pokémon on [PokéAPI][].
 - `pokeapi_name`
   - The name of the Pokémon on [PokéAPI][]. (for readability)
+- `pokeapi_species_name_ja`
+  - The Japanese name of the species and form of the Pokémon on [PokéAPI][]. (Could be used for presentation)
+- `pokeapi_form_name_ja`
+  - The Japanese name of the species and form of the Pokémon on [PokéAPI][]. (Could be used for presentation)
 - `pokedbtokyo_id`
   - The ID of the Pokémon on [ポケモンバトルデータベース][].
 
