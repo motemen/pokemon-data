@@ -1,9 +1,9 @@
 {
   "query": "{
     species_names: pokemon_v2_pokemonspeciesname(where: {language_id: {_eq: 1}}) {
-      name_ja: name
+      species_name_ja: name
       species: pokemon_v2_pokemonspecy {
-        name_en: pokemon_v2_pokemonspeciesnames(where: {language_id: {_eq: 9}}) {
+        name: pokemon_v2_pokemonspeciesnames(where: {language_id: {_eq: 9}}) {
           name
         }
         pokedex_numbers: pokemon_v2_pokemondexnumbers(where: {pokedex_id: {_eq: 1}}) {
@@ -13,6 +13,12 @@
           name_en: name
           pokeapi_id: id
           is_default
+          forms: pokemon_v2_pokemonforms {
+            id
+            form_names_ja: pokemon_v2_pokemonformnames(where: {language_id: {_eq: 1}}) {
+              name
+            }
+          }
         }
         gen9_pokedex_aggregate: pokemon_v2_pokemondexnumbers_aggregate(where: {pokemon_v2_pokedex: {pokemon_v2_region: {pokemon_v2_generation: {name: {_eq: \"generation-ix\"}}}}}) {
           aggregate {

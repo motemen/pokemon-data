@@ -20,22 +20,20 @@ output.append(
     [
         "national_pokedex_number",
         "id",
-        "name_ja",
+        "species_name_ja",
         "name_en",
         "variant",
+        "form_name_ja",
         "is_default",
-        "is_gen9",
     ]
 )
 
 for item in data["data"]["species_names"]:
-    name_ja = item["name_ja"]
     species = item["species"]
     national_pokedex_number = species["pokedex_numbers"][0]["pokedex_number"]
-    is_gen9 = species["gen9_pokedex_aggregate"]["aggregate"]["count"] > 0
 
     name_root = (
-        species["name_en"][0]["name"]
+        species["name"][0]["name"]
         .lower()
         .replace(" ", "-")
         .replace("♀", "-f")
@@ -43,16 +41,27 @@ for item in data["data"]["species_names"]:
     )
     name_root = re.sub("[^a-z0-9-]", "", unicodedata.normalize("NFKD", name_root))
 
+    def pokemon_form_name_ja(pokemon):
+        d = pokemon
+        for key in ["forms", 0, "form_names_ja", 0, "name"]:
+            try:
+                d = d[key]
+            except (KeyError, IndexError):
+                d = None
+            if d is None:
+                return None
+        return d
+
     for pokemon in species["pokemons"]:
         output.append(
             [
                 national_pokedex_number,
                 pokemon["pokeapi_id"],
-                name_ja,
+                item["species_name_ja"],
                 pokemon["name_en"],
                 must_drop_prefix(pokemon["name_en"], name_root),
+                pokemon_form_name_ja(pokemon) or "",
                 1 if pokemon["is_default"] else "",
-                1 if is_gen9 else "",
             ]
         )
 

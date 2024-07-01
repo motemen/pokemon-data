@@ -10,4 +10,7 @@ pokeapi.tsv: source/pokeapi-allpokemons.json
 	python format-pokeapi-allpokemons.py $< > $@
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
-	curl https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
+	curl --fail https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
+
+source/pokemondb-pokedex-all.html:
+	curl --fail https://pokemondb.net/pokedex/all -o $@
