@@ -1,6 +1,10 @@
 .PHONY: all
-all: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
+all: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv index.d.ts
 	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+
+.PHONY: test
+test:
+	npm test
 
 yakkuncom.tsv: source/yakkuncom-zukan.html
 	echo "national_pokedex_number	id	name_ja	variant" > $@
@@ -14,3 +18,10 @@ source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 
 source/pokemondb-pokedex-all.html:
 	curl --fail https://pokemondb.net/pokedex/all -o $@
+
+index.d.ts: always
+	npm run create-dts
+
+.PHONY: always
+always:
+	
