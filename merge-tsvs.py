@@ -258,8 +258,8 @@ def pokeapi_row_to_normalized_variant(row):
     variant = "" if pd.isna(row["variant"]) else row["variant"]
 
     normalized_variant = None
-    if row["name_ja"] in POKEMON_EN2JA:
-        normalized_variant = POKEMON_EN2JA[row["name_ja"]].get(variant, None)
+    if row["species_name_ja"] in POKEMON_EN2JA:
+        normalized_variant = POKEMON_EN2JA[row["species_name_ja"]].get(variant, None)
     else:
         normalized_variant = POKEMON_EN2JA[None].get(variant, None)
 
@@ -276,6 +276,7 @@ df_pokeapi.rename(
     {
         "id": "pokeapi_id",
         "name_en": "pokeapi_name",
+        "species_name_ja": "pokeapi_species_name_ja",
         "form_name_ja": "pokeapi_form_name_ja",
     },
     axis="columns",
@@ -297,6 +298,7 @@ df_merged = pd.merge(
             "normalized_variant",
             "pokeapi_id",
             "pokeapi_name",
+            "pokeapi_species_name_ja",
             "pokeapi_form_name_ja",
         ]
     ],
@@ -340,6 +342,7 @@ df_merged = df_merged.reindex(
         "yakkuncom_name",
         "pokeapi_id",
         "pokeapi_name",
+        "pokeapi_species_name_ja",
         "pokeapi_form_name_ja",
         "pokedbtokyo_id",
     ],

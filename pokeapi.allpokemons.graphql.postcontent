@@ -1,9 +1,9 @@
 {
   "query": "{
     species_names: pokemon_v2_pokemonspeciesname(where: {language_id: {_eq: 1}}) {
-      name_ja: name
+      species_name_ja: name
       species: pokemon_v2_pokemonspecy {
-        name_en: pokemon_v2_pokemonspeciesnames(where: {language_id: {_eq: 9}}) {
+        name: pokemon_v2_pokemonspeciesnames(where: {language_id: {_eq: 9}}) {
           name
         }
         pokedex_numbers: pokemon_v2_pokemondexnumbers(where: {pokedex_id: {_eq: 1}}) {
