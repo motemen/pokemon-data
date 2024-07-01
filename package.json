@@ -1,0 +1,26 @@
+{
+  "name": "@motemen/pokemon-data",
+  "version": "9.0.0",
+  "description": "A table of Pokémon ID correspondences across multiple sites.",
+  "main": "POKEMON_ALL.json",
+  "files": [
+    "POKEMON_ALL.json",
+    "index.d.ts"
+  ],
+  "types": "index.d.ts",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/motemen/pokemon-data.git"
+  },
+  "author": "Hironao Otsubo <motemen@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motemen/pokemon-data/issues"
+  },
+  "homepage": "https://github.com/motemen/pokemon-data#readme"
+}
