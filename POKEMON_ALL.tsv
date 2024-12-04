@@ -38,17 +38,17 @@ n23	アーボ	23	ekans	アーボ		0023-00
 n24	アーボック	24	arbok	アーボック		0024-00
 n25	ピカチュウ	25	pikachu	ピカチュウ		0025-00
 		10099	pikachu-alola-cap	ピカチュウ	アローラキャップ	
-		10081	pikachu-belle	ピカチュウ		
-		10085	pikachu-cosplay	ピカチュウ		
+		10081	pikachu-belle	ピカチュウ	マダム・ピカチュウ	
+		10085	pikachu-cosplay	ピカチュウ	おきがえピカチュウ	
 		10199	pikachu-gmax	ピカチュウ		
 		10095	pikachu-hoenn-cap	ピカチュウ	ホウエンキャップ	
 		10098	pikachu-kalos-cap	ピカチュウ	カロスキャップ	
-		10084	pikachu-libre	ピカチュウ		
+		10084	pikachu-libre	ピカチュウ	マスクド・ピカチュウ	
 		10094	pikachu-original-cap	ピカチュウ	オリジナルキャップ	
 		10148	pikachu-partner-cap	ピカチュウ	キミにきめたキャップ	
-		10083	pikachu-phd	ピカチュウ		
-		10082	pikachu-pop-star	ピカチュウ		
-		10080	pikachu-rock-star	ピカチュウ		
+		10083	pikachu-phd	ピカチュウ	ドクター・ピカチュウ	
+		10082	pikachu-pop-star	ピカチュウ	アイドル・ピカチュウ	
+		10080	pikachu-rock-star	ピカチュウ	ハードロック・ピカチュウ	
 		10096	pikachu-sinnoh-cap	ピカチュウ	シンオウキャップ	
 		10158	pikachu-starter	ピカチュウ		
 		10097	pikachu-unova-cap	ピカチュウ	イッシュキャップ	
@@ -891,7 +891,7 @@ n714	オンバット	714	noibat	オンバット		0714-00
 n715	オンバーン	715	noivern	オンバーン		0715-00
 n716	ゼルネアス	716	xerneas	ゼルネアス	アクティブモード	0716-00
 n717	イベルタル	717	yveltal	イベルタル		0717-00
-n718t	ジガルデ(10%)	10181	zygarde-10	ジガルデ	１０％フォルム	
+n718t	ジガルデ(10%)	10181	zygarde-10	ジガルデ	１０％フォルム	0718-01
 		10118	zygarde-10-power-construct	ジガルデ	１０％フォルム	
 n718	ジガルデ(50%)	718	zygarde-50	ジガルデ	５０％フォルム	0718-00
 		10119	zygarde-50-power-construct	ジガルデ	５０％フォルム	
@@ -1169,7 +1169,7 @@ n913	ウェルカモ	913	quaxwell	ウェルカモ		0913-00
 n914	ウェーニバル	914	quaquaval	ウェーニバル		0914-00
 n915	グルトン	915	lechonk	グルトン		0915-00
 n916f	パフュートン♀	10254	oinkologne-female	パフュートン	メスのすがた	0916-01
-n916	パフュートン♂	916	oinkologne	パフュートン	オスのすがた	0916-00
+n916	パフュートン♂	916	oinkologne-male	パフュートン	オスのすがた	0916-00
 n918	タマンチュラ	917	tarountula	タマンチュラ		0917-00
 n919	ワナイダー	918	spidops	ワナイダー		0918-00
 n920	マメバッタ	919	nymble	マメバッタ		0919-00
@@ -1178,14 +1178,14 @@ n954	パモ	921	pawmi	パモ		0921-00
 n955	パモット	922	pawmo	パモット		0922-00
 n956	パーモット	923	pawmot	パーモット		0923-00
 n945	ワッカネズミ	924	tandemaus	ワッカネズミ		0924-00
-n946	イッカネズミ	925	maushold	イッカネズミ	４ひきかぞく	0925-01
+n946	イッカネズミ	925	maushold-family-of-four	イッカネズミ	４ひきかぞく	0925-01
 		10257	maushold-family-of-three	イッカネズミ	３びきかぞく	0925-00
 n970	パピモッチ	926	fidough	パピモッチ		0926-00
 n971	バウッツェル	927	dachsbun	バウッツェル		0927-00
 n935	ミニーブ	928	smoliv	ミニーブ		0928-00
 n936	オリーニョ	929	dolliv	オリーニョ		0929-00
 n937	オリーヴァ	930	arboliva	オリーヴァ		0930-00
-n960	イキリンコ	931	squawkabilly	イキリンコ	グリーンフェザー	0931-00
+n960	イキリンコ	931	squawkabilly-green-plumage	イキリンコ	グリーンフェザー	0931-00
 		10260	squawkabilly-blue-plumage	イキリンコ	ブルーフェザー	0931-01
 		10262	squawkabilly-white-plumage	イキリンコ	ホワイトフェザー	0931-03
 		10261	squawkabilly-yellow-plumage	イキリンコ	イエローフェザー	0931-02
@@ -1221,7 +1221,7 @@ n929	ウミディグダ	960	wiglett	ウミディグダ		0960-00
 n930	ウミトリオ	961	wugtrio	ウミトリオ		0961-00
 n959	オトシドリ	962	bombirdier	オトシドリ		0962-00
 n933	ナミイルカ	963	finizen	ナミイルカ		0963-00
-n934	イルカマン(ナイーブ)	964	palafin	イルカマン	ナイーブフォルム	0964-00
+n934	イルカマン(ナイーブ)	964	palafin-zero	イルカマン	ナイーブフォルム	0964-00
 n934f	イルカマン(マイティ)	10256	palafin-hero	イルカマン	マイティフォルム	0964-01
 n942	ブロロン	965	varoom	ブロロン		0965-00
 n943	ブロロローム	966	revavroom	ブロロローム		0966-00
@@ -1236,13 +1236,13 @@ n947	アルクジラ	974	cetoddle	アルクジラ		0974-00
 n948	ハルクジラ	975	cetitan	ハルクジラ		0975-00
 n932	ミガルーサ	976	veluza	ミガルーサ		0976-00
 n931	ヘイラッシャ	977	dondozo	ヘイラッシャ		0977-00
-n952	シャリタツ	978	tatsugiri	シャリタツ	そったすがた	0978-00
+n952	シャリタツ	978	tatsugiri-curly	シャリタツ	そったすがた	0978-00
 		10258	tatsugiri-droopy	シャリタツ	たれたすがた	0978-01
 		10259	tatsugiri-stretchy	シャリタツ	のびたすがた	0978-02
 n1010	コノヨザル	979	annihilape	コノヨザル		0979-00
 n1009	ドオー	980	clodsire	ドオー		0980-00
 n928	リキキリン	981	farigiraf	リキキリン		0981-00
-n917	ノココッチ	982	dudunsparce	ノココッチ	ふたふしフォルム	0982-00
+n917	ノココッチ	982	dudunsparce-two-segment	ノココッチ	ふたふしフォルム	0982-00
 		10255	dudunsparce-three-segment	ノココッチ	みつふしフォルム	
 n1008	ドドゲザン	983	kingambit	ドドゲザン		0983-00
 n978	イダイナキバ	984	great-tusk	イダイナキバ		0984-00

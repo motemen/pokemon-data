@@ -356,7 +356,7 @@
     "pokeapi_id":10081,
     "pokeapi_name":"pikachu-belle",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"マダム・ピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -365,7 +365,7 @@
     "pokeapi_id":10085,
     "pokeapi_name":"pikachu-cosplay",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"おきがえピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -401,7 +401,7 @@
     "pokeapi_id":10084,
     "pokeapi_name":"pikachu-libre",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"マスクド・ピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -428,7 +428,7 @@
     "pokeapi_id":10083,
     "pokeapi_name":"pikachu-phd",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"ドクター・ピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -437,7 +437,7 @@
     "pokeapi_id":10082,
     "pokeapi_name":"pikachu-pop-star",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"アイドル・ピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -446,7 +446,7 @@
     "pokeapi_id":10080,
     "pokeapi_name":"pikachu-rock-star",
     "pokeapi_species_name_ja":"ピカチュウ",
-    "pokeapi_form_name_ja":null,
+    "pokeapi_form_name_ja":"ハードロック・ピカチュウ",
     "pokedbtokyo_id":null
   },
   {
@@ -8034,7 +8034,7 @@
     "pokeapi_name":"zygarde-10",
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"１０％フォルム",
-    "pokedbtokyo_id":null
+    "pokedbtokyo_id":"0718-01"
   },
   {
     "yakkuncom_id":null,
@@ -10533,7 +10533,7 @@
     "yakkuncom_id":"n916",
     "yakkuncom_name":"パフュートン♂",
     "pokeapi_id":916,
-    "pokeapi_name":"oinkologne",
+    "pokeapi_name":"oinkologne-male",
     "pokeapi_species_name_ja":"パフュートン",
     "pokeapi_form_name_ja":"オスのすがた",
     "pokedbtokyo_id":"0916-00"
@@ -10614,7 +10614,7 @@
     "yakkuncom_id":"n946",
     "yakkuncom_name":"イッカネズミ",
     "pokeapi_id":925,
-    "pokeapi_name":"maushold",
+    "pokeapi_name":"maushold-family-of-four",
     "pokeapi_species_name_ja":"イッカネズミ",
     "pokeapi_form_name_ja":"４ひきかぞく",
     "pokedbtokyo_id":"0925-01"
@@ -10677,7 +10677,7 @@
     "yakkuncom_id":"n960",
     "yakkuncom_name":"イキリンコ",
     "pokeapi_id":931,
-    "pokeapi_name":"squawkabilly",
+    "pokeapi_name":"squawkabilly-green-plumage",
     "pokeapi_species_name_ja":"イキリンコ",
     "pokeapi_form_name_ja":"グリーンフェザー",
     "pokedbtokyo_id":"0931-00"
@@ -11001,7 +11001,7 @@
     "yakkuncom_id":"n934",
     "yakkuncom_name":"イルカマン(ナイーブ)",
     "pokeapi_id":964,
-    "pokeapi_name":"palafin",
+    "pokeapi_name":"palafin-zero",
     "pokeapi_species_name_ja":"イルカマン",
     "pokeapi_form_name_ja":"ナイーブフォルム",
     "pokedbtokyo_id":"0964-00"
@@ -11136,7 +11136,7 @@
     "yakkuncom_id":"n952",
     "yakkuncom_name":"シャリタツ",
     "pokeapi_id":978,
-    "pokeapi_name":"tatsugiri",
+    "pokeapi_name":"tatsugiri-curly",
     "pokeapi_species_name_ja":"シャリタツ",
     "pokeapi_form_name_ja":"そったすがた",
     "pokedbtokyo_id":"0978-00"
@@ -11190,7 +11190,7 @@
     "yakkuncom_id":"n917",
     "yakkuncom_name":"ノココッチ",
     "pokeapi_id":982,
-    "pokeapi_name":"dudunsparce",
+    "pokeapi_name":"dudunsparce-two-segment",
     "pokeapi_species_name_ja":"ノココッチ",
     "pokeapi_form_name_ja":"ふたふしフォルム",
     "pokedbtokyo_id":"0982-00"

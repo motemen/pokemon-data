@@ -37,12 +37,12 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 23	23	アーボ	ekans			1
 24	24	アーボック	arbok			1
 25	25	ピカチュウ	pikachu			1
-25	10080	ピカチュウ	pikachu-rock-star	rock-star		
-25	10081	ピカチュウ	pikachu-belle	belle		
-25	10082	ピカチュウ	pikachu-pop-star	pop-star		
-25	10083	ピカチュウ	pikachu-phd	phd		
-25	10084	ピカチュウ	pikachu-libre	libre		
-25	10085	ピカチュウ	pikachu-cosplay	cosplay		
+25	10080	ピカチュウ	pikachu-rock-star	rock-star	ハードロック・ピカチュウ	
+25	10081	ピカチュウ	pikachu-belle	belle	マダム・ピカチュウ	
+25	10082	ピカチュウ	pikachu-pop-star	pop-star	アイドル・ピカチュウ	
+25	10083	ピカチュウ	pikachu-phd	phd	ドクター・ピカチュウ	
+25	10084	ピカチュウ	pikachu-libre	libre	マスクド・ピカチュウ	
+25	10085	ピカチュウ	pikachu-cosplay	cosplay	おきがえピカチュウ	
 25	10094	ピカチュウ	pikachu-original-cap	original-cap	オリジナルキャップ	
 25	10095	ピカチュウ	pikachu-hoenn-cap	hoenn-cap	ホウエンキャップ	
 25	10096	ピカチュウ	pikachu-sinnoh-cap	sinnoh-cap	シンオウキャップ	
@@ -1168,7 +1168,7 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 913	913	ウェルカモ	quaxwell			1
 914	914	ウェーニバル	quaquaval			1
 915	915	グルトン	lechonk			1
-916	916	パフュートン	oinkologne		オスのすがた	1
+916	916	パフュートン	oinkologne-male	male	オスのすがた	1
 916	10254	パフュートン	oinkologne-female	female	メスのすがた	
 917	917	タマンチュラ	tarountula			1
 918	918	ワナイダー	spidops			1
@@ -1178,14 +1178,14 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 922	922	パモット	pawmo			1
 923	923	パーモット	pawmot			1
 924	924	ワッカネズミ	tandemaus			1
-925	925	イッカネズミ	maushold		４ひきかぞく	1
+925	925	イッカネズミ	maushold-family-of-four	family-of-four	４ひきかぞく	1
 925	10257	イッカネズミ	maushold-family-of-three	family-of-three	３びきかぞく	
 926	926	パピモッチ	fidough			1
 927	927	バウッツェル	dachsbun			1
 928	928	ミニーブ	smoliv			1
 929	929	オリーニョ	dolliv			1
 930	930	オリーヴァ	arboliva			1
-931	931	イキリンコ	squawkabilly		グリーンフェザー	1
+931	931	イキリンコ	squawkabilly-green-plumage	green-plumage	グリーンフェザー	1
 931	10260	イキリンコ	squawkabilly-blue-plumage	blue-plumage	ブルーフェザー	
 931	10261	イキリンコ	squawkabilly-yellow-plumage	yellow-plumage	イエローフェザー	
 931	10262	イキリンコ	squawkabilly-white-plumage	white-plumage	ホワイトフェザー	
@@ -1221,7 +1221,7 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 961	961	ウミトリオ	wugtrio			1
 962	962	オトシドリ	bombirdier			1
 963	963	ナミイルカ	finizen			1
-964	964	イルカマン	palafin		ナイーブフォルム	1
+964	964	イルカマン	palafin-zero	zero	ナイーブフォルム	1
 964	10256	イルカマン	palafin-hero	hero	マイティフォルム	
 965	965	ブロロン	varoom			1
 966	966	ブロロローム	revavroom			1
@@ -1236,13 +1236,13 @@ national_pokedex_number	id	species_name_ja	name_en	variant	form_name_ja	is_defau
 975	975	ハルクジラ	cetitan			1
 976	976	ミガルーサ	veluza			1
 977	977	ヘイラッシャ	dondozo			1
-978	978	シャリタツ	tatsugiri		そったすがた	1
+978	978	シャリタツ	tatsugiri-curly	curly	そったすがた	1
 978	10258	シャリタツ	tatsugiri-droopy	droopy	たれたすがた	
 978	10259	シャリタツ	tatsugiri-stretchy	stretchy	のびたすがた	
 979	979	コノヨザル	annihilape			1
 980	980	ドオー	clodsire			1
 981	981	リキキリン	farigiraf			1
-982	982	ノココッチ	dudunsparce		ふたふしフォルム	1
+982	982	ノココッチ	dudunsparce-two-segment	two-segment	ふたふしフォルム	1
 982	10255	ノココッチ	dudunsparce-three-segment	three-segment	みつふしフォルム	
 983	983	ドドゲザン	kingambit			1
 984	984	イダイナキバ	great-tusk			1

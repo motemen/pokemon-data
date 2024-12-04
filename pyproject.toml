@@ -10,6 +10,23 @@ python = "^3.12"
 pandas = "^2.2.2"
 
 
+
+[tool.pdm.build]
+includes = []
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[project]
+authors = [
+    {name = "Hironao OTSUBO", email = "motemen@gmail.com"},
+]
+requires-python = "<4.0,>=3.12"
+dependencies = [
+    "pandas<3.0.0,>=2.2.2",
+]
+name = "pokemon-data"
+version = "0.1.0"
+description = ""
+readme = "README.md"

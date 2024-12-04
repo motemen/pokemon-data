@@ -228,11 +228,11 @@ def pokeapi_row_to_normalized_variant(row):
             "eternamax": "ムゲン",
         },
         "パフュートン": {
-            "": "♂",
+            "male": "♂",
             "female": "♀",
         },
         "イルカマン": {
-            "": "ナイーブ",
+            "zero": "ナイーブ",
             "hero": "マイティ",
         },
         "コレクレー": {"roaming": "とほ", "": "はこ"},
@@ -253,6 +253,18 @@ def pokeapi_row_to_normalized_variant(row):
         "モルペコ": {
             "full-belly": "",
         },
+        "イッカネズミ": {
+            "family-of-four": ""
+        },
+        "イキリンコ": {
+            "green-plumage": ""
+        },
+        "シャリタツ": {
+            "curly": ""
+        },
+        "ノココッチ": {
+            "two-segment": ""
+        }
     }
 
     variant = "" if pd.isna(row["variant"]) else row["variant"]
@@ -354,7 +366,7 @@ for index, row in df_merged[df_merged["pokeapi_id"].isnull()].iterrows():
 for index, row in df_merged[
     df_merged["yakkuncom_id"].notnull() & df_merged["pokedbtokyo_id"].isnull()
 ].iterrows():
-    print(f"no match in pokeapi: {row["yakkuncom_name"]}", file=sys.stderr)
+    print(f"no match in pokedbtokyo: {row["yakkuncom_name"]}", file=sys.stderr)
 
 if args.out_tsv:
     df_merged.to_csv(args.out_tsv, sep="\t", index=False)

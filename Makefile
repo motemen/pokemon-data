@@ -4,7 +4,7 @@ all: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv index.d.ts
 
 .PHONY: test
 test:
-	npm test
+	pnpm test
 
 yakkuncom.tsv: source/yakkuncom-zukan.html
 	echo "national_pokedex_number	id	name_ja	variant" > $@
@@ -19,8 +19,11 @@ source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 source/pokemondb-pokedex-all.html:
 	curl --fail https://pokemondb.net/pokedex/all -o $@
 
+source/yakkuncom-zukan.html:
+	curl --fail https://yakkun.com/sv/zukan/ -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" -o $@
+
 index.d.ts: always
-	npm run create-dts
+	pnpm run create-dts
 
 .PHONY: always
 always:
