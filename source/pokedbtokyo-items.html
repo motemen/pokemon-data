@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- pokedbtokyo-item-names.json を編集するためのファイル -->
+<html lang="ja"></html>
+<head>
+  <meta charset="""UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Item Icons</title>
+  <link
+  rel="stylesheet"
+  href="https://sv.pokedb.tokyo/css/item-sprite.css?v=e-5777643"
+  />
+  <style>
+    .icon-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .icon {
+      width: 32px;
+      height: 32px;
+      margin: 5px;
+    }
+    .icon-text {
+      margin-left: 10px;
+    }
+    .icon-wrapper {
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <label>
+    <input type="checkbox" id="filter-unnamed" />
+    対応するnameがないものだけ表示
+  </label>
+  <div class="icon-container" id="icon-container"></div>
+  
+  <script>
+    const container = document.getElementById("icon-container");
+    const filterCheckbox = document.getElementById("filter-unnamed");
+    const totalIcons = 2549; // Adjust this number based on the highest .i-xxxx class
+    
+    fetch('pokedbtokyo-item-names.json')
+    .then(response => response.json())
+    .then(itemMapping => {
+      function renderIcons() {
+        container.innerHTML = '';
+        console.log(itemMapping);
+        for (let i = 1; i <= totalIcons; i++) {
+          const itemId = String(i).padStart(4, "0");
+          const hasName = itemId in itemMapping;
+          if (!hasName) {
+            continue;
+          }
+          if (filterCheckbox.checked && itemMapping[itemId] !== "") {
+            continue;
+          }
+          const iconDiv = document.createElement("div");
+          iconDiv.className = `i-i i-${itemId}`;
+          
+          const iconText = document.createElement("span");
+          iconText.className = "icon-text";
+          iconText.textContent = itemMapping[itemId] || `(${itemId})`;
+          
+          const containerDiv = document.createElement("div");
+          containerDiv.className = "icon-wrapper";
+          containerDiv.appendChild(iconDiv);
+          containerDiv.appendChild(iconText);
+          
+          container.appendChild(containerDiv);
+        }
+      }
+      
+      filterCheckbox.addEventListener('change', renderIcons);
+      renderIcons();
+    })
+    .catch(error => console.error('Error loading itemMapping:', error));
+  </script>
+</body>
+</html>
