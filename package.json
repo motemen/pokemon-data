@@ -5,6 +5,7 @@
   "main": "POKEMON_ALL.json",
   "files": [
     "POKEMON_ALL.json",
+    "ITEM_ALL.json",
     "index.d.ts"
   ],
   "types": "index.d.ts",
