@@ -7,6 +7,8 @@ declare module "@motemen/pokemon-data" {
       pokeapi_species_name_ja: string;
       pokeapi_form_name_ja: string | null;
       pokedbtokyo_id: string | null;
+      pkmn_id: string | null;
+      pkmn_name: string | null;
   }[];
   export default POKEMON_ALL;
 }
