@@ -13,9 +13,8 @@ const generations = new Generations(Dex);
 const gen = generations.get(9);
 
 interface PokemonEntry {
-  pokeapi_id: number;
-  pokeapi_name: string;
-  pokeapi_form_name_ja: string | null;
+  id: number;
+  name_en: string;
 }
 
 interface PkmnMapping {
@@ -60,15 +59,46 @@ function generatePkmnId(pokeapiName: string): string {
 }
 
 /**
+ * TSVファイルを読み込んでパース
+ */
+function parseTsv(content: string): PokemonEntry[] {
+  const lines = content.trim().split('\n');
+  const header = lines[0].split('\t');
+  const entries: PokemonEntry[] = [];
+  
+  for (let i = 1; i < lines.length; i++) {
+    const values = lines[i].split('\t');
+    const entry: any = {};
+    
+    for (let j = 0; j < header.length; j++) {
+      const key = header[j];
+      let value: any = values[j];
+      
+      // 数値フィールドの変換
+      if (key === 'id' || key === 'national_pokedex_number') {
+        value = parseInt(value, 10);
+      }
+      
+      entry[key] = value;
+    }
+    
+    entries.push({
+      id: entry.id,
+      name_en: entry.name_en,
+    });
+  }
+  
+  return entries;
+}
+
+/**
  * メイン関数
  */
 function main() {
-  // コマンドライン引数からファイル名を取得（デフォルトはPOKEMON_ALL.json）
-  const inputFile = process.argv[2] || 'POKEMON_ALL.json';
-  
-  // 既存のPOKEMON_ALL.jsonからPokéAPIのエントリを読み込み
-  const pokemonAllJson = readFileSync(inputFile, 'utf-8');
-  const pokemonAll: PokemonEntry[] = JSON.parse(pokemonAllJson);
+  // pokeapi.tsvを読み込み
+  const inputFile = 'pokeapi.tsv';
+  const pokemonTsv = readFileSync(inputFile, 'utf-8');
+  const pokemonAll = parseTsv(pokemonTsv);
   
   console.log(`Loaded ${pokemonAll.length} Pokemon entries from ${inputFile}`);
   
@@ -77,7 +107,7 @@ function main() {
   let successCount = 0;
   
   for (const entry of pokemonAll) {
-    const pkmnId = generatePkmnId(entry.pokeapi_name);
+    const pkmnId = generatePkmnId(entry.name_en);
     
     // Pokemon Showdownにそのポケモンが存在するかチェック
     let pkmnName: string | null = null;
@@ -92,7 +122,7 @@ function main() {
     }
     
     mappings.push({
-      pokeapi_id: entry.pokeapi_id,
+      pokeapi_id: entry.id,
       pkmn_id: pkmnName ? pkmnId : null,
       pkmn_name: pkmnName,
     });
