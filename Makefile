@@ -2,8 +2,13 @@
 all: pokemon items index.d.ts
 
 .PHONY: pokemon
-pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
-	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv
+	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+
+# Generate base Pokemon data without pkmn mapping (to avoid circular dependency)
+.PHONY: pokemon-base
+pokemon-base: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
+	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv /dev/null --out_json POKEMON_ALL_BASE.json
 
 .PHONY: items
 items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json
@@ -19,6 +24,9 @@ yakkuncom.tsv: source/yakkuncom-zukan.html
 
 pokeapi.tsv: source/pokeapi-allpokemons.json
 	python format-pokeapi-allpokemons.py $< > $@
+
+pkmn-mapping.tsv: pokemon-base
+	pnpm tsx create-pkmn-mapping.ts POKEMON_ALL_BASE.json
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 	curl --fail https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@
