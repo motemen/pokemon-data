@@ -194,9 +194,9 @@ n126	ブーバー	126	magmar	ブーバー		0126-00	magmar	Magmar
 n127	カイロス	127	pinsir	カイロス		0127-00		
 n127m	メガカイロス	10040	pinsir-mega	カイロス	メガカイロス	0127-01		
 n128	ケンタロス	128	tauros	ケンタロス		0128-00	tauros	Tauros
-n128a	ケンタロス(パルデア単)	10250	tauros-paldea-combat-breed	ケンタロス	パルデアのすがた	0128-01	taurospaldea	Tauros-Paldea-Combat
-n128c	ケンタロス(パルデア水)	10252	tauros-paldea-aqua-breed	ケンタロス	パルデアのすがた	0128-03	taurospaldeaaqua	Tauros-Paldea-Aqua
-n128b	ケンタロス(パルデア炎)	10251	tauros-paldea-blaze-breed	ケンタロス	パルデアのすがた	0128-02	taurospaldeablaze	Tauros-Paldea-Blaze
+n128a	ケンタロス(パルデア単)	10250	tauros-paldea-combat-breed	ケンタロス	パルデアのすがた	0128-01		
+n128c	ケンタロス(パルデア水)	10252	tauros-paldea-aqua-breed	ケンタロス	パルデアのすがた	0128-03		
+n128b	ケンタロス(パルデア炎)	10251	tauros-paldea-blaze-breed	ケンタロス	パルデアのすがた	0128-02		
 n129	コイキング	129	magikarp	コイキング		0129-00	magikarp	Magikarp
 n130	ギャラドス	130	gyarados	ギャラドス		0130-00	gyarados	Gyarados
 n130m	メガギャラドス	10041	gyarados-mega	ギャラドス	メガギャラドス	0130-01		

@@ -1,6 +1,10 @@
 .PHONY: all
 all: pokemon items index.d.ts
 
+.PHONY: clean
+clean:
+	rm -f pkmn-mapping.tsv POKEMON_ALL_BASE.json POKEMON_ALL.json POKEMON_ALL.tsv
+
 .PHONY: pokemon
 pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv
 	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json

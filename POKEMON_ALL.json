@@ -2152,8 +2152,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-01",
-    "pkmn_id":"taurospaldea",
-    "pkmn_name":"Tauros-Paldea-Combat"
+    "pkmn_id":null,
+    "pkmn_name":null
   },
   {
     "yakkuncom_id":"n128c",
@@ -2163,8 +2163,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-03",
-    "pkmn_id":"taurospaldeaaqua",
-    "pkmn_name":"Tauros-Paldea-Aqua"
+    "pkmn_id":null,
+    "pkmn_name":null
   },
   {
     "yakkuncom_id":"n128b",
@@ -2174,8 +2174,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-02",
-    "pkmn_id":"taurospaldeablaze",
-    "pkmn_name":"Tauros-Paldea-Blaze"
+    "pkmn_id":null,
+    "pkmn_name":null
   },
   {
     "yakkuncom_id":"n129",

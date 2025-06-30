@@ -27,96 +27,34 @@ interface PkmnMapping {
 /**
  * PokéAPIの英語名からPokemon ShowdownのIDを生成
  * 
- * PokéAPIの形式:
- * - venusaur-mega
- * - charizard-mega-x
- * - rattata-alola
- * - rotom-heat
- * 
- * Pokemon Showdownの形式:
- * - venusaurmega
- * - charizardmegax
- * - rattataalola
- * - rotomheat
+ * 基本的にはハイフンを削除するだけで済むが、一部特殊なケースがある
  */
 function generatePkmnId(pokeapiName: string): string {
-  // 特殊なケースの処理
-  const specialCases: Record<string, string> = {
-    'nidoran-f': 'nidoranf',
-    'nidoran-m': 'nidoranm',
-    'mr-mime': 'mrmime',
-    'mr-mime-galar': 'mrmimegalar',
-    'mime-jr': 'mimejr',
-    'type-null': 'typenull',
-    'ho-oh': 'hooh',
-    'porygon-z': 'porygonz',
-    'mr-rime': 'mrrime',
-    'flabebe': 'flabebe',
-    'zygarde-10-power-construct': 'zygarde10',
-    'zygarde-50-power-construct': 'zygarde',
-    'oricorio-pom-pom': 'oricoriopompom',
-    'jangmo-o': 'jangmoo',
-    'hakamo-o': 'hakamoo',
-    'kommo-o': 'kommoo',
-    'tapu-koko': 'tapukoko',
-    'tapu-lele': 'tapulele',
-    'tapu-bulu': 'tapubulu',
-    'tapu-fini': 'tapufini',
-    'sirfetchd': 'sirfetchd',
-    'great-tusk': 'greattusk',
-    'scream-tail': 'screamtail',
-    'brute-bonnet': 'brutebonnet',
-    'flutter-mane': 'fluttermane',
-    'slither-wing': 'slitherwing',
-    'sandy-shocks': 'sandyshocks',
-    'iron-treads': 'irontreads',
-    'iron-bundle': 'ironbundle',
-    'iron-hands': 'ironhands',
-    'iron-jugulis': 'ironjugulis',
-    'iron-moth': 'ironmoth',
-    'iron-thorns': 'ironthorns',
-    'wo-chien': 'wochien',
-    'chien-pao': 'chienpao',
-    'ting-lu': 'tinglu',
-    'chi-yu': 'chiyu',
-    'roaring-moon': 'roaringmoon',
-    'iron-valiant': 'ironvaliant',
-    'walking-wake': 'walkingwake',
-    'iron-leaves': 'ironleaves',
-    'gouging-fire': 'gougingfire',
-    'raging-bolt': 'ragingbolt',
-    'iron-boulder': 'ironboulder',
-    'iron-crown': 'ironcrown',
-  };
-
-  // 特殊なケースをチェック
-  if (pokeapiName in specialCases) {
-    return specialCases[pokeapiName];
-  }
-
   // 基本的な変換: ハイフンを削除
   let pkmnId = pokeapiName.replace(/-/g, '');
 
-  // megax, megayの特殊処理
-  pkmnId = pkmnId.replace(/megax$/, 'megax');
-  pkmnId = pkmnId.replace(/megay$/, 'megay');
+  // 特殊なケースの処理（ハイフン削除だけでは対応できないもの）
+  const specialCases: Record<string, string> = {
+    'flabebe': 'flabebe', // 'flabébé' → 'flabebe'ではない
+    'zygarde10powerconstruct': 'zygarde10',
+    'zygarde50powerconstruct': 'zygarde',
+    'paldeacombatbreed': 'paldea',
+    'paldeaaquabreed': 'paldeaaqua',
+    'paldeablazebreed': 'paldeablaze',
+  };
 
-  // totem形式の処理（例: raticate-totem-alola → raticatealola）
+  // 特殊なケースをチェック
+  if (pkmnId in specialCases) {
+    return specialCases[pkmnId];
+  }
+
+  // totem形式の処理（例: raticatetotem → raticate）
   if (pkmnId.includes('totem')) {
     pkmnId = pkmnId.replace('totem', '');
   }
 
-  // パルデアケンタロスの特殊処理
-  pkmnId = pkmnId
-    .replace('paldeacombatbreed', 'paldea')
-    .replace('paldeaaquabreed', 'paldeaaqua')
-    .replace('paldeablazebreed', 'paldeablaze');
-
-  // その他の特殊ケース
-  pkmnId = pkmnId
-    .replace('eternamax', 'eternamax')
-    .replace('starter', '')
-    .replace('gmax', 'gmax');
+  // その他の調整
+  pkmnId = pkmnId.replace('starter', '');
 
   return pkmnId;
 }
