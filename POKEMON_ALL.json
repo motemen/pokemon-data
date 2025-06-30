@@ -51,8 +51,8 @@
     "pokeapi_species_name_ja":"フシギバナ",
     "pokeapi_form_name_ja":"メガフシギバナ",
     "pokedbtokyo_id":"0003-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"venusaurmega",
+    "pkmn_name":"Venusaur-Mega"
   },
   {
     "yakkuncom_id":"n4",
@@ -106,8 +106,8 @@
     "pokeapi_species_name_ja":"リザードン",
     "pokeapi_form_name_ja":"メガリザードンＸ",
     "pokedbtokyo_id":"0006-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"charizardmegax",
+    "pkmn_name":"Charizard-Mega-X"
   },
   {
     "yakkuncom_id":"n6y",
@@ -117,8 +117,8 @@
     "pokeapi_species_name_ja":"リザードン",
     "pokeapi_form_name_ja":"メガリザードンＹ",
     "pokedbtokyo_id":"0006-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"charizardmegay",
+    "pkmn_name":"Charizard-Mega-Y"
   },
   {
     "yakkuncom_id":"n7",
@@ -172,8 +172,8 @@
     "pokeapi_species_name_ja":"カメックス",
     "pokeapi_form_name_ja":"メガカメックス",
     "pokedbtokyo_id":"0009-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"blastoisemega",
+    "pkmn_name":"Blastoise-Mega"
   },
   {
     "yakkuncom_id":"n10",
@@ -183,8 +183,8 @@
     "pokeapi_species_name_ja":"キャタピー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0010-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"caterpie",
+    "pkmn_name":"Caterpie"
   },
   {
     "yakkuncom_id":"n11",
@@ -194,8 +194,8 @@
     "pokeapi_species_name_ja":"トランセル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0011-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"metapod",
+    "pkmn_name":"Metapod"
   },
   {
     "yakkuncom_id":"n12",
@@ -205,8 +205,8 @@
     "pokeapi_species_name_ja":"バタフリー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0012-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"butterfree",
+    "pkmn_name":"Butterfree"
   },
   {
     "yakkuncom_id":null,
@@ -227,8 +227,8 @@
     "pokeapi_species_name_ja":"ビードル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0013-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"weedle",
+    "pkmn_name":"Weedle"
   },
   {
     "yakkuncom_id":"n14",
@@ -238,8 +238,8 @@
     "pokeapi_species_name_ja":"コクーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0014-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kakuna",
+    "pkmn_name":"Kakuna"
   },
   {
     "yakkuncom_id":"n15",
@@ -249,8 +249,8 @@
     "pokeapi_species_name_ja":"スピアー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0015-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"beedrill",
+    "pkmn_name":"Beedrill"
   },
   {
     "yakkuncom_id":"n15m",
@@ -260,8 +260,8 @@
     "pokeapi_species_name_ja":"スピアー",
     "pokeapi_form_name_ja":"メガスピアー",
     "pokedbtokyo_id":"0015-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"beedrillmega",
+    "pkmn_name":"Beedrill-Mega"
   },
   {
     "yakkuncom_id":"n16",
@@ -271,8 +271,8 @@
     "pokeapi_species_name_ja":"ポッポ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0016-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pidgey",
+    "pkmn_name":"Pidgey"
   },
   {
     "yakkuncom_id":"n17",
@@ -282,8 +282,8 @@
     "pokeapi_species_name_ja":"ピジョン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0017-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pidgeotto",
+    "pkmn_name":"Pidgeotto"
   },
   {
     "yakkuncom_id":"n18",
@@ -293,8 +293,8 @@
     "pokeapi_species_name_ja":"ピジョット",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0018-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pidgeot",
+    "pkmn_name":"Pidgeot"
   },
   {
     "yakkuncom_id":"n18m",
@@ -304,8 +304,8 @@
     "pokeapi_species_name_ja":"ピジョット",
     "pokeapi_form_name_ja":"メガピジョット",
     "pokedbtokyo_id":"0018-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pidgeotmega",
+    "pkmn_name":"Pidgeot-Mega"
   },
   {
     "yakkuncom_id":"n19",
@@ -315,8 +315,8 @@
     "pokeapi_species_name_ja":"コラッタ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0019-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rattata",
+    "pkmn_name":"Rattata"
   },
   {
     "yakkuncom_id":"n19a",
@@ -326,8 +326,8 @@
     "pokeapi_species_name_ja":"コラッタ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0019-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rattataalola",
+    "pkmn_name":"Rattata-Alola"
   },
   {
     "yakkuncom_id":"n20",
@@ -337,8 +337,8 @@
     "pokeapi_species_name_ja":"ラッタ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0020-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"raticate",
+    "pkmn_name":"Raticate"
   },
   {
     "yakkuncom_id":null,
@@ -348,8 +348,8 @@
     "pokeapi_species_name_ja":"ラッタ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"raticatealola",
+    "pkmn_name":"Raticate-Alola"
   },
   {
     "yakkuncom_id":"n20a",
@@ -359,8 +359,8 @@
     "pokeapi_species_name_ja":"ラッタ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0020-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"raticatealola",
+    "pkmn_name":"Raticate-Alola"
   },
   {
     "yakkuncom_id":"n21",
@@ -370,8 +370,8 @@
     "pokeapi_species_name_ja":"オニスズメ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0021-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"spearow",
+    "pkmn_name":"Spearow"
   },
   {
     "yakkuncom_id":"n22",
@@ -381,8 +381,8 @@
     "pokeapi_species_name_ja":"オニドリル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0022-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"fearow",
+    "pkmn_name":"Fearow"
   },
   {
     "yakkuncom_id":"n23",
@@ -436,8 +436,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"マダム・ピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachubelle",
+    "pkmn_name":"Pikachu-Belle"
   },
   {
     "yakkuncom_id":null,
@@ -447,8 +447,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"おきがえピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachucosplay",
+    "pkmn_name":"Pikachu-Cosplay"
   },
   {
     "yakkuncom_id":null,
@@ -491,8 +491,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"マスクド・ピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachulibre",
+    "pkmn_name":"Pikachu-Libre"
   },
   {
     "yakkuncom_id":null,
@@ -524,8 +524,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"ドクター・ピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachuphd",
+    "pkmn_name":"Pikachu-PhD"
   },
   {
     "yakkuncom_id":null,
@@ -535,8 +535,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"アイドル・ピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachupopstar",
+    "pkmn_name":"Pikachu-Pop-Star"
   },
   {
     "yakkuncom_id":null,
@@ -546,8 +546,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":"ハードロック・ピカチュウ",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachurockstar",
+    "pkmn_name":"Pikachu-Rock-Star"
   },
   {
     "yakkuncom_id":null,
@@ -667,8 +667,8 @@
     "pokeapi_species_name_ja":"ニドラン♀",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0029-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidoranf",
+    "pkmn_name":"Nidoran-F"
   },
   {
     "yakkuncom_id":"n30",
@@ -678,8 +678,8 @@
     "pokeapi_species_name_ja":"ニドリーナ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0030-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidorina",
+    "pkmn_name":"Nidorina"
   },
   {
     "yakkuncom_id":"n31",
@@ -689,8 +689,8 @@
     "pokeapi_species_name_ja":"ニドクイン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0031-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidoqueen",
+    "pkmn_name":"Nidoqueen"
   },
   {
     "yakkuncom_id":"n32",
@@ -700,8 +700,8 @@
     "pokeapi_species_name_ja":"ニドラン♂",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0032-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidoranm",
+    "pkmn_name":"Nidoran-M"
   },
   {
     "yakkuncom_id":"n33",
@@ -711,8 +711,8 @@
     "pokeapi_species_name_ja":"ニドリーノ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0033-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidorino",
+    "pkmn_name":"Nidorino"
   },
   {
     "yakkuncom_id":"n34",
@@ -722,8 +722,8 @@
     "pokeapi_species_name_ja":"ニドキング",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0034-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nidoking",
+    "pkmn_name":"Nidoking"
   },
   {
     "yakkuncom_id":"n35",
@@ -821,8 +821,8 @@
     "pokeapi_species_name_ja":"ズバット",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0041-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zubat",
+    "pkmn_name":"Zubat"
   },
   {
     "yakkuncom_id":"n42",
@@ -832,8 +832,8 @@
     "pokeapi_species_name_ja":"ゴルバット",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0042-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"golbat",
+    "pkmn_name":"Golbat"
   },
   {
     "yakkuncom_id":"n43",
@@ -876,8 +876,8 @@
     "pokeapi_species_name_ja":"パラス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0046-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"paras",
+    "pkmn_name":"Paras"
   },
   {
     "yakkuncom_id":"n47",
@@ -887,8 +887,8 @@
     "pokeapi_species_name_ja":"パラセクト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0047-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"parasect",
+    "pkmn_name":"Parasect"
   },
   {
     "yakkuncom_id":"n48",
@@ -1151,8 +1151,8 @@
     "pokeapi_species_name_ja":"ケーシィ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0063-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"abra",
+    "pkmn_name":"Abra"
   },
   {
     "yakkuncom_id":"n64",
@@ -1162,8 +1162,8 @@
     "pokeapi_species_name_ja":"ユンゲラー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0064-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kadabra",
+    "pkmn_name":"Kadabra"
   },
   {
     "yakkuncom_id":"n65",
@@ -1173,8 +1173,8 @@
     "pokeapi_species_name_ja":"フーディン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0065-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"alakazam",
+    "pkmn_name":"Alakazam"
   },
   {
     "yakkuncom_id":"n65m",
@@ -1184,8 +1184,8 @@
     "pokeapi_species_name_ja":"フーディン",
     "pokeapi_form_name_ja":"メガフーディン",
     "pokedbtokyo_id":"0065-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"alakazammega",
+    "pkmn_name":"Alakazam-Mega"
   },
   {
     "yakkuncom_id":"n66",
@@ -1195,8 +1195,8 @@
     "pokeapi_species_name_ja":"ワンリキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0066-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"machop",
+    "pkmn_name":"Machop"
   },
   {
     "yakkuncom_id":"n67",
@@ -1206,8 +1206,8 @@
     "pokeapi_species_name_ja":"ゴーリキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0067-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"machoke",
+    "pkmn_name":"Machoke"
   },
   {
     "yakkuncom_id":"n68",
@@ -1217,8 +1217,8 @@
     "pokeapi_species_name_ja":"カイリキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0068-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"machamp",
+    "pkmn_name":"Machamp"
   },
   {
     "yakkuncom_id":null,
@@ -1360,8 +1360,8 @@
     "pokeapi_species_name_ja":"ポニータ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0077-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ponyta",
+    "pkmn_name":"Ponyta"
   },
   {
     "yakkuncom_id":"n77g",
@@ -1371,8 +1371,8 @@
     "pokeapi_species_name_ja":"ポニータ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0077-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ponytagalar",
+    "pkmn_name":"Ponyta-Galar"
   },
   {
     "yakkuncom_id":"n78",
@@ -1382,8 +1382,8 @@
     "pokeapi_species_name_ja":"ギャロップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0078-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rapidash",
+    "pkmn_name":"Rapidash"
   },
   {
     "yakkuncom_id":"n78g",
@@ -1393,8 +1393,8 @@
     "pokeapi_species_name_ja":"ギャロップ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0078-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rapidashgalar",
+    "pkmn_name":"Rapidash-Galar"
   },
   {
     "yakkuncom_id":"n79",
@@ -1448,8 +1448,8 @@
     "pokeapi_species_name_ja":"ヤドラン",
     "pokeapi_form_name_ja":"メガヤドラン",
     "pokedbtokyo_id":"0080-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"slowbromega",
+    "pkmn_name":"Slowbro-Mega"
   },
   {
     "yakkuncom_id":"n81",
@@ -1481,8 +1481,8 @@
     "pokeapi_species_name_ja":"カモネギ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0083-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"farfetchd",
+    "pkmn_name":"Farfetch’d"
   },
   {
     "yakkuncom_id":"n83g",
@@ -1492,8 +1492,8 @@
     "pokeapi_species_name_ja":"カモネギ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0083-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"farfetchdgalar",
+    "pkmn_name":"Farfetch’d-Galar"
   },
   {
     "yakkuncom_id":"n84",
@@ -1657,8 +1657,8 @@
     "pokeapi_species_name_ja":"ゲンガー",
     "pokeapi_form_name_ja":"メガゲンガー",
     "pokedbtokyo_id":"0094-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gengarmega",
+    "pkmn_name":"Gengar-Mega"
   },
   {
     "yakkuncom_id":"n95",
@@ -1668,8 +1668,8 @@
     "pokeapi_species_name_ja":"イワーク",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0095-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"onix",
+    "pkmn_name":"Onix"
   },
   {
     "yakkuncom_id":"n96",
@@ -1701,8 +1701,8 @@
     "pokeapi_species_name_ja":"クラブ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0098-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"krabby",
+    "pkmn_name":"Krabby"
   },
   {
     "yakkuncom_id":"n99",
@@ -1712,8 +1712,8 @@
     "pokeapi_species_name_ja":"キングラー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0099-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kingler",
+    "pkmn_name":"Kingler"
   },
   {
     "yakkuncom_id":null,
@@ -1811,8 +1811,8 @@
     "pokeapi_species_name_ja":"カラカラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0104-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cubone",
+    "pkmn_name":"Cubone"
   },
   {
     "yakkuncom_id":"n105",
@@ -1822,8 +1822,8 @@
     "pokeapi_species_name_ja":"ガラガラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0105-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"marowak",
+    "pkmn_name":"Marowak"
   },
   {
     "yakkuncom_id":null,
@@ -1833,8 +1833,8 @@
     "pokeapi_species_name_ja":"ガラガラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"marowak",
+    "pkmn_name":"Marowak"
   },
   {
     "yakkuncom_id":"n105a",
@@ -1844,8 +1844,8 @@
     "pokeapi_species_name_ja":"ガラガラ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0105-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"marowakalola",
+    "pkmn_name":"Marowak-Alola"
   },
   {
     "yakkuncom_id":"n106",
@@ -1877,8 +1877,8 @@
     "pokeapi_species_name_ja":"ベロリンガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0108-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lickitung",
+    "pkmn_name":"Lickitung"
   },
   {
     "yakkuncom_id":"n109",
@@ -1954,8 +1954,8 @@
     "pokeapi_species_name_ja":"モンジャラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0114-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tangela",
+    "pkmn_name":"Tangela"
   },
   {
     "yakkuncom_id":"n115",
@@ -1965,8 +1965,8 @@
     "pokeapi_species_name_ja":"ガルーラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0115-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kangaskhan",
+    "pkmn_name":"Kangaskhan"
   },
   {
     "yakkuncom_id":"n115m",
@@ -1976,8 +1976,8 @@
     "pokeapi_species_name_ja":"ガルーラ",
     "pokeapi_form_name_ja":"メガガルーラ",
     "pokedbtokyo_id":"0115-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kangaskhanmega",
+    "pkmn_name":"Kangaskhan-Mega"
   },
   {
     "yakkuncom_id":"n116",
@@ -2009,8 +2009,8 @@
     "pokeapi_species_name_ja":"トサキント",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0118-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"goldeen",
+    "pkmn_name":"Goldeen"
   },
   {
     "yakkuncom_id":"n119",
@@ -2020,8 +2020,8 @@
     "pokeapi_species_name_ja":"アズマオウ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0119-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"seaking",
+    "pkmn_name":"Seaking"
   },
   {
     "yakkuncom_id":"n120",
@@ -2031,8 +2031,8 @@
     "pokeapi_species_name_ja":"ヒトデマン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0120-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"staryu",
+    "pkmn_name":"Staryu"
   },
   {
     "yakkuncom_id":"n121",
@@ -2042,8 +2042,8 @@
     "pokeapi_species_name_ja":"スターミー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0121-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"starmie",
+    "pkmn_name":"Starmie"
   },
   {
     "yakkuncom_id":"n122",
@@ -2053,8 +2053,8 @@
     "pokeapi_species_name_ja":"バリヤード",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0122-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mrmime",
+    "pkmn_name":"Mr. Mime"
   },
   {
     "yakkuncom_id":"n122g",
@@ -2064,8 +2064,8 @@
     "pokeapi_species_name_ja":"バリヤード",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0122-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mrmimegalar",
+    "pkmn_name":"Mr. Mime-Galar"
   },
   {
     "yakkuncom_id":"n123",
@@ -2086,8 +2086,8 @@
     "pokeapi_species_name_ja":"ルージュラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0124-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"jynx",
+    "pkmn_name":"Jynx"
   },
   {
     "yakkuncom_id":"n125",
@@ -2119,8 +2119,8 @@
     "pokeapi_species_name_ja":"カイロス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0127-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pinsir",
+    "pkmn_name":"Pinsir"
   },
   {
     "yakkuncom_id":"n127m",
@@ -2130,8 +2130,8 @@
     "pokeapi_species_name_ja":"カイロス",
     "pokeapi_form_name_ja":"メガカイロス",
     "pokedbtokyo_id":"0127-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pinsirmega",
+    "pkmn_name":"Pinsir-Mega"
   },
   {
     "yakkuncom_id":"n128",
@@ -2207,8 +2207,8 @@
     "pokeapi_species_name_ja":"ギャラドス",
     "pokeapi_form_name_ja":"メガギャラドス",
     "pokedbtokyo_id":"0130-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gyaradosmega",
+    "pkmn_name":"Gyarados-Mega"
   },
   {
     "yakkuncom_id":"n131",
@@ -2328,8 +2328,8 @@
     "pokeapi_species_name_ja":"オムナイト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0138-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"omanyte",
+    "pkmn_name":"Omanyte"
   },
   {
     "yakkuncom_id":"n139",
@@ -2339,8 +2339,8 @@
     "pokeapi_species_name_ja":"オムスター",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0139-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"omastar",
+    "pkmn_name":"Omastar"
   },
   {
     "yakkuncom_id":"n140",
@@ -2350,8 +2350,8 @@
     "pokeapi_species_name_ja":"カブト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0140-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kabuto",
+    "pkmn_name":"Kabuto"
   },
   {
     "yakkuncom_id":"n141",
@@ -2361,8 +2361,8 @@
     "pokeapi_species_name_ja":"カブトプス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0141-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kabutops",
+    "pkmn_name":"Kabutops"
   },
   {
     "yakkuncom_id":"n142",
@@ -2372,8 +2372,8 @@
     "pokeapi_species_name_ja":"プテラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0142-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aerodactyl",
+    "pkmn_name":"Aerodactyl"
   },
   {
     "yakkuncom_id":"n142m",
@@ -2383,8 +2383,8 @@
     "pokeapi_species_name_ja":"プテラ",
     "pokeapi_form_name_ja":"メガプテラ",
     "pokedbtokyo_id":"0142-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aerodactylmega",
+    "pkmn_name":"Aerodactyl-Mega"
   },
   {
     "yakkuncom_id":"n143",
@@ -2526,8 +2526,8 @@
     "pokeapi_species_name_ja":"ミュウツー",
     "pokeapi_form_name_ja":"メガミュウツーＸ",
     "pokedbtokyo_id":"0150-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mewtwomegax",
+    "pkmn_name":"Mewtwo-Mega-X"
   },
   {
     "yakkuncom_id":"n150y",
@@ -2537,8 +2537,8 @@
     "pokeapi_species_name_ja":"ミュウツー",
     "pokeapi_form_name_ja":"メガミュウツーＹ",
     "pokedbtokyo_id":"0150-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mewtwomegay",
+    "pkmn_name":"Mewtwo-Mega-Y"
   },
   {
     "yakkuncom_id":"n151",
@@ -2713,8 +2713,8 @@
     "pokeapi_species_name_ja":"レディバ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0165-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ledyba",
+    "pkmn_name":"Ledyba"
   },
   {
     "yakkuncom_id":"n166",
@@ -2724,8 +2724,8 @@
     "pokeapi_species_name_ja":"レディアン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0166-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ledian",
+    "pkmn_name":"Ledian"
   },
   {
     "yakkuncom_id":"n167",
@@ -2757,8 +2757,8 @@
     "pokeapi_species_name_ja":"クロバット",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0169-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"crobat",
+    "pkmn_name":"Crobat"
   },
   {
     "yakkuncom_id":"n170",
@@ -2823,8 +2823,8 @@
     "pokeapi_species_name_ja":"トゲピー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0175-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"togepi",
+    "pkmn_name":"Togepi"
   },
   {
     "yakkuncom_id":"n176",
@@ -2834,8 +2834,8 @@
     "pokeapi_species_name_ja":"トゲチック",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0176-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"togetic",
+    "pkmn_name":"Togetic"
   },
   {
     "yakkuncom_id":"n177",
@@ -2845,8 +2845,8 @@
     "pokeapi_species_name_ja":"ネイティ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0177-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"natu",
+    "pkmn_name":"Natu"
   },
   {
     "yakkuncom_id":"n178",
@@ -2856,8 +2856,8 @@
     "pokeapi_species_name_ja":"ネイティオ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0178-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"xatu",
+    "pkmn_name":"Xatu"
   },
   {
     "yakkuncom_id":"n179",
@@ -2900,8 +2900,8 @@
     "pokeapi_species_name_ja":"デンリュウ",
     "pokeapi_form_name_ja":"メガデンリュウ",
     "pokedbtokyo_id":"0181-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ampharosmega",
+    "pkmn_name":"Ampharos-Mega"
   },
   {
     "yakkuncom_id":"n182",
@@ -3142,8 +3142,8 @@
     "pokeapi_species_name_ja":"アンノーン",
     "pokeapi_form_name_ja":"Ａ",
     "pokedbtokyo_id":"0201-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"unown",
+    "pkmn_name":"Unown"
   },
   {
     "yakkuncom_id":"n202",
@@ -3153,8 +3153,8 @@
     "pokeapi_species_name_ja":"ソーナンス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0202-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wobbuffet",
+    "pkmn_name":"Wobbuffet"
   },
   {
     "yakkuncom_id":"n203",
@@ -3219,8 +3219,8 @@
     "pokeapi_species_name_ja":"ハガネール",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0208-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"steelix",
+    "pkmn_name":"Steelix"
   },
   {
     "yakkuncom_id":"n208m",
@@ -3230,8 +3230,8 @@
     "pokeapi_species_name_ja":"ハガネール",
     "pokeapi_form_name_ja":"メガハガネール",
     "pokedbtokyo_id":"0208-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"steelixmega",
+    "pkmn_name":"Steelix-Mega"
   },
   {
     "yakkuncom_id":"n209",
@@ -3296,8 +3296,8 @@
     "pokeapi_species_name_ja":"ハッサム",
     "pokeapi_form_name_ja":"メガハッサム",
     "pokedbtokyo_id":"0212-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"scizormega",
+    "pkmn_name":"Scizor-Mega"
   },
   {
     "yakkuncom_id":"n213",
@@ -3307,8 +3307,8 @@
     "pokeapi_species_name_ja":"ツボツボ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0213-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"shuckle",
+    "pkmn_name":"Shuckle"
   },
   {
     "yakkuncom_id":"n214",
@@ -3329,8 +3329,8 @@
     "pokeapi_species_name_ja":"ヘラクロス",
     "pokeapi_form_name_ja":"メガヘラクロス",
     "pokedbtokyo_id":"0214-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"heracrossmega",
+    "pkmn_name":"Heracross-Mega"
   },
   {
     "yakkuncom_id":"n215",
@@ -3428,8 +3428,8 @@
     "pokeapi_species_name_ja":"サニーゴ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0222-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"corsola",
+    "pkmn_name":"Corsola"
   },
   {
     "yakkuncom_id":"n222g",
@@ -3439,8 +3439,8 @@
     "pokeapi_species_name_ja":"サニーゴ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0222-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"corsolagalar",
+    "pkmn_name":"Corsola-Galar"
   },
   {
     "yakkuncom_id":"n223",
@@ -3450,8 +3450,8 @@
     "pokeapi_species_name_ja":"テッポウオ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0223-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"remoraid",
+    "pkmn_name":"Remoraid"
   },
   {
     "yakkuncom_id":"n224",
@@ -3461,8 +3461,8 @@
     "pokeapi_species_name_ja":"オクタン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0224-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"octillery",
+    "pkmn_name":"Octillery"
   },
   {
     "yakkuncom_id":"n225",
@@ -3483,8 +3483,8 @@
     "pokeapi_species_name_ja":"マンタイン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0226-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mantine",
+    "pkmn_name":"Mantine"
   },
   {
     "yakkuncom_id":"n227",
@@ -3527,8 +3527,8 @@
     "pokeapi_species_name_ja":"ヘルガー",
     "pokeapi_form_name_ja":"メガヘルガー",
     "pokedbtokyo_id":"0229-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"houndoommega",
+    "pkmn_name":"Houndoom-Mega"
   },
   {
     "yakkuncom_id":"n230",
@@ -3626,8 +3626,8 @@
     "pokeapi_species_name_ja":"ムチュール",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0238-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"smoochum",
+    "pkmn_name":"Smoochum"
   },
   {
     "yakkuncom_id":"n239",
@@ -3659,8 +3659,8 @@
     "pokeapi_species_name_ja":"ミルタンク",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0241-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"miltank",
+    "pkmn_name":"Miltank"
   },
   {
     "yakkuncom_id":"n242",
@@ -3747,8 +3747,8 @@
     "pokeapi_species_name_ja":"バンギラス",
     "pokeapi_form_name_ja":"メガバンギラス",
     "pokedbtokyo_id":"0248-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tyranitarmega",
+    "pkmn_name":"Tyranitar-Mega"
   },
   {
     "yakkuncom_id":"n249",
@@ -3780,8 +3780,8 @@
     "pokeapi_species_name_ja":"セレビィ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0251-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"celebi",
+    "pkmn_name":"Celebi"
   },
   {
     "yakkuncom_id":"n252",
@@ -3824,8 +3824,8 @@
     "pokeapi_species_name_ja":"ジュカイン",
     "pokeapi_form_name_ja":"メガジュカイン",
     "pokedbtokyo_id":"0254-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sceptilemega",
+    "pkmn_name":"Sceptile-Mega"
   },
   {
     "yakkuncom_id":"n255",
@@ -3868,8 +3868,8 @@
     "pokeapi_species_name_ja":"バシャーモ",
     "pokeapi_form_name_ja":"メガバシャーモ",
     "pokedbtokyo_id":"0257-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"blazikenmega",
+    "pkmn_name":"Blaziken-Mega"
   },
   {
     "yakkuncom_id":"n258",
@@ -3912,8 +3912,8 @@
     "pokeapi_species_name_ja":"ラグラージ",
     "pokeapi_form_name_ja":"メガラグラージ",
     "pokedbtokyo_id":"0260-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"swampertmega",
+    "pkmn_name":"Swampert-Mega"
   },
   {
     "yakkuncom_id":"n261",
@@ -3945,8 +3945,8 @@
     "pokeapi_species_name_ja":"ジグザグマ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0263-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zigzagoon",
+    "pkmn_name":"Zigzagoon"
   },
   {
     "yakkuncom_id":"n263g",
@@ -3956,8 +3956,8 @@
     "pokeapi_species_name_ja":"ジグザグマ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0263-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zigzagoongalar",
+    "pkmn_name":"Zigzagoon-Galar"
   },
   {
     "yakkuncom_id":"n264",
@@ -3967,8 +3967,8 @@
     "pokeapi_species_name_ja":"マッスグマ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0264-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"linoone",
+    "pkmn_name":"Linoone"
   },
   {
     "yakkuncom_id":"n264g",
@@ -3978,8 +3978,8 @@
     "pokeapi_species_name_ja":"マッスグマ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0264-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"linoonegalar",
+    "pkmn_name":"Linoone-Galar"
   },
   {
     "yakkuncom_id":"n265",
@@ -3989,8 +3989,8 @@
     "pokeapi_species_name_ja":"ケムッソ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0265-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wurmple",
+    "pkmn_name":"Wurmple"
   },
   {
     "yakkuncom_id":"n266",
@@ -4000,8 +4000,8 @@
     "pokeapi_species_name_ja":"カラサリス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0266-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"silcoon",
+    "pkmn_name":"Silcoon"
   },
   {
     "yakkuncom_id":"n267",
@@ -4011,8 +4011,8 @@
     "pokeapi_species_name_ja":"アゲハント",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0267-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"beautifly",
+    "pkmn_name":"Beautifly"
   },
   {
     "yakkuncom_id":"n268",
@@ -4022,8 +4022,8 @@
     "pokeapi_species_name_ja":"マユルド",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0268-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cascoon",
+    "pkmn_name":"Cascoon"
   },
   {
     "yakkuncom_id":"n269",
@@ -4033,8 +4033,8 @@
     "pokeapi_species_name_ja":"ドクケイル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0269-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dustox",
+    "pkmn_name":"Dustox"
   },
   {
     "yakkuncom_id":"n270",
@@ -4110,8 +4110,8 @@
     "pokeapi_species_name_ja":"スバメ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0276-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"taillow",
+    "pkmn_name":"Taillow"
   },
   {
     "yakkuncom_id":"n277",
@@ -4121,8 +4121,8 @@
     "pokeapi_species_name_ja":"オオスバメ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0277-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"swellow",
+    "pkmn_name":"Swellow"
   },
   {
     "yakkuncom_id":"n278",
@@ -4187,8 +4187,8 @@
     "pokeapi_species_name_ja":"サーナイト",
     "pokeapi_form_name_ja":"メガサーナイト",
     "pokedbtokyo_id":"0282-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gardevoirmega",
+    "pkmn_name":"Gardevoir-Mega"
   },
   {
     "yakkuncom_id":"n283",
@@ -4275,8 +4275,8 @@
     "pokeapi_species_name_ja":"ツチニン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0290-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nincada",
+    "pkmn_name":"Nincada"
   },
   {
     "yakkuncom_id":"n291",
@@ -4286,8 +4286,8 @@
     "pokeapi_species_name_ja":"テッカニン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0291-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ninjask",
+    "pkmn_name":"Ninjask"
   },
   {
     "yakkuncom_id":"n292",
@@ -4297,8 +4297,8 @@
     "pokeapi_species_name_ja":"ヌケニン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0292-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"shedinja",
+    "pkmn_name":"Shedinja"
   },
   {
     "yakkuncom_id":"n293",
@@ -4308,8 +4308,8 @@
     "pokeapi_species_name_ja":"ゴニョニョ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0293-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"whismur",
+    "pkmn_name":"Whismur"
   },
   {
     "yakkuncom_id":"n294",
@@ -4319,8 +4319,8 @@
     "pokeapi_species_name_ja":"ドゴーム",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0294-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"loudred",
+    "pkmn_name":"Loudred"
   },
   {
     "yakkuncom_id":"n295",
@@ -4330,8 +4330,8 @@
     "pokeapi_species_name_ja":"バクオング",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0295-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"exploud",
+    "pkmn_name":"Exploud"
   },
   {
     "yakkuncom_id":"n296",
@@ -4385,8 +4385,8 @@
     "pokeapi_species_name_ja":"エネコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0300-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"skitty",
+    "pkmn_name":"Skitty"
   },
   {
     "yakkuncom_id":"n301",
@@ -4396,8 +4396,8 @@
     "pokeapi_species_name_ja":"エネコロロ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0301-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"delcatty",
+    "pkmn_name":"Delcatty"
   },
   {
     "yakkuncom_id":"n302",
@@ -4418,8 +4418,8 @@
     "pokeapi_species_name_ja":"ヤミラミ",
     "pokeapi_form_name_ja":"メガヤミラミ",
     "pokedbtokyo_id":"0302-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sableyemega",
+    "pkmn_name":"Sableye-Mega"
   },
   {
     "yakkuncom_id":"n303",
@@ -4429,8 +4429,8 @@
     "pokeapi_species_name_ja":"クチート",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0303-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mawile",
+    "pkmn_name":"Mawile"
   },
   {
     "yakkuncom_id":"n303m",
@@ -4440,8 +4440,8 @@
     "pokeapi_species_name_ja":"クチート",
     "pokeapi_form_name_ja":"メガクチート",
     "pokedbtokyo_id":"0303-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mawilemega",
+    "pkmn_name":"Mawile-Mega"
   },
   {
     "yakkuncom_id":"n304",
@@ -4451,8 +4451,8 @@
     "pokeapi_species_name_ja":"ココドラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0304-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aron",
+    "pkmn_name":"Aron"
   },
   {
     "yakkuncom_id":"n305",
@@ -4462,8 +4462,8 @@
     "pokeapi_species_name_ja":"コドラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0305-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lairon",
+    "pkmn_name":"Lairon"
   },
   {
     "yakkuncom_id":"n306",
@@ -4473,8 +4473,8 @@
     "pokeapi_species_name_ja":"ボスゴドラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0306-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aggron",
+    "pkmn_name":"Aggron"
   },
   {
     "yakkuncom_id":"n306m",
@@ -4484,8 +4484,8 @@
     "pokeapi_species_name_ja":"ボスゴドラ",
     "pokeapi_form_name_ja":"メガボスゴドラ",
     "pokedbtokyo_id":"0306-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aggronmega",
+    "pkmn_name":"Aggron-Mega"
   },
   {
     "yakkuncom_id":"n307",
@@ -4517,8 +4517,8 @@
     "pokeapi_species_name_ja":"チャーレム",
     "pokeapi_form_name_ja":"メガチャーレム",
     "pokedbtokyo_id":"0308-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"medichammega",
+    "pkmn_name":"Medicham-Mega"
   },
   {
     "yakkuncom_id":"n309",
@@ -4528,8 +4528,8 @@
     "pokeapi_species_name_ja":"ラクライ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0309-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"electrike",
+    "pkmn_name":"Electrike"
   },
   {
     "yakkuncom_id":"n310",
@@ -4539,8 +4539,8 @@
     "pokeapi_species_name_ja":"ライボルト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0310-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"manectric",
+    "pkmn_name":"Manectric"
   },
   {
     "yakkuncom_id":"n310m",
@@ -4550,8 +4550,8 @@
     "pokeapi_species_name_ja":"ライボルト",
     "pokeapi_form_name_ja":"メガライボルト",
     "pokedbtokyo_id":"0310-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"manectricmega",
+    "pkmn_name":"Manectric-Mega"
   },
   {
     "yakkuncom_id":"n311",
@@ -4605,8 +4605,8 @@
     "pokeapi_species_name_ja":"ロゼリア",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0315-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"roselia",
+    "pkmn_name":"Roselia"
   },
   {
     "yakkuncom_id":"n316",
@@ -4638,8 +4638,8 @@
     "pokeapi_species_name_ja":"キバニア",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0318-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"carvanha",
+    "pkmn_name":"Carvanha"
   },
   {
     "yakkuncom_id":"n319",
@@ -4649,8 +4649,8 @@
     "pokeapi_species_name_ja":"サメハダー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0319-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sharpedo",
+    "pkmn_name":"Sharpedo"
   },
   {
     "yakkuncom_id":"n319m",
@@ -4660,8 +4660,8 @@
     "pokeapi_species_name_ja":"サメハダー",
     "pokeapi_form_name_ja":"メガサメハダー",
     "pokedbtokyo_id":"0319-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sharpedomega",
+    "pkmn_name":"Sharpedo-Mega"
   },
   {
     "yakkuncom_id":"n320",
@@ -4671,8 +4671,8 @@
     "pokeapi_species_name_ja":"ホエルコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0320-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wailmer",
+    "pkmn_name":"Wailmer"
   },
   {
     "yakkuncom_id":"n321",
@@ -4682,8 +4682,8 @@
     "pokeapi_species_name_ja":"ホエルオー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0321-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wailord",
+    "pkmn_name":"Wailord"
   },
   {
     "yakkuncom_id":"n322",
@@ -4715,8 +4715,8 @@
     "pokeapi_species_name_ja":"バクーダ",
     "pokeapi_form_name_ja":"メガバクーダ",
     "pokedbtokyo_id":"0323-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cameruptmega",
+    "pkmn_name":"Camerupt-Mega"
   },
   {
     "yakkuncom_id":"n324",
@@ -4759,8 +4759,8 @@
     "pokeapi_species_name_ja":"パッチール",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0327-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"spinda",
+    "pkmn_name":"Spinda"
   },
   {
     "yakkuncom_id":"n328",
@@ -4847,8 +4847,8 @@
     "pokeapi_species_name_ja":"チルタリス",
     "pokeapi_form_name_ja":"メガチルタリス",
     "pokedbtokyo_id":"0334-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"altariamega",
+    "pkmn_name":"Altaria-Mega"
   },
   {
     "yakkuncom_id":"n335",
@@ -4880,8 +4880,8 @@
     "pokeapi_species_name_ja":"ルナトーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0337-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lunatone",
+    "pkmn_name":"Lunatone"
   },
   {
     "yakkuncom_id":"n338",
@@ -4891,8 +4891,8 @@
     "pokeapi_species_name_ja":"ソルロック",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0338-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"solrock",
+    "pkmn_name":"Solrock"
   },
   {
     "yakkuncom_id":"n339",
@@ -4946,8 +4946,8 @@
     "pokeapi_species_name_ja":"ヤジロン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0343-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"baltoy",
+    "pkmn_name":"Baltoy"
   },
   {
     "yakkuncom_id":"n344",
@@ -4957,8 +4957,8 @@
     "pokeapi_species_name_ja":"ネンドール",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0344-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"claydol",
+    "pkmn_name":"Claydol"
   },
   {
     "yakkuncom_id":"n345",
@@ -4968,8 +4968,8 @@
     "pokeapi_species_name_ja":"リリーラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0345-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lileep",
+    "pkmn_name":"Lileep"
   },
   {
     "yakkuncom_id":"n346",
@@ -4979,8 +4979,8 @@
     "pokeapi_species_name_ja":"ユレイドル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0346-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cradily",
+    "pkmn_name":"Cradily"
   },
   {
     "yakkuncom_id":"n347",
@@ -4990,8 +4990,8 @@
     "pokeapi_species_name_ja":"アノプス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0347-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"anorith",
+    "pkmn_name":"Anorith"
   },
   {
     "yakkuncom_id":"n348",
@@ -5001,8 +5001,8 @@
     "pokeapi_species_name_ja":"アーマルド",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0348-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"armaldo",
+    "pkmn_name":"Armaldo"
   },
   {
     "yakkuncom_id":"n349",
@@ -5034,8 +5034,8 @@
     "pokeapi_species_name_ja":"ポワルン",
     "pokeapi_form_name_ja":"ポワルンのすがた",
     "pokedbtokyo_id":"0351-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"castform",
+    "pkmn_name":"Castform"
   },
   {
     "yakkuncom_id":null,
@@ -5045,8 +5045,8 @@
     "pokeapi_species_name_ja":"ポワルン",
     "pokeapi_form_name_ja":"あまみずのすがた",
     "pokedbtokyo_id":"0351-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"castformrainy",
+    "pkmn_name":"Castform-Rainy"
   },
   {
     "yakkuncom_id":null,
@@ -5056,8 +5056,8 @@
     "pokeapi_species_name_ja":"ポワルン",
     "pokeapi_form_name_ja":"ゆきぐものすがた",
     "pokedbtokyo_id":"0351-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"castformsnowy",
+    "pkmn_name":"Castform-Snowy"
   },
   {
     "yakkuncom_id":null,
@@ -5067,8 +5067,8 @@
     "pokeapi_species_name_ja":"ポワルン",
     "pokeapi_form_name_ja":"たいようのすがた",
     "pokedbtokyo_id":"0351-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"castformsunny",
+    "pkmn_name":"Castform-Sunny"
   },
   {
     "yakkuncom_id":"n352",
@@ -5078,8 +5078,8 @@
     "pokeapi_species_name_ja":"カクレオン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0352-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kecleon",
+    "pkmn_name":"Kecleon"
   },
   {
     "yakkuncom_id":"n353",
@@ -5111,8 +5111,8 @@
     "pokeapi_species_name_ja":"ジュペッタ",
     "pokeapi_form_name_ja":"メガジュペッタ",
     "pokedbtokyo_id":"0354-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"banettemega",
+    "pkmn_name":"Banette-Mega"
   },
   {
     "yakkuncom_id":"n355",
@@ -5166,8 +5166,8 @@
     "pokeapi_species_name_ja":"アブソル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0359-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"absol",
+    "pkmn_name":"Absol"
   },
   {
     "yakkuncom_id":"n359m",
@@ -5177,8 +5177,8 @@
     "pokeapi_species_name_ja":"アブソル",
     "pokeapi_form_name_ja":"メガアブソル",
     "pokedbtokyo_id":"0359-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"absolmega",
+    "pkmn_name":"Absol-Mega"
   },
   {
     "yakkuncom_id":"n360",
@@ -5188,8 +5188,8 @@
     "pokeapi_species_name_ja":"ソーナノ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0360-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wynaut",
+    "pkmn_name":"Wynaut"
   },
   {
     "yakkuncom_id":"n361",
@@ -5221,8 +5221,8 @@
     "pokeapi_species_name_ja":"オニゴーリ",
     "pokeapi_form_name_ja":"メガオニゴーリ",
     "pokedbtokyo_id":"0362-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"glaliemega",
+    "pkmn_name":"Glalie-Mega"
   },
   {
     "yakkuncom_id":"n363",
@@ -5232,8 +5232,8 @@
     "pokeapi_species_name_ja":"タマザラシ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0363-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"spheal",
+    "pkmn_name":"Spheal"
   },
   {
     "yakkuncom_id":"n364",
@@ -5243,8 +5243,8 @@
     "pokeapi_species_name_ja":"トドグラー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0364-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sealeo",
+    "pkmn_name":"Sealeo"
   },
   {
     "yakkuncom_id":"n365",
@@ -5254,8 +5254,8 @@
     "pokeapi_species_name_ja":"トドゼルガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0365-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"walrein",
+    "pkmn_name":"Walrein"
   },
   {
     "yakkuncom_id":"n366",
@@ -5265,8 +5265,8 @@
     "pokeapi_species_name_ja":"パールル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0366-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"clamperl",
+    "pkmn_name":"Clamperl"
   },
   {
     "yakkuncom_id":"n367",
@@ -5276,8 +5276,8 @@
     "pokeapi_species_name_ja":"ハンテール",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0367-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"huntail",
+    "pkmn_name":"Huntail"
   },
   {
     "yakkuncom_id":"n368",
@@ -5287,8 +5287,8 @@
     "pokeapi_species_name_ja":"サクラビス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0368-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gorebyss",
+    "pkmn_name":"Gorebyss"
   },
   {
     "yakkuncom_id":"n369",
@@ -5298,8 +5298,8 @@
     "pokeapi_species_name_ja":"ジーランス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0369-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"relicanth",
+    "pkmn_name":"Relicanth"
   },
   {
     "yakkuncom_id":"n370",
@@ -5353,8 +5353,8 @@
     "pokeapi_species_name_ja":"ボーマンダ",
     "pokeapi_form_name_ja":"メガボーマンダ",
     "pokedbtokyo_id":"0373-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"salamencemega",
+    "pkmn_name":"Salamence-Mega"
   },
   {
     "yakkuncom_id":"n374",
@@ -5397,8 +5397,8 @@
     "pokeapi_species_name_ja":"メタグロス",
     "pokeapi_form_name_ja":"メガメタグロス",
     "pokedbtokyo_id":"0376-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"metagrossmega",
+    "pkmn_name":"Metagross-Mega"
   },
   {
     "yakkuncom_id":"n377",
@@ -5452,8 +5452,8 @@
     "pokeapi_species_name_ja":"ラティアス",
     "pokeapi_form_name_ja":"メガラティアス",
     "pokedbtokyo_id":"0380-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"latiasmega",
+    "pkmn_name":"Latias-Mega"
   },
   {
     "yakkuncom_id":"n381",
@@ -5474,8 +5474,8 @@
     "pokeapi_species_name_ja":"ラティオス",
     "pokeapi_form_name_ja":"メガラティオス",
     "pokedbtokyo_id":"0381-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"latiosmega",
+    "pkmn_name":"Latios-Mega"
   },
   {
     "yakkuncom_id":"n382",
@@ -5496,8 +5496,8 @@
     "pokeapi_species_name_ja":"カイオーガ",
     "pokeapi_form_name_ja":"ゲンシカイキのすがた",
     "pokedbtokyo_id":"0382-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kyogreprimal",
+    "pkmn_name":"Kyogre-Primal"
   },
   {
     "yakkuncom_id":"n383",
@@ -5518,8 +5518,8 @@
     "pokeapi_species_name_ja":"グラードン",
     "pokeapi_form_name_ja":"ゲンシカイキのすがた",
     "pokedbtokyo_id":"0383-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"groudonprimal",
+    "pkmn_name":"Groudon-Primal"
   },
   {
     "yakkuncom_id":"n384",
@@ -5540,8 +5540,8 @@
     "pokeapi_species_name_ja":"レックウザ",
     "pokeapi_form_name_ja":"メガレックウザ",
     "pokedbtokyo_id":"0384-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rayquazamega",
+    "pkmn_name":"Rayquaza-Mega"
   },
   {
     "yakkuncom_id":"n385",
@@ -5738,8 +5738,8 @@
     "pokeapi_species_name_ja":"ビッパ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0399-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"bidoof",
+    "pkmn_name":"Bidoof"
   },
   {
     "yakkuncom_id":"n400",
@@ -5749,8 +5749,8 @@
     "pokeapi_species_name_ja":"ビーダル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0400-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"bibarel",
+    "pkmn_name":"Bibarel"
   },
   {
     "yakkuncom_id":"n401",
@@ -5815,8 +5815,8 @@
     "pokeapi_species_name_ja":"スボミー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0406-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"budew",
+    "pkmn_name":"Budew"
   },
   {
     "yakkuncom_id":"n407",
@@ -5826,8 +5826,8 @@
     "pokeapi_species_name_ja":"ロズレイド",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0407-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"roserade",
+    "pkmn_name":"Roserade"
   },
   {
     "yakkuncom_id":"n408",
@@ -5881,8 +5881,8 @@
     "pokeapi_species_name_ja":"ミノムッチ",
     "pokeapi_form_name_ja":"くさきのミノ",
     "pokedbtokyo_id":"0412-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"burmy",
+    "pkmn_name":"Burmy"
   },
   {
     "yakkuncom_id":"n413",
@@ -5892,8 +5892,8 @@
     "pokeapi_species_name_ja":"ミノマダム",
     "pokeapi_form_name_ja":"くさきのミノ",
     "pokedbtokyo_id":"0413-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wormadamplant",
+    "pkmn_name":"Wormadam"
   },
   {
     "yakkuncom_id":"n413s",
@@ -5903,8 +5903,8 @@
     "pokeapi_species_name_ja":"ミノマダム",
     "pokeapi_form_name_ja":"すなちのミノ",
     "pokedbtokyo_id":"0413-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wormadamsandy",
+    "pkmn_name":"Wormadam-Sandy"
   },
   {
     "yakkuncom_id":"n413d",
@@ -5914,8 +5914,8 @@
     "pokeapi_species_name_ja":"ミノマダム",
     "pokeapi_form_name_ja":"ゴミのミノ",
     "pokedbtokyo_id":"0413-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wormadamtrash",
+    "pkmn_name":"Wormadam-Trash"
   },
   {
     "yakkuncom_id":"n414",
@@ -5925,8 +5925,8 @@
     "pokeapi_species_name_ja":"ガーメイル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0414-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mothim",
+    "pkmn_name":"Mothim"
   },
   {
     "yakkuncom_id":"n415",
@@ -5991,8 +5991,8 @@
     "pokeapi_species_name_ja":"チェリンボ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0420-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cherubi",
+    "pkmn_name":"Cherubi"
   },
   {
     "yakkuncom_id":"n421",
@@ -6002,8 +6002,8 @@
     "pokeapi_species_name_ja":"チェリム",
     "pokeapi_form_name_ja":"ネガフォルム",
     "pokedbtokyo_id":"0421-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cherrim",
+    "pkmn_name":"Cherrim"
   },
   {
     "yakkuncom_id":"n422",
@@ -6068,8 +6068,8 @@
     "pokeapi_species_name_ja":"ミミロル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0427-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"buneary",
+    "pkmn_name":"Buneary"
   },
   {
     "yakkuncom_id":"n428",
@@ -6079,8 +6079,8 @@
     "pokeapi_species_name_ja":"ミミロップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0428-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lopunny",
+    "pkmn_name":"Lopunny"
   },
   {
     "yakkuncom_id":"n428m",
@@ -6090,8 +6090,8 @@
     "pokeapi_species_name_ja":"ミミロップ",
     "pokeapi_form_name_ja":"メガミミロップ",
     "pokedbtokyo_id":"0428-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lopunnymega",
+    "pkmn_name":"Lopunny-Mega"
   },
   {
     "yakkuncom_id":"n429",
@@ -6123,8 +6123,8 @@
     "pokeapi_species_name_ja":"ニャルマー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0431-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"glameow",
+    "pkmn_name":"Glameow"
   },
   {
     "yakkuncom_id":"n432",
@@ -6134,8 +6134,8 @@
     "pokeapi_species_name_ja":"ブニャット",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0432-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"purugly",
+    "pkmn_name":"Purugly"
   },
   {
     "yakkuncom_id":"n433",
@@ -6211,8 +6211,8 @@
     "pokeapi_species_name_ja":"マネネ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0439-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mimejr",
+    "pkmn_name":"Mime Jr."
   },
   {
     "yakkuncom_id":"n440",
@@ -6233,8 +6233,8 @@
     "pokeapi_species_name_ja":"ペラップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0441-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"chatot",
+    "pkmn_name":"Chatot"
   },
   {
     "yakkuncom_id":"n442",
@@ -6288,8 +6288,8 @@
     "pokeapi_species_name_ja":"ガブリアス",
     "pokeapi_form_name_ja":"メガガブリアス",
     "pokedbtokyo_id":"0445-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"garchompmega",
+    "pkmn_name":"Garchomp-Mega"
   },
   {
     "yakkuncom_id":"n446",
@@ -6332,8 +6332,8 @@
     "pokeapi_species_name_ja":"ルカリオ",
     "pokeapi_form_name_ja":"メガルカリオ",
     "pokedbtokyo_id":"0448-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lucariomega",
+    "pkmn_name":"Lucario-Mega"
   },
   {
     "yakkuncom_id":"n449",
@@ -6365,8 +6365,8 @@
     "pokeapi_species_name_ja":"スコルピ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0451-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"skorupi",
+    "pkmn_name":"Skorupi"
   },
   {
     "yakkuncom_id":"n452",
@@ -6376,8 +6376,8 @@
     "pokeapi_species_name_ja":"ドラピオン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0452-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"drapion",
+    "pkmn_name":"Drapion"
   },
   {
     "yakkuncom_id":"n453",
@@ -6409,8 +6409,8 @@
     "pokeapi_species_name_ja":"マスキッパ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0455-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"carnivine",
+    "pkmn_name":"Carnivine"
   },
   {
     "yakkuncom_id":"n456",
@@ -6442,8 +6442,8 @@
     "pokeapi_species_name_ja":"タマンタ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0458-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mantyke",
+    "pkmn_name":"Mantyke"
   },
   {
     "yakkuncom_id":"n459",
@@ -6475,8 +6475,8 @@
     "pokeapi_species_name_ja":"ユキノオー",
     "pokeapi_form_name_ja":"メガユキノオー",
     "pokedbtokyo_id":"0460-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"abomasnowmega",
+    "pkmn_name":"Abomasnow-Mega"
   },
   {
     "yakkuncom_id":"n461",
@@ -6508,8 +6508,8 @@
     "pokeapi_species_name_ja":"ベロベルト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0463-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lickilicky",
+    "pkmn_name":"Lickilicky"
   },
   {
     "yakkuncom_id":"n464",
@@ -6530,8 +6530,8 @@
     "pokeapi_species_name_ja":"モジャンボ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0465-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tangrowth",
+    "pkmn_name":"Tangrowth"
   },
   {
     "yakkuncom_id":"n466",
@@ -6563,8 +6563,8 @@
     "pokeapi_species_name_ja":"トゲキッス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0468-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"togekiss",
+    "pkmn_name":"Togekiss"
   },
   {
     "yakkuncom_id":"n469",
@@ -6651,8 +6651,8 @@
     "pokeapi_species_name_ja":"エルレイド",
     "pokeapi_form_name_ja":"メガエルレイド",
     "pokedbtokyo_id":"0475-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gallademega",
+    "pkmn_name":"Gallade-Mega"
   },
   {
     "yakkuncom_id":"n476",
@@ -6959,8 +6959,8 @@
     "pokeapi_species_name_ja":"ビクティニ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0494-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"victini",
+    "pkmn_name":"Victini"
   },
   {
     "yakkuncom_id":"n495",
@@ -7080,8 +7080,8 @@
     "pokeapi_species_name_ja":"ミネズミ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0504-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"patrat",
+    "pkmn_name":"Patrat"
   },
   {
     "yakkuncom_id":"n505",
@@ -7091,8 +7091,8 @@
     "pokeapi_species_name_ja":"ミルホッグ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0505-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"watchog",
+    "pkmn_name":"Watchog"
   },
   {
     "yakkuncom_id":"n506",
@@ -7102,8 +7102,8 @@
     "pokeapi_species_name_ja":"ヨーテリー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0506-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lillipup",
+    "pkmn_name":"Lillipup"
   },
   {
     "yakkuncom_id":"n507",
@@ -7113,8 +7113,8 @@
     "pokeapi_species_name_ja":"ハーデリア",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0507-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"herdier",
+    "pkmn_name":"Herdier"
   },
   {
     "yakkuncom_id":"n508",
@@ -7124,8 +7124,8 @@
     "pokeapi_species_name_ja":"ムーランド",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0508-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"stoutland",
+    "pkmn_name":"Stoutland"
   },
   {
     "yakkuncom_id":"n509",
@@ -7135,8 +7135,8 @@
     "pokeapi_species_name_ja":"チョロネコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0509-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"purrloin",
+    "pkmn_name":"Purrloin"
   },
   {
     "yakkuncom_id":"n510",
@@ -7146,8 +7146,8 @@
     "pokeapi_species_name_ja":"レパルダス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0510-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"liepard",
+    "pkmn_name":"Liepard"
   },
   {
     "yakkuncom_id":"n511",
@@ -7157,8 +7157,8 @@
     "pokeapi_species_name_ja":"ヤナップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0511-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pansage",
+    "pkmn_name":"Pansage"
   },
   {
     "yakkuncom_id":"n512",
@@ -7168,8 +7168,8 @@
     "pokeapi_species_name_ja":"ヤナッキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0512-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"simisage",
+    "pkmn_name":"Simisage"
   },
   {
     "yakkuncom_id":"n513",
@@ -7179,8 +7179,8 @@
     "pokeapi_species_name_ja":"バオップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0513-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pansear",
+    "pkmn_name":"Pansear"
   },
   {
     "yakkuncom_id":"n514",
@@ -7190,8 +7190,8 @@
     "pokeapi_species_name_ja":"バオッキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0514-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"simisear",
+    "pkmn_name":"Simisear"
   },
   {
     "yakkuncom_id":"n515",
@@ -7201,8 +7201,8 @@
     "pokeapi_species_name_ja":"ヒヤップ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0515-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"panpour",
+    "pkmn_name":"Panpour"
   },
   {
     "yakkuncom_id":"n516",
@@ -7212,8 +7212,8 @@
     "pokeapi_species_name_ja":"ヒヤッキー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0516-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"simipour",
+    "pkmn_name":"Simipour"
   },
   {
     "yakkuncom_id":"n517",
@@ -7223,8 +7223,8 @@
     "pokeapi_species_name_ja":"ムンナ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0517-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"munna",
+    "pkmn_name":"Munna"
   },
   {
     "yakkuncom_id":"n518",
@@ -7234,8 +7234,8 @@
     "pokeapi_species_name_ja":"ムシャーナ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0518-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"musharna",
+    "pkmn_name":"Musharna"
   },
   {
     "yakkuncom_id":"n519",
@@ -7245,8 +7245,8 @@
     "pokeapi_species_name_ja":"マメパト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0519-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pidove",
+    "pkmn_name":"Pidove"
   },
   {
     "yakkuncom_id":"n520",
@@ -7256,8 +7256,8 @@
     "pokeapi_species_name_ja":"ハトーボー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0520-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tranquill",
+    "pkmn_name":"Tranquill"
   },
   {
     "yakkuncom_id":"n521",
@@ -7267,8 +7267,8 @@
     "pokeapi_species_name_ja":"ケンホロウ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0521-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"unfezant",
+    "pkmn_name":"Unfezant"
   },
   {
     "yakkuncom_id":"n522",
@@ -7300,8 +7300,8 @@
     "pokeapi_species_name_ja":"ダンゴロ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0524-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"roggenrola",
+    "pkmn_name":"Roggenrola"
   },
   {
     "yakkuncom_id":"n525",
@@ -7311,8 +7311,8 @@
     "pokeapi_species_name_ja":"ガントル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0525-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"boldore",
+    "pkmn_name":"Boldore"
   },
   {
     "yakkuncom_id":"n526",
@@ -7322,8 +7322,8 @@
     "pokeapi_species_name_ja":"ギガイアス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0526-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gigalith",
+    "pkmn_name":"Gigalith"
   },
   {
     "yakkuncom_id":"n527",
@@ -7333,8 +7333,8 @@
     "pokeapi_species_name_ja":"コロモリ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0527-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"woobat",
+    "pkmn_name":"Woobat"
   },
   {
     "yakkuncom_id":"n528",
@@ -7344,8 +7344,8 @@
     "pokeapi_species_name_ja":"ココロモリ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0528-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"swoobat",
+    "pkmn_name":"Swoobat"
   },
   {
     "yakkuncom_id":"n529",
@@ -7377,8 +7377,8 @@
     "pokeapi_species_name_ja":"タブンネ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0531-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"audino",
+    "pkmn_name":"Audino"
   },
   {
     "yakkuncom_id":"n531m",
@@ -7388,8 +7388,8 @@
     "pokeapi_species_name_ja":"タブンネ",
     "pokeapi_form_name_ja":"メガタブンネ",
     "pokedbtokyo_id":"0531-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"audinomega",
+    "pkmn_name":"Audino-Mega"
   },
   {
     "yakkuncom_id":"n532",
@@ -7432,8 +7432,8 @@
     "pokeapi_species_name_ja":"オタマロ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0535-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tympole",
+    "pkmn_name":"Tympole"
   },
   {
     "yakkuncom_id":"n536",
@@ -7443,8 +7443,8 @@
     "pokeapi_species_name_ja":"ガマガル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0536-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"palpitoad",
+    "pkmn_name":"Palpitoad"
   },
   {
     "yakkuncom_id":"n537",
@@ -7454,8 +7454,8 @@
     "pokeapi_species_name_ja":"ガマゲロゲ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0537-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"seismitoad",
+    "pkmn_name":"Seismitoad"
   },
   {
     "yakkuncom_id":"n538",
@@ -7465,8 +7465,8 @@
     "pokeapi_species_name_ja":"ナゲキ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0538-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"throh",
+    "pkmn_name":"Throh"
   },
   {
     "yakkuncom_id":"n539",
@@ -7476,8 +7476,8 @@
     "pokeapi_species_name_ja":"ダゲキ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0539-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sawk",
+    "pkmn_name":"Sawk"
   },
   {
     "yakkuncom_id":"n540",
@@ -7520,8 +7520,8 @@
     "pokeapi_species_name_ja":"フシデ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0543-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"venipede",
+    "pkmn_name":"Venipede"
   },
   {
     "yakkuncom_id":"n544",
@@ -7531,8 +7531,8 @@
     "pokeapi_species_name_ja":"ホイーガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0544-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"whirlipede",
+    "pkmn_name":"Whirlipede"
   },
   {
     "yakkuncom_id":"n545",
@@ -7542,8 +7542,8 @@
     "pokeapi_species_name_ja":"ペンドラー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0545-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"scolipede",
+    "pkmn_name":"Scolipede"
   },
   {
     "yakkuncom_id":"n546",
@@ -7674,8 +7674,8 @@
     "pokeapi_species_name_ja":"ダルマッカ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0554-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"darumaka",
+    "pkmn_name":"Darumaka"
   },
   {
     "yakkuncom_id":"n554g",
@@ -7685,8 +7685,8 @@
     "pokeapi_species_name_ja":"ダルマッカ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0554-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"darumakagalar",
+    "pkmn_name":"Darumaka-Galar"
   },
   {
     "yakkuncom_id":"n555",
@@ -7696,8 +7696,8 @@
     "pokeapi_species_name_ja":"ヒヒダルマ",
     "pokeapi_form_name_ja":"ノーマルモード",
     "pokedbtokyo_id":"0555-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"darmanitanstandard",
+    "pkmn_name":"Darmanitan"
   },
   {
     "yakkuncom_id":"n555g",
@@ -7718,8 +7718,8 @@
     "pokeapi_species_name_ja":"ヒヒダルマ",
     "pokeapi_form_name_ja":"ダルマモード",
     "pokedbtokyo_id":"0555-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"darmanitanzen",
+    "pkmn_name":"Darmanitan-Zen"
   },
   {
     "yakkuncom_id":"n555h",
@@ -7729,8 +7729,8 @@
     "pokeapi_species_name_ja":"ヒヒダルマ",
     "pokeapi_form_name_ja":"ダルマモード",
     "pokedbtokyo_id":"0555-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"darmanitangalarzen",
+    "pkmn_name":"Darmanitan-Galar-Zen"
   },
   {
     "yakkuncom_id":"n556",
@@ -7740,8 +7740,8 @@
     "pokeapi_species_name_ja":"マラカッチ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0556-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"maractus",
+    "pkmn_name":"Maractus"
   },
   {
     "yakkuncom_id":"n557",
@@ -7751,8 +7751,8 @@
     "pokeapi_species_name_ja":"イシズマイ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0557-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dwebble",
+    "pkmn_name":"Dwebble"
   },
   {
     "yakkuncom_id":"n558",
@@ -7762,8 +7762,8 @@
     "pokeapi_species_name_ja":"イワパレス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0558-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"crustle",
+    "pkmn_name":"Crustle"
   },
   {
     "yakkuncom_id":"n559",
@@ -7795,8 +7795,8 @@
     "pokeapi_species_name_ja":"シンボラー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0561-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sigilyph",
+    "pkmn_name":"Sigilyph"
   },
   {
     "yakkuncom_id":"n562",
@@ -7806,8 +7806,8 @@
     "pokeapi_species_name_ja":"デスマス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0562-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"yamask",
+    "pkmn_name":"Yamask"
   },
   {
     "yakkuncom_id":"n562g",
@@ -7817,8 +7817,8 @@
     "pokeapi_species_name_ja":"デスマス",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0562-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"yamaskgalar",
+    "pkmn_name":"Yamask-Galar"
   },
   {
     "yakkuncom_id":"n563",
@@ -7828,8 +7828,8 @@
     "pokeapi_species_name_ja":"デスカーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0563-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cofagrigus",
+    "pkmn_name":"Cofagrigus"
   },
   {
     "yakkuncom_id":"n564",
@@ -7839,8 +7839,8 @@
     "pokeapi_species_name_ja":"プロトーガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0564-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tirtouga",
+    "pkmn_name":"Tirtouga"
   },
   {
     "yakkuncom_id":"n565",
@@ -7850,8 +7850,8 @@
     "pokeapi_species_name_ja":"アバゴーラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0565-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"carracosta",
+    "pkmn_name":"Carracosta"
   },
   {
     "yakkuncom_id":"n566",
@@ -7861,8 +7861,8 @@
     "pokeapi_species_name_ja":"アーケン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0566-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"archen",
+    "pkmn_name":"Archen"
   },
   {
     "yakkuncom_id":"n567",
@@ -7872,8 +7872,8 @@
     "pokeapi_species_name_ja":"アーケオス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0567-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"archeops",
+    "pkmn_name":"Archeops"
   },
   {
     "yakkuncom_id":"n568",
@@ -7883,8 +7883,8 @@
     "pokeapi_species_name_ja":"ヤブクロン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0568-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"trubbish",
+    "pkmn_name":"Trubbish"
   },
   {
     "yakkuncom_id":"n569",
@@ -7894,8 +7894,8 @@
     "pokeapi_species_name_ja":"ダストダス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0569-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"garbodor",
+    "pkmn_name":"Garbodor"
   },
   {
     "yakkuncom_id":null,
@@ -8070,8 +8070,8 @@
     "pokeapi_species_name_ja":"バニプッチ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0582-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"vanillite",
+    "pkmn_name":"Vanillite"
   },
   {
     "yakkuncom_id":"n583",
@@ -8081,8 +8081,8 @@
     "pokeapi_species_name_ja":"バニリッチ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0583-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"vanillish",
+    "pkmn_name":"Vanillish"
   },
   {
     "yakkuncom_id":"n584",
@@ -8092,8 +8092,8 @@
     "pokeapi_species_name_ja":"バイバニラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0584-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"vanilluxe",
+    "pkmn_name":"Vanilluxe"
   },
   {
     "yakkuncom_id":"n585",
@@ -8125,8 +8125,8 @@
     "pokeapi_species_name_ja":"エモンガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0587-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"emolga",
+    "pkmn_name":"Emolga"
   },
   {
     "yakkuncom_id":"n588",
@@ -8136,8 +8136,8 @@
     "pokeapi_species_name_ja":"カブルモ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0588-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"karrablast",
+    "pkmn_name":"Karrablast"
   },
   {
     "yakkuncom_id":"n589",
@@ -8147,8 +8147,8 @@
     "pokeapi_species_name_ja":"シュバルゴ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0589-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"escavalier",
+    "pkmn_name":"Escavalier"
   },
   {
     "yakkuncom_id":"n590",
@@ -8180,8 +8180,8 @@
     "pokeapi_species_name_ja":"プルリル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0592-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"frillish",
+    "pkmn_name":"Frillish"
   },
   {
     "yakkuncom_id":"n593",
@@ -8191,8 +8191,8 @@
     "pokeapi_species_name_ja":"ブルンゲル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0593-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"jellicent",
+    "pkmn_name":"Jellicent"
   },
   {
     "yakkuncom_id":"n594",
@@ -8235,8 +8235,8 @@
     "pokeapi_species_name_ja":"テッシード",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0597-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ferroseed",
+    "pkmn_name":"Ferroseed"
   },
   {
     "yakkuncom_id":"n598",
@@ -8246,8 +8246,8 @@
     "pokeapi_species_name_ja":"ナットレイ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0598-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ferrothorn",
+    "pkmn_name":"Ferrothorn"
   },
   {
     "yakkuncom_id":"n599",
@@ -8257,8 +8257,8 @@
     "pokeapi_species_name_ja":"ギアル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0599-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"klink",
+    "pkmn_name":"Klink"
   },
   {
     "yakkuncom_id":"n600",
@@ -8268,8 +8268,8 @@
     "pokeapi_species_name_ja":"ギギアル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0600-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"klang",
+    "pkmn_name":"Klang"
   },
   {
     "yakkuncom_id":"n601",
@@ -8279,8 +8279,8 @@
     "pokeapi_species_name_ja":"ギギギアル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0601-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"klinklang",
+    "pkmn_name":"Klinklang"
   },
   {
     "yakkuncom_id":"n602",
@@ -8323,8 +8323,8 @@
     "pokeapi_species_name_ja":"リグレー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0605-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"elgyem",
+    "pkmn_name":"Elgyem"
   },
   {
     "yakkuncom_id":"n606",
@@ -8334,8 +8334,8 @@
     "pokeapi_species_name_ja":"オーベム",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0606-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"beheeyem",
+    "pkmn_name":"Beheeyem"
   },
   {
     "yakkuncom_id":"n607",
@@ -8444,8 +8444,8 @@
     "pokeapi_species_name_ja":"チョボマキ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0616-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"shelmet",
+    "pkmn_name":"Shelmet"
   },
   {
     "yakkuncom_id":"n617",
@@ -8455,8 +8455,8 @@
     "pokeapi_species_name_ja":"アギルダー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0617-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"accelgor",
+    "pkmn_name":"Accelgor"
   },
   {
     "yakkuncom_id":"n618",
@@ -8466,8 +8466,8 @@
     "pokeapi_species_name_ja":"マッギョ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0618-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"stunfisk",
+    "pkmn_name":"Stunfisk"
   },
   {
     "yakkuncom_id":"n618g",
@@ -8477,8 +8477,8 @@
     "pokeapi_species_name_ja":"マッギョ",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0618-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"stunfiskgalar",
+    "pkmn_name":"Stunfisk-Galar"
   },
   {
     "yakkuncom_id":"n619",
@@ -8510,8 +8510,8 @@
     "pokeapi_species_name_ja":"クリムガン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0621-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"druddigon",
+    "pkmn_name":"Druddigon"
   },
   {
     "yakkuncom_id":"n622",
@@ -8565,8 +8565,8 @@
     "pokeapi_species_name_ja":"バッフロン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0626-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"bouffalant",
+    "pkmn_name":"Bouffalant"
   },
   {
     "yakkuncom_id":"n627",
@@ -8631,8 +8631,8 @@
     "pokeapi_species_name_ja":"クイタラン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0631-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"heatmor",
+    "pkmn_name":"Heatmor"
   },
   {
     "yakkuncom_id":"n632",
@@ -8642,8 +8642,8 @@
     "pokeapi_species_name_ja":"アイアント",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0632-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"durant",
+    "pkmn_name":"Durant"
   },
   {
     "yakkuncom_id":"n633",
@@ -8906,8 +8906,8 @@
     "pokeapi_species_name_ja":"ゲノセクト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0649-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"genesect",
+    "pkmn_name":"Genesect"
   },
   {
     "yakkuncom_id":"n650",
@@ -9027,8 +9027,8 @@
     "pokeapi_species_name_ja":"ゲッコウガ",
     "pokeapi_form_name_ja":"サトシゲッコウガ",
     "pokedbtokyo_id":"0658-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"greninjaash",
+    "pkmn_name":"Greninja-Ash"
   },
   {
     "yakkuncom_id":"n659",
@@ -9038,8 +9038,8 @@
     "pokeapi_species_name_ja":"ホルビー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0659-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"bunnelby",
+    "pkmn_name":"Bunnelby"
   },
   {
     "yakkuncom_id":"n660",
@@ -9049,8 +9049,8 @@
     "pokeapi_species_name_ja":"ホルード",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0660-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"diggersby",
+    "pkmn_name":"Diggersby"
   },
   {
     "yakkuncom_id":"n661",
@@ -9214,8 +9214,8 @@
     "pokeapi_species_name_ja":"ヤンチャム",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0674-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pancham",
+    "pkmn_name":"Pancham"
   },
   {
     "yakkuncom_id":"n675",
@@ -9225,8 +9225,8 @@
     "pokeapi_species_name_ja":"ゴロンダ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0675-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pangoro",
+    "pkmn_name":"Pangoro"
   },
   {
     "yakkuncom_id":"n676",
@@ -9236,8 +9236,8 @@
     "pokeapi_species_name_ja":"トリミアン",
     "pokeapi_form_name_ja":"やせいのすがた",
     "pokedbtokyo_id":"0676-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"furfrou",
+    "pkmn_name":"Furfrou"
   },
   {
     "yakkuncom_id":"n677",
@@ -9280,8 +9280,8 @@
     "pokeapi_species_name_ja":"ヒトツキ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0679-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"honedge",
+    "pkmn_name":"Honedge"
   },
   {
     "yakkuncom_id":"n680",
@@ -9291,8 +9291,8 @@
     "pokeapi_species_name_ja":"ニダンギル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0680-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"doublade",
+    "pkmn_name":"Doublade"
   },
   {
     "yakkuncom_id":"n681",
@@ -9302,8 +9302,8 @@
     "pokeapi_species_name_ja":"ギルガルド",
     "pokeapi_form_name_ja":"シールドフォルム",
     "pokedbtokyo_id":"0681-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aegislashshield",
+    "pkmn_name":"Aegislash"
   },
   {
     "yakkuncom_id":"n681b",
@@ -9313,8 +9313,8 @@
     "pokeapi_species_name_ja":"ギルガルド",
     "pokeapi_form_name_ja":"ブレードフォルム",
     "pokedbtokyo_id":"0681-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aegislashblade",
+    "pkmn_name":"Aegislash-Blade"
   },
   {
     "yakkuncom_id":"n682",
@@ -9324,8 +9324,8 @@
     "pokeapi_species_name_ja":"シュシュプ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0682-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"spritzee",
+    "pkmn_name":"Spritzee"
   },
   {
     "yakkuncom_id":"n683",
@@ -9335,8 +9335,8 @@
     "pokeapi_species_name_ja":"フレフワン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0683-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aromatisse",
+    "pkmn_name":"Aromatisse"
   },
   {
     "yakkuncom_id":"n684",
@@ -9346,8 +9346,8 @@
     "pokeapi_species_name_ja":"ペロッパフ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0684-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"swirlix",
+    "pkmn_name":"Swirlix"
   },
   {
     "yakkuncom_id":"n685",
@@ -9357,8 +9357,8 @@
     "pokeapi_species_name_ja":"ペロリーム",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0685-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"slurpuff",
+    "pkmn_name":"Slurpuff"
   },
   {
     "yakkuncom_id":"n686",
@@ -9390,8 +9390,8 @@
     "pokeapi_species_name_ja":"カメテテ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0688-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"binacle",
+    "pkmn_name":"Binacle"
   },
   {
     "yakkuncom_id":"n689",
@@ -9401,8 +9401,8 @@
     "pokeapi_species_name_ja":"ガメノデス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0689-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"barbaracle",
+    "pkmn_name":"Barbaracle"
   },
   {
     "yakkuncom_id":"n690",
@@ -9456,8 +9456,8 @@
     "pokeapi_species_name_ja":"エリキテル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0694-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"helioptile",
+    "pkmn_name":"Helioptile"
   },
   {
     "yakkuncom_id":"n695",
@@ -9467,8 +9467,8 @@
     "pokeapi_species_name_ja":"エレザード",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0695-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"heliolisk",
+    "pkmn_name":"Heliolisk"
   },
   {
     "yakkuncom_id":"n696",
@@ -9478,8 +9478,8 @@
     "pokeapi_species_name_ja":"チゴラス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0696-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tyrunt",
+    "pkmn_name":"Tyrunt"
   },
   {
     "yakkuncom_id":"n697",
@@ -9489,8 +9489,8 @@
     "pokeapi_species_name_ja":"ガチゴラス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0697-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tyrantrum",
+    "pkmn_name":"Tyrantrum"
   },
   {
     "yakkuncom_id":"n698",
@@ -9500,8 +9500,8 @@
     "pokeapi_species_name_ja":"アマルス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0698-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"amaura",
+    "pkmn_name":"Amaura"
   },
   {
     "yakkuncom_id":"n699",
@@ -9511,8 +9511,8 @@
     "pokeapi_species_name_ja":"アマルルガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0699-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"aurorus",
+    "pkmn_name":"Aurorus"
   },
   {
     "yakkuncom_id":"n700",
@@ -9654,8 +9654,8 @@
     "pokeapi_species_name_ja":"バケッチャ",
     "pokeapi_form_name_ja":"おおきいサイズ",
     "pokedbtokyo_id":"0710-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pumpkaboolarge",
+    "pkmn_name":"Pumpkaboo-Large"
   },
   {
     "yakkuncom_id":"n710s",
@@ -9665,8 +9665,8 @@
     "pokeapi_species_name_ja":"バケッチャ",
     "pokeapi_form_name_ja":"ちいさいサイズ",
     "pokedbtokyo_id":"0710-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pumpkaboosmall",
+    "pkmn_name":"Pumpkaboo-Small"
   },
   {
     "yakkuncom_id":"n710",
@@ -9676,8 +9676,8 @@
     "pokeapi_species_name_ja":"バケッチャ",
     "pokeapi_form_name_ja":"ふつうのサイズ",
     "pokedbtokyo_id":"0710-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pumpkabooaverage",
+    "pkmn_name":"Pumpkaboo"
   },
   {
     "yakkuncom_id":"n710k",
@@ -9687,8 +9687,8 @@
     "pokeapi_species_name_ja":"バケッチャ",
     "pokeapi_form_name_ja":"とくだいサイズ",
     "pokedbtokyo_id":"0710-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pumpkaboosuper",
+    "pkmn_name":"Pumpkaboo-Super"
   },
   {
     "yakkuncom_id":"n711l",
@@ -9698,8 +9698,8 @@
     "pokeapi_species_name_ja":"パンプジン",
     "pokeapi_form_name_ja":"おおきいサイズ",
     "pokedbtokyo_id":"0711-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gourgeistlarge",
+    "pkmn_name":"Gourgeist-Large"
   },
   {
     "yakkuncom_id":"n711s",
@@ -9709,8 +9709,8 @@
     "pokeapi_species_name_ja":"パンプジン",
     "pokeapi_form_name_ja":"ちいさいサイズ",
     "pokedbtokyo_id":"0711-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gourgeistsmall",
+    "pkmn_name":"Gourgeist-Small"
   },
   {
     "yakkuncom_id":"n711",
@@ -9720,8 +9720,8 @@
     "pokeapi_species_name_ja":"パンプジン",
     "pokeapi_form_name_ja":"ふつうのサイズ",
     "pokedbtokyo_id":"0711-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gourgeistaverage",
+    "pkmn_name":"Gourgeist"
   },
   {
     "yakkuncom_id":"n711k",
@@ -9731,8 +9731,8 @@
     "pokeapi_species_name_ja":"パンプジン",
     "pokeapi_form_name_ja":"とくだいサイズ",
     "pokedbtokyo_id":"0711-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gourgeistsuper",
+    "pkmn_name":"Gourgeist-Super"
   },
   {
     "yakkuncom_id":"n712",
@@ -9797,8 +9797,8 @@
     "pokeapi_species_name_ja":"ゼルネアス",
     "pokeapi_form_name_ja":"アクティブモード",
     "pokedbtokyo_id":"0716-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"xerneas",
+    "pkmn_name":"Xerneas"
   },
   {
     "yakkuncom_id":"n717",
@@ -9808,8 +9808,8 @@
     "pokeapi_species_name_ja":"イベルタル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0717-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"yveltal",
+    "pkmn_name":"Yveltal"
   },
   {
     "yakkuncom_id":"n718t",
@@ -9819,8 +9819,8 @@
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"１０％フォルム",
     "pokedbtokyo_id":"0718-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zygarde10",
+    "pkmn_name":"Zygarde-10%"
   },
   {
     "yakkuncom_id":null,
@@ -9830,8 +9830,8 @@
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"１０％フォルム",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zygarde10",
+    "pkmn_name":"Zygarde-10%"
   },
   {
     "yakkuncom_id":"n718",
@@ -9841,8 +9841,8 @@
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"５０％フォルム",
     "pokedbtokyo_id":"0718-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zygarde50",
+    "pkmn_name":"Zygarde"
   },
   {
     "yakkuncom_id":null,
@@ -9852,8 +9852,8 @@
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"５０％フォルム",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zygarde",
+    "pkmn_name":"Zygarde"
   },
   {
     "yakkuncom_id":"n718c",
@@ -9863,8 +9863,8 @@
     "pokeapi_species_name_ja":"ジガルデ",
     "pokeapi_form_name_ja":"パーフェクトフォルム",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zygardecomplete",
+    "pkmn_name":"Zygarde-Complete"
   },
   {
     "yakkuncom_id":"n719",
@@ -9885,8 +9885,8 @@
     "pokeapi_species_name_ja":"ディアンシー",
     "pokeapi_form_name_ja":"メガディアンシー",
     "pokedbtokyo_id":"0719-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dianciemega",
+    "pkmn_name":"Diancie-Mega"
   },
   {
     "yakkuncom_id":"n720",
@@ -10303,8 +10303,8 @@
     "pokeapi_species_name_ja":"ヨワシ",
     "pokeapi_form_name_ja":"たんどくのすがた",
     "pokedbtokyo_id":"0746-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wishiwashisolo",
+    "pkmn_name":"Wishiwashi"
   },
   {
     "yakkuncom_id":"n746f",
@@ -10314,8 +10314,8 @@
     "pokeapi_species_name_ja":"ヨワシ",
     "pokeapi_form_name_ja":"むれたすがた",
     "pokedbtokyo_id":"0746-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wishiwashischool",
+    "pkmn_name":"Wishiwashi-School"
   },
   {
     "yakkuncom_id":"n747",
@@ -10435,8 +10435,8 @@
     "pokeapi_species_name_ja":"ネマシュ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0755-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"morelull",
+    "pkmn_name":"Morelull"
   },
   {
     "yakkuncom_id":"n756",
@@ -10446,8 +10446,8 @@
     "pokeapi_species_name_ja":"マシェード",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0756-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"shiinotic",
+    "pkmn_name":"Shiinotic"
   },
   {
     "yakkuncom_id":"n757",
@@ -10490,8 +10490,8 @@
     "pokeapi_species_name_ja":"ヌイコグマ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0759-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"stufful",
+    "pkmn_name":"Stufful"
   },
   {
     "yakkuncom_id":"n760",
@@ -10501,8 +10501,8 @@
     "pokeapi_species_name_ja":"キテルグマ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0760-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"bewear",
+    "pkmn_name":"Bewear"
   },
   {
     "yakkuncom_id":"n761",
@@ -10578,8 +10578,8 @@
     "pokeapi_species_name_ja":"コソクムシ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0767-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wimpod",
+    "pkmn_name":"Wimpod"
   },
   {
     "yakkuncom_id":"n768",
@@ -10589,8 +10589,8 @@
     "pokeapi_species_name_ja":"グソクムシャ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0768-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"golisopod",
+    "pkmn_name":"Golisopod"
   },
   {
     "yakkuncom_id":"n769",
@@ -10622,8 +10622,8 @@
     "pokeapi_species_name_ja":"ナマコブシ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0771-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pyukumuku",
+    "pkmn_name":"Pyukumuku"
   },
   {
     "yakkuncom_id":"n772",
@@ -10633,8 +10633,8 @@
     "pokeapi_species_name_ja":"タイプ：ヌル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0772-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"typenull",
+    "pkmn_name":"Type: Null"
   },
   {
     "yakkuncom_id":"n773",
@@ -10644,8 +10644,8 @@
     "pokeapi_species_name_ja":"シルヴァディ",
     "pokeapi_form_name_ja":"タイプ：ノーマル",
     "pokedbtokyo_id":"0773-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"silvally",
+    "pkmn_name":"Silvally"
   },
   {
     "yakkuncom_id":null,
@@ -10820,8 +10820,8 @@
     "pokeapi_species_name_ja":"バクガメス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0776-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"turtonator",
+    "pkmn_name":"Turtonator"
   },
   {
     "yakkuncom_id":"n777",
@@ -10831,8 +10831,8 @@
     "pokeapi_species_name_ja":"トゲデマル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0777-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"togedemaru",
+    "pkmn_name":"Togedemaru"
   },
   {
     "yakkuncom_id":null,
@@ -10842,8 +10842,8 @@
     "pokeapi_species_name_ja":"トゲデマル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"togedemaru",
+    "pkmn_name":"Togedemaru"
   },
   {
     "yakkuncom_id":"n778",
@@ -10908,8 +10908,8 @@
     "pokeapi_species_name_ja":"ジジーロン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0780-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"drampa",
+    "pkmn_name":"Drampa"
   },
   {
     "yakkuncom_id":"n781",
@@ -10919,8 +10919,8 @@
     "pokeapi_species_name_ja":"ダダリン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0781-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dhelmise",
+    "pkmn_name":"Dhelmise"
   },
   {
     "yakkuncom_id":"n782",
@@ -10974,8 +10974,8 @@
     "pokeapi_species_name_ja":"カプ・コケコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0785-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tapukoko",
+    "pkmn_name":"Tapu Koko"
   },
   {
     "yakkuncom_id":"n786",
@@ -10985,8 +10985,8 @@
     "pokeapi_species_name_ja":"カプ・テテフ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0786-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tapulele",
+    "pkmn_name":"Tapu Lele"
   },
   {
     "yakkuncom_id":"n787",
@@ -10996,8 +10996,8 @@
     "pokeapi_species_name_ja":"カプ・ブルル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0787-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tapubulu",
+    "pkmn_name":"Tapu Bulu"
   },
   {
     "yakkuncom_id":"n788",
@@ -11007,8 +11007,8 @@
     "pokeapi_species_name_ja":"カプ・レヒレ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0788-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tapufini",
+    "pkmn_name":"Tapu Fini"
   },
   {
     "yakkuncom_id":"n789",
@@ -11062,8 +11062,8 @@
     "pokeapi_species_name_ja":"ウツロイド",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0793-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nihilego",
+    "pkmn_name":"Nihilego"
   },
   {
     "yakkuncom_id":"n794",
@@ -11073,8 +11073,8 @@
     "pokeapi_species_name_ja":"マッシブーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0794-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"buzzwole",
+    "pkmn_name":"Buzzwole"
   },
   {
     "yakkuncom_id":"n795",
@@ -11084,8 +11084,8 @@
     "pokeapi_species_name_ja":"フェローチェ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0795-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pheromosa",
+    "pkmn_name":"Pheromosa"
   },
   {
     "yakkuncom_id":"n796",
@@ -11095,8 +11095,8 @@
     "pokeapi_species_name_ja":"デンジュモク",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0796-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"xurkitree",
+    "pkmn_name":"Xurkitree"
   },
   {
     "yakkuncom_id":"n797",
@@ -11106,8 +11106,8 @@
     "pokeapi_species_name_ja":"テッカグヤ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0797-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"celesteela",
+    "pkmn_name":"Celesteela"
   },
   {
     "yakkuncom_id":"n798",
@@ -11117,8 +11117,8 @@
     "pokeapi_species_name_ja":"カミツルギ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0798-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kartana",
+    "pkmn_name":"Kartana"
   },
   {
     "yakkuncom_id":"n799",
@@ -11128,8 +11128,8 @@
     "pokeapi_species_name_ja":"アクジキング",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0799-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"guzzlord",
+    "pkmn_name":"Guzzlord"
   },
   {
     "yakkuncom_id":"n800",
@@ -11150,8 +11150,8 @@
     "pokeapi_species_name_ja":"ネクロズマ",
     "pokeapi_form_name_ja":"ウルトラネクロズマ",
     "pokedbtokyo_id":"0800-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"necrozmaultra",
+    "pkmn_name":"Necrozma-Ultra"
   },
   {
     "yakkuncom_id":"n800s",
@@ -11205,8 +11205,8 @@
     "pokeapi_species_name_ja":"マーシャドー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0802-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"marshadow",
+    "pkmn_name":"Marshadow"
   },
   {
     "yakkuncom_id":"n803",
@@ -11216,8 +11216,8 @@
     "pokeapi_species_name_ja":"ベベノム",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0803-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"poipole",
+    "pkmn_name":"Poipole"
   },
   {
     "yakkuncom_id":"n804",
@@ -11227,8 +11227,8 @@
     "pokeapi_species_name_ja":"アーゴヨン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0804-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"naganadel",
+    "pkmn_name":"Naganadel"
   },
   {
     "yakkuncom_id":"n805",
@@ -11238,8 +11238,8 @@
     "pokeapi_species_name_ja":"ツンデツンデ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0805-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"stakataka",
+    "pkmn_name":"Stakataka"
   },
   {
     "yakkuncom_id":"n806",
@@ -11249,8 +11249,8 @@
     "pokeapi_species_name_ja":"ズガドーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0806-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"blacephalon",
+    "pkmn_name":"Blacephalon"
   },
   {
     "yakkuncom_id":"n807",
@@ -11260,8 +11260,8 @@
     "pokeapi_species_name_ja":"ゼラオラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0807-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zeraora",
+    "pkmn_name":"Zeraora"
   },
   {
     "yakkuncom_id":"n808",
@@ -11271,8 +11271,8 @@
     "pokeapi_species_name_ja":"メルタン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0808-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"meltan",
+    "pkmn_name":"Meltan"
   },
   {
     "yakkuncom_id":"n809",
@@ -11282,8 +11282,8 @@
     "pokeapi_species_name_ja":"メルメタル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0809-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"melmetal",
+    "pkmn_name":"Melmetal"
   },
   {
     "yakkuncom_id":null,
@@ -11502,8 +11502,8 @@
     "pokeapi_species_name_ja":"サッチムシ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0824-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"blipbug",
+    "pkmn_name":"Blipbug"
   },
   {
     "yakkuncom_id":"n825",
@@ -11513,8 +11513,8 @@
     "pokeapi_species_name_ja":"レドームシ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0825-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dottler",
+    "pkmn_name":"Dottler"
   },
   {
     "yakkuncom_id":"n826",
@@ -11524,8 +11524,8 @@
     "pokeapi_species_name_ja":"イオルブ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0826-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"orbeetle",
+    "pkmn_name":"Orbeetle"
   },
   {
     "yakkuncom_id":null,
@@ -11546,8 +11546,8 @@
     "pokeapi_species_name_ja":"クスネ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0827-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"nickit",
+    "pkmn_name":"Nickit"
   },
   {
     "yakkuncom_id":"n828",
@@ -11557,8 +11557,8 @@
     "pokeapi_species_name_ja":"フォクスライ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0828-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"thievul",
+    "pkmn_name":"Thievul"
   },
   {
     "yakkuncom_id":"n829",
@@ -11568,8 +11568,8 @@
     "pokeapi_species_name_ja":"ヒメンカ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0829-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gossifleur",
+    "pkmn_name":"Gossifleur"
   },
   {
     "yakkuncom_id":"n830",
@@ -11579,8 +11579,8 @@
     "pokeapi_species_name_ja":"ワタシラガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0830-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"eldegoss",
+    "pkmn_name":"Eldegoss"
   },
   {
     "yakkuncom_id":"n831",
@@ -11590,8 +11590,8 @@
     "pokeapi_species_name_ja":"ウールー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0831-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wooloo",
+    "pkmn_name":"Wooloo"
   },
   {
     "yakkuncom_id":"n832",
@@ -11601,8 +11601,8 @@
     "pokeapi_species_name_ja":"バイウールー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0832-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dubwool",
+    "pkmn_name":"Dubwool"
   },
   {
     "yakkuncom_id":"n833",
@@ -11645,8 +11645,8 @@
     "pokeapi_species_name_ja":"ワンパチ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0835-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"yamper",
+    "pkmn_name":"Yamper"
   },
   {
     "yakkuncom_id":"n836",
@@ -11656,8 +11656,8 @@
     "pokeapi_species_name_ja":"パルスワン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0836-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"boltund",
+    "pkmn_name":"Boltund"
   },
   {
     "yakkuncom_id":"n837",
@@ -11909,8 +11909,8 @@
     "pokeapi_species_name_ja":"ヤクデ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0850-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sizzlipede",
+    "pkmn_name":"Sizzlipede"
   },
   {
     "yakkuncom_id":"n851",
@@ -11920,8 +11920,8 @@
     "pokeapi_species_name_ja":"マルヤクデ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0851-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"centiskorch",
+    "pkmn_name":"Centiskorch"
   },
   {
     "yakkuncom_id":null,
@@ -11942,8 +11942,8 @@
     "pokeapi_species_name_ja":"タタッコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0852-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"clobbopus",
+    "pkmn_name":"Clobbopus"
   },
   {
     "yakkuncom_id":"n853",
@@ -11953,8 +11953,8 @@
     "pokeapi_species_name_ja":"オトスパス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0853-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"grapploct",
+    "pkmn_name":"Grapploct"
   },
   {
     "yakkuncom_id":"n854",
@@ -12074,8 +12074,8 @@
     "pokeapi_species_name_ja":"タチフサグマ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0862-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"obstagoon",
+    "pkmn_name":"Obstagoon"
   },
   {
     "yakkuncom_id":"n863",
@@ -12096,8 +12096,8 @@
     "pokeapi_species_name_ja":"サニゴーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0864-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"cursola",
+    "pkmn_name":"Cursola"
   },
   {
     "yakkuncom_id":"n865",
@@ -12107,8 +12107,8 @@
     "pokeapi_species_name_ja":"ネギガナイト",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0865-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sirfetchd",
+    "pkmn_name":"Sirfetch’d"
   },
   {
     "yakkuncom_id":"n866",
@@ -12118,8 +12118,8 @@
     "pokeapi_species_name_ja":"バリコオル",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0866-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mrrime",
+    "pkmn_name":"Mr. Rime"
   },
   {
     "yakkuncom_id":"n867",
@@ -12129,8 +12129,8 @@
     "pokeapi_species_name_ja":"デスバーン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0867-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"runerigus",
+    "pkmn_name":"Runerigus"
   },
   {
     "yakkuncom_id":"n868",
@@ -12327,8 +12327,8 @@
     "pokeapi_species_name_ja":"パッチラゴン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0880-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dracozolt",
+    "pkmn_name":"Dracozolt"
   },
   {
     "yakkuncom_id":"n881",
@@ -12338,8 +12338,8 @@
     "pokeapi_species_name_ja":"パッチルドン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0881-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"arctozolt",
+    "pkmn_name":"Arctozolt"
   },
   {
     "yakkuncom_id":"n882",
@@ -12349,8 +12349,8 @@
     "pokeapi_species_name_ja":"ウオノラゴン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0882-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dracovish",
+    "pkmn_name":"Dracovish"
   },
   {
     "yakkuncom_id":"n883",
@@ -12360,8 +12360,8 @@
     "pokeapi_species_name_ja":"ウオチルドン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0883-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"arctovish",
+    "pkmn_name":"Arctovish"
   },
   {
     "yakkuncom_id":"n884",

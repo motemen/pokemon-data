@@ -9,8 +9,8 @@ import { Dex } from '@pkmn/dex';
 
 // Dexインスタンスを作成してGenerationsに渡す
 const generations = new Generations(Dex);
-// 最新世代のデータを取得
-const gen = generations.get(9);
+// 全世代のデータを取得（1〜9世代）
+const allGens = Array.from({ length: 9 }, (_, i) => generations.get(i + 1));
 
 interface PokemonEntry {
   id: number;
@@ -109,16 +109,25 @@ function main() {
   for (const entry of pokemonAll) {
     const pkmnId = generatePkmnId(entry.name_en);
     
-    // Pokemon Showdownにそのポケモンが存在するかチェック
+    // 全世代でPokemon Showdownにそのポケモンが存在するかチェック
     let pkmnName: string | null = null;
-    try {
-      const species = gen.species.get(pkmnId);
-      if (species && species.exists) {
-        pkmnName = species.name;
-        successCount++;
+    
+    // 各世代を順番にチェック（新しい世代から古い世代へ）
+    for (let i = allGens.length - 1; i >= 0; i--) {
+      try {
+        const species = allGens[i].species.get(pkmnId);
+        if (species && species.exists) {
+          pkmnName = species.name;
+          break; // 見つかったら検索終了
+        }
+      } catch (error) {
+        // この世代にポケモンが見つからない場合は次の世代をチェック
+        continue;
       }
-    } catch (error) {
-      // ポケモンが見つからない場合は無視
+    }
+    
+    if (pkmnName) {
+      successCount++;
     }
     
     mappings.push({

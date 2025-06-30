@@ -3,52 +3,52 @@ n1	フシギダネ	1	bulbasaur	フシギダネ		0001-00	bulbasaur	Bulbasaur
 n2	フシギソウ	2	ivysaur	フシギソウ		0002-00	ivysaur	Ivysaur
 n3	フシギバナ	3	venusaur	フシギバナ		0003-00	venusaur	Venusaur
 		10195	venusaur-gmax	フシギバナ				
-n3m	メガフシギバナ	10033	venusaur-mega	フシギバナ	メガフシギバナ	0003-01		
+n3m	メガフシギバナ	10033	venusaur-mega	フシギバナ	メガフシギバナ	0003-01	venusaurmega	Venusaur-Mega
 n4	ヒトカゲ	4	charmander	ヒトカゲ		0004-00	charmander	Charmander
 n5	リザード	5	charmeleon	リザード		0005-00	charmeleon	Charmeleon
 n6	リザードン	6	charizard	リザードン		0006-00	charizard	Charizard
 		10196	charizard-gmax	リザードン				
-n6x	メガリザードンX	10034	charizard-mega-x	リザードン	メガリザードンＸ	0006-01		
-n6y	メガリザードンY	10035	charizard-mega-y	リザードン	メガリザードンＹ	0006-02		
+n6x	メガリザードンX	10034	charizard-mega-x	リザードン	メガリザードンＸ	0006-01	charizardmegax	Charizard-Mega-X
+n6y	メガリザードンY	10035	charizard-mega-y	リザードン	メガリザードンＹ	0006-02	charizardmegay	Charizard-Mega-Y
 n7	ゼニガメ	7	squirtle	ゼニガメ		0007-00	squirtle	Squirtle
 n8	カメール	8	wartortle	カメール		0008-00	wartortle	Wartortle
 n9	カメックス	9	blastoise	カメックス		0009-00	blastoise	Blastoise
 		10197	blastoise-gmax	カメックス				
-n9m	メガカメックス	10036	blastoise-mega	カメックス	メガカメックス	0009-01		
-n10	キャタピー	10	caterpie	キャタピー		0010-00		
-n11	トランセル	11	metapod	トランセル		0011-00		
-n12	バタフリー	12	butterfree	バタフリー		0012-00		
+n9m	メガカメックス	10036	blastoise-mega	カメックス	メガカメックス	0009-01	blastoisemega	Blastoise-Mega
+n10	キャタピー	10	caterpie	キャタピー		0010-00	caterpie	Caterpie
+n11	トランセル	11	metapod	トランセル		0011-00	metapod	Metapod
+n12	バタフリー	12	butterfree	バタフリー		0012-00	butterfree	Butterfree
 		10198	butterfree-gmax	バタフリー				
-n13	ビードル	13	weedle	ビードル		0013-00		
-n14	コクーン	14	kakuna	コクーン		0014-00		
-n15	スピアー	15	beedrill	スピアー		0015-00		
-n15m	メガスピアー	10090	beedrill-mega	スピアー	メガスピアー	0015-01		
-n16	ポッポ	16	pidgey	ポッポ		0016-00		
-n17	ピジョン	17	pidgeotto	ピジョン		0017-00		
-n18	ピジョット	18	pidgeot	ピジョット		0018-00		
-n18m	メガピジョット	10073	pidgeot-mega	ピジョット	メガピジョット	0018-01		
-n19	コラッタ	19	rattata	コラッタ		0019-00		
-n19a	コラッタ(アローラ)	10091	rattata-alola	コラッタ	アローラのすがた	0019-01		
-n20	ラッタ	20	raticate	ラッタ		0020-00		
-		10093	raticate-totem-alola	ラッタ				
-n20a	ラッタ(アローラ)	10092	raticate-alola	ラッタ	アローラのすがた	0020-01		
-n21	オニスズメ	21	spearow	オニスズメ		0021-00		
-n22	オニドリル	22	fearow	オニドリル		0022-00		
+n13	ビードル	13	weedle	ビードル		0013-00	weedle	Weedle
+n14	コクーン	14	kakuna	コクーン		0014-00	kakuna	Kakuna
+n15	スピアー	15	beedrill	スピアー		0015-00	beedrill	Beedrill
+n15m	メガスピアー	10090	beedrill-mega	スピアー	メガスピアー	0015-01	beedrillmega	Beedrill-Mega
+n16	ポッポ	16	pidgey	ポッポ		0016-00	pidgey	Pidgey
+n17	ピジョン	17	pidgeotto	ピジョン		0017-00	pidgeotto	Pidgeotto
+n18	ピジョット	18	pidgeot	ピジョット		0018-00	pidgeot	Pidgeot
+n18m	メガピジョット	10073	pidgeot-mega	ピジョット	メガピジョット	0018-01	pidgeotmega	Pidgeot-Mega
+n19	コラッタ	19	rattata	コラッタ		0019-00	rattata	Rattata
+n19a	コラッタ(アローラ)	10091	rattata-alola	コラッタ	アローラのすがた	0019-01	rattataalola	Rattata-Alola
+n20	ラッタ	20	raticate	ラッタ		0020-00	raticate	Raticate
+		10093	raticate-totem-alola	ラッタ			raticatealola	Raticate-Alola
+n20a	ラッタ(アローラ)	10092	raticate-alola	ラッタ	アローラのすがた	0020-01	raticatealola	Raticate-Alola
+n21	オニスズメ	21	spearow	オニスズメ		0021-00	spearow	Spearow
+n22	オニドリル	22	fearow	オニドリル		0022-00	fearow	Fearow
 n23	アーボ	23	ekans	アーボ		0023-00	ekans	Ekans
 n24	アーボック	24	arbok	アーボック		0024-00	arbok	Arbok
 n25	ピカチュウ	25	pikachu	ピカチュウ		0025-00	pikachu	Pikachu
 		10099	pikachu-alola-cap	ピカチュウ	アローラキャップ			
-		10081	pikachu-belle	ピカチュウ	マダム・ピカチュウ			
-		10085	pikachu-cosplay	ピカチュウ	おきがえピカチュウ			
+		10081	pikachu-belle	ピカチュウ	マダム・ピカチュウ		pikachubelle	Pikachu-Belle
+		10085	pikachu-cosplay	ピカチュウ	おきがえピカチュウ		pikachucosplay	Pikachu-Cosplay
 		10199	pikachu-gmax	ピカチュウ				
 		10095	pikachu-hoenn-cap	ピカチュウ	ホウエンキャップ			
 		10098	pikachu-kalos-cap	ピカチュウ	カロスキャップ			
-		10084	pikachu-libre	ピカチュウ	マスクド・ピカチュウ			
+		10084	pikachu-libre	ピカチュウ	マスクド・ピカチュウ		pikachulibre	Pikachu-Libre
 		10094	pikachu-original-cap	ピカチュウ	オリジナルキャップ			
 		10148	pikachu-partner-cap	ピカチュウ	キミにきめたキャップ			
-		10083	pikachu-phd	ピカチュウ	ドクター・ピカチュウ			
-		10082	pikachu-pop-star	ピカチュウ	アイドル・ピカチュウ			
-		10080	pikachu-rock-star	ピカチュウ	ハードロック・ピカチュウ			
+		10083	pikachu-phd	ピカチュウ	ドクター・ピカチュウ		pikachuphd	Pikachu-PhD
+		10082	pikachu-pop-star	ピカチュウ	アイドル・ピカチュウ		pikachupopstar	Pikachu-Pop-Star
+		10080	pikachu-rock-star	ピカチュウ	ハードロック・ピカチュウ		pikachurockstar	Pikachu-Rock-Star
 		10096	pikachu-sinnoh-cap	ピカチュウ	シンオウキャップ			
 		10158	pikachu-starter	ピカチュウ			pikachu	Pikachu
 		10097	pikachu-unova-cap	ピカチュウ	イッシュキャップ			
@@ -59,12 +59,12 @@ n27	サンド	27	sandshrew	サンド		0027-00	sandshrew	Sandshrew
 n27a	サンド(アローラ)	10101	sandshrew-alola	サンド	アローラのすがた	0027-01	sandshrewalola	Sandshrew-Alola
 n28	サンドパン	28	sandslash	サンドパン		0028-00	sandslash	Sandslash
 n28a	サンドパン(アローラ)	10102	sandslash-alola	サンドパン	アローラのすがた	0028-01	sandslashalola	Sandslash-Alola
-n29	ニドラン♀	29	nidoran-f	ニドラン♀		0029-00		
-n30	ニドリーナ	30	nidorina	ニドリーナ		0030-00		
-n31	ニドクイン	31	nidoqueen	ニドクイン		0031-00		
-n32	ニドラン♂	32	nidoran-m	ニドラン♂		0032-00		
-n33	ニドリーノ	33	nidorino	ニドリーノ		0033-00		
-n34	ニドキング	34	nidoking	ニドキング		0034-00		
+n29	ニドラン♀	29	nidoran-f	ニドラン♀		0029-00	nidoranf	Nidoran-F
+n30	ニドリーナ	30	nidorina	ニドリーナ		0030-00	nidorina	Nidorina
+n31	ニドクイン	31	nidoqueen	ニドクイン		0031-00	nidoqueen	Nidoqueen
+n32	ニドラン♂	32	nidoran-m	ニドラン♂		0032-00	nidoranm	Nidoran-M
+n33	ニドリーノ	33	nidorino	ニドリーノ		0033-00	nidorino	Nidorino
+n34	ニドキング	34	nidoking	ニドキング		0034-00	nidoking	Nidoking
 n35	ピッピ	35	clefairy	ピッピ		0035-00	clefairy	Clefairy
 n36	ピクシー	36	clefable	ピクシー		0036-00	clefable	Clefable
 n37	ロコン	37	vulpix	ロコン		0037-00	vulpix	Vulpix
@@ -73,13 +73,13 @@ n38	キュウコン	38	ninetales	キュウコン		0038-00	ninetales	Ninetales
 n38a	キュウコン(アローラ)	10104	ninetales-alola	キュウコン	アローラのすがた	0038-01	ninetalesalola	Ninetales-Alola
 n39	プリン	39	jigglypuff	プリン		0039-00	jigglypuff	Jigglypuff
 n40	プクリン	40	wigglytuff	プクリン		0040-00	wigglytuff	Wigglytuff
-n41	ズバット	41	zubat	ズバット		0041-00		
-n42	ゴルバット	42	golbat	ゴルバット		0042-00		
+n41	ズバット	41	zubat	ズバット		0041-00	zubat	Zubat
+n42	ゴルバット	42	golbat	ゴルバット		0042-00	golbat	Golbat
 n43	ナゾノクサ	43	oddish	ナゾノクサ		0043-00	oddish	Oddish
 n44	クサイハナ	44	gloom	クサイハナ		0044-00	gloom	Gloom
 n45	ラフレシア	45	vileplume	ラフレシア		0045-00	vileplume	Vileplume
-n46	パラス	46	paras	パラス		0046-00		
-n47	パラセクト	47	parasect	パラセクト		0047-00		
+n46	パラス	46	paras	パラス		0046-00	paras	Paras
+n47	パラセクト	47	parasect	パラセクト		0047-00	parasect	Parasect
 n48	コンパン	48	venonat	コンパン		0048-00	venonat	Venonat
 n49	モルフォン	49	venomoth	モルフォン		0049-00	venomoth	Venomoth
 n50	ディグダ	50	diglett	ディグダ		0050-00	diglett	Diglett
@@ -103,13 +103,13 @@ n59h	ウインディ(ヒスイ)	10230	arcanine-hisui	ウインディ	ヒスイ�
 n60	ニョロモ	60	poliwag	ニョロモ		0060-00	poliwag	Poliwag
 n61	ニョロゾ	61	poliwhirl	ニョロゾ		0061-00	poliwhirl	Poliwhirl
 n62	ニョロボン	62	poliwrath	ニョロボン		0062-00	poliwrath	Poliwrath
-n63	ケーシィ	63	abra	ケーシィ		0063-00		
-n64	ユンゲラー	64	kadabra	ユンゲラー		0064-00		
-n65	フーディン	65	alakazam	フーディン		0065-00		
-n65m	メガフーディン	10037	alakazam-mega	フーディン	メガフーディン	0065-01		
-n66	ワンリキー	66	machop	ワンリキー		0066-00		
-n67	ゴーリキー	67	machoke	ゴーリキー		0067-00		
-n68	カイリキー	68	machamp	カイリキー		0068-00		
+n63	ケーシィ	63	abra	ケーシィ		0063-00	abra	Abra
+n64	ユンゲラー	64	kadabra	ユンゲラー		0064-00	kadabra	Kadabra
+n65	フーディン	65	alakazam	フーディン		0065-00	alakazam	Alakazam
+n65m	メガフーディン	10037	alakazam-mega	フーディン	メガフーディン	0065-01	alakazammega	Alakazam-Mega
+n66	ワンリキー	66	machop	ワンリキー		0066-00	machop	Machop
+n67	ゴーリキー	67	machoke	ゴーリキー		0067-00	machoke	Machoke
+n68	カイリキー	68	machamp	カイリキー		0068-00	machamp	Machamp
 		10201	machamp-gmax	カイリキー				
 n69	マダツボミ	69	bellsprout	マダツボミ		0069-00	bellsprout	Bellsprout
 n70	ウツドン	70	weepinbell	ウツドン		0070-00	weepinbell	Weepinbell
@@ -122,19 +122,19 @@ n75	ゴローン	75	graveler	ゴローン		0075-00	graveler	Graveler
 n75a	ゴローン(アローラ)	10110	graveler-alola	ゴローン	アローラのすがた	0075-01	graveleralola	Graveler-Alola
 n76	ゴローニャ	76	golem	ゴローニャ		0076-00	golem	Golem
 n76a	ゴローニャ(アローラ)	10111	golem-alola	ゴローニャ	アローラのすがた	0076-01	golemalola	Golem-Alola
-n77	ポニータ	77	ponyta	ポニータ		0077-00		
-n77g	ポニータ(ガラル)	10162	ponyta-galar	ポニータ	ガラルのすがた	0077-01		
-n78	ギャロップ	78	rapidash	ギャロップ		0078-00		
-n78g	ギャロップ(ガラル)	10163	rapidash-galar	ギャロップ	ガラルのすがた	0078-01		
+n77	ポニータ	77	ponyta	ポニータ		0077-00	ponyta	Ponyta
+n77g	ポニータ(ガラル)	10162	ponyta-galar	ポニータ	ガラルのすがた	0077-01	ponytagalar	Ponyta-Galar
+n78	ギャロップ	78	rapidash	ギャロップ		0078-00	rapidash	Rapidash
+n78g	ギャロップ(ガラル)	10163	rapidash-galar	ギャロップ	ガラルのすがた	0078-01	rapidashgalar	Rapidash-Galar
 n79	ヤドン	79	slowpoke	ヤドン		0079-00	slowpoke	Slowpoke
 n79g	ヤドン(ガラル)	10164	slowpoke-galar	ヤドン	ガラルのすがた	0079-01	slowpokegalar	Slowpoke-Galar
 n80	ヤドラン	80	slowbro	ヤドラン		0080-00	slowbro	Slowbro
 n80g	ヤドラン(ガラル)	10165	slowbro-galar	ヤドラン	ガラルのすがた	0080-02	slowbrogalar	Slowbro-Galar
-n80m	メガヤドラン	10071	slowbro-mega	ヤドラン	メガヤドラン	0080-01		
+n80m	メガヤドラン	10071	slowbro-mega	ヤドラン	メガヤドラン	0080-01	slowbromega	Slowbro-Mega
 n81	コイル	81	magnemite	コイル		0081-00	magnemite	Magnemite
 n82	レアコイル	82	magneton	レアコイル		0082-00	magneton	Magneton
-n83	カモネギ	83	farfetchd	カモネギ		0083-00		
-n83g	カモネギ(ガラル)	10166	farfetchd-galar	カモネギ	ガラルのすがた	0083-01		
+n83	カモネギ	83	farfetchd	カモネギ		0083-00	farfetchd	Farfetch’d
+n83g	カモネギ(ガラル)	10166	farfetchd-galar	カモネギ	ガラルのすがた	0083-01	farfetchdgalar	Farfetch’d-Galar
 n84	ドードー	84	doduo	ドードー		0084-00	doduo	Doduo
 n85	ドードリオ	85	dodrio	ドードリオ		0085-00	dodrio	Dodrio
 n86	パウワウ	86	seel	パウワウ		0086-00	seel	Seel
@@ -149,12 +149,12 @@ n92	ゴース	92	gastly	ゴース		0092-00	gastly	Gastly
 n93	ゴースト	93	haunter	ゴースト		0093-00	haunter	Haunter
 n94	ゲンガー	94	gengar	ゲンガー		0094-00	gengar	Gengar
 		10202	gengar-gmax	ゲンガー				
-n94m	メガゲンガー	10038	gengar-mega	ゲンガー	メガゲンガー	0094-01		
-n95	イワーク	95	onix	イワーク		0095-00		
+n94m	メガゲンガー	10038	gengar-mega	ゲンガー	メガゲンガー	0094-01	gengarmega	Gengar-Mega
+n95	イワーク	95	onix	イワーク		0095-00	onix	Onix
 n96	スリープ	96	drowzee	スリープ		0096-00	drowzee	Drowzee
 n97	スリーパー	97	hypno	スリーパー		0097-00	hypno	Hypno
-n98	クラブ	98	krabby	クラブ		0098-00		
-n99	キングラー	99	kingler	キングラー		0099-00		
+n98	クラブ	98	krabby	クラブ		0098-00	krabby	Krabby
+n99	キングラー	99	kingler	キングラー		0099-00	kingler	Kingler
 		10203	kingler-gmax	キングラー				
 n100	ビリリダマ	100	voltorb	ビリリダマ		0100-00	voltorb	Voltorb
 n100h	ビリリダマ(ヒスイ)	10231	voltorb-hisui	ビリリダマ	ヒスイのすがた	0100-01	voltorbhisui	Voltorb-Hisui
@@ -163,43 +163,43 @@ n101h	マルマイン(ヒスイ)	10232	electrode-hisui	マルマイン	ヒスイ
 n102	タマタマ	102	exeggcute	タマタマ		0102-00	exeggcute	Exeggcute
 n103	ナッシー	103	exeggutor	ナッシー		0103-00	exeggutor	Exeggutor
 n103a	ナッシー(アローラ)	10114	exeggutor-alola	ナッシー	アローラのすがた	0103-01	exeggutoralola	Exeggutor-Alola
-n104	カラカラ	104	cubone	カラカラ		0104-00		
-n105	ガラガラ	105	marowak	ガラガラ		0105-00		
-		10149	marowak-totem	ガラガラ				
-n105a	ガラガラ(アローラ)	10115	marowak-alola	ガラガラ	アローラのすがた	0105-01		
+n104	カラカラ	104	cubone	カラカラ		0104-00	cubone	Cubone
+n105	ガラガラ	105	marowak	ガラガラ		0105-00	marowak	Marowak
+		10149	marowak-totem	ガラガラ			marowak	Marowak
+n105a	ガラガラ(アローラ)	10115	marowak-alola	ガラガラ	アローラのすがた	0105-01	marowakalola	Marowak-Alola
 n106	サワムラー	106	hitmonlee	サワムラー		0106-00	hitmonlee	Hitmonlee
 n107	エビワラー	107	hitmonchan	エビワラー		0107-00	hitmonchan	Hitmonchan
-n108	ベロリンガ	108	lickitung	ベロリンガ		0108-00		
+n108	ベロリンガ	108	lickitung	ベロリンガ		0108-00	lickitung	Lickitung
 n109	ドガース	109	koffing	ドガース		0109-00	koffing	Koffing
 n110	マタドガス	110	weezing	マタドガス		0110-00	weezing	Weezing
 n110g	マタドガス(ガラル)	10167	weezing-galar	マタドガス	ガラルのすがた	0110-01	weezinggalar	Weezing-Galar
 n111	サイホーン	111	rhyhorn	サイホーン		0111-00	rhyhorn	Rhyhorn
 n112	サイドン	112	rhydon	サイドン		0112-00	rhydon	Rhydon
 n113	ラッキー	113	chansey	ラッキー		0113-00	chansey	Chansey
-n114	モンジャラ	114	tangela	モンジャラ		0114-00		
-n115	ガルーラ	115	kangaskhan	ガルーラ		0115-00		
-n115m	メガガルーラ	10039	kangaskhan-mega	ガルーラ	メガガルーラ	0115-01		
+n114	モンジャラ	114	tangela	モンジャラ		0114-00	tangela	Tangela
+n115	ガルーラ	115	kangaskhan	ガルーラ		0115-00	kangaskhan	Kangaskhan
+n115m	メガガルーラ	10039	kangaskhan-mega	ガルーラ	メガガルーラ	0115-01	kangaskhanmega	Kangaskhan-Mega
 n116	タッツー	116	horsea	タッツー		0116-00	horsea	Horsea
 n117	シードラ	117	seadra	シードラ		0117-00	seadra	Seadra
-n118	トサキント	118	goldeen	トサキント		0118-00		
-n119	アズマオウ	119	seaking	アズマオウ		0119-00		
-n120	ヒトデマン	120	staryu	ヒトデマン		0120-00		
-n121	スターミー	121	starmie	スターミー		0121-00		
-n122	バリヤード	122	mr-mime	バリヤード		0122-00		
-n122g	バリヤード(ガラル)	10168	mr-mime-galar	バリヤード	ガラルのすがた	0122-01		
+n118	トサキント	118	goldeen	トサキント		0118-00	goldeen	Goldeen
+n119	アズマオウ	119	seaking	アズマオウ		0119-00	seaking	Seaking
+n120	ヒトデマン	120	staryu	ヒトデマン		0120-00	staryu	Staryu
+n121	スターミー	121	starmie	スターミー		0121-00	starmie	Starmie
+n122	バリヤード	122	mr-mime	バリヤード		0122-00	mrmime	Mr. Mime
+n122g	バリヤード(ガラル)	10168	mr-mime-galar	バリヤード	ガラルのすがた	0122-01	mrmimegalar	Mr. Mime-Galar
 n123	ストライク	123	scyther	ストライク		0123-00	scyther	Scyther
-n124	ルージュラ	124	jynx	ルージュラ		0124-00		
+n124	ルージュラ	124	jynx	ルージュラ		0124-00	jynx	Jynx
 n125	エレブー	125	electabuzz	エレブー		0125-00	electabuzz	Electabuzz
 n126	ブーバー	126	magmar	ブーバー		0126-00	magmar	Magmar
-n127	カイロス	127	pinsir	カイロス		0127-00		
-n127m	メガカイロス	10040	pinsir-mega	カイロス	メガカイロス	0127-01		
+n127	カイロス	127	pinsir	カイロス		0127-00	pinsir	Pinsir
+n127m	メガカイロス	10040	pinsir-mega	カイロス	メガカイロス	0127-01	pinsirmega	Pinsir-Mega
 n128	ケンタロス	128	tauros	ケンタロス		0128-00	tauros	Tauros
 n128a	ケンタロス(パルデア単)	10250	tauros-paldea-combat-breed	ケンタロス	パルデアのすがた	0128-01		
 n128c	ケンタロス(パルデア水)	10252	tauros-paldea-aqua-breed	ケンタロス	パルデアのすがた	0128-03		
 n128b	ケンタロス(パルデア炎)	10251	tauros-paldea-blaze-breed	ケンタロス	パルデアのすがた	0128-02		
 n129	コイキング	129	magikarp	コイキング		0129-00	magikarp	Magikarp
 n130	ギャラドス	130	gyarados	ギャラドス		0130-00	gyarados	Gyarados
-n130m	メガギャラドス	10041	gyarados-mega	ギャラドス	メガギャラドス	0130-01		
+n130m	メガギャラドス	10041	gyarados-mega	ギャラドス	メガギャラドス	0130-01	gyaradosmega	Gyarados-Mega
 n131	ラプラス	131	lapras	ラプラス		0131-00	lapras	Lapras
 		10204	lapras-gmax	ラプラス				
 n132	メタモン	132	ditto	メタモン		0132-00	ditto	Ditto
@@ -210,12 +210,12 @@ n134	シャワーズ	134	vaporeon	シャワーズ		0134-00	vaporeon	Vaporeon
 n135	サンダース	135	jolteon	サンダース		0135-00	jolteon	Jolteon
 n136	ブースター	136	flareon	ブースター		0136-00	flareon	Flareon
 n137	ポリゴン	137	porygon	ポリゴン		0137-00	porygon	Porygon
-n138	オムナイト	138	omanyte	オムナイト		0138-00		
-n139	オムスター	139	omastar	オムスター		0139-00		
-n140	カブト	140	kabuto	カブト		0140-00		
-n141	カブトプス	141	kabutops	カブトプス		0141-00		
-n142	プテラ	142	aerodactyl	プテラ		0142-00		
-n142m	メガプテラ	10042	aerodactyl-mega	プテラ	メガプテラ	0142-01		
+n138	オムナイト	138	omanyte	オムナイト		0138-00	omanyte	Omanyte
+n139	オムスター	139	omastar	オムスター		0139-00	omastar	Omastar
+n140	カブト	140	kabuto	カブト		0140-00	kabuto	Kabuto
+n141	カブトプス	141	kabutops	カブトプス		0141-00	kabutops	Kabutops
+n142	プテラ	142	aerodactyl	プテラ		0142-00	aerodactyl	Aerodactyl
+n142m	メガプテラ	10042	aerodactyl-mega	プテラ	メガプテラ	0142-01	aerodactylmega	Aerodactyl-Mega
 n143	カビゴン	143	snorlax	カビゴン		0143-00	snorlax	Snorlax
 		10206	snorlax-gmax	カビゴン				
 n144	フリーザー	144	articuno	フリーザー		0144-00	articuno	Articuno
@@ -228,8 +228,8 @@ n147	ミニリュウ	147	dratini	ミニリュウ		0147-00	dratini	Dratini
 n148	ハクリュー	148	dragonair	ハクリュー		0148-00	dragonair	Dragonair
 n149	カイリュー	149	dragonite	カイリュー		0149-00	dragonite	Dragonite
 n150	ミュウツー	150	mewtwo	ミュウツー		0150-00	mewtwo	Mewtwo
-n150x	メガミュウツーX	10043	mewtwo-mega-x	ミュウツー	メガミュウツーＸ	0150-01		
-n150y	メガミュウツーY	10044	mewtwo-mega-y	ミュウツー	メガミュウツーＹ	0150-02		
+n150x	メガミュウツーX	10043	mewtwo-mega-x	ミュウツー	メガミュウツーＸ	0150-01	mewtwomegax	Mewtwo-Mega-X
+n150y	メガミュウツーY	10044	mewtwo-mega-y	ミュウツー	メガミュウツーＹ	0150-02	mewtwomegay	Mewtwo-Mega-Y
 n151	ミュウ	151	mew	ミュウ		0151-00	mew	Mew
 n152	チコリータ	152	chikorita	チコリータ		0152-00	chikorita	Chikorita
 n153	ベイリーフ	153	bayleef	ベイリーフ		0153-00	bayleef	Bayleef
@@ -245,24 +245,24 @@ n161	オタチ	161	sentret	オタチ		0161-00	sentret	Sentret
 n162	オオタチ	162	furret	オオタチ		0162-00	furret	Furret
 n163	ホーホー	163	hoothoot	ホーホー		0163-00	hoothoot	Hoothoot
 n164	ヨルノズク	164	noctowl	ヨルノズク		0164-00	noctowl	Noctowl
-n165	レディバ	165	ledyba	レディバ		0165-00		
-n166	レディアン	166	ledian	レディアン		0166-00		
+n165	レディバ	165	ledyba	レディバ		0165-00	ledyba	Ledyba
+n166	レディアン	166	ledian	レディアン		0166-00	ledian	Ledian
 n167	イトマル	167	spinarak	イトマル		0167-00	spinarak	Spinarak
 n168	アリアドス	168	ariados	アリアドス		0168-00	ariados	Ariados
-n169	クロバット	169	crobat	クロバット		0169-00		
+n169	クロバット	169	crobat	クロバット		0169-00	crobat	Crobat
 n170	チョンチー	170	chinchou	チョンチー		0170-00	chinchou	Chinchou
 n171	ランターン	171	lanturn	ランターン		0171-00	lanturn	Lanturn
 n172	ピチュー	172	pichu	ピチュー		0172-00	pichu	Pichu
 n173	ピィ	173	cleffa	ピィ		0173-00	cleffa	Cleffa
 n174	ププリン	174	igglybuff	ププリン		0174-00	igglybuff	Igglybuff
-n175	トゲピー	175	togepi	トゲピー		0175-00		
-n176	トゲチック	176	togetic	トゲチック		0176-00		
-n177	ネイティ	177	natu	ネイティ		0177-00		
-n178	ネイティオ	178	xatu	ネイティオ		0178-00		
+n175	トゲピー	175	togepi	トゲピー		0175-00	togepi	Togepi
+n176	トゲチック	176	togetic	トゲチック		0176-00	togetic	Togetic
+n177	ネイティ	177	natu	ネイティ		0177-00	natu	Natu
+n178	ネイティオ	178	xatu	ネイティオ		0178-00	xatu	Xatu
 n179	メリープ	179	mareep	メリープ		0179-00	mareep	Mareep
 n180	モココ	180	flaaffy	モココ		0180-00	flaaffy	Flaaffy
 n181	デンリュウ	181	ampharos	デンリュウ		0181-00	ampharos	Ampharos
-n181m	メガデンリュウ	10045	ampharos-mega	デンリュウ	メガデンリュウ	0181-01		
+n181m	メガデンリュウ	10045	ampharos-mega	デンリュウ	メガデンリュウ	0181-01	ampharosmega	Ampharos-Mega
 n182	キレイハナ	182	bellossom	キレイハナ		0182-00	bellossom	Bellossom
 n183	マリル	183	marill	マリル		0183-00	marill	Marill
 n184	マリルリ	184	azumarill	マリルリ		0184-00	azumarill	Azumarill
@@ -284,24 +284,24 @@ n198	ヤミカラス	198	murkrow	ヤミカラス		0198-00	murkrow	Murkrow
 n199	ヤドキング	199	slowking	ヤドキング		0199-00	slowking	Slowking
 n199g	ヤドキング(ガラル)	10172	slowking-galar	ヤドキング	ガラルのすがた	0199-01	slowkinggalar	Slowking-Galar
 n200	ムウマ	200	misdreavus	ムウマ		0200-00	misdreavus	Misdreavus
-n201	アンノーン	201	unown	アンノーン	Ａ	0201-00		
-n202	ソーナンス	202	wobbuffet	ソーナンス		0202-00		
+n201	アンノーン	201	unown	アンノーン	Ａ	0201-00	unown	Unown
+n202	ソーナンス	202	wobbuffet	ソーナンス		0202-00	wobbuffet	Wobbuffet
 n203	キリンリキ	203	girafarig	キリンリキ		0203-00	girafarig	Girafarig
 n204	クヌギダマ	204	pineco	クヌギダマ		0204-00	pineco	Pineco
 n205	フォレトス	205	forretress	フォレトス		0205-00	forretress	Forretress
 n206	ノコッチ	206	dunsparce	ノコッチ		0206-00	dunsparce	Dunsparce
 n207	グライガー	207	gligar	グライガー		0207-00	gligar	Gligar
-n208	ハガネール	208	steelix	ハガネール		0208-00		
-n208m	メガハガネール	10072	steelix-mega	ハガネール	メガハガネール	0208-01		
+n208	ハガネール	208	steelix	ハガネール		0208-00	steelix	Steelix
+n208m	メガハガネール	10072	steelix-mega	ハガネール	メガハガネール	0208-01	steelixmega	Steelix-Mega
 n209	ブルー	209	snubbull	ブルー		0209-00	snubbull	Snubbull
 n210	グランブル	210	granbull	グランブル		0210-00	granbull	Granbull
 n211	ハリーセン	211	qwilfish	ハリーセン		0211-00	qwilfish	Qwilfish
 n211h	ハリーセン(ヒスイ)	10234	qwilfish-hisui	ハリーセン	ヒスイのすがた	0211-01	qwilfishhisui	Qwilfish-Hisui
 n212	ハッサム	212	scizor	ハッサム		0212-00	scizor	Scizor
-n212m	メガハッサム	10046	scizor-mega	ハッサム	メガハッサム	0212-01		
-n213	ツボツボ	213	shuckle	ツボツボ		0213-00		
+n212m	メガハッサム	10046	scizor-mega	ハッサム	メガハッサム	0212-01	scizormega	Scizor-Mega
+n213	ツボツボ	213	shuckle	ツボツボ		0213-00	shuckle	Shuckle
 n214	ヘラクロス	214	heracross	ヘラクロス		0214-00	heracross	Heracross
-n214m	メガヘラクロス	10047	heracross-mega	ヘラクロス	メガヘラクロス	0214-01		
+n214m	メガヘラクロス	10047	heracross-mega	ヘラクロス	メガヘラクロス	0214-01	heracrossmega	Heracross-Mega
 n215	ニューラ	215	sneasel	ニューラ		0215-00	sneasel	Sneasel
 n215h	ニューラ(ヒスイ)	10235	sneasel-hisui	ニューラ	ヒスイのすがた	0215-01	sneaselhisui	Sneasel-Hisui
 n216	ヒメグマ	216	teddiursa	ヒメグマ		0216-00	teddiursa	Teddiursa
@@ -310,16 +310,16 @@ n218	マグマッグ	218	slugma	マグマッグ		0218-00	slugma	Slugma
 n219	マグカルゴ	219	magcargo	マグカルゴ		0219-00	magcargo	Magcargo
 n220	ウリムー	220	swinub	ウリムー		0220-00	swinub	Swinub
 n221	イノムー	221	piloswine	イノムー		0221-00	piloswine	Piloswine
-n222	サニーゴ	222	corsola	サニーゴ		0222-00		
-n222g	サニーゴ(ガラル)	10173	corsola-galar	サニーゴ	ガラルのすがた	0222-01		
-n223	テッポウオ	223	remoraid	テッポウオ		0223-00		
-n224	オクタン	224	octillery	オクタン		0224-00		
+n222	サニーゴ	222	corsola	サニーゴ		0222-00	corsola	Corsola
+n222g	サニーゴ(ガラル)	10173	corsola-galar	サニーゴ	ガラルのすがた	0222-01	corsolagalar	Corsola-Galar
+n223	テッポウオ	223	remoraid	テッポウオ		0223-00	remoraid	Remoraid
+n224	オクタン	224	octillery	オクタン		0224-00	octillery	Octillery
 n225	デリバード	225	delibird	デリバード		0225-00	delibird	Delibird
-n226	マンタイン	226	mantine	マンタイン		0226-00		
+n226	マンタイン	226	mantine	マンタイン		0226-00	mantine	Mantine
 n227	エアームド	227	skarmory	エアームド		0227-00	skarmory	Skarmory
 n228	デルビル	228	houndour	デルビル		0228-00	houndour	Houndour
 n229	ヘルガー	229	houndoom	ヘルガー		0229-00	houndoom	Houndoom
-n229m	メガヘルガー	10048	houndoom-mega	ヘルガー	メガヘルガー	0229-01		
+n229m	メガヘルガー	10048	houndoom-mega	ヘルガー	メガヘルガー	0229-01	houndoommega	Houndoom-Mega
 n230	キングドラ	230	kingdra	キングドラ		0230-00	kingdra	Kingdra
 n231	ゴマゾウ	231	phanpy	ゴマゾウ		0231-00	phanpy	Phanpy
 n232	ドンファン	232	donphan	ドンファン		0232-00	donphan	Donphan
@@ -328,10 +328,10 @@ n234	オドシシ	234	stantler	オドシシ		0234-00	stantler	Stantler
 n235	ドーブル	235	smeargle	ドーブル		0235-00	smeargle	Smeargle
 n236	バルキー	236	tyrogue	バルキー		0236-00	tyrogue	Tyrogue
 n237	カポエラー	237	hitmontop	カポエラー		0237-00	hitmontop	Hitmontop
-n238	ムチュール	238	smoochum	ムチュール		0238-00		
+n238	ムチュール	238	smoochum	ムチュール		0238-00	smoochum	Smoochum
 n239	エレキッド	239	elekid	エレキッド		0239-00	elekid	Elekid
 n240	ブビィ	240	magby	ブビィ		0240-00	magby	Magby
-n241	ミルタンク	241	miltank	ミルタンク		0241-00		
+n241	ミルタンク	241	miltank	ミルタンク		0241-00	miltank	Miltank
 n242	ハピナス	242	blissey	ハピナス		0242-00	blissey	Blissey
 n243	ライコウ	243	raikou	ライコウ		0243-00	raikou	Raikou
 n244	エンテイ	244	entei	エンテイ		0244-00	entei	Entei
@@ -339,47 +339,47 @@ n245	スイクン	245	suicune	スイクン		0245-00	suicune	Suicune
 n246	ヨーギラス	246	larvitar	ヨーギラス		0246-00	larvitar	Larvitar
 n247	サナギラス	247	pupitar	サナギラス		0247-00	pupitar	Pupitar
 n248	バンギラス	248	tyranitar	バンギラス		0248-00	tyranitar	Tyranitar
-n248m	メガバンギラス	10049	tyranitar-mega	バンギラス	メガバンギラス	0248-01		
+n248m	メガバンギラス	10049	tyranitar-mega	バンギラス	メガバンギラス	0248-01	tyranitarmega	Tyranitar-Mega
 n249	ルギア	249	lugia	ルギア		0249-00	lugia	Lugia
 n250	ホウオウ	250	ho-oh	ホウオウ		0250-00	hooh	Ho-Oh
-n251	セレビィ	251	celebi	セレビィ		0251-00		
+n251	セレビィ	251	celebi	セレビィ		0251-00	celebi	Celebi
 n252	キモリ	252	treecko	キモリ		0252-00	treecko	Treecko
 n253	ジュプトル	253	grovyle	ジュプトル		0253-00	grovyle	Grovyle
 n254	ジュカイン	254	sceptile	ジュカイン		0254-00	sceptile	Sceptile
-n254m	メガジュカイン	10065	sceptile-mega	ジュカイン	メガジュカイン	0254-01		
+n254m	メガジュカイン	10065	sceptile-mega	ジュカイン	メガジュカイン	0254-01	sceptilemega	Sceptile-Mega
 n255	アチャモ	255	torchic	アチャモ		0255-00	torchic	Torchic
 n256	ワカシャモ	256	combusken	ワカシャモ		0256-00	combusken	Combusken
 n257	バシャーモ	257	blaziken	バシャーモ		0257-00	blaziken	Blaziken
-n257m	メガバシャーモ	10050	blaziken-mega	バシャーモ	メガバシャーモ	0257-01		
+n257m	メガバシャーモ	10050	blaziken-mega	バシャーモ	メガバシャーモ	0257-01	blazikenmega	Blaziken-Mega
 n258	ミズゴロウ	258	mudkip	ミズゴロウ		0258-00	mudkip	Mudkip
 n259	ヌマクロー	259	marshtomp	ヌマクロー		0259-00	marshtomp	Marshtomp
 n260	ラグラージ	260	swampert	ラグラージ		0260-00	swampert	Swampert
-n260m	メガラグラージ	10064	swampert-mega	ラグラージ	メガラグラージ	0260-01		
+n260m	メガラグラージ	10064	swampert-mega	ラグラージ	メガラグラージ	0260-01	swampertmega	Swampert-Mega
 n261	ポチエナ	261	poochyena	ポチエナ		0261-00	poochyena	Poochyena
 n262	グラエナ	262	mightyena	グラエナ		0262-00	mightyena	Mightyena
-n263	ジグザグマ	263	zigzagoon	ジグザグマ		0263-00		
-n263g	ジグザグマ(ガラル)	10174	zigzagoon-galar	ジグザグマ	ガラルのすがた	0263-01		
-n264	マッスグマ	264	linoone	マッスグマ		0264-00		
-n264g	マッスグマ(ガラル)	10175	linoone-galar	マッスグマ	ガラルのすがた	0264-01		
-n265	ケムッソ	265	wurmple	ケムッソ		0265-00		
-n266	カラサリス	266	silcoon	カラサリス		0266-00		
-n267	アゲハント	267	beautifly	アゲハント		0267-00		
-n268	マユルド	268	cascoon	マユルド		0268-00		
-n269	ドクケイル	269	dustox	ドクケイル		0269-00		
+n263	ジグザグマ	263	zigzagoon	ジグザグマ		0263-00	zigzagoon	Zigzagoon
+n263g	ジグザグマ(ガラル)	10174	zigzagoon-galar	ジグザグマ	ガラルのすがた	0263-01	zigzagoongalar	Zigzagoon-Galar
+n264	マッスグマ	264	linoone	マッスグマ		0264-00	linoone	Linoone
+n264g	マッスグマ(ガラル)	10175	linoone-galar	マッスグマ	ガラルのすがた	0264-01	linoonegalar	Linoone-Galar
+n265	ケムッソ	265	wurmple	ケムッソ		0265-00	wurmple	Wurmple
+n266	カラサリス	266	silcoon	カラサリス		0266-00	silcoon	Silcoon
+n267	アゲハント	267	beautifly	アゲハント		0267-00	beautifly	Beautifly
+n268	マユルド	268	cascoon	マユルド		0268-00	cascoon	Cascoon
+n269	ドクケイル	269	dustox	ドクケイル		0269-00	dustox	Dustox
 n270	ハスボー	270	lotad	ハスボー		0270-00	lotad	Lotad
 n271	ハスブレロ	271	lombre	ハスブレロ		0271-00	lombre	Lombre
 n272	ルンパッパ	272	ludicolo	ルンパッパ		0272-00	ludicolo	Ludicolo
 n273	タネボー	273	seedot	タネボー		0273-00	seedot	Seedot
 n274	コノハナ	274	nuzleaf	コノハナ		0274-00	nuzleaf	Nuzleaf
 n275	ダーテング	275	shiftry	ダーテング		0275-00	shiftry	Shiftry
-n276	スバメ	276	taillow	スバメ		0276-00		
-n277	オオスバメ	277	swellow	オオスバメ		0277-00		
+n276	スバメ	276	taillow	スバメ		0276-00	taillow	Taillow
+n277	オオスバメ	277	swellow	オオスバメ		0277-00	swellow	Swellow
 n278	キャモメ	278	wingull	キャモメ		0278-00	wingull	Wingull
 n279	ペリッパー	279	pelipper	ペリッパー		0279-00	pelipper	Pelipper
 n280	ラルトス	280	ralts	ラルトス		0280-00	ralts	Ralts
 n281	キルリア	281	kirlia	キルリア		0281-00	kirlia	Kirlia
 n282	サーナイト	282	gardevoir	サーナイト		0282-00	gardevoir	Gardevoir
-n282m	メガサーナイト	10051	gardevoir-mega	サーナイト	メガサーナイト	0282-01		
+n282m	メガサーナイト	10051	gardevoir-mega	サーナイト	メガサーナイト	0282-01	gardevoirmega	Gardevoir-Mega
 n283	アメタマ	283	surskit	アメタマ		0283-00	surskit	Surskit
 n284	アメモース	284	masquerain	アメモース		0284-00	masquerain	Masquerain
 n285	キノココ	285	shroomish	キノココ		0285-00	shroomish	Shroomish
@@ -387,51 +387,51 @@ n286	キノガッサ	286	breloom	キノガッサ		0286-00	breloom	Breloom
 n287	ナマケロ	287	slakoth	ナマケロ		0287-00	slakoth	Slakoth
 n288	ヤルキモノ	288	vigoroth	ヤルキモノ		0288-00	vigoroth	Vigoroth
 n289	ケッキング	289	slaking	ケッキング		0289-00	slaking	Slaking
-n290	ツチニン	290	nincada	ツチニン		0290-00		
-n291	テッカニン	291	ninjask	テッカニン		0291-00		
-n292	ヌケニン	292	shedinja	ヌケニン		0292-00		
-n293	ゴニョニョ	293	whismur	ゴニョニョ		0293-00		
-n294	ドゴーム	294	loudred	ドゴーム		0294-00		
-n295	バクオング	295	exploud	バクオング		0295-00		
+n290	ツチニン	290	nincada	ツチニン		0290-00	nincada	Nincada
+n291	テッカニン	291	ninjask	テッカニン		0291-00	ninjask	Ninjask
+n292	ヌケニン	292	shedinja	ヌケニン		0292-00	shedinja	Shedinja
+n293	ゴニョニョ	293	whismur	ゴニョニョ		0293-00	whismur	Whismur
+n294	ドゴーム	294	loudred	ドゴーム		0294-00	loudred	Loudred
+n295	バクオング	295	exploud	バクオング		0295-00	exploud	Exploud
 n296	マクノシタ	296	makuhita	マクノシタ		0296-00	makuhita	Makuhita
 n297	ハリテヤマ	297	hariyama	ハリテヤマ		0297-00	hariyama	Hariyama
 n298	ルリリ	298	azurill	ルリリ		0298-00	azurill	Azurill
 n299	ノズパス	299	nosepass	ノズパス		0299-00	nosepass	Nosepass
-n300	エネコ	300	skitty	エネコ		0300-00		
-n301	エネコロロ	301	delcatty	エネコロロ		0301-00		
+n300	エネコ	300	skitty	エネコ		0300-00	skitty	Skitty
+n301	エネコロロ	301	delcatty	エネコロロ		0301-00	delcatty	Delcatty
 n302	ヤミラミ	302	sableye	ヤミラミ		0302-00	sableye	Sableye
-n302m	メガヤミラミ	10066	sableye-mega	ヤミラミ	メガヤミラミ	0302-01		
-n303	クチート	303	mawile	クチート		0303-00		
-n303m	メガクチート	10052	mawile-mega	クチート	メガクチート	0303-01		
-n304	ココドラ	304	aron	ココドラ		0304-00		
-n305	コドラ	305	lairon	コドラ		0305-00		
-n306	ボスゴドラ	306	aggron	ボスゴドラ		0306-00		
-n306m	メガボスゴドラ	10053	aggron-mega	ボスゴドラ	メガボスゴドラ	0306-01		
+n302m	メガヤミラミ	10066	sableye-mega	ヤミラミ	メガヤミラミ	0302-01	sableyemega	Sableye-Mega
+n303	クチート	303	mawile	クチート		0303-00	mawile	Mawile
+n303m	メガクチート	10052	mawile-mega	クチート	メガクチート	0303-01	mawilemega	Mawile-Mega
+n304	ココドラ	304	aron	ココドラ		0304-00	aron	Aron
+n305	コドラ	305	lairon	コドラ		0305-00	lairon	Lairon
+n306	ボスゴドラ	306	aggron	ボスゴドラ		0306-00	aggron	Aggron
+n306m	メガボスゴドラ	10053	aggron-mega	ボスゴドラ	メガボスゴドラ	0306-01	aggronmega	Aggron-Mega
 n307	アサナン	307	meditite	アサナン		0307-00	meditite	Meditite
 n308	チャーレム	308	medicham	チャーレム		0308-00	medicham	Medicham
-n308m	メガチャーレム	10054	medicham-mega	チャーレム	メガチャーレム	0308-01		
-n309	ラクライ	309	electrike	ラクライ		0309-00		
-n310	ライボルト	310	manectric	ライボルト		0310-00		
-n310m	メガライボルト	10055	manectric-mega	ライボルト	メガライボルト	0310-01		
+n308m	メガチャーレム	10054	medicham-mega	チャーレム	メガチャーレム	0308-01	medichammega	Medicham-Mega
+n309	ラクライ	309	electrike	ラクライ		0309-00	electrike	Electrike
+n310	ライボルト	310	manectric	ライボルト		0310-00	manectric	Manectric
+n310m	メガライボルト	10055	manectric-mega	ライボルト	メガライボルト	0310-01	manectricmega	Manectric-Mega
 n311	プラスル	311	plusle	プラスル		0311-00	plusle	Plusle
 n312	マイナン	312	minun	マイナン		0312-00	minun	Minun
 n313	バルビート	313	volbeat	バルビート		0313-00	volbeat	Volbeat
 n314	イルミーゼ	314	illumise	イルミーゼ		0314-00	illumise	Illumise
-n315	ロゼリア	315	roselia	ロゼリア		0315-00		
+n315	ロゼリア	315	roselia	ロゼリア		0315-00	roselia	Roselia
 n316	ゴクリン	316	gulpin	ゴクリン		0316-00	gulpin	Gulpin
 n317	マルノーム	317	swalot	マルノーム		0317-00	swalot	Swalot
-n318	キバニア	318	carvanha	キバニア		0318-00		
-n319	サメハダー	319	sharpedo	サメハダー		0319-00		
-n319m	メガサメハダー	10070	sharpedo-mega	サメハダー	メガサメハダー	0319-01		
-n320	ホエルコ	320	wailmer	ホエルコ		0320-00		
-n321	ホエルオー	321	wailord	ホエルオー		0321-00		
+n318	キバニア	318	carvanha	キバニア		0318-00	carvanha	Carvanha
+n319	サメハダー	319	sharpedo	サメハダー		0319-00	sharpedo	Sharpedo
+n319m	メガサメハダー	10070	sharpedo-mega	サメハダー	メガサメハダー	0319-01	sharpedomega	Sharpedo-Mega
+n320	ホエルコ	320	wailmer	ホエルコ		0320-00	wailmer	Wailmer
+n321	ホエルオー	321	wailord	ホエルオー		0321-00	wailord	Wailord
 n322	ドンメル	322	numel	ドンメル		0322-00	numel	Numel
 n323	バクーダ	323	camerupt	バクーダ		0323-00	camerupt	Camerupt
-n323m	メガバクーダ	10087	camerupt-mega	バクーダ	メガバクーダ	0323-01		
+n323m	メガバクーダ	10087	camerupt-mega	バクーダ	メガバクーダ	0323-01	cameruptmega	Camerupt-Mega
 n324	コータス	324	torkoal	コータス		0324-00	torkoal	Torkoal
 n325	バネブー	325	spoink	バネブー		0325-00	spoink	Spoink
 n326	ブーピッグ	326	grumpig	ブーピッグ		0326-00	grumpig	Grumpig
-n327	パッチール	327	spinda	パッチール		0327-00		
+n327	パッチール	327	spinda	パッチール		0327-00	spinda	Spinda
 n328	ナックラー	328	trapinch	ナックラー		0328-00	trapinch	Trapinch
 n329	ビブラーバ	329	vibrava	ビブラーバ		0329-00	vibrava	Vibrava
 n330	フライゴン	330	flygon	フライゴン		0330-00	flygon	Flygon
@@ -439,70 +439,70 @@ n331	サボネア	331	cacnea	サボネア		0331-00	cacnea	Cacnea
 n332	ノクタス	332	cacturne	ノクタス		0332-00	cacturne	Cacturne
 n333	チルット	333	swablu	チルット		0333-00	swablu	Swablu
 n334	チルタリス	334	altaria	チルタリス		0334-00	altaria	Altaria
-n334m	メガチルタリス	10067	altaria-mega	チルタリス	メガチルタリス	0334-01		
+n334m	メガチルタリス	10067	altaria-mega	チルタリス	メガチルタリス	0334-01	altariamega	Altaria-Mega
 n335	ザングース	335	zangoose	ザングース		0335-00	zangoose	Zangoose
 n336	ハブネーク	336	seviper	ハブネーク		0336-00	seviper	Seviper
-n337	ルナトーン	337	lunatone	ルナトーン		0337-00		
-n338	ソルロック	338	solrock	ソルロック		0338-00		
+n337	ルナトーン	337	lunatone	ルナトーン		0337-00	lunatone	Lunatone
+n338	ソルロック	338	solrock	ソルロック		0338-00	solrock	Solrock
 n339	ドジョッチ	339	barboach	ドジョッチ		0339-00	barboach	Barboach
 n340	ナマズン	340	whiscash	ナマズン		0340-00	whiscash	Whiscash
 n341	ヘイガニ	341	corphish	ヘイガニ		0341-00	corphish	Corphish
 n342	シザリガー	342	crawdaunt	シザリガー		0342-00	crawdaunt	Crawdaunt
-n343	ヤジロン	343	baltoy	ヤジロン		0343-00		
-n344	ネンドール	344	claydol	ネンドール		0344-00		
-n345	リリーラ	345	lileep	リリーラ		0345-00		
-n346	ユレイドル	346	cradily	ユレイドル		0346-00		
-n347	アノプス	347	anorith	アノプス		0347-00		
-n348	アーマルド	348	armaldo	アーマルド		0348-00		
+n343	ヤジロン	343	baltoy	ヤジロン		0343-00	baltoy	Baltoy
+n344	ネンドール	344	claydol	ネンドール		0344-00	claydol	Claydol
+n345	リリーラ	345	lileep	リリーラ		0345-00	lileep	Lileep
+n346	ユレイドル	346	cradily	ユレイドル		0346-00	cradily	Cradily
+n347	アノプス	347	anorith	アノプス		0347-00	anorith	Anorith
+n348	アーマルド	348	armaldo	アーマルド		0348-00	armaldo	Armaldo
 n349	ヒンバス	349	feebas	ヒンバス		0349-00	feebas	Feebas
 n350	ミロカロス	350	milotic	ミロカロス		0350-00	milotic	Milotic
-n351	ポワルン	351	castform	ポワルン	ポワルンのすがた	0351-00		
-		10014	castform-rainy	ポワルン	あまみずのすがた	0351-02		
-		10015	castform-snowy	ポワルン	ゆきぐものすがた	0351-03		
-		10013	castform-sunny	ポワルン	たいようのすがた	0351-01		
-n352	カクレオン	352	kecleon	カクレオン		0352-00		
+n351	ポワルン	351	castform	ポワルン	ポワルンのすがた	0351-00	castform	Castform
+		10014	castform-rainy	ポワルン	あまみずのすがた	0351-02	castformrainy	Castform-Rainy
+		10015	castform-snowy	ポワルン	ゆきぐものすがた	0351-03	castformsnowy	Castform-Snowy
+		10013	castform-sunny	ポワルン	たいようのすがた	0351-01	castformsunny	Castform-Sunny
+n352	カクレオン	352	kecleon	カクレオン		0352-00	kecleon	Kecleon
 n353	カゲボウズ	353	shuppet	カゲボウズ		0353-00	shuppet	Shuppet
 n354	ジュペッタ	354	banette	ジュペッタ		0354-00	banette	Banette
-n354m	メガジュペッタ	10056	banette-mega	ジュペッタ	メガジュペッタ	0354-01		
+n354m	メガジュペッタ	10056	banette-mega	ジュペッタ	メガジュペッタ	0354-01	banettemega	Banette-Mega
 n355	ヨマワル	355	duskull	ヨマワル		0355-00	duskull	Duskull
 n356	サマヨール	356	dusclops	サマヨール		0356-00	dusclops	Dusclops
 n357	トロピウス	357	tropius	トロピウス		0357-00	tropius	Tropius
 n358	チリーン	358	chimecho	チリーン		0358-00	chimecho	Chimecho
-n359	アブソル	359	absol	アブソル		0359-00		
-n359m	メガアブソル	10057	absol-mega	アブソル	メガアブソル	0359-01		
-n360	ソーナノ	360	wynaut	ソーナノ		0360-00		
+n359	アブソル	359	absol	アブソル		0359-00	absol	Absol
+n359m	メガアブソル	10057	absol-mega	アブソル	メガアブソル	0359-01	absolmega	Absol-Mega
+n360	ソーナノ	360	wynaut	ソーナノ		0360-00	wynaut	Wynaut
 n361	ユキワラシ	361	snorunt	ユキワラシ		0361-00	snorunt	Snorunt
 n362	オニゴーリ	362	glalie	オニゴーリ		0362-00	glalie	Glalie
-n362m	メガオニゴーリ	10074	glalie-mega	オニゴーリ	メガオニゴーリ	0362-01		
-n363	タマザラシ	363	spheal	タマザラシ		0363-00		
-n364	トドグラー	364	sealeo	トドグラー		0364-00		
-n365	トドゼルガ	365	walrein	トドゼルガ		0365-00		
-n366	パールル	366	clamperl	パールル		0366-00		
-n367	ハンテール	367	huntail	ハンテール		0367-00		
-n368	サクラビス	368	gorebyss	サクラビス		0368-00		
-n369	ジーランス	369	relicanth	ジーランス		0369-00		
+n362m	メガオニゴーリ	10074	glalie-mega	オニゴーリ	メガオニゴーリ	0362-01	glaliemega	Glalie-Mega
+n363	タマザラシ	363	spheal	タマザラシ		0363-00	spheal	Spheal
+n364	トドグラー	364	sealeo	トドグラー		0364-00	sealeo	Sealeo
+n365	トドゼルガ	365	walrein	トドゼルガ		0365-00	walrein	Walrein
+n366	パールル	366	clamperl	パールル		0366-00	clamperl	Clamperl
+n367	ハンテール	367	huntail	ハンテール		0367-00	huntail	Huntail
+n368	サクラビス	368	gorebyss	サクラビス		0368-00	gorebyss	Gorebyss
+n369	ジーランス	369	relicanth	ジーランス		0369-00	relicanth	Relicanth
 n370	ラブカス	370	luvdisc	ラブカス		0370-00	luvdisc	Luvdisc
 n371	タツベイ	371	bagon	タツベイ		0371-00	bagon	Bagon
 n372	コモルー	372	shelgon	コモルー		0372-00	shelgon	Shelgon
 n373	ボーマンダ	373	salamence	ボーマンダ		0373-00	salamence	Salamence
-n373m	メガボーマンダ	10089	salamence-mega	ボーマンダ	メガボーマンダ	0373-01		
+n373m	メガボーマンダ	10089	salamence-mega	ボーマンダ	メガボーマンダ	0373-01	salamencemega	Salamence-Mega
 n374	ダンバル	374	beldum	ダンバル		0374-00	beldum	Beldum
 n375	メタング	375	metang	メタング		0375-00	metang	Metang
 n376	メタグロス	376	metagross	メタグロス		0376-00	metagross	Metagross
-n376m	メガメタグロス	10076	metagross-mega	メタグロス	メガメタグロス	0376-01		
+n376m	メガメタグロス	10076	metagross-mega	メタグロス	メガメタグロス	0376-01	metagrossmega	Metagross-Mega
 n377	レジロック	377	regirock	レジロック		0377-00	regirock	Regirock
 n378	レジアイス	378	regice	レジアイス		0378-00	regice	Regice
 n379	レジスチル	379	registeel	レジスチル		0379-00	registeel	Registeel
 n380	ラティアス	380	latias	ラティアス		0380-00	latias	Latias
-n380m	メガラティアス	10062	latias-mega	ラティアス	メガラティアス	0380-01		
+n380m	メガラティアス	10062	latias-mega	ラティアス	メガラティアス	0380-01	latiasmega	Latias-Mega
 n381	ラティオス	381	latios	ラティオス		0381-00	latios	Latios
-n381m	メガラティオス	10063	latios-mega	ラティオス	メガラティオス	0381-01		
+n381m	メガラティオス	10063	latios-mega	ラティオス	メガラティオス	0381-01	latiosmega	Latios-Mega
 n382	カイオーガ	382	kyogre	カイオーガ	カイオーガのすがた	0382-00	kyogre	Kyogre
-n382p	ゲンシカイオーガ	10077	kyogre-primal	カイオーガ	ゲンシカイキのすがた	0382-01		
+n382p	ゲンシカイオーガ	10077	kyogre-primal	カイオーガ	ゲンシカイキのすがた	0382-01	kyogreprimal	Kyogre-Primal
 n383	グラードン	383	groudon	グラードン	グラードンのすがた	0383-00	groudon	Groudon
-n383p	ゲンシグラードン	10078	groudon-primal	グラードン	ゲンシカイキのすがた	0383-01		
+n383p	ゲンシグラードン	10078	groudon-primal	グラードン	ゲンシカイキのすがた	0383-01	groudonprimal	Groudon-Primal
 n384	レックウザ	384	rayquaza	レックウザ		0384-00	rayquaza	Rayquaza
-n384m	メガレックウザ	10079	rayquaza-mega	レックウザ	メガレックウザ	0384-01		
+n384m	メガレックウザ	10079	rayquaza-mega	レックウザ	メガレックウザ	0384-01	rayquazamega	Rayquaza-Mega
 n385	ジラーチ	385	jirachi	ジラーチ		0385-00	jirachi	Jirachi
 n386a	デオキシス(アタック)	10001	deoxys-attack	デオキシス	アタックフォルム	0386-01	deoxysattack	Deoxys-Attack
 n386s	デオキシス(スピード)	10003	deoxys-speed	デオキシス	スピードフォルム	0386-03	deoxysspeed	Deoxys-Speed
@@ -520,82 +520,82 @@ n395	エンペルト	395	empoleon	エンペルト		0395-00	empoleon	Empoleon
 n396	ムックル	396	starly	ムックル		0396-00	starly	Starly
 n397	ムクバード	397	staravia	ムクバード		0397-00	staravia	Staravia
 n398	ムクホーク	398	staraptor	ムクホーク		0398-00	staraptor	Staraptor
-n399	ビッパ	399	bidoof	ビッパ		0399-00		
-n400	ビーダル	400	bibarel	ビーダル		0400-00		
+n399	ビッパ	399	bidoof	ビッパ		0399-00	bidoof	Bidoof
+n400	ビーダル	400	bibarel	ビーダル		0400-00	bibarel	Bibarel
 n401	コロボーシ	401	kricketot	コロボーシ		0401-00	kricketot	Kricketot
 n402	コロトック	402	kricketune	コロトック		0402-00	kricketune	Kricketune
 n403	コリンク	403	shinx	コリンク		0403-00	shinx	Shinx
 n404	ルクシオ	404	luxio	ルクシオ		0404-00	luxio	Luxio
 n405	レントラー	405	luxray	レントラー		0405-00	luxray	Luxray
-n406	スボミー	406	budew	スボミー		0406-00		
-n407	ロズレイド	407	roserade	ロズレイド		0407-00		
+n406	スボミー	406	budew	スボミー		0406-00	budew	Budew
+n407	ロズレイド	407	roserade	ロズレイド		0407-00	roserade	Roserade
 n408	ズガイドス	408	cranidos	ズガイドス		0408-00	cranidos	Cranidos
 n409	ラムパルド	409	rampardos	ラムパルド		0409-00	rampardos	Rampardos
 n410	タテトプス	410	shieldon	タテトプス		0410-00	shieldon	Shieldon
 n411	トリデプス	411	bastiodon	トリデプス		0411-00	bastiodon	Bastiodon
-n412	ミノムッチ	412	burmy	ミノムッチ	くさきのミノ	0412-00		
-n413	ミノマダム(くさき)	413	wormadam-plant	ミノマダム	くさきのミノ	0413-00		
-n413s	ミノマダム(すなち)	10004	wormadam-sandy	ミノマダム	すなちのミノ	0413-01		
-n413d	ミノマダム(ゴミ)	10005	wormadam-trash	ミノマダム	ゴミのミノ	0413-02		
-n414	ガーメイル	414	mothim	ガーメイル		0414-00		
+n412	ミノムッチ	412	burmy	ミノムッチ	くさきのミノ	0412-00	burmy	Burmy
+n413	ミノマダム(くさき)	413	wormadam-plant	ミノマダム	くさきのミノ	0413-00	wormadamplant	Wormadam
+n413s	ミノマダム(すなち)	10004	wormadam-sandy	ミノマダム	すなちのミノ	0413-01	wormadamsandy	Wormadam-Sandy
+n413d	ミノマダム(ゴミ)	10005	wormadam-trash	ミノマダム	ゴミのミノ	0413-02	wormadamtrash	Wormadam-Trash
+n414	ガーメイル	414	mothim	ガーメイル		0414-00	mothim	Mothim
 n415	ミツハニー	415	combee	ミツハニー		0415-00	combee	Combee
 n416	ビークイン	416	vespiquen	ビークイン		0416-00	vespiquen	Vespiquen
 n417	パチリス	417	pachirisu	パチリス		0417-00	pachirisu	Pachirisu
 n418	ブイゼル	418	buizel	ブイゼル		0418-00	buizel	Buizel
 n419	フローゼル	419	floatzel	フローゼル		0419-00	floatzel	Floatzel
-n420	チェリンボ	420	cherubi	チェリンボ		0420-00		
-n421	チェリム	421	cherrim	チェリム	ネガフォルム	0421-00		
+n420	チェリンボ	420	cherubi	チェリンボ		0420-00	cherubi	Cherubi
+n421	チェリム	421	cherrim	チェリム	ネガフォルム	0421-00	cherrim	Cherrim
 n422	カラナクシ	422	shellos	カラナクシ	にしのうみ	0422-00	shellos	Shellos
 n423	トリトドン	423	gastrodon	トリトドン	にしのうみ	0423-00	gastrodon	Gastrodon
 n424	エテボース	424	ambipom	エテボース		0424-00	ambipom	Ambipom
 n425	フワンテ	425	drifloon	フワンテ		0425-00	drifloon	Drifloon
 n426	フワライド	426	drifblim	フワライド		0426-00	drifblim	Drifblim
-n427	ミミロル	427	buneary	ミミロル		0427-00		
-n428	ミミロップ	428	lopunny	ミミロップ		0428-00		
-n428m	メガミミロップ	10088	lopunny-mega	ミミロップ	メガミミロップ	0428-01		
+n427	ミミロル	427	buneary	ミミロル		0427-00	buneary	Buneary
+n428	ミミロップ	428	lopunny	ミミロップ		0428-00	lopunny	Lopunny
+n428m	メガミミロップ	10088	lopunny-mega	ミミロップ	メガミミロップ	0428-01	lopunnymega	Lopunny-Mega
 n429	ムウマージ	429	mismagius	ムウマージ		0429-00	mismagius	Mismagius
 n430	ドンカラス	430	honchkrow	ドンカラス		0430-00	honchkrow	Honchkrow
-n431	ニャルマー	431	glameow	ニャルマー		0431-00		
-n432	ブニャット	432	purugly	ブニャット		0432-00		
+n431	ニャルマー	431	glameow	ニャルマー		0431-00	glameow	Glameow
+n432	ブニャット	432	purugly	ブニャット		0432-00	purugly	Purugly
 n433	リーシャン	433	chingling	リーシャン		0433-00	chingling	Chingling
 n434	スカンプー	434	stunky	スカンプー		0434-00	stunky	Stunky
 n435	スカタンク	435	skuntank	スカタンク		0435-00	skuntank	Skuntank
 n436	ドーミラー	436	bronzor	ドーミラー		0436-00	bronzor	Bronzor
 n437	ドータクン	437	bronzong	ドータクン		0437-00	bronzong	Bronzong
 n438	ウソハチ	438	bonsly	ウソハチ		0438-00	bonsly	Bonsly
-n439	マネネ	439	mime-jr	マネネ		0439-00		
+n439	マネネ	439	mime-jr	マネネ		0439-00	mimejr	Mime Jr.
 n440	ピンプク	440	happiny	ピンプク		0440-00	happiny	Happiny
-n441	ペラップ	441	chatot	ペラップ		0441-00		
+n441	ペラップ	441	chatot	ペラップ		0441-00	chatot	Chatot
 n442	ミカルゲ	442	spiritomb	ミカルゲ		0442-00	spiritomb	Spiritomb
 n443	フカマル	443	gible	フカマル		0443-00	gible	Gible
 n444	ガバイト	444	gabite	ガバイト		0444-00	gabite	Gabite
 n445	ガブリアス	445	garchomp	ガブリアス		0445-00	garchomp	Garchomp
-n445m	メガガブリアス	10058	garchomp-mega	ガブリアス	メガガブリアス	0445-01		
+n445m	メガガブリアス	10058	garchomp-mega	ガブリアス	メガガブリアス	0445-01	garchompmega	Garchomp-Mega
 n446	ゴンベ	446	munchlax	ゴンベ		0446-00	munchlax	Munchlax
 n447	リオル	447	riolu	リオル		0447-00	riolu	Riolu
 n448	ルカリオ	448	lucario	ルカリオ		0448-00	lucario	Lucario
-n448m	メガルカリオ	10059	lucario-mega	ルカリオ	メガルカリオ	0448-01		
+n448m	メガルカリオ	10059	lucario-mega	ルカリオ	メガルカリオ	0448-01	lucariomega	Lucario-Mega
 n449	ヒポポタス	449	hippopotas	ヒポポタス		0449-00	hippopotas	Hippopotas
 n450	カバルドン	450	hippowdon	カバルドン		0450-00	hippowdon	Hippowdon
-n451	スコルピ	451	skorupi	スコルピ		0451-00		
-n452	ドラピオン	452	drapion	ドラピオン		0452-00		
+n451	スコルピ	451	skorupi	スコルピ		0451-00	skorupi	Skorupi
+n452	ドラピオン	452	drapion	ドラピオン		0452-00	drapion	Drapion
 n453	グレッグル	453	croagunk	グレッグル		0453-00	croagunk	Croagunk
 n454	ドクロッグ	454	toxicroak	ドクロッグ		0454-00	toxicroak	Toxicroak
-n455	マスキッパ	455	carnivine	マスキッパ		0455-00		
+n455	マスキッパ	455	carnivine	マスキッパ		0455-00	carnivine	Carnivine
 n456	ケイコウオ	456	finneon	ケイコウオ		0456-00	finneon	Finneon
 n457	ネオラント	457	lumineon	ネオラント		0457-00	lumineon	Lumineon
-n458	タマンタ	458	mantyke	タマンタ		0458-00		
+n458	タマンタ	458	mantyke	タマンタ		0458-00	mantyke	Mantyke
 n459	ユキカブリ	459	snover	ユキカブリ		0459-00	snover	Snover
 n460	ユキノオー	460	abomasnow	ユキノオー		0460-00	abomasnow	Abomasnow
-n460m	メガユキノオー	10060	abomasnow-mega	ユキノオー	メガユキノオー	0460-01		
+n460m	メガユキノオー	10060	abomasnow-mega	ユキノオー	メガユキノオー	0460-01	abomasnowmega	Abomasnow-Mega
 n461	マニューラ	461	weavile	マニューラ		0461-00	weavile	Weavile
 n462	ジバコイル	462	magnezone	ジバコイル		0462-00	magnezone	Magnezone
-n463	ベロベルト	463	lickilicky	ベロベルト		0463-00		
+n463	ベロベルト	463	lickilicky	ベロベルト		0463-00	lickilicky	Lickilicky
 n464	ドサイドン	464	rhyperior	ドサイドン		0464-00	rhyperior	Rhyperior
-n465	モジャンボ	465	tangrowth	モジャンボ		0465-00		
+n465	モジャンボ	465	tangrowth	モジャンボ		0465-00	tangrowth	Tangrowth
 n466	エレキブル	466	electivire	エレキブル		0466-00	electivire	Electivire
 n467	ブーバーン	467	magmortar	ブーバーン		0467-00	magmortar	Magmortar
-n468	トゲキッス	468	togekiss	トゲキッス		0468-00		
+n468	トゲキッス	468	togekiss	トゲキッス		0468-00	togekiss	Togekiss
 n469	メガヤンマ	469	yanmega	メガヤンマ		0469-00	yanmega	Yanmega
 n470	リーフィア	470	leafeon	リーフィア		0470-00	leafeon	Leafeon
 n471	グレイシア	471	glaceon	グレイシア		0471-00	glaceon	Glaceon
@@ -603,7 +603,7 @@ n472	グライオン	472	gliscor	グライオン		0472-00	gliscor	Gliscor
 n473	マンムー	473	mamoswine	マンムー		0473-00	mamoswine	Mamoswine
 n474	ポリゴンZ	474	porygon-z	ポリゴンＺ		0474-00	porygonz	Porygon-Z
 n475	エルレイド	475	gallade	エルレイド		0475-00	gallade	Gallade
-n475m	メガエルレイド	10068	gallade-mega	エルレイド	メガエルレイド	0475-01		
+n475m	メガエルレイド	10068	gallade-mega	エルレイド	メガエルレイド	0475-01	gallademega	Gallade-Mega
 n476	ダイノーズ	476	probopass	ダイノーズ		0476-00	probopass	Probopass
 n477	ヨノワール	477	dusknoir	ヨノワール		0477-00	dusknoir	Dusknoir
 n478	ユキメノコ	478	froslass	ユキメノコ		0478-00	froslass	Froslass
@@ -631,7 +631,7 @@ n491	ダークライ	491	darkrai	ダークライ		0491-00	darkrai	Darkrai
 n492s	シェイミ(スカイ)	10006	shaymin-sky	シェイミ	スカイフォルム	0492-01	shayminsky	Shaymin-Sky
 n492	シェイミ(ランド)	492	shaymin-land	シェイミ	ランドフォルム	0492-00	shayminland	Shaymin
 n493	アルセウス	493	arceus	アルセウス	ノーマルタイプ	0493-00	arceus	Arceus
-n494	ビクティニ	494	victini	ビクティニ		0494-00		
+n494	ビクティニ	494	victini	ビクティニ		0494-00	victini	Victini
 n495	ツタージャ	495	snivy	ツタージャ		0495-00	snivy	Snivy
 n496	ジャノビー	496	servine	ジャノビー		0496-00	servine	Servine
 n497	ジャローダ	497	serperior	ジャローダ		0497-00	serperior	Serperior
@@ -642,49 +642,49 @@ n501	ミジュマル	501	oshawott	ミジュマル		0501-00	oshawott	Oshawott
 n502	フタチマル	502	dewott	フタチマル		0502-00	dewott	Dewott
 n503	ダイケンキ	503	samurott	ダイケンキ		0503-00	samurott	Samurott
 n503h	ダイケンキ(ヒスイ)	10236	samurott-hisui	ダイケンキ	ヒスイのすがた	0503-01	samurotthisui	Samurott-Hisui
-n504	ミネズミ	504	patrat	ミネズミ		0504-00		
-n505	ミルホッグ	505	watchog	ミルホッグ		0505-00		
-n506	ヨーテリー	506	lillipup	ヨーテリー		0506-00		
-n507	ハーデリア	507	herdier	ハーデリア		0507-00		
-n508	ムーランド	508	stoutland	ムーランド		0508-00		
-n509	チョロネコ	509	purrloin	チョロネコ		0509-00		
-n510	レパルダス	510	liepard	レパルダス		0510-00		
-n511	ヤナップ	511	pansage	ヤナップ		0511-00		
-n512	ヤナッキー	512	simisage	ヤナッキー		0512-00		
-n513	バオップ	513	pansear	バオップ		0513-00		
-n514	バオッキー	514	simisear	バオッキー		0514-00		
-n515	ヒヤップ	515	panpour	ヒヤップ		0515-00		
-n516	ヒヤッキー	516	simipour	ヒヤッキー		0516-00		
-n517	ムンナ	517	munna	ムンナ		0517-00		
-n518	ムシャーナ	518	musharna	ムシャーナ		0518-00		
-n519	マメパト	519	pidove	マメパト		0519-00		
-n520	ハトーボー	520	tranquill	ハトーボー		0520-00		
-n521	ケンホロウ	521	unfezant	ケンホロウ		0521-00		
+n504	ミネズミ	504	patrat	ミネズミ		0504-00	patrat	Patrat
+n505	ミルホッグ	505	watchog	ミルホッグ		0505-00	watchog	Watchog
+n506	ヨーテリー	506	lillipup	ヨーテリー		0506-00	lillipup	Lillipup
+n507	ハーデリア	507	herdier	ハーデリア		0507-00	herdier	Herdier
+n508	ムーランド	508	stoutland	ムーランド		0508-00	stoutland	Stoutland
+n509	チョロネコ	509	purrloin	チョロネコ		0509-00	purrloin	Purrloin
+n510	レパルダス	510	liepard	レパルダス		0510-00	liepard	Liepard
+n511	ヤナップ	511	pansage	ヤナップ		0511-00	pansage	Pansage
+n512	ヤナッキー	512	simisage	ヤナッキー		0512-00	simisage	Simisage
+n513	バオップ	513	pansear	バオップ		0513-00	pansear	Pansear
+n514	バオッキー	514	simisear	バオッキー		0514-00	simisear	Simisear
+n515	ヒヤップ	515	panpour	ヒヤップ		0515-00	panpour	Panpour
+n516	ヒヤッキー	516	simipour	ヒヤッキー		0516-00	simipour	Simipour
+n517	ムンナ	517	munna	ムンナ		0517-00	munna	Munna
+n518	ムシャーナ	518	musharna	ムシャーナ		0518-00	musharna	Musharna
+n519	マメパト	519	pidove	マメパト		0519-00	pidove	Pidove
+n520	ハトーボー	520	tranquill	ハトーボー		0520-00	tranquill	Tranquill
+n521	ケンホロウ	521	unfezant	ケンホロウ		0521-00	unfezant	Unfezant
 n522	シママ	522	blitzle	シママ		0522-00	blitzle	Blitzle
 n523	ゼブライカ	523	zebstrika	ゼブライカ		0523-00	zebstrika	Zebstrika
-n524	ダンゴロ	524	roggenrola	ダンゴロ		0524-00		
-n525	ガントル	525	boldore	ガントル		0525-00		
-n526	ギガイアス	526	gigalith	ギガイアス		0526-00		
-n527	コロモリ	527	woobat	コロモリ		0527-00		
-n528	ココロモリ	528	swoobat	ココロモリ		0528-00		
+n524	ダンゴロ	524	roggenrola	ダンゴロ		0524-00	roggenrola	Roggenrola
+n525	ガントル	525	boldore	ガントル		0525-00	boldore	Boldore
+n526	ギガイアス	526	gigalith	ギガイアス		0526-00	gigalith	Gigalith
+n527	コロモリ	527	woobat	コロモリ		0527-00	woobat	Woobat
+n528	ココロモリ	528	swoobat	ココロモリ		0528-00	swoobat	Swoobat
 n529	モグリュー	529	drilbur	モグリュー		0529-00	drilbur	Drilbur
 n530	ドリュウズ	530	excadrill	ドリュウズ		0530-00	excadrill	Excadrill
-n531	タブンネ	531	audino	タブンネ		0531-00		
-n531m	メガタブンネ	10069	audino-mega	タブンネ	メガタブンネ	0531-01		
+n531	タブンネ	531	audino	タブンネ		0531-00	audino	Audino
+n531m	メガタブンネ	10069	audino-mega	タブンネ	メガタブンネ	0531-01	audinomega	Audino-Mega
 n532	ドッコラー	532	timburr	ドッコラー		0532-00	timburr	Timburr
 n533	ドテッコツ	533	gurdurr	ドテッコツ		0533-00	gurdurr	Gurdurr
 n534	ローブシン	534	conkeldurr	ローブシン		0534-00	conkeldurr	Conkeldurr
-n535	オタマロ	535	tympole	オタマロ		0535-00		
-n536	ガマガル	536	palpitoad	ガマガル		0536-00		
-n537	ガマゲロゲ	537	seismitoad	ガマゲロゲ		0537-00		
-n538	ナゲキ	538	throh	ナゲキ		0538-00		
-n539	ダゲキ	539	sawk	ダゲキ		0539-00		
+n535	オタマロ	535	tympole	オタマロ		0535-00	tympole	Tympole
+n536	ガマガル	536	palpitoad	ガマガル		0536-00	palpitoad	Palpitoad
+n537	ガマゲロゲ	537	seismitoad	ガマゲロゲ		0537-00	seismitoad	Seismitoad
+n538	ナゲキ	538	throh	ナゲキ		0538-00	throh	Throh
+n539	ダゲキ	539	sawk	ダゲキ		0539-00	sawk	Sawk
 n540	クルミル	540	sewaddle	クルミル		0540-00	sewaddle	Sewaddle
 n541	クルマユ	541	swadloon	クルマユ		0541-00	swadloon	Swadloon
 n542	ハハコモリ	542	leavanny	ハハコモリ		0542-00	leavanny	Leavanny
-n543	フシデ	543	venipede	フシデ		0543-00		
-n544	ホイーガ	544	whirlipede	ホイーガ		0544-00		
-n545	ペンドラー	545	scolipede	ペンドラー		0545-00		
+n543	フシデ	543	venipede	フシデ		0543-00	venipede	Venipede
+n544	ホイーガ	544	whirlipede	ホイーガ		0544-00	whirlipede	Whirlipede
+n545	ペンドラー	545	scolipede	ペンドラー		0545-00	scolipede	Scolipede
 n546	モンメン	546	cottonee	モンメン		0546-00	cottonee	Cottonee
 n547	エルフーン	547	whimsicott	エルフーン		0547-00	whimsicott	Whimsicott
 n548	チュリネ	548	petilil	チュリネ		0548-00	petilil	Petilil
@@ -696,27 +696,27 @@ n550f	バスラオ(青)	10016	basculin-blue-striped	バスラオ	あおすじの
 n551	メグロコ	551	sandile	メグロコ		0551-00	sandile	Sandile
 n552	ワルビル	552	krokorok	ワルビル		0552-00	krokorok	Krokorok
 n553	ワルビアル	553	krookodile	ワルビアル		0553-00	krookodile	Krookodile
-n554	ダルマッカ	554	darumaka	ダルマッカ		0554-00		
-n554g	ダルマッカ(ガラル)	10176	darumaka-galar	ダルマッカ	ガラルのすがた	0554-01		
-n555	ヒヒダルマ	555	darmanitan-standard	ヒヒダルマ	ノーマルモード	0555-00		
+n554	ダルマッカ	554	darumaka	ダルマッカ		0554-00	darumaka	Darumaka
+n554g	ダルマッカ(ガラル)	10176	darumaka-galar	ダルマッカ	ガラルのすがた	0554-01	darumakagalar	Darumaka-Galar
+n555	ヒヒダルマ	555	darmanitan-standard	ヒヒダルマ	ノーマルモード	0555-00	darmanitanstandard	Darmanitan
 n555g	ヒヒダルマ(ガラル)	10177	darmanitan-galar-standard	ヒヒダルマ	ガラルのすがた	0555-01		
-n555f	ヒヒダルマ(ダルマ)	10017	darmanitan-zen	ヒヒダルマ	ダルマモード	0555-02		
-n555h	ヒヒダルマ(ダルマ・ガラル)	10178	darmanitan-galar-zen	ヒヒダルマ	ダルマモード	0555-03		
-n556	マラカッチ	556	maractus	マラカッチ		0556-00		
-n557	イシズマイ	557	dwebble	イシズマイ		0557-00		
-n558	イワパレス	558	crustle	イワパレス		0558-00		
+n555f	ヒヒダルマ(ダルマ)	10017	darmanitan-zen	ヒヒダルマ	ダルマモード	0555-02	darmanitanzen	Darmanitan-Zen
+n555h	ヒヒダルマ(ダルマ・ガラル)	10178	darmanitan-galar-zen	ヒヒダルマ	ダルマモード	0555-03	darmanitangalarzen	Darmanitan-Galar-Zen
+n556	マラカッチ	556	maractus	マラカッチ		0556-00	maractus	Maractus
+n557	イシズマイ	557	dwebble	イシズマイ		0557-00	dwebble	Dwebble
+n558	イワパレス	558	crustle	イワパレス		0558-00	crustle	Crustle
 n559	ズルッグ	559	scraggy	ズルッグ		0559-00	scraggy	Scraggy
 n560	ズルズキン	560	scrafty	ズルズキン		0560-00	scrafty	Scrafty
-n561	シンボラー	561	sigilyph	シンボラー		0561-00		
-n562	デスマス	562	yamask	デスマス		0562-00		
-n562g	デスマス(ガラル)	10179	yamask-galar	デスマス	ガラルのすがた	0562-01		
-n563	デスカーン	563	cofagrigus	デスカーン		0563-00		
-n564	プロトーガ	564	tirtouga	プロトーガ		0564-00		
-n565	アバゴーラ	565	carracosta	アバゴーラ		0565-00		
-n566	アーケン	566	archen	アーケン		0566-00		
-n567	アーケオス	567	archeops	アーケオス		0567-00		
-n568	ヤブクロン	568	trubbish	ヤブクロン		0568-00		
-n569	ダストダス	569	garbodor	ダストダス		0569-00		
+n561	シンボラー	561	sigilyph	シンボラー		0561-00	sigilyph	Sigilyph
+n562	デスマス	562	yamask	デスマス		0562-00	yamask	Yamask
+n562g	デスマス(ガラル)	10179	yamask-galar	デスマス	ガラルのすがた	0562-01	yamaskgalar	Yamask-Galar
+n563	デスカーン	563	cofagrigus	デスカーン		0563-00	cofagrigus	Cofagrigus
+n564	プロトーガ	564	tirtouga	プロトーガ		0564-00	tirtouga	Tirtouga
+n565	アバゴーラ	565	carracosta	アバゴーラ		0565-00	carracosta	Carracosta
+n566	アーケン	566	archen	アーケン		0566-00	archen	Archen
+n567	アーケオス	567	archeops	アーケオス		0567-00	archeops	Archeops
+n568	ヤブクロン	568	trubbish	ヤブクロン		0568-00	trubbish	Trubbish
+n569	ダストダス	569	garbodor	ダストダス		0569-00	garbodor	Garbodor
 		10207	garbodor-gmax	ダストダス				
 n570	ゾロア	570	zorua	ゾロア		0570-00	zorua	Zorua
 n570h	ゾロア(ヒスイ)	10238	zorua-hisui	ゾロア	ヒスイのすがた	0570-01	zoruahisui	Zorua-Hisui
@@ -732,31 +732,31 @@ n578	ダブラン	578	duosion	ダブラン		0578-00	duosion	Duosion
 n579	ランクルス	579	reuniclus	ランクルス		0579-00	reuniclus	Reuniclus
 n580	コアルヒー	580	ducklett	コアルヒー		0580-00	ducklett	Ducklett
 n581	スワンナ	581	swanna	スワンナ		0581-00	swanna	Swanna
-n582	バニプッチ	582	vanillite	バニプッチ		0582-00		
-n583	バニリッチ	583	vanillish	バニリッチ		0583-00		
-n584	バイバニラ	584	vanilluxe	バイバニラ		0584-00		
+n582	バニプッチ	582	vanillite	バニプッチ		0582-00	vanillite	Vanillite
+n583	バニリッチ	583	vanillish	バニリッチ		0583-00	vanillish	Vanillish
+n584	バイバニラ	584	vanilluxe	バイバニラ		0584-00	vanilluxe	Vanilluxe
 n585	シキジカ	585	deerling	シキジカ	はるのすがた	0585-00	deerling	Deerling
 n586	メブキジカ	586	sawsbuck	メブキジカ	はるのすがた	0586-00	sawsbuck	Sawsbuck
-n587	エモンガ	587	emolga	エモンガ		0587-00		
-n588	カブルモ	588	karrablast	カブルモ		0588-00		
-n589	シュバルゴ	589	escavalier	シュバルゴ		0589-00		
+n587	エモンガ	587	emolga	エモンガ		0587-00	emolga	Emolga
+n588	カブルモ	588	karrablast	カブルモ		0588-00	karrablast	Karrablast
+n589	シュバルゴ	589	escavalier	シュバルゴ		0589-00	escavalier	Escavalier
 n590	タマゲタケ	590	foongus	タマゲタケ		0590-00	foongus	Foongus
 n591	モロバレル	591	amoonguss	モロバレル		0591-00	amoonguss	Amoonguss
-n592	プルリル	592	frillish	プルリル		0592-00		
-n593	ブルンゲル	593	jellicent	ブルンゲル		0593-00		
+n592	プルリル	592	frillish	プルリル		0592-00	frillish	Frillish
+n593	ブルンゲル	593	jellicent	ブルンゲル		0593-00	jellicent	Jellicent
 n594	ママンボウ	594	alomomola	ママンボウ		0594-00	alomomola	Alomomola
 n595	バチュル	595	joltik	バチュル		0595-00	joltik	Joltik
 n596	デンチュラ	596	galvantula	デンチュラ		0596-00	galvantula	Galvantula
-n597	テッシード	597	ferroseed	テッシード		0597-00		
-n598	ナットレイ	598	ferrothorn	ナットレイ		0598-00		
-n599	ギアル	599	klink	ギアル		0599-00		
-n600	ギギアル	600	klang	ギギアル		0600-00		
-n601	ギギギアル	601	klinklang	ギギギアル		0601-00		
+n597	テッシード	597	ferroseed	テッシード		0597-00	ferroseed	Ferroseed
+n598	ナットレイ	598	ferrothorn	ナットレイ		0598-00	ferrothorn	Ferrothorn
+n599	ギアル	599	klink	ギアル		0599-00	klink	Klink
+n600	ギギアル	600	klang	ギギアル		0600-00	klang	Klang
+n601	ギギギアル	601	klinklang	ギギギアル		0601-00	klinklang	Klinklang
 n602	シビシラス	602	tynamo	シビシラス		0602-00	tynamo	Tynamo
 n603	シビビール	603	eelektrik	シビビール		0603-00	eelektrik	Eelektrik
 n604	シビルドン	604	eelektross	シビルドン		0604-00	eelektross	Eelektross
-n605	リグレー	605	elgyem	リグレー		0605-00		
-n606	オーベム	606	beheeyem	オーベム		0606-00		
+n605	リグレー	605	elgyem	リグレー		0605-00	elgyem	Elgyem
+n606	オーベム	606	beheeyem	オーベム		0606-00	beheeyem	Beheeyem
 n607	ヒトモシ	607	litwick	ヒトモシ		0607-00	litwick	Litwick
 n608	ランプラー	608	lampent	ランプラー		0608-00	lampent	Lampent
 n609	シャンデラ	609	chandelure	シャンデラ		0609-00	chandelure	Chandelure
@@ -766,25 +766,25 @@ n612	オノノクス	612	haxorus	オノノクス		0612-00	haxorus	Haxorus
 n613	クマシュン	613	cubchoo	クマシュン		0613-00	cubchoo	Cubchoo
 n614	ツンベアー	614	beartic	ツンベアー		0614-00	beartic	Beartic
 n615	フリージオ	615	cryogonal	フリージオ		0615-00	cryogonal	Cryogonal
-n616	チョボマキ	616	shelmet	チョボマキ		0616-00		
-n617	アギルダー	617	accelgor	アギルダー		0617-00		
-n618	マッギョ	618	stunfisk	マッギョ		0618-00		
-n618g	マッギョ(ガラル)	10180	stunfisk-galar	マッギョ	ガラルのすがた	0618-01		
+n616	チョボマキ	616	shelmet	チョボマキ		0616-00	shelmet	Shelmet
+n617	アギルダー	617	accelgor	アギルダー		0617-00	accelgor	Accelgor
+n618	マッギョ	618	stunfisk	マッギョ		0618-00	stunfisk	Stunfisk
+n618g	マッギョ(ガラル)	10180	stunfisk-galar	マッギョ	ガラルのすがた	0618-01	stunfiskgalar	Stunfisk-Galar
 n619	コジョフー	619	mienfoo	コジョフー		0619-00	mienfoo	Mienfoo
 n620	コジョンド	620	mienshao	コジョンド		0620-00	mienshao	Mienshao
-n621	クリムガン	621	druddigon	クリムガン		0621-00		
+n621	クリムガン	621	druddigon	クリムガン		0621-00	druddigon	Druddigon
 n622	ゴビット	622	golett	ゴビット		0622-00	golett	Golett
 n623	ゴルーグ	623	golurk	ゴルーグ		0623-00	golurk	Golurk
 n624	コマタナ	624	pawniard	コマタナ		0624-00	pawniard	Pawniard
 n625	キリキザン	625	bisharp	キリキザン		0625-00	bisharp	Bisharp
-n626	バッフロン	626	bouffalant	バッフロン		0626-00		
+n626	バッフロン	626	bouffalant	バッフロン		0626-00	bouffalant	Bouffalant
 n627	ワシボン	627	rufflet	ワシボン		0627-00	rufflet	Rufflet
 n628	ウォーグル	628	braviary	ウォーグル		0628-00	braviary	Braviary
 n628h	ウォーグル(ヒスイ)	10240	braviary-hisui	ウォーグル	ヒスイのすがた	0628-01	braviaryhisui	Braviary-Hisui
 n629	バルチャイ	629	vullaby	バルチャイ		0629-00	vullaby	Vullaby
 n630	バルジーナ	630	mandibuzz	バルジーナ		0630-00	mandibuzz	Mandibuzz
-n631	クイタラン	631	heatmor	クイタラン		0631-00		
-n632	アイアント	632	durant	アイアント		0632-00		
+n631	クイタラン	631	heatmor	クイタラン		0631-00	heatmor	Heatmor
+n632	アイアント	632	durant	アイアント		0632-00	durant	Durant
 n633	モノズ	633	deino	モノズ		0633-00	deino	Deino
 n634	ジヘッド	634	zweilous	ジヘッド		0634-00	zweilous	Zweilous
 n635	サザンドラ	635	hydreigon	サザンドラ		0635-00	hydreigon	Hydreigon
@@ -808,7 +808,7 @@ n647	ケルディオ(いつも)	647	keldeo-ordinary	ケルディオ	いつもの
 n647k	ケルディオ(覚悟)	10024	keldeo-resolute	ケルディオ	かくごのすがた	0647-01	keldeoresolute	Keldeo-Resolute
 n648f	メロエッタ(ステップ)	10018	meloetta-pirouette	メロエッタ	ステップフォルム	0648-01	meloettapirouette	Meloetta-Pirouette
 n648	メロエッタ(ボイス)	648	meloetta-aria	メロエッタ	ボイスフォルム	0648-00	meloettaaria	Meloetta
-n649	ゲノセクト	649	genesect	ゲノセクト		0649-00		
+n649	ゲノセクト	649	genesect	ゲノセクト		0649-00	genesect	Genesect
 n650	ハリマロン	650	chespin	ハリマロン		0650-00	chespin	Chespin
 n651	ハリボーグ	651	quilladin	ハリボーグ		0651-00	quilladin	Quilladin
 n652	ブリガロン	652	chesnaught	ブリガロン		0652-00	chesnaught	Chesnaught
@@ -819,9 +819,9 @@ n656	ケロマツ	656	froakie	ケロマツ		0656-00	froakie	Froakie
 n657	ゲコガシラ	657	frogadier	ゲコガシラ		0657-00	frogadier	Frogadier
 n658	ゲッコウガ	658	greninja	ゲッコウガ		0658-00	greninja	Greninja
 		10116	greninja-battle-bond	ゲッコウガ				
-n658f	サトシゲッコウガ	10117	greninja-ash	ゲッコウガ	サトシゲッコウガ	0658-02		
-n659	ホルビー	659	bunnelby	ホルビー		0659-00		
-n660	ホルード	660	diggersby	ホルード		0660-00		
+n658f	サトシゲッコウガ	10117	greninja-ash	ゲッコウガ	サトシゲッコウガ	0658-02	greninjaash	Greninja-Ash
+n659	ホルビー	659	bunnelby	ホルビー		0659-00	bunnelby	Bunnelby
+n660	ホルード	660	diggersby	ホルード		0660-00	diggersby	Diggersby
 n661	ヤヤコマ	661	fletchling	ヤヤコマ		0661-00	fletchling	Fletchling
 n662	ヒノヤコマ	662	fletchinder	ヒノヤコマ		0662-00	fletchinder	Fletchinder
 n663	ファイアロー	663	talonflame	ファイアロー		0663-00	talonflame	Talonflame
@@ -836,34 +836,34 @@ n670	フラエッテ	670	floette	フラエッテ	あかいはな	0670-00	floette
 n671	フラージェス	671	florges	フラージェス	あかいはな	0671-00	florges	Florges
 n672	メェークル	672	skiddo	メェークル		0672-00	skiddo	Skiddo
 n673	ゴーゴート	673	gogoat	ゴーゴート		0673-00	gogoat	Gogoat
-n674	ヤンチャム	674	pancham	ヤンチャム		0674-00		
-n675	ゴロンダ	675	pangoro	ゴロンダ		0675-00		
-n676	トリミアン	676	furfrou	トリミアン	やせいのすがた	0676-00		
+n674	ヤンチャム	674	pancham	ヤンチャム		0674-00	pancham	Pancham
+n675	ゴロンダ	675	pangoro	ゴロンダ		0675-00	pangoro	Pangoro
+n676	トリミアン	676	furfrou	トリミアン	やせいのすがた	0676-00	furfrou	Furfrou
 n677	ニャスパー	677	espurr	ニャスパー		0677-00	espurr	Espurr
 n678f	ニャオニクス♀	10025	meowstic-female	ニャオニクス	メスのすがた	0678-01	meowsticfemale	Meowstic-F
 n678	ニャオニクス♂	678	meowstic-male	ニャオニクス	オスのすがた	0678-00	meowsticmale	Meowstic
-n679	ヒトツキ	679	honedge	ヒトツキ		0679-00		
-n680	ニダンギル	680	doublade	ニダンギル		0680-00		
-n681	ギルガルド(シールド)	681	aegislash-shield	ギルガルド	シールドフォルム	0681-00		
-n681b	ギルガルド(ブレード)	10026	aegislash-blade	ギルガルド	ブレードフォルム	0681-01		
-n682	シュシュプ	682	spritzee	シュシュプ		0682-00		
-n683	フレフワン	683	aromatisse	フレフワン		0683-00		
-n684	ペロッパフ	684	swirlix	ペロッパフ		0684-00		
-n685	ペロリーム	685	slurpuff	ペロリーム		0685-00		
+n679	ヒトツキ	679	honedge	ヒトツキ		0679-00	honedge	Honedge
+n680	ニダンギル	680	doublade	ニダンギル		0680-00	doublade	Doublade
+n681	ギルガルド(シールド)	681	aegislash-shield	ギルガルド	シールドフォルム	0681-00	aegislashshield	Aegislash
+n681b	ギルガルド(ブレード)	10026	aegislash-blade	ギルガルド	ブレードフォルム	0681-01	aegislashblade	Aegislash-Blade
+n682	シュシュプ	682	spritzee	シュシュプ		0682-00	spritzee	Spritzee
+n683	フレフワン	683	aromatisse	フレフワン		0683-00	aromatisse	Aromatisse
+n684	ペロッパフ	684	swirlix	ペロッパフ		0684-00	swirlix	Swirlix
+n685	ペロリーム	685	slurpuff	ペロリーム		0685-00	slurpuff	Slurpuff
 n686	マーイーカ	686	inkay	マーイーカ		0686-00	inkay	Inkay
 n687	カラマネロ	687	malamar	カラマネロ		0687-00	malamar	Malamar
-n688	カメテテ	688	binacle	カメテテ		0688-00		
-n689	ガメノデス	689	barbaracle	ガメノデス		0689-00		
+n688	カメテテ	688	binacle	カメテテ		0688-00	binacle	Binacle
+n689	ガメノデス	689	barbaracle	ガメノデス		0689-00	barbaracle	Barbaracle
 n690	クズモー	690	skrelp	クズモー		0690-00	skrelp	Skrelp
 n691	ドラミドロ	691	dragalge	ドラミドロ		0691-00	dragalge	Dragalge
 n692	ウデッポウ	692	clauncher	ウデッポウ		0692-00	clauncher	Clauncher
 n693	ブロスター	693	clawitzer	ブロスター		0693-00	clawitzer	Clawitzer
-n694	エリキテル	694	helioptile	エリキテル		0694-00		
-n695	エレザード	695	heliolisk	エレザード		0695-00		
-n696	チゴラス	696	tyrunt	チゴラス		0696-00		
-n697	ガチゴラス	697	tyrantrum	ガチゴラス		0697-00		
-n698	アマルス	698	amaura	アマルス		0698-00		
-n699	アマルルガ	699	aurorus	アマルルガ		0699-00		
+n694	エリキテル	694	helioptile	エリキテル		0694-00	helioptile	Helioptile
+n695	エレザード	695	heliolisk	エレザード		0695-00	heliolisk	Heliolisk
+n696	チゴラス	696	tyrunt	チゴラス		0696-00	tyrunt	Tyrunt
+n697	ガチゴラス	697	tyrantrum	ガチゴラス		0697-00	tyrantrum	Tyrantrum
+n698	アマルス	698	amaura	アマルス		0698-00	amaura	Amaura
+n699	アマルルガ	699	aurorus	アマルルガ		0699-00	aurorus	Aurorus
 n700	ニンフィア	700	sylveon	ニンフィア		0700-00	sylveon	Sylveon
 n701	ルチャブル	701	hawlucha	ルチャブル		0701-00	hawlucha	Hawlucha
 n702	デデンネ	702	dedenne	デデンネ		0702-00	dedenne	Dedenne
@@ -876,28 +876,28 @@ n706h	ヌメルゴン(ヒスイ)	10242	goodra-hisui	ヌメルゴン	ヒスイの
 n707	クレッフィ	707	klefki	クレッフィ		0707-00	klefki	Klefki
 n708	ボクレー	708	phantump	ボクレー		0708-00	phantump	Phantump
 n709	オーロット	709	trevenant	オーロット		0709-00	trevenant	Trevenant
-n710l	バケッチャ(大)	10028	pumpkaboo-large	バケッチャ	おおきいサイズ	0710-02		
-n710s	バケッチャ(小)	10027	pumpkaboo-small	バケッチャ	ちいさいサイズ	0710-01		
-n710	バケッチャ(普通)	710	pumpkaboo-average	バケッチャ	ふつうのサイズ	0710-00		
-n710k	バケッチャ(特大)	10029	pumpkaboo-super	バケッチャ	とくだいサイズ	0710-03		
-n711l	パンプジン(大)	10031	gourgeist-large	パンプジン	おおきいサイズ	0711-02		
-n711s	パンプジン(小)	10030	gourgeist-small	パンプジン	ちいさいサイズ	0711-01		
-n711	パンプジン(普通)	711	gourgeist-average	パンプジン	ふつうのサイズ	0711-00		
-n711k	パンプジン(特大)	10032	gourgeist-super	パンプジン	とくだいサイズ	0711-03		
+n710l	バケッチャ(大)	10028	pumpkaboo-large	バケッチャ	おおきいサイズ	0710-02	pumpkaboolarge	Pumpkaboo-Large
+n710s	バケッチャ(小)	10027	pumpkaboo-small	バケッチャ	ちいさいサイズ	0710-01	pumpkaboosmall	Pumpkaboo-Small
+n710	バケッチャ(普通)	710	pumpkaboo-average	バケッチャ	ふつうのサイズ	0710-00	pumpkabooaverage	Pumpkaboo
+n710k	バケッチャ(特大)	10029	pumpkaboo-super	バケッチャ	とくだいサイズ	0710-03	pumpkaboosuper	Pumpkaboo-Super
+n711l	パンプジン(大)	10031	gourgeist-large	パンプジン	おおきいサイズ	0711-02	gourgeistlarge	Gourgeist-Large
+n711s	パンプジン(小)	10030	gourgeist-small	パンプジン	ちいさいサイズ	0711-01	gourgeistsmall	Gourgeist-Small
+n711	パンプジン(普通)	711	gourgeist-average	パンプジン	ふつうのサイズ	0711-00	gourgeistaverage	Gourgeist
+n711k	パンプジン(特大)	10032	gourgeist-super	パンプジン	とくだいサイズ	0711-03	gourgeistsuper	Gourgeist-Super
 n712	カチコール	712	bergmite	カチコール		0712-00	bergmite	Bergmite
 n713	クレベース	713	avalugg	クレベース		0713-00	avalugg	Avalugg
 n713h	クレベース(ヒスイ)	10243	avalugg-hisui	クレベース	ヒスイのすがた	0713-01	avalugghisui	Avalugg-Hisui
 n714	オンバット	714	noibat	オンバット		0714-00	noibat	Noibat
 n715	オンバーン	715	noivern	オンバーン		0715-00	noivern	Noivern
-n716	ゼルネアス	716	xerneas	ゼルネアス	アクティブモード	0716-00		
-n717	イベルタル	717	yveltal	イベルタル		0717-00		
-n718t	ジガルデ(10%)	10181	zygarde-10	ジガルデ	１０％フォルム	0718-01		
-		10118	zygarde-10-power-construct	ジガルデ	１０％フォルム			
-n718	ジガルデ(50%)	718	zygarde-50	ジガルデ	５０％フォルム	0718-00		
-		10119	zygarde-50-power-construct	ジガルデ	５０％フォルム			
-n718c	ジガルデ(パーフェクト)	10120	zygarde-complete	ジガルデ	パーフェクトフォルム			
+n716	ゼルネアス	716	xerneas	ゼルネアス	アクティブモード	0716-00	xerneas	Xerneas
+n717	イベルタル	717	yveltal	イベルタル		0717-00	yveltal	Yveltal
+n718t	ジガルデ(10%)	10181	zygarde-10	ジガルデ	１０％フォルム	0718-01	zygarde10	Zygarde-10%
+		10118	zygarde-10-power-construct	ジガルデ	１０％フォルム		zygarde10	Zygarde-10%
+n718	ジガルデ(50%)	718	zygarde-50	ジガルデ	５０％フォルム	0718-00	zygarde50	Zygarde
+		10119	zygarde-50-power-construct	ジガルデ	５０％フォルム		zygarde	Zygarde
+n718c	ジガルデ(パーフェクト)	10120	zygarde-complete	ジガルデ	パーフェクトフォルム		zygardecomplete	Zygarde-Complete
 n719	ディアンシー	719	diancie	ディアンシー		0719-00	diancie	Diancie
-n719m	メガディアンシー	10075	diancie-mega	ディアンシー	メガディアンシー	0719-01		
+n719m	メガディアンシー	10075	diancie-mega	ディアンシー	メガディアンシー	0719-01	dianciemega	Diancie-Mega
 n720	フーパ(いましめ)	720	hoopa	フーパ	いましめられしフーパ	0720-00	hoopa	Hoopa
 n720u	フーパ(ときはな)	10086	hoopa-unbound	フーパ	ときはなたれしフーパ	0720-01	hoopaunbound	Hoopa-Unbound
 n721	ボルケニオン	721	volcanion	ボルケニオン		0721-00	volcanion	Volcanion
@@ -935,8 +935,8 @@ n744	イワンコ	744	rockruff	イワンコ		0744-00	rockruff	Rockruff
 n745d	ルガルガン(たそがれ)	10152	lycanroc-dusk	ルガルガン	たそがれのすがた	0745-02	lycanrocdusk	Lycanroc-Dusk
 n745	ルガルガン(まひる)	745	lycanroc-midday	ルガルガン	まひるのすがた	0745-00	lycanrocmidday	Lycanroc
 n745f	ルガルガン(まよなか)	10126	lycanroc-midnight	ルガルガン	まよなかのすがた	0745-01	lycanrocmidnight	Lycanroc-Midnight
-n746	ヨワシ(単独)	746	wishiwashi-solo	ヨワシ	たんどくのすがた	0746-00		
-n746f	ヨワシ(群れ)	10127	wishiwashi-school	ヨワシ	むれたすがた	0746-01		
+n746	ヨワシ(単独)	746	wishiwashi-solo	ヨワシ	たんどくのすがた	0746-00	wishiwashisolo	Wishiwashi
+n746f	ヨワシ(群れ)	10127	wishiwashi-school	ヨワシ	むれたすがた	0746-01	wishiwashischool	Wishiwashi-School
 n747	ヒドイデ	747	mareanie	ヒドイデ		0747-00	mareanie	Mareanie
 n748	ドヒドイデ	748	toxapex	ドヒドイデ		0748-00	toxapex	Toxapex
 n749	ドロバンコ	749	mudbray	ドロバンコ		0749-00	mudbray	Mudbray
@@ -947,26 +947,26 @@ n752	オニシズクモ	752	araquanid	オニシズクモ		0752-00	araquanid	Araq
 n753	カリキリ	753	fomantis	カリキリ		0753-00	fomantis	Fomantis
 n754	ラランテス	754	lurantis	ラランテス		0754-00	lurantis	Lurantis
 		10128	lurantis-totem	ラランテス			lurantis	Lurantis
-n755	ネマシュ	755	morelull	ネマシュ		0755-00		
-n756	マシェード	756	shiinotic	マシェード		0756-00		
+n755	ネマシュ	755	morelull	ネマシュ		0755-00	morelull	Morelull
+n756	マシェード	756	shiinotic	マシェード		0756-00	shiinotic	Shiinotic
 n757	ヤトウモリ	757	salandit	ヤトウモリ		0757-00	salandit	Salandit
 n758	エンニュート	758	salazzle	エンニュート		0758-00	salazzle	Salazzle
 		10129	salazzle-totem	エンニュート			salazzle	Salazzle
-n759	ヌイコグマ	759	stufful	ヌイコグマ		0759-00		
-n760	キテルグマ	760	bewear	キテルグマ		0760-00		
+n759	ヌイコグマ	759	stufful	ヌイコグマ		0759-00	stufful	Stufful
+n760	キテルグマ	760	bewear	キテルグマ		0760-00	bewear	Bewear
 n761	アマカジ	761	bounsweet	アマカジ		0761-00	bounsweet	Bounsweet
 n762	アママイコ	762	steenee	アママイコ		0762-00	steenee	Steenee
 n763	アマージョ	763	tsareena	アマージョ		0763-00	tsareena	Tsareena
 n764	キュワワー	764	comfey	キュワワー		0764-00	comfey	Comfey
 n765	ヤレユータン	765	oranguru	ヤレユータン		0765-00	oranguru	Oranguru
 n766	ナゲツケサル	766	passimian	ナゲツケサル		0766-00	passimian	Passimian
-n767	コソクムシ	767	wimpod	コソクムシ		0767-00		
-n768	グソクムシャ	768	golisopod	グソクムシャ		0768-00		
+n767	コソクムシ	767	wimpod	コソクムシ		0767-00	wimpod	Wimpod
+n768	グソクムシャ	768	golisopod	グソクムシャ		0768-00	golisopod	Golisopod
 n769	スナバァ	769	sandygast	スナバァ		0769-00	sandygast	Sandygast
 n770	シロデスナ	770	palossand	シロデスナ		0770-00	palossand	Palossand
-n771	ナマコブシ	771	pyukumuku	ナマコブシ		0771-00		
-n772	タイプ：ヌル	772	type-null	タイプ：ヌル		0772-00		
-n773	シルヴァディ	773	silvally	シルヴァディ	タイプ：ノーマル	0773-00		
+n771	ナマコブシ	771	pyukumuku	ナマコブシ		0771-00	pyukumuku	Pyukumuku
+n772	タイプ：ヌル	772	type-null	タイプ：ヌル		0772-00	typenull	Type: Null
+n773	シルヴァディ	773	silvally	シルヴァディ	タイプ：ノーマル	0773-00	silvally	Silvally
 		10140	minior-blue	メテノ	みずいろのコア	0774-11	miniorblue	Minior-Blue
 		10133	minior-blue-meteor	メテノ	りゅうせいのすがた	0774-04		
 		10139	minior-green	メテノ	みどりいろのコア	0774-10	miniorgreen	Minior-Green
@@ -982,49 +982,49 @@ n773	シルヴァディ	773	silvally	シルヴァディ	タイプ：ノーマル
 n774f	メテノ(コア)	10136	minior-red	メテノ	あかいろのコア	0774-07	miniorred	Minior
 n774	メテノ(流星)	774	minior-red-meteor	メテノ	りゅうせいのすがた	0774-00		
 n775	ネッコアラ	775	komala	ネッコアラ		0775-00	komala	Komala
-n776	バクガメス	776	turtonator	バクガメス		0776-00		
-n777	トゲデマル	777	togedemaru	トゲデマル		0777-00		
-		10154	togedemaru-totem	トゲデマル				
+n776	バクガメス	776	turtonator	バクガメス		0776-00	turtonator	Turtonator
+n777	トゲデマル	777	togedemaru	トゲデマル		0777-00	togedemaru	Togedemaru
+		10154	togedemaru-totem	トゲデマル			togedemaru	Togedemaru
 n778	ミミッキュ	778	mimikyu-disguised	ミミッキュ	ばけたすがた	0778-00	mimikyudisguised	Mimikyu
 		10143	mimikyu-busted	ミミッキュ	ばれたすがた		mimikyubusted	Mimikyu-Busted
 		10145	mimikyu-totem-busted	ミミッキュ			mimikyubusted	Mimikyu-Busted
 		10144	mimikyu-totem-disguised	ミミッキュ			mimikyudisguised	Mimikyu
 n779	ハギギシリ	779	bruxish	ハギギシリ		0779-00	bruxish	Bruxish
-n780	ジジーロン	780	drampa	ジジーロン		0780-00		
-n781	ダダリン	781	dhelmise	ダダリン		0781-00		
+n780	ジジーロン	780	drampa	ジジーロン		0780-00	drampa	Drampa
+n781	ダダリン	781	dhelmise	ダダリン		0781-00	dhelmise	Dhelmise
 n782	ジャラコ	782	jangmo-o	ジャラコ		0782-00	jangmoo	Jangmo-o
 n783	ジャランゴ	783	hakamo-o	ジャランゴ		0783-00	hakamoo	Hakamo-o
 n784	ジャラランガ	784	kommo-o	ジャラランガ		0784-00	kommoo	Kommo-o
 		10146	kommo-o-totem	ジャラランガ			kommoo	Kommo-o
-n785	カプ・コケコ	785	tapu-koko	カプ・コケコ		0785-00		
-n786	カプ・テテフ	786	tapu-lele	カプ・テテフ		0786-00		
-n787	カプ・ブルル	787	tapu-bulu	カプ・ブルル		0787-00		
-n788	カプ・レヒレ	788	tapu-fini	カプ・レヒレ		0788-00		
+n785	カプ・コケコ	785	tapu-koko	カプ・コケコ		0785-00	tapukoko	Tapu Koko
+n786	カプ・テテフ	786	tapu-lele	カプ・テテフ		0786-00	tapulele	Tapu Lele
+n787	カプ・ブルル	787	tapu-bulu	カプ・ブルル		0787-00	tapubulu	Tapu Bulu
+n788	カプ・レヒレ	788	tapu-fini	カプ・レヒレ		0788-00	tapufini	Tapu Fini
 n789	コスモッグ	789	cosmog	コスモッグ		0789-00	cosmog	Cosmog
 n790	コスモウム	790	cosmoem	コスモウム		0790-00	cosmoem	Cosmoem
 n791	ソルガレオ	791	solgaleo	ソルガレオ		0791-00	solgaleo	Solgaleo
 n792	ルナアーラ	792	lunala	ルナアーラ		0792-00	lunala	Lunala
-n793	ウツロイド	793	nihilego	ウツロイド		0793-00		
-n794	マッシブーン	794	buzzwole	マッシブーン		0794-00		
-n795	フェローチェ	795	pheromosa	フェローチェ		0795-00		
-n796	デンジュモク	796	xurkitree	デンジュモク		0796-00		
-n797	テッカグヤ	797	celesteela	テッカグヤ		0797-00		
-n798	カミツルギ	798	kartana	カミツルギ		0798-00		
-n799	アクジキング	799	guzzlord	アクジキング		0799-00		
+n793	ウツロイド	793	nihilego	ウツロイド		0793-00	nihilego	Nihilego
+n794	マッシブーン	794	buzzwole	マッシブーン		0794-00	buzzwole	Buzzwole
+n795	フェローチェ	795	pheromosa	フェローチェ		0795-00	pheromosa	Pheromosa
+n796	デンジュモク	796	xurkitree	デンジュモク		0796-00	xurkitree	Xurkitree
+n797	テッカグヤ	797	celesteela	テッカグヤ		0797-00	celesteela	Celesteela
+n798	カミツルギ	798	kartana	カミツルギ		0798-00	kartana	Kartana
+n799	アクジキング	799	guzzlord	アクジキング		0799-00	guzzlord	Guzzlord
 n800	ネクロズマ	800	necrozma	ネクロズマ		0800-00	necrozma	Necrozma
-n800u	ウルトラネクロズマ	10157	necrozma-ultra	ネクロズマ	ウルトラネクロズマ	0800-03		
+n800u	ウルトラネクロズマ	10157	necrozma-ultra	ネクロズマ	ウルトラネクロズマ	0800-03	necrozmaultra	Necrozma-Ultra
 n800s	ネクロズマ(日食)	10155	necrozma-dusk	ネクロズマ	たそがれのたてがみ	0800-01	necrozmadusk	Necrozma-Dusk-Mane
 n800m	ネクロズマ(月食)	10156	necrozma-dawn	ネクロズマ	あかつきのつばさ	0800-02	necrozmadawn	Necrozma-Dawn-Wings
 n801	マギアナ	801	magearna	マギアナ		0801-00	magearna	Magearna
 		10147	magearna-original	マギアナ	５００ねんまえのいろ	0801-01	magearnaoriginal	Magearna-Original
-n802	マーシャドー	802	marshadow	マーシャドー		0802-00		
-n803	ベベノム	803	poipole	ベベノム		0803-00		
-n804	アーゴヨン	804	naganadel	アーゴヨン		0804-00		
-n805	ツンデツンデ	805	stakataka	ツンデツンデ		0805-00		
-n806	ズガドーン	806	blacephalon	ズガドーン		0806-00		
-n807	ゼラオラ	807	zeraora	ゼラオラ		0807-00		
-n808	メルタン	808	meltan	メルタン		0808-00		
-n809	メルメタル	809	melmetal	メルメタル		0809-00		
+n802	マーシャドー	802	marshadow	マーシャドー		0802-00	marshadow	Marshadow
+n803	ベベノム	803	poipole	ベベノム		0803-00	poipole	Poipole
+n804	アーゴヨン	804	naganadel	アーゴヨン		0804-00	naganadel	Naganadel
+n805	ツンデツンデ	805	stakataka	ツンデツンデ		0805-00	stakataka	Stakataka
+n806	ズガドーン	806	blacephalon	ズガドーン		0806-00	blacephalon	Blacephalon
+n807	ゼラオラ	807	zeraora	ゼラオラ		0807-00	zeraora	Zeraora
+n808	メルタン	808	meltan	メルタン		0808-00	meltan	Meltan
+n809	メルメタル	809	melmetal	メルメタル		0809-00	melmetal	Melmetal
 		10208	melmetal-gmax	メルメタル				
 n810	サルノリ	810	grookey	サルノリ		0810-00	grookey	Grookey
 n811	バチンキー	811	thwackey	バチンキー		0811-00	thwackey	Thwackey
@@ -1044,21 +1044,21 @@ n821	ココガラ	821	rookidee	ココガラ		0821-00	rookidee	Rookidee
 n822	アオガラス	822	corvisquire	アオガラス		0822-00	corvisquire	Corvisquire
 n823	アーマーガア	823	corviknight	アーマーガア		0823-00	corviknight	Corviknight
 		10212	corviknight-gmax	アーマーガア				
-n824	サッチムシ	824	blipbug	サッチムシ		0824-00		
-n825	レドームシ	825	dottler	レドームシ		0825-00		
-n826	イオルブ	826	orbeetle	イオルブ		0826-00		
+n824	サッチムシ	824	blipbug	サッチムシ		0824-00	blipbug	Blipbug
+n825	レドームシ	825	dottler	レドームシ		0825-00	dottler	Dottler
+n826	イオルブ	826	orbeetle	イオルブ		0826-00	orbeetle	Orbeetle
 		10213	orbeetle-gmax	イオルブ				
-n827	クスネ	827	nickit	クスネ		0827-00		
-n828	フォクスライ	828	thievul	フォクスライ		0828-00		
-n829	ヒメンカ	829	gossifleur	ヒメンカ		0829-00		
-n830	ワタシラガ	830	eldegoss	ワタシラガ		0830-00		
-n831	ウールー	831	wooloo	ウールー		0831-00		
-n832	バイウールー	832	dubwool	バイウールー		0832-00		
+n827	クスネ	827	nickit	クスネ		0827-00	nickit	Nickit
+n828	フォクスライ	828	thievul	フォクスライ		0828-00	thievul	Thievul
+n829	ヒメンカ	829	gossifleur	ヒメンカ		0829-00	gossifleur	Gossifleur
+n830	ワタシラガ	830	eldegoss	ワタシラガ		0830-00	eldegoss	Eldegoss
+n831	ウールー	831	wooloo	ウールー		0831-00	wooloo	Wooloo
+n832	バイウールー	832	dubwool	バイウールー		0832-00	dubwool	Dubwool
 n833	カムカメ	833	chewtle	カムカメ		0833-00	chewtle	Chewtle
 n834	カジリガメ	834	drednaw	カジリガメ		0834-00	drednaw	Drednaw
 		10214	drednaw-gmax	カジリガメ				
-n835	ワンパチ	835	yamper	ワンパチ		0835-00		
-n836	パルスワン	836	boltund	パルスワン		0836-00		
+n835	ワンパチ	835	yamper	ワンパチ		0835-00	yamper	Yamper
+n836	パルスワン	836	boltund	パルスワン		0836-00	boltund	Boltund
 n837	タンドン	837	rolycoly	タンドン		0837-00	rolycoly	Rolycoly
 n838	トロッゴン	838	carkol	トロッゴン		0838-00	carkol	Carkol
 n839	セキタンザン	839	coalossal	セキタンザン		0839-00	coalossal	Coalossal
@@ -1081,11 +1081,11 @@ n848	エレズン	848	toxel	エレズン		0848-00	toxel	Toxel
 		10228	toxtricity-low-key-gmax	ストリンダー				
 n849	ストリンダー(ハイ)	849	toxtricity-amped	ストリンダー	ハイなすがた	0849-00	toxtricityamped	Toxtricity
 n849f	ストリンダー(ロー)	10184	toxtricity-low-key	ストリンダー	ローなすがた	0849-01	toxtricitylowkey	Toxtricity-Low-Key
-n850	ヤクデ	850	sizzlipede	ヤクデ		0850-00		
-n851	マルヤクデ	851	centiskorch	マルヤクデ		0851-00		
+n850	ヤクデ	850	sizzlipede	ヤクデ		0850-00	sizzlipede	Sizzlipede
+n851	マルヤクデ	851	centiskorch	マルヤクデ		0851-00	centiskorch	Centiskorch
 		10220	centiskorch-gmax	マルヤクデ				
-n852	タタッコ	852	clobbopus	タタッコ		0852-00		
-n853	オトスパス	853	grapploct	オトスパス		0853-00		
+n852	タタッコ	852	clobbopus	タタッコ		0852-00	clobbopus	Clobbopus
+n853	オトスパス	853	grapploct	オトスパス		0853-00	grapploct	Grapploct
 n854	ヤバチャ	854	sinistea	ヤバチャ	がんさくフォルム	0854-00	sinistea	Sinistea
 n855	ポットデス	855	polteageist	ポットデス	がんさくフォルム	0855-00	polteageist	Polteageist
 n856	ミブリム	856	hatenna	ミブリム		0856-00	hatenna	Hatenna
@@ -1096,12 +1096,12 @@ n859	ベロバー	859	impidimp	ベロバー		0859-00	impidimp	Impidimp
 n860	ギモー	860	morgrem	ギモー		0860-00	morgrem	Morgrem
 n861	オーロンゲ	861	grimmsnarl	オーロンゲ		0861-00	grimmsnarl	Grimmsnarl
 		10222	grimmsnarl-gmax	オーロンゲ				
-n862	タチフサグマ	862	obstagoon	タチフサグマ		0862-00		
+n862	タチフサグマ	862	obstagoon	タチフサグマ		0862-00	obstagoon	Obstagoon
 n863	ニャイキング	863	perrserker	ニャイキング		0863-00	perrserker	Perrserker
-n864	サニゴーン	864	cursola	サニゴーン		0864-00		
-n865	ネギガナイト	865	sirfetchd	ネギガナイト		0865-00		
-n866	バリコオル	866	mr-rime	バリコオル		0866-00		
-n867	デスバーン	867	runerigus	デスバーン		0867-00		
+n864	サニゴーン	864	cursola	サニゴーン		0864-00	cursola	Cursola
+n865	ネギガナイト	865	sirfetchd	ネギガナイト		0865-00	sirfetchd	Sirfetch’d
+n866	バリコオル	866	mr-rime	バリコオル		0866-00	mrrime	Mr. Rime
+n867	デスバーン	867	runerigus	デスバーン		0867-00	runerigus	Runerigus
 n868	マホミル	868	milcery	マホミル		0868-00	milcery	Milcery
 n869	マホイップ	869	alcremie	マホイップ	ミルキィバニラ	0869-00	alcremie	Alcremie
 		10223	alcremie-gmax	マホイップ				
@@ -1119,10 +1119,10 @@ n877	モルペコ	877	morpeko-full-belly	モルペコ	まんぷくもよう	0877
 n878	ゾウドウ	878	cufant	ゾウドウ		0878-00	cufant	Cufant
 n879	ダイオウドウ	879	copperajah	ダイオウドウ		0879-00	copperajah	Copperajah
 		10224	copperajah-gmax	ダイオウドウ				
-n880	パッチラゴン	880	dracozolt	パッチラゴン		0880-00		
-n881	パッチルドン	881	arctozolt	パッチルドン		0881-00		
-n882	ウオノラゴン	882	dracovish	ウオノラゴン		0882-00		
-n883	ウオチルドン	883	arctovish	ウオチルドン		0883-00		
+n880	パッチラゴン	880	dracozolt	パッチラゴン		0880-00	dracozolt	Dracozolt
+n881	パッチルドン	881	arctozolt	パッチルドン		0881-00	arctozolt	Arctozolt
+n882	ウオノラゴン	882	dracovish	ウオノラゴン		0882-00	dracovish	Dracovish
+n883	ウオチルドン	883	arctovish	ウオチルドン		0883-00	arctovish	Arctovish
 n884	ジュラルドン	884	duraludon	ジュラルドン		0884-00	duraludon	Duraludon
 		10225	duraludon-gmax	ジュラルドン				
 n885	ドラメシヤ	885	dreepy	ドラメシヤ		0885-00	dreepy	Dreepy
