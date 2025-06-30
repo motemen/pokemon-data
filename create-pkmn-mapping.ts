@@ -25,211 +25,100 @@ interface PkmnMapping {
 }
 
 /**
- * PokéAPIのフォルム名からPokemon Showdownのフォルム接尾辞へのマッピング
+ * PokéAPIの英語名からPokemon ShowdownのIDを生成
+ * 
+ * PokéAPIの形式:
+ * - venusaur-mega
+ * - charizard-mega-x
+ * - rattata-alola
+ * - rotom-heat
+ * 
+ * Pokemon Showdownの形式:
+ * - venusaurmega
+ * - charizardmegax
+ * - rattataalola
+ * - rotomheat
  */
-const FORM_MAPPING: Record<string, string> = {
-  // リージョンフォーム
-  "アローラのすがた": "alola",
-  "ガラルのすがた": "galar", 
-  "ヒスイのすがた": "hisui",
-  "パルデアのすがた": "paldea",
-  
-  // メガシンカ
-  "メガフシギバナ": "mega",
-  "メガリザードンＸ": "megax",
-  "メガリザードンＹ": "megay",
-  "メガカメックス": "mega",
-  "メガスピアー": "mega",
-  "メガピジョット": "mega",
-  "メガフーディン": "mega",
-  "メガヤドラン": "mega",
-  "メガゲンガー": "mega",
-  "メガガルーラ": "mega",
-  "メガカイロス": "mega",
-  "メガギャラドス": "mega",
-  "メガプテラ": "mega",
-  "メガミュウツーＸ": "megax",
-  "メガミュウツーＹ": "megay",
-  "メガデンリュウ": "mega",
-  "メガハガネール": "mega",
-  "メガハッサム": "mega",
-  "メガヘラクロス": "mega",
-  "メガヘルガー": "mega",
-  "メガバンギラス": "mega",
-  "メガジュカイン": "mega",
-  "メガバシャーモ": "mega",
-  "メガラグラージ": "mega",
-  "メガサーナイト": "mega",
-  "メガヤミラミ": "mega",
-  "メガクチート": "mega",
-  "メガボスゴドラ": "mega",
-  "メガチャーレム": "mega",
-  "メガライボルト": "mega",
-  "メガサメハダー": "mega",
-  "メガバクーダ": "mega",
-  "メガチルタリス": "mega",
-  "メガジュペッタ": "mega",
-  "メガアブソル": "mega",
-  "メガオニゴーリ": "mega",
-  "メガボーマンダ": "mega",
-  "メガメタグロス": "mega",
-  "メガラティアス": "mega",
-  "メガラティオス": "mega",
-  "メガレックウザ": "mega",
-  "メガミミロップ": "mega",
-  "メガガブリアス": "mega",
-  "メガルカリオ": "mega",
-  "メガユキノオー": "mega",
-  "メガエルレイド": "mega",
-  "メガタブンネ": "mega",
-  "メガディアンシー": "mega",
-  
-  // ゲンシカイキ
-  "ゲンシカイキのすがた": "primal",
-  
-  // その他特殊フォーム
-  "ムゲンダイマックス": "eternamax",
-  
-  // ピカチュウキャップシリーズ
-  "オリジナルキャップ": "original",
-  "ホウエンキャップ": "hoenn",
-  "シンオウキャップ": "sinnoh",
-  "イッシュキャップ": "unova",
-  "カロスキャップ": "kalos",
-  "アローラキャップ": "alola",
-  "キミにきめたキャップ": "partner",
-  "ワールドキャップ": "world",
-  
-  // コスプレピカチュウ
-  "おきがえピカチュウ": "cosplay",
-  "ハードロック・ピカチュウ": "rockstar",
-  "アイドル・ピカチュウ": "popstar",
-  "マダム・ピカチュウ": "belle",
-  "ドクター・ピカチュウ": "phd",
-  "マスクド・ピカチュウ": "libre",
-  
-  // ロトムフォルム
-  "ヒートロトム": "heat",
-  "ウォッシュロトム": "wash",
-  "フロストロトム": "frost",
-  "スピンロトム": "fan",
-  "カットロトム": "mow",
-  
-  // デオキシスフォルム
-  "アタックフォルム": "attack",
-  "ディフェンスフォルム": "defense", 
-  "スピードフォルム": "speed",
-  
-  // その他のフォルム
-  "オスのすがた": "m",
-  "メスのすがた": "f",
-  "シールドフォルム": "shield",
-  "ブレードフォルム": "blade",
-  "ちいさいサイズ": "small",
-  "ふつうのサイズ": "average",
-  "おおきいサイズ": "large",
-  "とくだいサイズ": "super",
-  "１０％フォルム": "10",
-  "５０％フォルム": "50",
-  "パーフェクトフォルム": "complete",
-  "いましめられしフーパ": "confined",
-  "ときはなたれしフーパ": "unbound",
-  "めらめらスタイル": "baile",
-  "ぱちぱちスタイル": "pompom",
-  "ふらふらスタイル": "pau",
-  "まいまいスタイル": "sensu",
-  "まひるのすがた": "midday",
-  "まよなかのすがた": "midnight",
-  "たそがれのすがた": "dusk",
-  "たんどくのすがた": "solo",
-  "むれたすがた": "school",
-  "ばけたすがた": "disguised",
-  "ばれたすがた": "busted",
-  "ハイなすがた": "amped",
-  "ローなすがた": "lowkey",
-  "アイスフェイス": "ice",
-  "ナイスフェイス": "noice",
-  "まんぷくもよう": "fullbelly",
-  "はらぺこもよう": "hangry",
-  "れきせんのゆうしゃ": "hero",
-  "けんのおう": "crowned",
-  "たてのおう": "crowned",
-  "いちげきのかた": "singlestrike",
-  "れんげきのかた": "rapidstrike",
-  "とうちゃん": "dada",
-  "こくばじょうのすがた": "shadow",
-  "はくばじょうのすがた": "ice",
-  "アカツキ": "bloodmoon",
-  "４ひきかぞく": "fourthreesome", 
-  "３びきかぞく": "threesome",
-  "グリーンフェザー": "green",
-  "ブルーフェザー": "blue",
-  "ホワイトフェザー": "white", 
-  "イエローフェザー": "yellow",
-  "ナイーブフォルム": "zero",
-  "マイティフォルム": "hero",
-  "そったすがた": "curly",
-  "たれたすがた": "droopy",
-  "のびたすがた": "stretchy",
-  "ふたふしフォルム": "twosegment",
-  "みつふしフォルム": "threesegment",
-  "はこフォルム": "chest",
-  "とほフォルム": "roaming",
-  "せいげんけいたい": "limited",
-  "しっそうけいたい": "sprinting",
-  "ゆうえいけいたい": "swimming",
-  "かっくうけいたい": "gliding",
-  "リミテッドモード": "lowpower",
-  "ドライブモード": "drive",
-  "フロートモード": "aquatic",
-  "グライドモード": "glide",
-  "マガイモノのすがた": "unremarkable",
-  "ボンサクのすがた": "masterpiece",
-  "みどりのめん": "tealmask",
-  "いしずえのめん": "cornerstonemask",
-  "いどのめん": "wellspringmask", 
-  "かまどのめん": "hearthflamemask",
-  "テラスタルフォルム": "terastal",
-  "ステラフォルム": "stellar",
-};
+function generatePkmnId(pokeapiName: string): string {
+  // 特殊なケースの処理
+  const specialCases: Record<string, string> = {
+    'nidoran-f': 'nidoranf',
+    'nidoran-m': 'nidoranm',
+    'mr-mime': 'mrmime',
+    'mr-mime-galar': 'mrmimegalar',
+    'mime-jr': 'mimejr',
+    'type-null': 'typenull',
+    'ho-oh': 'hooh',
+    'porygon-z': 'porygonz',
+    'mr-rime': 'mrrime',
+    'flabebe': 'flabebe',
+    'zygarde-10-power-construct': 'zygarde10',
+    'zygarde-50-power-construct': 'zygarde',
+    'oricorio-pom-pom': 'oricoriopompom',
+    'jangmo-o': 'jangmoo',
+    'hakamo-o': 'hakamoo',
+    'kommo-o': 'kommoo',
+    'tapu-koko': 'tapukoko',
+    'tapu-lele': 'tapulele',
+    'tapu-bulu': 'tapubulu',
+    'tapu-fini': 'tapufini',
+    'sirfetchd': 'sirfetchd',
+    'great-tusk': 'greattusk',
+    'scream-tail': 'screamtail',
+    'brute-bonnet': 'brutebonnet',
+    'flutter-mane': 'fluttermane',
+    'slither-wing': 'slitherwing',
+    'sandy-shocks': 'sandyshocks',
+    'iron-treads': 'irontreads',
+    'iron-bundle': 'ironbundle',
+    'iron-hands': 'ironhands',
+    'iron-jugulis': 'ironjugulis',
+    'iron-moth': 'ironmoth',
+    'iron-thorns': 'ironthorns',
+    'wo-chien': 'wochien',
+    'chien-pao': 'chienpao',
+    'ting-lu': 'tinglu',
+    'chi-yu': 'chiyu',
+    'roaring-moon': 'roaringmoon',
+    'iron-valiant': 'ironvaliant',
+    'walking-wake': 'walkingwake',
+    'iron-leaves': 'ironleaves',
+    'gouging-fire': 'gougingfire',
+    'raging-bolt': 'ragingbolt',
+    'iron-boulder': 'ironboulder',
+    'iron-crown': 'ironcrown',
+  };
 
-/**
- * PokéAPIの名前とフォルムからPokemon ShowdownのIDを生成
- */
-function generatePkmnId(pokeapiName: string, formNameJa: string | null): string {
-  if (!formNameJa) {
-    return pokeapiName;
+  // 特殊なケースをチェック
+  if (pokeapiName in specialCases) {
+    return specialCases[pokeapiName];
   }
-  
-  // 完全一致を先に確認
-  if (formNameJa in FORM_MAPPING) {
-    const formSuffix = FORM_MAPPING[formNameJa];
-    return `${pokeapiName}${formSuffix}`;
+
+  // 基本的な変換: ハイフンを削除
+  let pkmnId = pokeapiName.replace(/-/g, '');
+
+  // megax, megayの特殊処理
+  pkmnId = pkmnId.replace(/megax$/, 'megax');
+  pkmnId = pkmnId.replace(/megay$/, 'megay');
+
+  // totem形式の処理（例: raticate-totem-alola → raticatealola）
+  if (pkmnId.includes('totem')) {
+    pkmnId = pkmnId.replace('totem', '');
   }
-  
-  // 部分一致で推測
-  if (formNameJa.includes("メガ")) {
-    if (formNameJa.includes("Ｘ") || formNameJa.includes("X")) {
-      return `${pokeapiName}megax`;
-    } else if (formNameJa.includes("Ｙ") || formNameJa.includes("Y")) {
-      return `${pokeapiName}megay`;
-    } else {
-      return `${pokeapiName}mega`;
-    }
-  } else if (formNameJa.includes("ゲンシカイキ")) {
-    return `${pokeapiName}primal`;
-  } else if (formNameJa.includes("アローラ")) {
-    return `${pokeapiName}alola`;
-  } else if (formNameJa.includes("ガラル")) {
-    return `${pokeapiName}galar`;
-  } else if (formNameJa.includes("ヒスイ")) {
-    return `${pokeapiName}hisui`;
-  } else if (formNameJa.includes("パルデア")) {
-    return `${pokeapiName}paldea`;
-  }
-  
-  // 不明なフォルムは基本形を返す
-  return pokeapiName;
+
+  // パルデアケンタロスの特殊処理
+  pkmnId = pkmnId
+    .replace('paldeacombatbreed', 'paldea')
+    .replace('paldeaaquabreed', 'paldeaaqua')
+    .replace('paldeablazebreed', 'paldeablaze');
+
+  // その他の特殊ケース
+  pkmnId = pkmnId
+    .replace('eternamax', 'eternamax')
+    .replace('starter', '')
+    .replace('gmax', 'gmax');
+
+  return pkmnId;
 }
 
 /**
@@ -250,13 +139,13 @@ function main() {
   let successCount = 0;
   
   for (const entry of pokemonAll) {
-    const pkmnId = generatePkmnId(entry.pokeapi_name, entry.pokeapi_form_name_ja);
+    const pkmnId = generatePkmnId(entry.pokeapi_name);
     
     // Pokemon Showdownにそのポケモンが存在するかチェック
     let pkmnName: string | null = null;
     try {
       const species = gen.species.get(pkmnId);
-      if (species) {
+      if (species && species.exists) {
         pkmnName = species.name;
         successCount++;
       }

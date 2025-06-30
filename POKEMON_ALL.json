@@ -568,8 +568,8 @@
     "pokeapi_species_name_ja":"ピカチュウ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"pikachu",
+    "pkmn_name":"Pikachu"
   },
   {
     "yakkuncom_id":null,
@@ -612,8 +612,8 @@
     "pokeapi_species_name_ja":"ライチュウ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0026-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"raichualola",
+    "pkmn_name":"Raichu-Alola"
   },
   {
     "yakkuncom_id":"n27",
@@ -634,8 +634,8 @@
     "pokeapi_species_name_ja":"サンド",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0027-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sandshrewalola",
+    "pkmn_name":"Sandshrew-Alola"
   },
   {
     "yakkuncom_id":"n28",
@@ -656,8 +656,8 @@
     "pokeapi_species_name_ja":"サンドパン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0028-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sandslashalola",
+    "pkmn_name":"Sandslash-Alola"
   },
   {
     "yakkuncom_id":"n29",
@@ -766,8 +766,8 @@
     "pokeapi_species_name_ja":"ロコン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0037-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"vulpixalola",
+    "pkmn_name":"Vulpix-Alola"
   },
   {
     "yakkuncom_id":"n38",
@@ -788,8 +788,8 @@
     "pokeapi_species_name_ja":"キュウコン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0038-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ninetalesalola",
+    "pkmn_name":"Ninetales-Alola"
   },
   {
     "yakkuncom_id":"n39",
@@ -931,8 +931,8 @@
     "pokeapi_species_name_ja":"ディグダ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0050-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"diglettalola",
+    "pkmn_name":"Diglett-Alola"
   },
   {
     "yakkuncom_id":"n51",
@@ -953,8 +953,8 @@
     "pokeapi_species_name_ja":"ダグトリオ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0051-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dugtrioalola",
+    "pkmn_name":"Dugtrio-Alola"
   },
   {
     "yakkuncom_id":"n52",
@@ -986,8 +986,8 @@
     "pokeapi_species_name_ja":"ニャース",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0052-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"meowthalola",
+    "pkmn_name":"Meowth-Alola"
   },
   {
     "yakkuncom_id":"n52g",
@@ -997,8 +997,8 @@
     "pokeapi_species_name_ja":"ニャース",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0052-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"meowthgalar",
+    "pkmn_name":"Meowth-Galar"
   },
   {
     "yakkuncom_id":"n53",
@@ -1019,8 +1019,8 @@
     "pokeapi_species_name_ja":"ペルシアン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0053-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"persianalola",
+    "pkmn_name":"Persian-Alola"
   },
   {
     "yakkuncom_id":"n54",
@@ -1085,8 +1085,8 @@
     "pokeapi_species_name_ja":"ガーディ",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0058-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"growlithehisui",
+    "pkmn_name":"Growlithe-Hisui"
   },
   {
     "yakkuncom_id":"n59",
@@ -1107,8 +1107,8 @@
     "pokeapi_species_name_ja":"ウインディ",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0059-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"arcaninehisui",
+    "pkmn_name":"Arcanine-Hisui"
   },
   {
     "yakkuncom_id":"n60",
@@ -1305,8 +1305,8 @@
     "pokeapi_species_name_ja":"イシツブテ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0074-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"geodudealola",
+    "pkmn_name":"Geodude-Alola"
   },
   {
     "yakkuncom_id":"n75",
@@ -1327,8 +1327,8 @@
     "pokeapi_species_name_ja":"ゴローン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0075-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"graveleralola",
+    "pkmn_name":"Graveler-Alola"
   },
   {
     "yakkuncom_id":"n76",
@@ -1349,8 +1349,8 @@
     "pokeapi_species_name_ja":"ゴローニャ",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0076-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"golemalola",
+    "pkmn_name":"Golem-Alola"
   },
   {
     "yakkuncom_id":"n77",
@@ -1415,8 +1415,8 @@
     "pokeapi_species_name_ja":"ヤドン",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0079-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"slowpokegalar",
+    "pkmn_name":"Slowpoke-Galar"
   },
   {
     "yakkuncom_id":"n80",
@@ -1437,8 +1437,8 @@
     "pokeapi_species_name_ja":"ヤドラン",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0080-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"slowbrogalar",
+    "pkmn_name":"Slowbro-Galar"
   },
   {
     "yakkuncom_id":"n80m",
@@ -1558,8 +1558,8 @@
     "pokeapi_species_name_ja":"ベトベター",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0088-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"grimeralola",
+    "pkmn_name":"Grimer-Alola"
   },
   {
     "yakkuncom_id":"n89",
@@ -1580,8 +1580,8 @@
     "pokeapi_species_name_ja":"ベトベトン",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0089-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mukalola",
+    "pkmn_name":"Muk-Alola"
   },
   {
     "yakkuncom_id":"n90",
@@ -1745,8 +1745,8 @@
     "pokeapi_species_name_ja":"ビリリダマ",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0100-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"voltorbhisui",
+    "pkmn_name":"Voltorb-Hisui"
   },
   {
     "yakkuncom_id":"n101",
@@ -1767,8 +1767,8 @@
     "pokeapi_species_name_ja":"マルマイン",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0101-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"electrodehisui",
+    "pkmn_name":"Electrode-Hisui"
   },
   {
     "yakkuncom_id":"n102",
@@ -1800,8 +1800,8 @@
     "pokeapi_species_name_ja":"ナッシー",
     "pokeapi_form_name_ja":"アローラのすがた",
     "pokedbtokyo_id":"0103-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"exeggutoralola",
+    "pkmn_name":"Exeggutor-Alola"
   },
   {
     "yakkuncom_id":"n104",
@@ -1910,8 +1910,8 @@
     "pokeapi_species_name_ja":"マタドガス",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0110-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"weezinggalar",
+    "pkmn_name":"Weezing-Galar"
   },
   {
     "yakkuncom_id":"n111",
@@ -2152,8 +2152,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"taurospaldea",
+    "pkmn_name":"Tauros-Paldea-Combat"
   },
   {
     "yakkuncom_id":"n128c",
@@ -2163,8 +2163,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"taurospaldeaaqua",
+    "pkmn_name":"Tauros-Paldea-Aqua"
   },
   {
     "yakkuncom_id":"n128b",
@@ -2174,8 +2174,8 @@
     "pokeapi_species_name_ja":"ケンタロス",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0128-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"taurospaldeablaze",
+    "pkmn_name":"Tauros-Paldea-Blaze"
   },
   {
     "yakkuncom_id":"n129",
@@ -2273,8 +2273,8 @@
     "pokeapi_species_name_ja":"イーブイ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"eevee",
+    "pkmn_name":"Eevee"
   },
   {
     "yakkuncom_id":"n134",
@@ -2427,8 +2427,8 @@
     "pokeapi_species_name_ja":"フリーザー",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0144-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"articunogalar",
+    "pkmn_name":"Articuno-Galar"
   },
   {
     "yakkuncom_id":"n145",
@@ -2449,8 +2449,8 @@
     "pokeapi_species_name_ja":"サンダー",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0145-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zapdosgalar",
+    "pkmn_name":"Zapdos-Galar"
   },
   {
     "yakkuncom_id":"n146",
@@ -2471,8 +2471,8 @@
     "pokeapi_species_name_ja":"ファイヤー",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0146-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"moltresgalar",
+    "pkmn_name":"Moltres-Galar"
   },
   {
     "yakkuncom_id":"n147",
@@ -2625,8 +2625,8 @@
     "pokeapi_species_name_ja":"バクフーン",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0157-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"typhlosionhisui",
+    "pkmn_name":"Typhlosion-Hisui"
   },
   {
     "yakkuncom_id":"n158",
@@ -3054,8 +3054,8 @@
     "pokeapi_species_name_ja":"ウパー",
     "pokeapi_form_name_ja":"パルデアのすがた",
     "pokedbtokyo_id":"0194-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"wooperpaldea",
+    "pkmn_name":"Wooper-Paldea"
   },
   {
     "yakkuncom_id":"n195",
@@ -3120,8 +3120,8 @@
     "pokeapi_species_name_ja":"ヤドキング",
     "pokeapi_form_name_ja":"ガラルのすがた",
     "pokedbtokyo_id":"0199-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"slowkinggalar",
+    "pkmn_name":"Slowking-Galar"
   },
   {
     "yakkuncom_id":"n200",
@@ -3274,8 +3274,8 @@
     "pokeapi_species_name_ja":"ハリーセン",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0211-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"qwilfishhisui",
+    "pkmn_name":"Qwilfish-Hisui"
   },
   {
     "yakkuncom_id":"n212",
@@ -3351,8 +3351,8 @@
     "pokeapi_species_name_ja":"ニューラ",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0215-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sneaselhisui",
+    "pkmn_name":"Sneasel-Hisui"
   },
   {
     "yakkuncom_id":"n216",
@@ -3769,7 +3769,7 @@
     "pokeapi_species_name_ja":"ホウオウ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0250-00",
-    "pkmn_id":"ho-oh",
+    "pkmn_id":"hooh",
     "pkmn_name":"Ho-Oh"
   },
   {
@@ -5562,8 +5562,8 @@
     "pokeapi_species_name_ja":"デオキシス",
     "pokeapi_form_name_ja":"アタックフォルム",
     "pokedbtokyo_id":"0386-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"deoxysattack",
+    "pkmn_name":"Deoxys-Attack"
   },
   {
     "yakkuncom_id":"n386s",
@@ -5573,8 +5573,8 @@
     "pokeapi_species_name_ja":"デオキシス",
     "pokeapi_form_name_ja":"スピードフォルム",
     "pokedbtokyo_id":"0386-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"deoxysspeed",
+    "pkmn_name":"Deoxys-Speed"
   },
   {
     "yakkuncom_id":"n386d",
@@ -5584,8 +5584,8 @@
     "pokeapi_species_name_ja":"デオキシス",
     "pokeapi_form_name_ja":"ディフェンスフォルム",
     "pokedbtokyo_id":"0386-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"deoxysdefense",
+    "pkmn_name":"Deoxys-Defense"
   },
   {
     "yakkuncom_id":"n386",
@@ -5595,7 +5595,7 @@
     "pokeapi_species_name_ja":"デオキシス",
     "pokeapi_form_name_ja":"ノーマルフォルム",
     "pokedbtokyo_id":"0386-00",
-    "pkmn_id":"deoxys-normal",
+    "pkmn_id":"deoxysnormal",
     "pkmn_name":"Deoxys"
   },
   {
@@ -6629,7 +6629,7 @@
     "pokeapi_species_name_ja":"ポリゴンＺ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0474-00",
-    "pkmn_id":"porygon-z",
+    "pkmn_id":"porygonz",
     "pkmn_name":"Porygon-Z"
   },
   {
@@ -6706,8 +6706,8 @@
     "pokeapi_species_name_ja":"ロトム",
     "pokeapi_form_name_ja":"ウォッシュロトム",
     "pokedbtokyo_id":"0479-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rotomwash",
+    "pkmn_name":"Rotom-Wash"
   },
   {
     "yakkuncom_id":"n479c",
@@ -6717,8 +6717,8 @@
     "pokeapi_species_name_ja":"ロトム",
     "pokeapi_form_name_ja":"カットロトム",
     "pokedbtokyo_id":"0479-05",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rotommow",
+    "pkmn_name":"Rotom-Mow"
   },
   {
     "yakkuncom_id":"n479s",
@@ -6728,8 +6728,8 @@
     "pokeapi_species_name_ja":"ロトム",
     "pokeapi_form_name_ja":"スピンロトム",
     "pokedbtokyo_id":"0479-04",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rotomfan",
+    "pkmn_name":"Rotom-Fan"
   },
   {
     "yakkuncom_id":"n479h",
@@ -6739,8 +6739,8 @@
     "pokeapi_species_name_ja":"ロトム",
     "pokeapi_form_name_ja":"ヒートロトム",
     "pokedbtokyo_id":"0479-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rotomheat",
+    "pkmn_name":"Rotom-Heat"
   },
   {
     "yakkuncom_id":"n479f",
@@ -6750,8 +6750,8 @@
     "pokeapi_species_name_ja":"ロトム",
     "pokeapi_form_name_ja":"フロストロトム",
     "pokedbtokyo_id":"0479-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"rotomfrost",
+    "pkmn_name":"Rotom-Frost"
   },
   {
     "yakkuncom_id":"n480",
@@ -6805,7 +6805,7 @@
     "pokeapi_species_name_ja":"ディアルガ",
     "pokeapi_form_name_ja":"オリジンフォルム",
     "pokedbtokyo_id":"0483-01",
-    "pkmn_id":"dialga-origin",
+    "pkmn_id":"dialgaorigin",
     "pkmn_name":"Dialga-Origin"
   },
   {
@@ -6827,7 +6827,7 @@
     "pokeapi_species_name_ja":"パルキア",
     "pokeapi_form_name_ja":"オリジンフォルム",
     "pokedbtokyo_id":"0484-01",
-    "pkmn_id":"palkia-origin",
+    "pkmn_id":"palkiaorigin",
     "pkmn_name":"Palkia-Origin"
   },
   {
@@ -6860,7 +6860,7 @@
     "pokeapi_species_name_ja":"ギラティナ",
     "pokeapi_form_name_ja":"アナザーフォルム",
     "pokedbtokyo_id":"0487-00",
-    "pkmn_id":"giratina-altered",
+    "pkmn_id":"giratinaaltered",
     "pkmn_name":"Giratina"
   },
   {
@@ -6871,7 +6871,7 @@
     "pokeapi_species_name_ja":"ギラティナ",
     "pokeapi_form_name_ja":"オリジンフォルム",
     "pokedbtokyo_id":"0487-01",
-    "pkmn_id":"giratina-origin",
+    "pkmn_id":"giratinaorigin",
     "pkmn_name":"Giratina-Origin"
   },
   {
@@ -6926,7 +6926,7 @@
     "pokeapi_species_name_ja":"シェイミ",
     "pokeapi_form_name_ja":"スカイフォルム",
     "pokedbtokyo_id":"0492-01",
-    "pkmn_id":"shaymin-sky",
+    "pkmn_id":"shayminsky",
     "pkmn_name":"Shaymin-Sky"
   },
   {
@@ -6937,7 +6937,7 @@
     "pokeapi_species_name_ja":"シェイミ",
     "pokeapi_form_name_ja":"ランドフォルム",
     "pokedbtokyo_id":"0492-00",
-    "pkmn_id":"shaymin-land",
+    "pkmn_id":"shayminland",
     "pkmn_name":"Shaymin"
   },
   {
@@ -7069,8 +7069,8 @@
     "pokeapi_species_name_ja":"ダイケンキ",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0503-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"samurotthisui",
+    "pkmn_name":"Samurott-Hisui"
   },
   {
     "yakkuncom_id":"n504",
@@ -7597,8 +7597,8 @@
     "pokeapi_species_name_ja":"ドレディア",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0549-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lilliganthisui",
+    "pkmn_name":"Lilligant-Hisui"
   },
   {
     "yakkuncom_id":"n550w",
@@ -7608,7 +7608,7 @@
     "pokeapi_species_name_ja":"バスラオ",
     "pokeapi_form_name_ja":"しろすじのすがた",
     "pokedbtokyo_id":"0550-02",
-    "pkmn_id":"basculin-white-striped",
+    "pkmn_id":"basculinwhitestriped",
     "pkmn_name":"Basculin-White-Striped"
   },
   {
@@ -7619,7 +7619,7 @@
     "pokeapi_species_name_ja":"バスラオ",
     "pokeapi_form_name_ja":"あかすじのすがた",
     "pokedbtokyo_id":"0550-00",
-    "pkmn_id":"basculin-red-striped",
+    "pkmn_id":"basculinredstriped",
     "pkmn_name":"Basculin"
   },
   {
@@ -7630,7 +7630,7 @@
     "pokeapi_species_name_ja":"バスラオ",
     "pokeapi_form_name_ja":"あおすじのすがた",
     "pokedbtokyo_id":"0550-01",
-    "pkmn_id":"basculin-blue-striped",
+    "pkmn_id":"basculinbluestriped",
     "pkmn_name":"Basculin-Blue-Striped"
   },
   {
@@ -7927,8 +7927,8 @@
     "pokeapi_species_name_ja":"ゾロア",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0570-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zoruahisui",
+    "pkmn_name":"Zorua-Hisui"
   },
   {
     "yakkuncom_id":"n571",
@@ -7949,8 +7949,8 @@
     "pokeapi_species_name_ja":"ゾロアーク",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0571-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zoroarkhisui",
+    "pkmn_name":"Zoroark-Hisui"
   },
   {
     "yakkuncom_id":"n572",
@@ -8598,8 +8598,8 @@
     "pokeapi_species_name_ja":"ウォーグル",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0628-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"braviaryhisui",
+    "pkmn_name":"Braviary-Hisui"
   },
   {
     "yakkuncom_id":"n629",
@@ -8741,7 +8741,7 @@
     "pokeapi_species_name_ja":"トルネロス",
     "pokeapi_form_name_ja":"けしんフォルム",
     "pokedbtokyo_id":"0641-00",
-    "pkmn_id":"tornadus-incarnate",
+    "pkmn_id":"tornadusincarnate",
     "pkmn_name":"Tornadus"
   },
   {
@@ -8752,7 +8752,7 @@
     "pokeapi_species_name_ja":"トルネロス",
     "pokeapi_form_name_ja":"れいじゅうフォルム",
     "pokedbtokyo_id":"0641-01",
-    "pkmn_id":"tornadus-therian",
+    "pkmn_id":"tornadustherian",
     "pkmn_name":"Tornadus-Therian"
   },
   {
@@ -8763,7 +8763,7 @@
     "pokeapi_species_name_ja":"ボルトロス",
     "pokeapi_form_name_ja":"けしんフォルム",
     "pokedbtokyo_id":"0642-00",
-    "pkmn_id":"thundurus-incarnate",
+    "pkmn_id":"thundurusincarnate",
     "pkmn_name":"Thundurus"
   },
   {
@@ -8774,7 +8774,7 @@
     "pokeapi_species_name_ja":"ボルトロス",
     "pokeapi_form_name_ja":"れいじゅうフォルム",
     "pokedbtokyo_id":"0642-01",
-    "pkmn_id":"thundurus-therian",
+    "pkmn_id":"thundurustherian",
     "pkmn_name":"Thundurus-Therian"
   },
   {
@@ -8807,7 +8807,7 @@
     "pokeapi_species_name_ja":"ランドロス",
     "pokeapi_form_name_ja":"けしんフォルム",
     "pokedbtokyo_id":"0645-00",
-    "pkmn_id":"landorus-incarnate",
+    "pkmn_id":"landorusincarnate",
     "pkmn_name":"Landorus"
   },
   {
@@ -8818,7 +8818,7 @@
     "pokeapi_species_name_ja":"ランドロス",
     "pokeapi_form_name_ja":"れいじゅうフォルム",
     "pokedbtokyo_id":"0645-01",
-    "pkmn_id":"landorus-therian",
+    "pkmn_id":"landorustherian",
     "pkmn_name":"Landorus-Therian"
   },
   {
@@ -8840,7 +8840,7 @@
     "pokeapi_species_name_ja":"キュレム",
     "pokeapi_form_name_ja":"ブラックキュレム",
     "pokedbtokyo_id":"0646-01",
-    "pkmn_id":"kyurem-black",
+    "pkmn_id":"kyuremblack",
     "pkmn_name":"Kyurem-Black"
   },
   {
@@ -8851,7 +8851,7 @@
     "pokeapi_species_name_ja":"キュレム",
     "pokeapi_form_name_ja":"ホワイトキュレム",
     "pokedbtokyo_id":"0646-02",
-    "pkmn_id":"kyurem-white",
+    "pkmn_id":"kyuremwhite",
     "pkmn_name":"Kyurem-White"
   },
   {
@@ -8862,7 +8862,7 @@
     "pokeapi_species_name_ja":"ケルディオ",
     "pokeapi_form_name_ja":"いつものすがた",
     "pokedbtokyo_id":"0647-00",
-    "pkmn_id":"keldeo-ordinary",
+    "pkmn_id":"keldeoordinary",
     "pkmn_name":"Keldeo"
   },
   {
@@ -8873,7 +8873,7 @@
     "pokeapi_species_name_ja":"ケルディオ",
     "pokeapi_form_name_ja":"かくごのすがた",
     "pokedbtokyo_id":"0647-01",
-    "pkmn_id":"keldeo-resolute",
+    "pkmn_id":"keldeoresolute",
     "pkmn_name":"Keldeo-Resolute"
   },
   {
@@ -8884,7 +8884,7 @@
     "pokeapi_species_name_ja":"メロエッタ",
     "pokeapi_form_name_ja":"ステップフォルム",
     "pokedbtokyo_id":"0648-01",
-    "pkmn_id":"meloetta-pirouette",
+    "pkmn_id":"meloettapirouette",
     "pkmn_name":"Meloetta-Pirouette"
   },
   {
@@ -8895,7 +8895,7 @@
     "pokeapi_species_name_ja":"メロエッタ",
     "pokeapi_form_name_ja":"ボイスフォルム",
     "pokedbtokyo_id":"0648-00",
-    "pkmn_id":"meloetta-aria",
+    "pkmn_id":"meloettaaria",
     "pkmn_name":"Meloetta"
   },
   {
@@ -9258,8 +9258,8 @@
     "pokeapi_species_name_ja":"ニャオニクス",
     "pokeapi_form_name_ja":"メスのすがた",
     "pokedbtokyo_id":"0678-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"meowsticfemale",
+    "pkmn_name":"Meowstic-F"
   },
   {
     "yakkuncom_id":"n678",
@@ -9269,8 +9269,8 @@
     "pokeapi_species_name_ja":"ニャオニクス",
     "pokeapi_form_name_ja":"オスのすがた",
     "pokedbtokyo_id":"0678-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"meowsticmale",
+    "pkmn_name":"Meowstic"
   },
   {
     "yakkuncom_id":"n679",
@@ -9588,8 +9588,8 @@
     "pokeapi_species_name_ja":"ヌメイル",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0705-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"sliggoohisui",
+    "pkmn_name":"Sliggoo-Hisui"
   },
   {
     "yakkuncom_id":"n706",
@@ -9610,8 +9610,8 @@
     "pokeapi_species_name_ja":"ヌメルゴン",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0706-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"goodrahisui",
+    "pkmn_name":"Goodra-Hisui"
   },
   {
     "yakkuncom_id":"n707",
@@ -9764,8 +9764,8 @@
     "pokeapi_species_name_ja":"クレベース",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0713-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"avalugghisui",
+    "pkmn_name":"Avalugg-Hisui"
   },
   {
     "yakkuncom_id":"n714",
@@ -9896,7 +9896,7 @@
     "pokeapi_species_name_ja":"フーパ",
     "pokeapi_form_name_ja":"いましめられしフーパ",
     "pokedbtokyo_id":"0720-00",
-    "pkmn_id":"hoopaconfined",
+    "pkmn_id":"hoopa",
     "pkmn_name":"Hoopa"
   },
   {
@@ -9907,8 +9907,8 @@
     "pokeapi_species_name_ja":"フーパ",
     "pokeapi_form_name_ja":"ときはなたれしフーパ",
     "pokedbtokyo_id":"0720-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"hoopaunbound",
+    "pkmn_name":"Hoopa-Unbound"
   },
   {
     "yakkuncom_id":"n721",
@@ -9962,8 +9962,8 @@
     "pokeapi_species_name_ja":"ジュナイパー",
     "pokeapi_form_name_ja":"ヒスイのすがた",
     "pokedbtokyo_id":"0724-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"decidueyehisui",
+    "pkmn_name":"Decidueye-Hisui"
   },
   {
     "yakkuncom_id":"n725",
@@ -10094,8 +10094,8 @@
     "pokeapi_species_name_ja":"デカグース",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gumshoos",
+    "pkmn_name":"Gumshoos"
   },
   {
     "yakkuncom_id":"n736",
@@ -10138,8 +10138,8 @@
     "pokeapi_species_name_ja":"クワガノン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"vikavolt",
+    "pkmn_name":"Vikavolt"
   },
   {
     "yakkuncom_id":"n739",
@@ -10171,8 +10171,8 @@
     "pokeapi_species_name_ja":"オドリドリ",
     "pokeapi_form_name_ja":"ぱちぱちスタイル",
     "pokedbtokyo_id":"0741-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"oricoriopompom",
+    "pkmn_name":"Oricorio-Pom-Pom"
   },
   {
     "yakkuncom_id":"n741f",
@@ -10182,8 +10182,8 @@
     "pokeapi_species_name_ja":"オドリドリ",
     "pokeapi_form_name_ja":"ふらふらスタイル",
     "pokedbtokyo_id":"0741-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"oricoriopau",
+    "pkmn_name":"Oricorio-Pa'u"
   },
   {
     "yakkuncom_id":"n741m",
@@ -10193,8 +10193,8 @@
     "pokeapi_species_name_ja":"オドリドリ",
     "pokeapi_form_name_ja":"まいまいスタイル",
     "pokedbtokyo_id":"0741-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"oricoriosensu",
+    "pkmn_name":"Oricorio-Sensu"
   },
   {
     "yakkuncom_id":"n741",
@@ -10204,8 +10204,8 @@
     "pokeapi_species_name_ja":"オドリドリ",
     "pokeapi_form_name_ja":"めらめらスタイル",
     "pokedbtokyo_id":"0741-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"oricoriobaile",
+    "pkmn_name":"Oricorio"
   },
   {
     "yakkuncom_id":"n742",
@@ -10237,8 +10237,8 @@
     "pokeapi_species_name_ja":"アブリボン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ribombee",
+    "pkmn_name":"Ribombee"
   },
   {
     "yakkuncom_id":"n744",
@@ -10270,8 +10270,8 @@
     "pokeapi_species_name_ja":"ルガルガン",
     "pokeapi_form_name_ja":"たそがれのすがた",
     "pokedbtokyo_id":"0745-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lycanrocdusk",
+    "pkmn_name":"Lycanroc-Dusk"
   },
   {
     "yakkuncom_id":"n745",
@@ -10281,8 +10281,8 @@
     "pokeapi_species_name_ja":"ルガルガン",
     "pokeapi_form_name_ja":"まひるのすがた",
     "pokedbtokyo_id":"0745-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lycanrocmidday",
+    "pkmn_name":"Lycanroc"
   },
   {
     "yakkuncom_id":"n745f",
@@ -10292,8 +10292,8 @@
     "pokeapi_species_name_ja":"ルガルガン",
     "pokeapi_form_name_ja":"まよなかのすがた",
     "pokedbtokyo_id":"0745-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lycanrocmidnight",
+    "pkmn_name":"Lycanroc-Midnight"
   },
   {
     "yakkuncom_id":"n746",
@@ -10391,8 +10391,8 @@
     "pokeapi_species_name_ja":"オニシズクモ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"araquanid",
+    "pkmn_name":"Araquanid"
   },
   {
     "yakkuncom_id":"n753",
@@ -10424,8 +10424,8 @@
     "pokeapi_species_name_ja":"ラランテス",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"lurantis",
+    "pkmn_name":"Lurantis"
   },
   {
     "yakkuncom_id":"n755",
@@ -10479,8 +10479,8 @@
     "pokeapi_species_name_ja":"エンニュート",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"salazzle",
+    "pkmn_name":"Salazzle"
   },
   {
     "yakkuncom_id":"n759",
@@ -10655,7 +10655,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"みずいろのコア",
     "pokedbtokyo_id":"0774-11",
-    "pkmn_id":"minior-blue",
+    "pkmn_id":"miniorblue",
     "pkmn_name":"Minior-Blue"
   },
   {
@@ -10677,7 +10677,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"みどりいろのコア",
     "pokedbtokyo_id":"0774-10",
-    "pkmn_id":"minior-green",
+    "pkmn_id":"miniorgreen",
     "pkmn_name":"Minior-Green"
   },
   {
@@ -10699,7 +10699,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"あおいろのコア",
     "pokedbtokyo_id":"0774-12",
-    "pkmn_id":"minior-indigo",
+    "pkmn_id":"miniorindigo",
     "pkmn_name":"Minior-Indigo"
   },
   {
@@ -10721,7 +10721,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"だいだいいろのコア",
     "pokedbtokyo_id":"0774-08",
-    "pkmn_id":"minior-orange",
+    "pkmn_id":"miniororange",
     "pkmn_name":"Minior-Orange"
   },
   {
@@ -10743,7 +10743,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"むらさきいろのコア",
     "pokedbtokyo_id":"0774-13",
-    "pkmn_id":"minior-violet",
+    "pkmn_id":"miniorviolet",
     "pkmn_name":"Minior-Violet"
   },
   {
@@ -10765,7 +10765,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"きいろのコア",
     "pokedbtokyo_id":"0774-09",
-    "pkmn_id":"minior-yellow",
+    "pkmn_id":"minioryellow",
     "pkmn_name":"Minior-Yellow"
   },
   {
@@ -10787,7 +10787,7 @@
     "pokeapi_species_name_ja":"メテノ",
     "pokeapi_form_name_ja":"あかいろのコア",
     "pokedbtokyo_id":"0774-07",
-    "pkmn_id":"minior-red",
+    "pkmn_id":"miniorred",
     "pkmn_name":"Minior"
   },
   {
@@ -10853,8 +10853,8 @@
     "pokeapi_species_name_ja":"ミミッキュ",
     "pokeapi_form_name_ja":"ばけたすがた",
     "pokedbtokyo_id":"0778-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mimikyudisguised",
+    "pkmn_name":"Mimikyu"
   },
   {
     "yakkuncom_id":null,
@@ -10864,8 +10864,8 @@
     "pokeapi_species_name_ja":"ミミッキュ",
     "pokeapi_form_name_ja":"ばれたすがた",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mimikyubusted",
+    "pkmn_name":"Mimikyu-Busted"
   },
   {
     "yakkuncom_id":null,
@@ -10875,8 +10875,8 @@
     "pokeapi_species_name_ja":"ミミッキュ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mimikyubusted",
+    "pkmn_name":"Mimikyu-Busted"
   },
   {
     "yakkuncom_id":null,
@@ -10886,8 +10886,8 @@
     "pokeapi_species_name_ja":"ミミッキュ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"mimikyudisguised",
+    "pkmn_name":"Mimikyu"
   },
   {
     "yakkuncom_id":"n779",
@@ -10930,7 +10930,7 @@
     "pokeapi_species_name_ja":"ジャラコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0782-00",
-    "pkmn_id":"jangmo-o",
+    "pkmn_id":"jangmoo",
     "pkmn_name":"Jangmo-o"
   },
   {
@@ -10941,7 +10941,7 @@
     "pokeapi_species_name_ja":"ジャランゴ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0783-00",
-    "pkmn_id":"hakamo-o",
+    "pkmn_id":"hakamoo",
     "pkmn_name":"Hakamo-o"
   },
   {
@@ -10952,7 +10952,7 @@
     "pokeapi_species_name_ja":"ジャラランガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0784-00",
-    "pkmn_id":"kommo-o",
+    "pkmn_id":"kommoo",
     "pkmn_name":"Kommo-o"
   },
   {
@@ -10963,8 +10963,8 @@
     "pokeapi_species_name_ja":"ジャラランガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"kommoo",
+    "pkmn_name":"Kommo-o"
   },
   {
     "yakkuncom_id":"n785",
@@ -11161,7 +11161,7 @@
     "pokeapi_species_name_ja":"ネクロズマ",
     "pokeapi_form_name_ja":"たそがれのたてがみ",
     "pokedbtokyo_id":"0800-01",
-    "pkmn_id":"necrozma-dusk",
+    "pkmn_id":"necrozmadusk",
     "pkmn_name":"Necrozma-Dusk-Mane"
   },
   {
@@ -11172,7 +11172,7 @@
     "pokeapi_species_name_ja":"ネクロズマ",
     "pokeapi_form_name_ja":"あかつきのつばさ",
     "pokedbtokyo_id":"0800-02",
-    "pkmn_id":"necrozma-dawn",
+    "pkmn_id":"necrozmadawn",
     "pkmn_name":"Necrozma-Dawn-Wings"
   },
   {
@@ -11194,7 +11194,7 @@
     "pokeapi_species_name_ja":"マギアナ",
     "pokeapi_form_name_ja":"５００ねんまえのいろ",
     "pokedbtokyo_id":"0801-01",
-    "pkmn_id":"magearna-original",
+    "pkmn_id":"magearnaoriginal",
     "pkmn_name":"Magearna-Original"
   },
   {
@@ -11810,7 +11810,7 @@
     "pokeapi_species_name_ja":"ウッウ",
     "pokeapi_form_name_ja":"まるのみのすがた",
     "pokedbtokyo_id":null,
-    "pkmn_id":"cramorant-gorging",
+    "pkmn_id":"cramorantgorging",
     "pkmn_name":"Cramorant-Gorging"
   },
   {
@@ -11821,7 +11821,7 @@
     "pokeapi_species_name_ja":"ウッウ",
     "pokeapi_form_name_ja":"うのみのすがた",
     "pokedbtokyo_id":null,
-    "pkmn_id":"cramorant-gulping",
+    "pkmn_id":"cramorantgulping",
     "pkmn_name":"Cramorant-Gulping"
   },
   {
@@ -11887,8 +11887,8 @@
     "pokeapi_species_name_ja":"ストリンダー",
     "pokeapi_form_name_ja":"ハイなすがた",
     "pokedbtokyo_id":"0849-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"toxtricityamped",
+    "pkmn_name":"Toxtricity"
   },
   {
     "yakkuncom_id":"n849f",
@@ -11898,8 +11898,8 @@
     "pokeapi_species_name_ja":"ストリンダー",
     "pokeapi_form_name_ja":"ローなすがた",
     "pokedbtokyo_id":"0849-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"toxtricitylowkey",
+    "pkmn_name":"Toxtricity-Low-Key"
   },
   {
     "yakkuncom_id":"n850",
@@ -12239,8 +12239,8 @@
     "pokeapi_species_name_ja":"コオリッポ",
     "pokeapi_form_name_ja":"ナイスフェイス",
     "pokedbtokyo_id":"0875-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"eiscuenoice",
+    "pkmn_name":"Eiscue-Noice"
   },
   {
     "yakkuncom_id":"n876f",
@@ -12283,8 +12283,8 @@
     "pokeapi_species_name_ja":"モルペコ",
     "pokeapi_form_name_ja":"はらぺこもよう",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"morpekohangry",
+    "pkmn_name":"Morpeko-Hangry"
   },
   {
     "yakkuncom_id":"n878",
@@ -12426,7 +12426,7 @@
     "pokeapi_species_name_ja":"ザシアン",
     "pokeapi_form_name_ja":"れきせんのゆうしゃ",
     "pokedbtokyo_id":"0888-00",
-    "pkmn_id":"zacianhero",
+    "pkmn_id":"zacian",
     "pkmn_name":"Zacian"
   },
   {
@@ -12437,8 +12437,8 @@
     "pokeapi_species_name_ja":"ザシアン",
     "pokeapi_form_name_ja":"けんのおう",
     "pokedbtokyo_id":"0888-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zaciancrowned",
+    "pkmn_name":"Zacian-Crowned"
   },
   {
     "yakkuncom_id":"n889",
@@ -12448,7 +12448,7 @@
     "pokeapi_species_name_ja":"ザマゼンタ",
     "pokeapi_form_name_ja":"れきせんのゆうしゃ",
     "pokedbtokyo_id":"0889-00",
-    "pkmn_id":"zamazentahero",
+    "pkmn_id":"zamazenta",
     "pkmn_name":"Zamazenta"
   },
   {
@@ -12459,8 +12459,8 @@
     "pokeapi_species_name_ja":"ザマゼンタ",
     "pokeapi_form_name_ja":"たてのおう",
     "pokedbtokyo_id":"0889-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zamazentacrowned",
+    "pkmn_name":"Zamazenta-Crowned"
   },
   {
     "yakkuncom_id":"n890",
@@ -12525,8 +12525,8 @@
     "pokeapi_species_name_ja":"ウーラオス",
     "pokeapi_form_name_ja":"いちげきのかた",
     "pokedbtokyo_id":"0892-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"urshifusinglestrike",
+    "pkmn_name":"Urshifu"
   },
   {
     "yakkuncom_id":"n892r",
@@ -12536,8 +12536,8 @@
     "pokeapi_species_name_ja":"ウーラオス",
     "pokeapi_form_name_ja":"れんげきのかた",
     "pokedbtokyo_id":"0892-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"urshifurapidstrike",
+    "pkmn_name":"Urshifu-Rapid-Strike"
   },
   {
     "yakkuncom_id":"n893",
@@ -12558,8 +12558,8 @@
     "pokeapi_species_name_ja":"ザルード",
     "pokeapi_form_name_ja":"とうちゃん",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"zarudedada",
+    "pkmn_name":"Zarude-Dada"
   },
   {
     "yakkuncom_id":"n894",
@@ -12624,8 +12624,8 @@
     "pokeapi_species_name_ja":"バドレックス",
     "pokeapi_form_name_ja":"こくばじょうのすがた",
     "pokedbtokyo_id":"0898-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"calyrexshadow",
+    "pkmn_name":"Calyrex-Shadow"
   },
   {
     "yakkuncom_id":"n898w",
@@ -12635,8 +12635,8 @@
     "pokeapi_species_name_ja":"バドレックス",
     "pokeapi_form_name_ja":"はくばじょうのすがた",
     "pokedbtokyo_id":"0898-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"calyrexice",
+    "pkmn_name":"Calyrex-Ice"
   },
   {
     "yakkuncom_id":"n899",
@@ -12679,8 +12679,8 @@
     "pokeapi_species_name_ja":"ガチグマ",
     "pokeapi_form_name_ja":"アカツキ",
     "pokedbtokyo_id":"0901-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ursalunabloodmoon",
+    "pkmn_name":"Ursaluna-Bloodmoon"
   },
   {
     "yakkuncom_id":"n902f",
@@ -12734,7 +12734,7 @@
     "pokeapi_species_name_ja":"ラブトロス",
     "pokeapi_form_name_ja":"けしんフォルム",
     "pokedbtokyo_id":"0905-00",
-    "pkmn_id":"enamorus-incarnate",
+    "pkmn_id":"enamorusincarnate",
     "pkmn_name":"Enamorus"
   },
   {
@@ -12745,7 +12745,7 @@
     "pokeapi_species_name_ja":"ラブトロス",
     "pokeapi_form_name_ja":"れいじゅうフォルム",
     "pokedbtokyo_id":"0905-01",
-    "pkmn_id":"enamorus-therian",
+    "pkmn_id":"enamorustherian",
     "pkmn_name":"Enamorus-Therian"
   },
   {
@@ -13449,8 +13449,8 @@
     "pokeapi_species_name_ja":"イルカマン",
     "pokeapi_form_name_ja":"ナイーブフォルム",
     "pokedbtokyo_id":"0964-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"palafinzero",
+    "pkmn_name":"Palafin"
   },
   {
     "yakkuncom_id":"n934f",
@@ -13460,8 +13460,8 @@
     "pokeapi_species_name_ja":"イルカマン",
     "pokeapi_form_name_ja":"マイティフォルム",
     "pokedbtokyo_id":"0964-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"palafinhero",
+    "pkmn_name":"Palafin-Hero"
   },
   {
     "yakkuncom_id":"n942",
@@ -13614,8 +13614,8 @@
     "pokeapi_species_name_ja":"シャリタツ",
     "pokeapi_form_name_ja":"そったすがた",
     "pokedbtokyo_id":"0978-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tatsugiricurly",
+    "pkmn_name":"Tatsugiri"
   },
   {
     "yakkuncom_id":null,
@@ -13625,8 +13625,8 @@
     "pokeapi_species_name_ja":"シャリタツ",
     "pokeapi_form_name_ja":"たれたすがた",
     "pokedbtokyo_id":"0978-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tatsugiridroopy",
+    "pkmn_name":"Tatsugiri-Droopy"
   },
   {
     "yakkuncom_id":null,
@@ -13636,8 +13636,8 @@
     "pokeapi_species_name_ja":"シャリタツ",
     "pokeapi_form_name_ja":"のびたすがた",
     "pokedbtokyo_id":"0978-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"tatsugiristretchy",
+    "pkmn_name":"Tatsugiri-Stretchy"
   },
   {
     "yakkuncom_id":"n1010",
@@ -13680,8 +13680,8 @@
     "pokeapi_species_name_ja":"ノココッチ",
     "pokeapi_form_name_ja":"ふたふしフォルム",
     "pokedbtokyo_id":"0982-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dudunsparcetwosegment",
+    "pkmn_name":"Dudunsparce"
   },
   {
     "yakkuncom_id":null,
@@ -13691,8 +13691,8 @@
     "pokeapi_species_name_ja":"ノココッチ",
     "pokeapi_form_name_ja":"みつふしフォルム",
     "pokedbtokyo_id":null,
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"dudunsparcethreesegment",
+    "pkmn_name":"Dudunsparce-Three-Segment"
   },
   {
     "yakkuncom_id":"n1008",
@@ -13713,7 +13713,7 @@
     "pokeapi_species_name_ja":"イダイナキバ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0984-00",
-    "pkmn_id":"great-tusk",
+    "pkmn_id":"greattusk",
     "pkmn_name":"Great Tusk"
   },
   {
@@ -13724,7 +13724,7 @@
     "pokeapi_species_name_ja":"サケブシッポ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0985-00",
-    "pkmn_id":"scream-tail",
+    "pkmn_id":"screamtail",
     "pkmn_name":"Scream Tail"
   },
   {
@@ -13735,7 +13735,7 @@
     "pokeapi_species_name_ja":"アラブルタケ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0986-00",
-    "pkmn_id":"brute-bonnet",
+    "pkmn_id":"brutebonnet",
     "pkmn_name":"Brute Bonnet"
   },
   {
@@ -13746,7 +13746,7 @@
     "pokeapi_species_name_ja":"ハバタクカミ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0987-00",
-    "pkmn_id":"flutter-mane",
+    "pkmn_id":"fluttermane",
     "pkmn_name":"Flutter Mane"
   },
   {
@@ -13757,7 +13757,7 @@
     "pokeapi_species_name_ja":"チヲハウハネ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0988-00",
-    "pkmn_id":"slither-wing",
+    "pkmn_id":"slitherwing",
     "pkmn_name":"Slither Wing"
   },
   {
@@ -13768,7 +13768,7 @@
     "pokeapi_species_name_ja":"スナノケガワ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0989-00",
-    "pkmn_id":"sandy-shocks",
+    "pkmn_id":"sandyshocks",
     "pkmn_name":"Sandy Shocks"
   },
   {
@@ -13779,7 +13779,7 @@
     "pokeapi_species_name_ja":"テツノワダチ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0990-00",
-    "pkmn_id":"iron-treads",
+    "pkmn_id":"irontreads",
     "pkmn_name":"Iron Treads"
   },
   {
@@ -13790,7 +13790,7 @@
     "pokeapi_species_name_ja":"テツノツツミ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0991-00",
-    "pkmn_id":"iron-bundle",
+    "pkmn_id":"ironbundle",
     "pkmn_name":"Iron Bundle"
   },
   {
@@ -13801,7 +13801,7 @@
     "pokeapi_species_name_ja":"テツノカイナ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0992-00",
-    "pkmn_id":"iron-hands",
+    "pkmn_id":"ironhands",
     "pkmn_name":"Iron Hands"
   },
   {
@@ -13812,7 +13812,7 @@
     "pokeapi_species_name_ja":"テツノコウベ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0993-00",
-    "pkmn_id":"iron-jugulis",
+    "pkmn_id":"ironjugulis",
     "pkmn_name":"Iron Jugulis"
   },
   {
@@ -13823,7 +13823,7 @@
     "pokeapi_species_name_ja":"テツノドクガ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0994-00",
-    "pkmn_id":"iron-moth",
+    "pkmn_id":"ironmoth",
     "pkmn_name":"Iron Moth"
   },
   {
@@ -13834,7 +13834,7 @@
     "pokeapi_species_name_ja":"テツノイバラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"0995-00",
-    "pkmn_id":"iron-thorns",
+    "pkmn_id":"ironthorns",
     "pkmn_name":"Iron Thorns"
   },
   {
@@ -13878,8 +13878,8 @@
     "pokeapi_species_name_ja":"コレクレー",
     "pokeapi_form_name_ja":"とほフォルム",
     "pokedbtokyo_id":"0999-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"gimmighoulroaming",
+    "pkmn_name":"Gimmighoul-Roaming"
   },
   {
     "yakkuncom_id":"n976",
@@ -13889,7 +13889,7 @@
     "pokeapi_species_name_ja":"コレクレー",
     "pokeapi_form_name_ja":"はこフォルム",
     "pokedbtokyo_id":"0999-00",
-    "pkmn_id":"gimmighoulchest",
+    "pkmn_id":"gimmighoul",
     "pkmn_name":"Gimmighoul"
   },
   {
@@ -13911,7 +13911,7 @@
     "pokeapi_species_name_ja":"チオンジェン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1001-00",
-    "pkmn_id":"wo-chien",
+    "pkmn_id":"wochien",
     "pkmn_name":"Wo-Chien"
   },
   {
@@ -13922,7 +13922,7 @@
     "pokeapi_species_name_ja":"パオジアン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1002-00",
-    "pkmn_id":"chien-pao",
+    "pkmn_id":"chienpao",
     "pkmn_name":"Chien-Pao"
   },
   {
@@ -13933,7 +13933,7 @@
     "pokeapi_species_name_ja":"ディンルー",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1003-00",
-    "pkmn_id":"ting-lu",
+    "pkmn_id":"tinglu",
     "pkmn_name":"Ting-Lu"
   },
   {
@@ -13944,7 +13944,7 @@
     "pokeapi_species_name_ja":"イーユイ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1004-00",
-    "pkmn_id":"chi-yu",
+    "pkmn_id":"chiyu",
     "pkmn_name":"Chi-Yu"
   },
   {
@@ -13955,7 +13955,7 @@
     "pokeapi_species_name_ja":"トドロクツキ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1005-00",
-    "pkmn_id":"roaring-moon",
+    "pkmn_id":"roaringmoon",
     "pkmn_name":"Roaring Moon"
   },
   {
@@ -13966,7 +13966,7 @@
     "pokeapi_species_name_ja":"テツノブジン",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1006-00",
-    "pkmn_id":"iron-valiant",
+    "pkmn_id":"ironvaliant",
     "pkmn_name":"Iron Valiant"
   },
   {
@@ -14087,7 +14087,7 @@
     "pokeapi_species_name_ja":"ウネルミナモ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1009-00",
-    "pkmn_id":"walking-wake",
+    "pkmn_id":"walkingwake",
     "pkmn_name":"Walking Wake"
   },
   {
@@ -14098,7 +14098,7 @@
     "pokeapi_species_name_ja":"テツノイサハ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1010-00",
-    "pkmn_id":"iron-leaves",
+    "pkmn_id":"ironleaves",
     "pkmn_name":"Iron Leaves"
   },
   {
@@ -14120,8 +14120,8 @@
     "pokeapi_species_name_ja":"チャデス",
     "pokeapi_form_name_ja":"マガイモノのすがた",
     "pokedbtokyo_id":"1012-00",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"poltchageist",
+    "pkmn_name":"Poltchageist"
   },
   {
     "yakkuncom_id":"n1025",
@@ -14131,8 +14131,8 @@
     "pokeapi_species_name_ja":"ヤバソチャ",
     "pokeapi_form_name_ja":"ボンサクのすがた",
     "pokedbtokyo_id":"1013-00",
-    "pkmn_id":"sinistchamasterpiece",
-    "pkmn_name":"Sinistcha-Masterpiece"
+    "pkmn_id":"sinistcha",
+    "pkmn_name":"Sinistcha"
   },
   {
     "yakkuncom_id":"n1014",
@@ -14175,7 +14175,7 @@
     "pokeapi_species_name_ja":"オーガポン",
     "pokeapi_form_name_ja":"みどりのめん",
     "pokedbtokyo_id":"1017-00",
-    "pkmn_id":"ogerpontealmask",
+    "pkmn_id":"ogerpon",
     "pkmn_name":"Ogerpon"
   },
   {
@@ -14186,8 +14186,8 @@
     "pokeapi_species_name_ja":"オーガポン",
     "pokeapi_form_name_ja":"いしずえのめん",
     "pokedbtokyo_id":"1017-03",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ogerponcornerstonemask",
+    "pkmn_name":"Ogerpon-Cornerstone"
   },
   {
     "yakkuncom_id":"n1011w",
@@ -14197,8 +14197,8 @@
     "pokeapi_species_name_ja":"オーガポン",
     "pokeapi_form_name_ja":"いどのめん",
     "pokedbtokyo_id":"1017-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ogerponwellspringmask",
+    "pkmn_name":"Ogerpon-Wellspring"
   },
   {
     "yakkuncom_id":"n1011h",
@@ -14208,8 +14208,8 @@
     "pokeapi_species_name_ja":"オーガポン",
     "pokeapi_form_name_ja":"かまどのめん",
     "pokedbtokyo_id":"1017-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"ogerponhearthflamemask",
+    "pkmn_name":"Ogerpon-Hearthflame"
   },
   {
     "yakkuncom_id":"n1023",
@@ -14241,7 +14241,7 @@
     "pokeapi_species_name_ja":"ウガツホムラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1020-00",
-    "pkmn_id":"gouging-fire",
+    "pkmn_id":"gougingfire",
     "pkmn_name":"Gouging Fire"
   },
   {
@@ -14252,7 +14252,7 @@
     "pokeapi_species_name_ja":"タケルライコ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1021-00",
-    "pkmn_id":"raging-bolt",
+    "pkmn_id":"ragingbolt",
     "pkmn_name":"Raging Bolt"
   },
   {
@@ -14263,7 +14263,7 @@
     "pokeapi_species_name_ja":"テツノイワオ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1022-00",
-    "pkmn_id":"iron-boulder",
+    "pkmn_id":"ironboulder",
     "pkmn_name":"Iron Boulder"
   },
   {
@@ -14274,7 +14274,7 @@
     "pokeapi_species_name_ja":"テツノカシラ",
     "pokeapi_form_name_ja":null,
     "pokedbtokyo_id":"1023-00",
-    "pkmn_id":"iron-crown",
+    "pkmn_id":"ironcrown",
     "pkmn_name":"Iron Crown"
   },
   {
@@ -14296,8 +14296,8 @@
     "pokeapi_species_name_ja":"テラパゴス",
     "pokeapi_form_name_ja":"ステラフォルム",
     "pokedbtokyo_id":"1024-02",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"terapagosstellar",
+    "pkmn_name":"Terapagos-Stellar"
   },
   {
     "yakkuncom_id":"n1021t",
@@ -14307,8 +14307,8 @@
     "pokeapi_species_name_ja":"テラパゴス",
     "pokeapi_form_name_ja":"テラスタルフォルム",
     "pokedbtokyo_id":"1024-01",
-    "pkmn_id":null,
-    "pkmn_name":null
+    "pkmn_id":"terapagosterastal",
+    "pkmn_name":"Terapagos-Terastal"
   },
   {
     "yakkuncom_id":"n1022",
