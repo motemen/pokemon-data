@@ -9,6 +9,8 @@ export const PokemonDataItem = z
     pokeapi_species_name_ja: z.string(),
     pokeapi_form_name_ja: z.nullable(z.string()),
     pokedbtokyo_id: z.nullable(z.string()),
+    pkmn_id: z.nullable(z.string()),
+    pkmn_name: z.nullable(z.string()),
   })
   .strict();
 
