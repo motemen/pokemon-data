@@ -1,6 +1,6 @@
 {
   "name": "@motemen/pokemon-data",
-  "version": "9.1.0",
+  "version": "9.2.0",
   "description": "A table of Pokémon ID correspondences across multiple sites.",
   "main": "POKEMON_ALL.json",
   "files": [
