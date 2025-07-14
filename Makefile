@@ -1,9 +1,14 @@
 .PHONY: all
 all: pokemon items index.d.ts
 
+.PHONY: clean
+clean:
+	rm -f pkmn-mapping.tsv POKEMON_ALL.json POKEMON_ALL.tsv
+
 .PHONY: pokemon
-pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv
-	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv
+	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+
 
 .PHONY: items
 items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json
@@ -19,6 +24,9 @@ yakkuncom.tsv: source/yakkuncom-zukan.html
 
 pokeapi.tsv: source/pokeapi-allpokemons.json
 	python format-pokeapi-allpokemons.py $< > $@
+
+pkmn-mapping.tsv: pokeapi.tsv
+	pnpm tsx create-pkmn-mapping.ts
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql.postcontent
 	curl --fail https://beta.pokeapi.co/graphql/v1beta --data @$< | jq . > $@

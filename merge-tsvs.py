@@ -10,6 +10,7 @@ parser.add_argument("--repl", action="store_true", default=False)
 parser.add_argument("yakkuncom_tsv")
 parser.add_argument("pokeapi_tsv")
 parser.add_argument("pokeapi_pokedbtokyo_tsv")
+parser.add_argument("pkmn_mapping_tsv")
 parser.add_argument("--out_tsv")
 parser.add_argument("--out_json")
 args = parser.parse_args()
@@ -18,6 +19,17 @@ args = parser.parse_args()
 df_yakkun = pd.read_csv(args.yakkuncom_tsv, sep="\t")
 df_pokeapi = pd.read_csv(args.pokeapi_tsv, sep="\t")
 df_pokeapi_pokedbtokyo = pd.read_csv(args.pokeapi_pokedbtokyo_tsv, sep="\t")
+
+# Read pkmn mapping file (handle empty file case)
+try:
+    df_pkmn_mapping = pd.read_csv(args.pkmn_mapping_tsv, sep="\t")
+    # Check if file is effectively empty (only header or completely empty)
+    if df_pkmn_mapping.empty or args.pkmn_mapping_tsv == '/dev/null':
+        # Create empty DataFrame with required columns
+        df_pkmn_mapping = pd.DataFrame(columns=['pokeapi_id', 'pkmn_id', 'pkmn_name'])
+except (FileNotFoundError, pd.errors.EmptyDataError):
+    # Create empty DataFrame with required columns
+    df_pkmn_mapping = pd.DataFrame(columns=['pokeapi_id', 'pkmn_id', 'pkmn_name'])
 
 ## Cleanup Yakkun
 
@@ -342,6 +354,14 @@ df_merged = pd.merge(
     how="left",
 )
 
+# Merge pkmn mapping data
+df_merged = pd.merge(
+    df_merged,
+    df_pkmn_mapping[["pokeapi_id", "pkmn_id", "pkmn_name"]],
+    on="pokeapi_id",
+    how="left",
+)
+
 if args.repl:
     import code
 
@@ -357,6 +377,8 @@ df_merged = df_merged.reindex(
         "pokeapi_species_name_ja",
         "pokeapi_form_name_ja",
         "pokedbtokyo_id",
+        "pkmn_id",
+        "pkmn_name",
     ],
 )
 

@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Generated files
+pkmn-mapping.tsv
+POKEMON_ALL_BASE.json
+
+# Sketch/temporary files
+sketch/
