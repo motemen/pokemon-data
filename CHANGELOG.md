@@ -1,3 +1,8 @@
+## 9.4.0 (2025-07-16)
+
+- BREAKING: removed pokedbtokyo_id from ITEM_ALL
+- Added bulbapedia_id to ITEM_ALL
+
 ## <small>9.3.1 (2025-07-16)</small>
 
 * Added type definition for ITEM_ALL.json
@@ -6,7 +11,6 @@
 
 - BREAKING: Added english support for items
   - "name" field was renamed to "name_ja"
-
 
 ## [9.2.0] - 2025-07-14
 
