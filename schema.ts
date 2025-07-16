@@ -21,7 +21,7 @@ export const ItemDataItem = z
     name_ja: z.string(),
     name_en: z.string(),
     pokeapi_id: z.number(),
-    pokedbtokyo_id: z.number(),
+    bulbapedia_id: z.nullable(z.number()),
   })
   .strict();
 

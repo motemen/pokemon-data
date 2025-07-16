@@ -7,12 +7,14 @@ clean:
 
 .PHONY: pokemon
 pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv
-	python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
-
+	uv run python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
 
 .PHONY: items
-items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json
-	python merge-items.py source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json --out_tsv ITEM_ALL.tsv --out_json ITEM_ALL.json
+items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json bulbapedia-items.tsv
+	uv run python merge-items.py source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json bulbapedia-items.tsv --out_tsv ITEM_ALL.tsv --out_json ITEM_ALL.json
+
+bulbapedia-items.tsv: source/bulbapedia-items-gen9.html
+	uv run parse-bulbapedia-items.py $< > $@
 
 .PHONY: test
 test:
@@ -23,7 +25,7 @@ yakkuncom.tsv: source/yakkuncom-zukan.html
 	cat $< | iconv -f euc-jp -t utf8 | perl -nle 'm#li .*?data-no="([0-9]+)"[^>]+>.*?<a href="/sv/zukan/([^"]+)">.*?</i>(.+?)(?:<span>\((.+?)\)</span>)?</a></li># and print join "\t", $$1, $$2, $$3, $$4' | sort -n >> $@
 
 pokeapi.tsv: source/pokeapi-allpokemons.json
-	python format-pokeapi-allpokemons.py $< > $@
+	uv run python format-pokeapi-allpokemons.py $< > $@
 
 pkmn-mapping.tsv: pokeapi.tsv
 	pnpm tsx create-pkmn-mapping.ts
@@ -42,6 +44,9 @@ source/yakkuncom-zukan.html:
 
 source/yakkuncom-item.html:
 	curl --fail https://yakkun.com/sv/item.htm -o $@ -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/13.0.0.0 Safari/537.36"
+
+source/bulbapedia-items-gen9.html:
+	curl --fail https://bulbapedia.bulbagarden.net/wiki/List_of_items_by_index_number_in_Generation_IX -o $@
 
 index.d.ts: always
 	pnpm run create-dts

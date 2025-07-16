@@ -33,7 +33,7 @@ declare module "@motemen/pokemon-data/ITEM_ALL.json" {
       name_ja: string;
       name_en: string;
       pokeapi_id: number;
-      pokedbtokyo_id: number;
+      bulbapedia_id: number | null;
   }[];
   export default ITEM_ALL;
 }

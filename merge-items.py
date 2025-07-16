@@ -7,12 +7,14 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--repl", action="store_true", default=False)
 parser.add_argument("pokeapi_item_csv")
 parser.add_argument("pokedbtokyo_item_json")
+parser.add_argument("bulbapedia_item_tsv")
 parser.add_argument("--out_tsv")
 parser.add_argument("--out_json")
 args = parser.parse_args()
 
 df_pokeapi = pd.read_csv(args.pokeapi_item_csv)
 pokedbtokyo_item_names = json.load(open(args.pokedbtokyo_item_json))
+df_bulbapedia = pd.read_csv(args.bulbapedia_item_tsv, sep="\t")
 
 # 日本語名（local_language_id=1）と英語名（local_language_id=9）を取得
 df_pokeapi_ja = df_pokeapi[df_pokeapi["local_language_id"] == 1].copy()
@@ -36,14 +38,28 @@ df_pokedbtokyo = pd.DataFrame(
     ]
 )
 
+# まずPokédextokyoとPokeAPIをマージ
 df_merged = pd.merge(
     df_pokedbtokyo[df_pokedbtokyo["name_ja"] != ""],
     df_pokeapi_merged,
-    how="left",
+    how="right",
     on="name_ja",
 )
 
-df_merged = df_merged[["name_ja", "name_en", "pokeapi_id", "pokedbtokyo_id"]]
+# 次にBulbapediaデータをマージ（英語名ベース）
+# 重複する英語名がある場合は最小のIDを使用
+df_bulbapedia_dedup = df_bulbapedia.groupby("name_en")["bulbapedia_id"].min().reset_index()
+df_merged = pd.merge(
+    df_merged,
+    df_bulbapedia_dedup[["bulbapedia_id", "name_en"]],
+    how="left",
+    on="name_en",
+)
+
+df_merged = df_merged[["name_ja", "name_en", "pokeapi_id", "bulbapedia_id"]]
+
+# bulbapedia_idを整数型に変換（NaN値は保持）
+df_merged["bulbapedia_id"] = df_merged["bulbapedia_id"].astype("Int64")
 
 if args.repl:
     import code
