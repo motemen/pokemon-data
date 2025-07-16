@@ -14,24 +14,36 @@ args = parser.parse_args()
 df_pokeapi = pd.read_csv(args.pokeapi_item_csv)
 pokedbtokyo_item_names = json.load(open(args.pokedbtokyo_item_json))
 
-df_pokeapi = df_pokeapi[df_pokeapi["local_language_id"] == 1]
-df_pokeapi = df_pokeapi.rename({"item_id": "pokeapi_id"}, axis="columns")
+# 日本語名（local_language_id=1）と英語名（local_language_id=9）を取得
+df_pokeapi_ja = df_pokeapi[df_pokeapi["local_language_id"] == 1].copy()
+df_pokeapi_ja = df_pokeapi_ja.rename({"item_id": "pokeapi_id", "name": "name_ja"}, axis="columns")
+
+df_pokeapi_en = df_pokeapi[df_pokeapi["local_language_id"] == 9].copy()
+df_pokeapi_en = df_pokeapi_en.rename({"item_id": "pokeapi_id", "name": "name_en"}, axis="columns")
+
+# 日本語と英語名をpokeapi_idで結合
+df_pokeapi_merged = pd.merge(
+    df_pokeapi_ja[["pokeapi_id", "name_ja"]],
+    df_pokeapi_en[["pokeapi_id", "name_en"]],
+    on="pokeapi_id",
+    how="left"
+)
 
 df_pokedbtokyo = pd.DataFrame(
     [
-        {"pokedbtokyo_id": int(item_id), "name": name}
+        {"pokedbtokyo_id": int(item_id), "name_ja": name}
         for item_id, name in pokedbtokyo_item_names.items()
     ]
 )
 
 df_merged = pd.merge(
-    df_pokedbtokyo[df_pokedbtokyo["name"] != ""],
-    df_pokeapi[["pokeapi_id", "name"]],
+    df_pokedbtokyo[df_pokedbtokyo["name_ja"] != ""],
+    df_pokeapi_merged,
     how="left",
-    on="name",
+    on="name_ja",
 )
 
-df_merged = df_merged[["name", "pokeapi_id", "pokedbtokyo_id"]]
+df_merged = df_merged[["name_ja", "name_en", "pokeapi_id", "pokedbtokyo_id"]]
 
 if args.repl:
     import code
