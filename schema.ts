@@ -15,3 +15,14 @@ export const PokemonDataItem = z
   .strict();
 
 export const PokemonDataAll = z.array(PokemonDataItem);
+
+export const ItemDataItem = z
+  .object({
+    name_ja: z.string(),
+    name_en: z.string(),
+    pokeapi_id: z.number(),
+    pokedbtokyo_id: z.number(),
+  })
+  .strict();
+
+export const ItemDataAll = z.array(ItemDataItem);
