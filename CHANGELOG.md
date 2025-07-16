@@ -1,3 +1,7 @@
+## <small>9.3.1 (2025-07-16)</small>
+
+* Added type definition for ITEM_ALL.json
+
 ## 9.3.0 (2025-07-16)
 
 - BREAKING: Added english support for items
