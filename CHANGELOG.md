@@ -1,6 +1,8 @@
-# Changelog
+## 9.3.0 (2025-07-16)
 
-All notable changes to this project will be documented in this file.
+- BREAKING: Added english support for items
+  - "name" field was renamed to "name_ja"
+
 
 ## [9.2.0] - 2025-07-14
 
