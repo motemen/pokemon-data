@@ -27,11 +27,11 @@ yakkuncom.tsv: source/yakkuncom-zukan.html
 pokeapi.tsv: source/pokeapi-allpokemons.json
 	uv run python format-pokeapi-allpokemons.py $< > $@
 
-source/pokeapi-allpokemons.tsv: source/pokeapi-allpokemons.json parse-pokeapi-allpokemons.sh
+data/pokeapi.tsv: source/pokeapi-allpokemons.json parse-pokeapi-allpokemons.sh
 	./parse-pokeapi-allpokemons.sh $< > $@
 
-pkmn-mapping.tsv: pokeapi.tsv
-	pnpm tsx create-pkmn-mapping.ts
+data/pkmn.tsv: dump-pkmn.ts
+	pnpm tsx dump-pkmn.ts
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql
 	cat $< | jq -Rs '{query:.}' | curl --fail 'https://graphql.pokeapi.co/v1beta2' -d @- | jq . > $@

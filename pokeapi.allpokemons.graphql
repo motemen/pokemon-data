@@ -1,28 +1,27 @@
 {
-  species_names: pokemonspeciesname(where: { language_id: { _eq: 1 } }) {
-    species_name_ja: name
-    species: pokemonspecy {
-      pokeapi_id: id
-      name: pokemonspeciesnames(where: { language_id: { _eq: 9 } }) {
+  pokemonspeciesname(where: { language_id: { _eq: 1 } }) {
+    name_ja: name
+    pokemonspecy {
+      id
+      id_name: name
+      name_en: pokemonspeciesnames(where: { language_id: { _eq: 9 } }) {
         name
       }
-      pokedex_numbers: pokemondexnumbers(where: { pokedex_id: { _eq: 1 } }) {
+      pokedex_number: pokemondexnumbers(where: { pokedex_id: { _eq: 1 } }) {
         pokedex_number
       }
-      pokemons: pokemons {
-        name_en: name
-        pokeapi_id: id
-        is_default
-        forms: pokemonforms {
+      pokemons {
+        id
+        id_name: name
+        pokemonforms {
           id
-          name
+          id_name: name
           form_name
           form_order
-          is_battle_only
-          form_names_ja: pokemonformnames(where: { language_id: { _eq: 1 } }) {
+          name_ja: pokemonformnames(where: { language_id: { _eq: 1 } }) {
             name
           }
-          form_names_en: pokemonformnames(where: { language_id: { _eq: 9 } }) {
+          name_en: pokemonformnames(where: { language_id: { _eq: 9 } }) {
             name
           }
         }

@@ -45,8 +45,7 @@ A table of Pokémon ID correspondences across multiple sites.
 - pokeapi:
   - [PokéAPI - Pokémon](https://pokeapi.co/docs/v2) 
   - Primary Key: [PokemonForm](https://pokeapi.co/docs/v2#pokemonform).id
-  - Unique Key: `national_pokedex_number`, `form_name`
-  - Unique Key: `national_pokedex_number`, `form_number`, `is_gmax`
+  - Unique Key: `national_pokedex_number`, `form_number`, `form_name`
 - pkmn
   - https://github.com/pkmn/ps
   - Primary Key: `id`
