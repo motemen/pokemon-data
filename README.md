@@ -40,7 +40,7 @@ A table of Pokémon ID correspondences across multiple sites.
 - yakkuncom:
   - [ポケモン徹底攻略 - ポケモン図鑑](https://yakkun.com/pokemon)
   - Primary Key: `id` -- eg. `n25`
-  - Unique Key: `national_pokedex_number`, `form_name`
+  - Unique Key: `national_pokedex_number`, `form_name_ja`
     - References pokeapi(`national_pokedex_number`, `form_name`)
 - pokeapi:
   - [PokéAPI - Pokémon](https://pokeapi.co/docs/v2) 
