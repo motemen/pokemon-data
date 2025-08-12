@@ -18,9 +18,45 @@ df_showdown["_is_gmax"] = (df_showdown["forme"] == "Gmax") | (
 df_pokeapi["_crafted_form_order"] = df_pokeapi["form_order"]
 # Reverse form_order for maushold
 maushold_mask = df_pokeapi["national_pokedex_number"] == 925
-df_pokeapi.loc[maushold_mask, "_crafted_form_order"] = (
-    3 - df_pokeapi.loc[maushold_mask, "form_order"]
-)
+# Map 2 to 1 and 1 to 2 for maushold form_order
+df_pokeapi.loc[maushold_mask, "_crafted_form_order"] = df_pokeapi.loc[
+    maushold_mask, "form_order"
+].map({1: 2, 2: 1})
+
+# Pikachu
+#  formeOrder: [
+#    'Pikachu',           'Pikachu-Original',
+#    'Pikachu-Hoenn',     'Pikachu-Sinnoh',
+#    'Pikachu-Unova',     'Pikachu-Kalos',
+#    'Pikachu-Alola',     'Pikachu-Partner',
+#    'Pikachu-Starter',   'Pikachu-World',
+#    'Pikachu-Rock-Star', 'Pikachu-Belle',
+#    'Pikachu-Pop-Star',  'Pikachu-PhD',
+#    'Pikachu-Libre',     'Pikachu-Cosplay'
+#  ],
+# Fix Pikachu form_order to match the specified formeOrder
+pikachu_forme_order = [
+    "",
+    "original-cap",
+    "hoenn-cap",
+    "sinnoh-cap",
+    "unova-cap",
+    "kalos-cap",
+    "alola-cap",
+    "partner-cap",
+    "starter",
+    "world-cap",
+    "rock-star",
+    "belle",
+    "pop-star",
+    "phd",
+    "libre",
+    "cosplay",
+]
+pikachu_mask = df_pokeapi["national_pokedex_number"] == 25
+for i, forme in enumerate(pikachu_forme_order, 1):
+    mask = pikachu_mask & (df_pokeapi["form_name"].str.lower() == forme.lower())
+    df_pokeapi.loc[mask, "_crafted_form_order"] = i
 
 # Create _crafted_form_order for showdown data
 df_showdown["_crafted_form_order"] = df_showdown["form_order"]

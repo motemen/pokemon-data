@@ -77,6 +77,11 @@ while (<>) {
     next if ($pokeapi eq "gmax" && $showdown eq "lowkeygmax");
     next if ($pokeapi eq "gmax" && $showdown eq "rapidstrikegmax");
     
+    # ピカチュウの帽子フォーム: *-cap を削除してマッチング
+    my $pokeapi_pikachu = $pokeapi;
+    $pokeapi_pikachu =~ s/cap$//;
+    next if ($pokeapi_pikachu eq $showdown && $F[0] == 25);  # 図鑑番号25はピカチュウ
+    
     # マホミル: *-strawberry-sweet を削除してマッチング
     my $pokeapi_alcremie = $pokeapi;
     my $showdown_alcremie = $showdown;
