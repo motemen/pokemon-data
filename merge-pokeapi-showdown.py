@@ -10,7 +10,9 @@ df_pokeapi = pd.read_csv("./data/pokeapi.tsv", sep="\t")
 df_showdown = pd.read_csv("./data/showdown.tsv", sep="\t")
 
 df_pokeapi["_is_gmax"] = df_pokeapi["form_name"] == "gmax"
-df_showdown["_is_gmax"] = df_showdown["forme"] == "Gmax"
+df_showdown["_is_gmax"] = (df_showdown["forme"] == "Gmax") | (
+    df_showdown["forme"].str.endswith("-Gmax")
+)
 
 # Create _crafted_form_order from form_order
 df_pokeapi["_crafted_form_order"] = df_pokeapi["form_order"]
@@ -30,6 +32,36 @@ flabebe_forme_order_mapping = ["Red", "Yellow", "Orange", "Blue", "White", "Eter
 for i, forme in enumerate(flabebe_forme_order_mapping, 1):
     mask = flabebe_family & (df_showdown["forme"] == forme)
     df_showdown.loc[mask, "_crafted_form_order"] = i
+
+# 892 (Urshifu) Gmax Rapid: _crafted_form_order = 2 if form includes "rapid" (case-insensitive)
+urshifu_gmax_rapid_mask_pokeapi = (
+    (df_pokeapi["national_pokedex_number"] == 892)
+    & df_pokeapi["_is_gmax"]
+    & (df_pokeapi["form_id_name"] == "urshifu-rapid-strike-gmax")
+)
+df_pokeapi.loc[urshifu_gmax_rapid_mask_pokeapi, "_crafted_form_order"] = 2
+
+urshifu_gmax_rapid_mask_showdown = (
+    (df_showdown["national_pokedex_number"] == 892)
+    & df_showdown["_is_gmax"]
+    & (df_showdown["forme"] == "Rapid-Strike-Gmax")
+)
+df_showdown.loc[urshifu_gmax_rapid_mask_showdown, "_crafted_form_order"] = 2
+
+# 849 (Toxtricity) Gmax Low-Key: _crafted_form_order = 2 if form includes "low-key" (case-insensitive)
+toxtricity_gmax_lowkey_mask_pokeapi = (
+    (df_pokeapi["national_pokedex_number"] == 849)
+    & df_pokeapi["_is_gmax"]
+    & (df_pokeapi["form_id_name"] == "toxtricity-low-key-gmax")
+)
+df_pokeapi.loc[toxtricity_gmax_lowkey_mask_pokeapi, "_crafted_form_order"] = 2
+
+toxtricity_gmax_lowkey_mask_showdown = (
+    (df_showdown["national_pokedex_number"] == 849)
+    & df_showdown["_is_gmax"]
+    & (df_showdown["forme"] == "Low-Key-Gmax")
+)
+df_showdown.loc[toxtricity_gmax_lowkey_mask_showdown, "_crafted_form_order"] = 2
 
 # TODO:
 # - pikachu
