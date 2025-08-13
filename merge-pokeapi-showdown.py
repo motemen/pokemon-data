@@ -16,12 +16,11 @@ df_showdown["_is_gmax"] = (df_showdown["forme"] == "Gmax") | (
 
 # Create _crafted_form_order from form_order
 df_pokeapi["_crafted_form_order"] = df_pokeapi["form_order"]
-# Reverse form_order for maushold
+# Map maushold form_order based on form_name for robust handling
 maushold_mask = df_pokeapi["national_pokedex_number"] == 925
-# Map 2 to 1 and 1 to 2 for maushold form_order
 df_pokeapi.loc[maushold_mask, "_crafted_form_order"] = df_pokeapi.loc[
-    maushold_mask, "form_order"
-].map({1: 2, 2: 1})
+    maushold_mask, "form_name"
+].map({"family-of-four": 2, "family-of-three": 1})
 
 # Pikachu
 #  formeOrder: [
@@ -98,14 +97,6 @@ toxtricity_gmax_lowkey_mask_showdown = (
     & (df_showdown["forme"] == "Low-Key-Gmax")
 )
 df_showdown.loc[toxtricity_gmax_lowkey_mask_showdown, "_crafted_form_order"] = 2
-
-# TODO:
-# - pikachu
-# - flabebe, floette, florges: fix showdown
-#   form order: [red, yellow, orange, blue, white, (eternal)]
-# - maushold: fix pokeapi
-#   1: family-of-3
-#   2: family-of-4
 
 
 def rename_pokeapi_column(name: str) -> str:
