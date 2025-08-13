@@ -7,5 +7,16 @@ node_modules/
 pkmn-mapping.tsv
 POKEMON_ALL_BASE.json
 
-# Sketch/temporary files
+# Temporary and development files
+*.tmp
+*.bak
+*.old
+*~
+out.md
+issue-*.md
 sketch/
+t/
+tmp_out/
+a.tsv
+aaaa.pm
+main.pl
