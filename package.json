@@ -20,8 +20,7 @@
     "zod-to-ts": "^1.2.0"
   },
   "scripts": {
-    "test": "vitest --run",
-    "create-dts": "tsx create-dts.ts > index.d.ts"
+    "test": "vitest --run"
   },
   "repository": {
     "type": "git",

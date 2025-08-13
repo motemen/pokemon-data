@@ -3,7 +3,7 @@ all: pokemon items index.d.ts
 
 .PHONY: clean
 clean:
-	rm -f POKEMON_ALL.json POKEMON_ALL.tsv
+	rm -f POKEMON_ALL.json POKEMON_ALL.tsv index.d.ts
 
 .PHONY: pokemon
 pokemon: data/merged/pokeapi_showdown.tsv data/merged/pokeapi_yakkuncom.tsv
