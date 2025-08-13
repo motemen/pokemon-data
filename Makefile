@@ -3,11 +3,15 @@ all: pokemon items index.d.ts
 
 .PHONY: clean
 clean:
-	rm -f pkmn-mapping.tsv POKEMON_ALL.json POKEMON_ALL.tsv
+	rm -f POKEMON_ALL.json POKEMON_ALL.tsv
 
 .PHONY: pokemon
-pokemon: yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv
-	uv run python merge-tsvs.py yakkuncom.tsv pokeapi.tsv source/pokeapi-pokedbtokyo.tsv pkmn-mapping.tsv --out_tsv POKEMON_ALL.tsv --out_json POKEMON_ALL.json
+pokemon: data/merged/pokeapi_showdown.tsv data/merged/pokeapi_yakkuncom.tsv
+	uv run python merge-pokemon-all.py
+
+POKEMON_ALL.json: pokemon
+
+POKEMON_ALL.tsv: pokemon
 
 .PHONY: items
 items: source/pokeapi-item_names.csv source/pokedbtokyo-item-names.json bulbapedia-items.tsv
@@ -20,15 +24,6 @@ bulbapedia-items.tsv: source/bulbapedia-items-gen9.html
 test:
 	pnpm test
 
-## Deprecated
-yakkuncom.tsv: source/yakkuncom-zukan.html
-	echo "national_pokedex_number	id	name_ja	variant" > $@
-	cat $< | iconv -f euc-jp -t utf8 | perl -nle 'm#li .*?data-no="([0-9]+)"[^>]+>.*?<a href="/sv/zukan/([^"]+)">.*?</i>(.+?)(?:<span>\((.+?)\)</span>)?</a></li># and print join "\t", $$1, $$2, $$3, $$4' | sort -n >> $@
-
-## Deprecated
-pokeapi.tsv: source/pokeapi-allpokemons.json
-	uv run python format-pokeapi-allpokemons.py $< > $@
-
 data/yakkuncom.tsv: source/yakkuncom-zukan.html
 	echo "national_pokedex_number	id	name_ja	form_name_ja" > $@
 	cat $< | iconv -f euc-jp -t utf8 | perl -nle 'm#li .*?data-no="([0-9]+)"[^>]+>.*?<a href="/sv/zukan/([^"]+)">.*?</i>(.+?)(?:<span>\((.+?)\)</span>)?</a></li># and print join "\t", $$1, $$2, $$3, $$4' | sort -n >> $@
@@ -36,14 +31,17 @@ data/yakkuncom.tsv: source/yakkuncom-zukan.html
 data/pokeapi.tsv: source/pokeapi-allpokemons.json parse-pokeapi-allpokemons.sh
 	./parse-pokeapi-allpokemons.sh $< > $@
 
-data/pkmn.tsv: dump-pkmn.ts
-	pnpm tsx dump-pkmn.ts
+data/showdown.tsv: create-showdown.ts
+	pnpm tsx create-showdown.ts > $@
 
 data/yakkuncom_extended.tsv: data/yakkuncom.tsv
 	uv run python extend-yakkuncom.py
 
 data/merged/pokeapi_yakkuncom.tsv: merge-pokeapi-yakkuncom.py data/pokeapi.tsv data/yakkuncom_extended.tsv
 	uv run python merge-pokeapi-yakkuncom.py
+
+data/merged/pokeapi_showdown.tsv: merge-pokeapi-showdown.py data/pokeapi.tsv data/showdown.tsv
+	uv run python merge-pokeapi-showdown.py
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql
 	cat $< | jq -Rs '{query:.}' | curl --fail 'https://graphql.pokeapi.co/v1beta2' -d @- | jq . > $@
