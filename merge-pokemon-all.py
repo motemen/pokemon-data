@@ -32,7 +32,9 @@ def main():
     )
 
     # pokeapi_*カラムが同一であることを確認
-    pokeapi_columns = ["national_pokedex_number"] + [col for col in df_showdown.columns if col.startswith("pokeapi_")]
+    pokeapi_columns = ["national_pokedex_number"] + [
+        col for col in df_showdown.columns if col.startswith("pokeapi_")
+    ]
 
     print("Checking if pokeapi_* columns match...", file=sys.stderr)
     for col in pokeapi_columns:
@@ -80,6 +82,11 @@ def main():
     )
 
     df_merged = df_merged.reindex(columns=column_order)
+    df_merged["showdown_form_order"] = df_merged["showdown_form_order"].astype("Int64")
+
+    df_merged.sort_values(
+        by=["national_pokedex_number", "pokeapi_pokemon_id"], inplace=True
+    )
 
     # マッチしなかった行を報告
     no_showdown_match = df_merged[df_merged["showdown_name"].isnull()]

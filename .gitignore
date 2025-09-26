@@ -6,6 +6,21 @@ node_modules/
 # Generated files
 pkmn-mapping.tsv
 POKEMON_ALL_BASE.json
+POKEMON_ALL.json
+POKEMON_ALL.tsv
+ITEM_ALL.json
+ITEM_ALL.tsv
+index.d.ts
+bulbapedia-items.tsv
+
+# Intermediate generated files
+data/
+source/pokeapi-allpokemons.json
+source/pokeapi-item_names.csv
+source/pokemondb-pokedex-all.html
+source/yakkuncom-zukan.html
+source/yakkuncom-item.html
+source/bulbapedia-items-gen9.html
 
 # Temporary and development files
 *.tmp

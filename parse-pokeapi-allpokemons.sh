@@ -3,10 +3,7 @@
 # ヘッダー行を出力
 # ヘッダー行を1カラム1行で定義し、タブ区切りで出力
 header_cols=(
-  # Foreign keys to join with other datasets
-  "national_pokedex_number"
-  "form_order"
-  "form_name"
+  "national_pokedex_number" # Use this and form_order to combine with other datasets
 
   # Additional information
   "species_id"
@@ -15,6 +12,8 @@ header_cols=(
   "pokemon_id_name"
   "form_id"  # Primary key
   "form_id_name" # human-readable form ID
+  "form_order"
+  "form_name"
 
   # Names in different languages
   "species_name_ja"
@@ -35,8 +34,6 @@ jq -r '
 [
  
   $root.pokemonspecy.pokedex_number[0].pokedex_number,
-  .form_order,
-  .form_name,
 
   $root.pokemonspecy.id,
   $root.pokemonspecy.id_name,
@@ -44,6 +41,8 @@ jq -r '
   $pokemon.id_name,
   .id,
   .id_name,
+  .form_order,
+  .form_name,
 
   $root.name_ja,
   (.name_ja[0].name // ""),
