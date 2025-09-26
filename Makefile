@@ -6,7 +6,7 @@ clean:
 	rm -f POKEMON_ALL.json POKEMON_ALL.tsv index.d.ts
 
 .PHONY: pokemon
-pokemon: data/merged/pokeapi_showdown.tsv data/merged/pokeapi_yakkuncom.tsv
+pokemon: data/merged/pokeapi_pkmn.tsv data/merged/pokeapi_yakkuncom.tsv
 	uv run python merge-pokemon-all.py
 
 POKEMON_ALL.json: pokemon
@@ -31,8 +31,8 @@ data/yakkuncom.tsv: source/yakkuncom-zukan.html
 data/pokeapi.tsv: source/pokeapi-allpokemons.json parse-pokeapi-allpokemons.sh
 	./parse-pokeapi-allpokemons.sh $< > $@
 
-data/showdown.tsv: create-showdown.ts
-	pnpm tsx create-showdown.ts > $@
+data/pkmn.tsv: create-pkmn.ts
+	pnpm tsx create-pkmn.ts > $@
 
 data/yakkuncom_extended.tsv: data/yakkuncom.tsv
 	uv run python extend-yakkuncom.py
@@ -40,8 +40,8 @@ data/yakkuncom_extended.tsv: data/yakkuncom.tsv
 data/merged/pokeapi_yakkuncom.tsv: merge-pokeapi-yakkuncom.py data/pokeapi.tsv data/yakkuncom_extended.tsv
 	uv run python merge-pokeapi-yakkuncom.py
 
-data/merged/pokeapi_showdown.tsv: merge-pokeapi-showdown.py data/pokeapi.tsv data/showdown.tsv
-	uv run python merge-pokeapi-showdown.py
+data/merged/pokeapi_pkmn.tsv: merge-pokeapi-pkmn.py data/pokeapi.tsv data/pkmn.tsv
+	uv run python merge-pokeapi-pkmn.py
 
 source/pokeapi-allpokemons.json: pokeapi.allpokemons.graphql
 	cat $< | jq -Rs '{query:.}' | curl --fail 'https://graphql.pokeapi.co/v1beta2' -d @- | jq . > $@

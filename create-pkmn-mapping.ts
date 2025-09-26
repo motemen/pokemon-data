@@ -1,6 +1,6 @@
 #!/usr/bin/env tsx
 /**
- * @pkmn/dataを使用してPokéAPIのIDからPokemon ShowdownのIDへのマッピングファイルを生成
+ * @pkmn/dataを使用してPokéAPIのIDからPokemon PKMNのIDへのマッピングファイルを生成
  */
 
 import { readFileSync, writeFileSync } from 'fs';
@@ -24,7 +24,7 @@ interface PkmnMapping {
 }
 
 /**
- * PokéAPIの英語名からPokemon ShowdownのIDを生成
+ * PokéAPIの英語名からPokemon PKMNのIDを生成
  * 
  * 基本的にはハイフンを削除するだけで済むが、一部特殊なケースがある
  */
@@ -109,7 +109,7 @@ function main() {
   for (const entry of pokemonAll) {
     const pkmnId = generatePkmnId(entry.name_en);
     
-    // 全世代でPokemon Showdownにそのポケモンが存在するかチェック
+    // 全世代でPokemon PKMNにそのポケモンが存在するかチェック
     let pkmnName: string | null = null;
     
     // 各世代を順番にチェック（新しい世代から古い世代へ）

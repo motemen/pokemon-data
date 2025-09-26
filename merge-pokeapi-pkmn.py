@@ -2,16 +2,16 @@ import pandas as pd
 
 # Input:
 # - ./data/pokeapi.tsv
-# - ./data/showdown.tsv
+# - ./data/pkmn.tsv
 # Output:
-# - ./data/merged/pokeapi_showdown.tsv
+# - ./data/merged/pokeapi_pkmn.tsv
 
 df_pokeapi = pd.read_csv("./data/pokeapi.tsv", sep="\t")
-df_showdown = pd.read_csv("./data/showdown.tsv", sep="\t")
+df_pkmn = pd.read_csv("./data/pkmn.tsv", sep="\t")
 
 df_pokeapi["_is_gmax"] = df_pokeapi["form_name"] == "gmax"
-df_showdown["_is_gmax"] = (df_showdown["forme"] == "Gmax") | (
-    df_showdown["forme"].str.endswith("-Gmax")
+df_pkmn["_is_gmax"] = (df_pkmn["forme"] == "Gmax") | (
+    df_pkmn["forme"].str.endswith("-Gmax")
 )
 
 # Create _crafted_form_order from form_order
@@ -57,16 +57,16 @@ for i, forme in enumerate(pikachu_forme_order, 1):
     mask = pikachu_mask & (df_pokeapi["form_name"].str.lower() == forme.lower())
     df_pokeapi.loc[mask, "_crafted_form_order"] = i
 
-# Create _crafted_form_order for showdown data
-df_showdown["_crafted_form_order"] = df_showdown["form_order"]
+# Create _crafted_form_order for pkmn data
+df_pkmn["_crafted_form_order"] = df_pkmn["form_order"]
 # Fix flabebe, floette, florges form_order to [red, yellow, orange, blue, white, eternal]
-flabebe_family = df_showdown["national_pokedex_number"].isin(
+flabebe_family = df_pkmn["national_pokedex_number"].isin(
     [669, 670, 671]
 )  # flabebe, floette, florges
 flabebe_forme_order_mapping = ["Red", "Yellow", "Orange", "Blue", "White", "Eternal"]
 for i, forme in enumerate(flabebe_forme_order_mapping, 1):
-    mask = flabebe_family & (df_showdown["forme"] == forme)
-    df_showdown.loc[mask, "_crafted_form_order"] = i
+    mask = flabebe_family & (df_pkmn["forme"] == forme)
+    df_pkmn.loc[mask, "_crafted_form_order"] = i
 
 # 892 (Urshifu) Gmax Rapid: _crafted_form_order = 2 if form includes "rapid" (case-insensitive)
 urshifu_gmax_rapid_mask_pokeapi = (
@@ -76,12 +76,12 @@ urshifu_gmax_rapid_mask_pokeapi = (
 )
 df_pokeapi.loc[urshifu_gmax_rapid_mask_pokeapi, "_crafted_form_order"] = 2
 
-urshifu_gmax_rapid_mask_showdown = (
-    (df_showdown["national_pokedex_number"] == 892)
-    & df_showdown["_is_gmax"]
-    & (df_showdown["forme"] == "Rapid-Strike-Gmax")
+urshifu_gmax_rapid_mask_pkmn = (
+    (df_pkmn["national_pokedex_number"] == 892)
+    & df_pkmn["_is_gmax"]
+    & (df_pkmn["forme"] == "Rapid-Strike-Gmax")
 )
-df_showdown.loc[urshifu_gmax_rapid_mask_showdown, "_crafted_form_order"] = 2
+df_pkmn.loc[urshifu_gmax_rapid_mask_pkmn, "_crafted_form_order"] = 2
 
 # 849 (Toxtricity) Gmax Low-Key: _crafted_form_order = 2 if form includes "low-key" (case-insensitive)
 toxtricity_gmax_lowkey_mask_pokeapi = (
@@ -91,12 +91,12 @@ toxtricity_gmax_lowkey_mask_pokeapi = (
 )
 df_pokeapi.loc[toxtricity_gmax_lowkey_mask_pokeapi, "_crafted_form_order"] = 2
 
-toxtricity_gmax_lowkey_mask_showdown = (
-    (df_showdown["national_pokedex_number"] == 849)
-    & df_showdown["_is_gmax"]
-    & (df_showdown["forme"] == "Low-Key-Gmax")
+toxtricity_gmax_lowkey_mask_pkmn = (
+    (df_pkmn["national_pokedex_number"] == 849)
+    & df_pkmn["_is_gmax"]
+    & (df_pkmn["forme"] == "Low-Key-Gmax")
 )
-df_showdown.loc[toxtricity_gmax_lowkey_mask_showdown, "_crafted_form_order"] = 2
+df_pkmn.loc[toxtricity_gmax_lowkey_mask_pkmn, "_crafted_form_order"] = 2
 
 
 def rename_pokeapi_column(name: str) -> str:
@@ -110,42 +110,42 @@ def rename_pokeapi_column(name: str) -> str:
 df_pokeapi.rename(columns=rename_pokeapi_column, inplace=True)
 
 
-def rename_showdown_column(name: str) -> str:
+def rename_pkmn_column(name: str) -> str:
     if name == "national_pokedex_number":
         return name
     if name.startswith("_"):
         return name
-    return f"showdown_{name}"
+    return f"pkmn_{name}"
 
 
-df_showdown.rename(columns=rename_showdown_column, inplace=True)
+df_pkmn.rename(columns=rename_pkmn_column, inplace=True)
 
 df_merged = pd.merge(
     df_pokeapi,
-    df_showdown,
+    df_pkmn,
     how="left",
     left_on=["national_pokedex_number", "_is_gmax", "_crafted_form_order"],
     right_on=["national_pokedex_number", "_is_gmax", "_crafted_form_order"],
 )
 
-# df_showdown にあって df_merged にない行をチェックする
+# df_pkmn にあって df_merged にない行をチェックする
 # id_name でチェック
-df_showdown_missing = df_showdown[
-    ~df_showdown["showdown_id_name"].isin(df_merged["showdown_id_name"])
+df_pkmn_missing = df_pkmn[
+    ~df_pkmn["pkmn_id_name"].isin(df_merged["pkmn_id_name"])
 ]
-if not df_showdown_missing.empty:
-    print("Warning: Some entries in showdown.tsv are missing in the merged result:")
-    print(df_showdown_missing)
+if not df_pkmn_missing.empty:
+    print("Warning: Some entries in pkmn.tsv are missing in the merged result:")
+    print(df_pkmn_missing)
 
 df_merged.drop(columns=["_is_gmax", "_crafted_form_order"], inplace=True)
 
 
-# Convert form_order to int in showdown data
-df_merged["showdown_form_order"] = df_merged["showdown_form_order"].astype("Int64")
+# Convert form_order to int in pkmn data
+df_merged["pkmn_form_order"] = df_merged["pkmn_form_order"].astype("Int64")
 
 
 df_merged.to_csv(
-    "./data/merged/pokeapi_showdown.tsv",
+    "./data/merged/pokeapi_pkmn.tsv",
     sep="\t",
     index=False,
 )
@@ -154,18 +154,18 @@ df_merged.to_csv(
 maushold_merged = df_merged[df_merged["national_pokedex_number"] == 925]
 for _, row in maushold_merged.iterrows():
     pokeapi_form = row["pokeapi_form_name"]
-    showdown_form = row["showdown_forme"]
+    pkmn_form = row["pkmn_forme"]
 
     expected_mapping = {"family-of-four": "Four", "family-of-three": "Three"}
 
     if pokeapi_form in expected_mapping:
-        expected_showdown = expected_mapping[pokeapi_form]
-        if showdown_form != expected_showdown:
+        expected_pkmn = expected_mapping[pokeapi_form]
+        if pkmn_form != expected_pkmn:
             print(
-                f"Warning: Maushold form mismatch - PokéAPI: {pokeapi_form}, Showdown: {showdown_form} (expected: {expected_showdown})"
+                f"Warning: Maushold form mismatch - PokéAPI: {pokeapi_form}, PKMN: {pkmn_form} (expected: {expected_pkmn})"
             )
         else:
-            print(f"OK: Maushold {pokeapi_form} -> {showdown_form}")
+            print(f"OK: Maushold {pokeapi_form} -> {pkmn_form}")
     else:
         print(f"Warning: Unknown maushold form in PokéAPI: {pokeapi_form}")
 
@@ -175,17 +175,17 @@ flabebe_family_merged = df_merged[
 ]
 
 for _, row in flabebe_family_merged.iterrows():
-    if pd.notna(row["showdown_forme"]):  # Skip rows where showdown data is missing
+    if pd.notna(row["pkmn_forme"]):  # Skip rows where pkmn data is missing
         pokeapi_form = row["pokeapi_form_name"]
-        showdown_form = row["showdown_forme"]
+        pkmn_form = row["pkmn_forme"]
 
-        if pokeapi_form.lower() == showdown_form.lower():
-            print(f"OK: {row['showdown_name']} {pokeapi_form} -> {showdown_form}")
+        if pokeapi_form.lower() == pkmn_form.lower():
+            print(f"OK: {row['pkmn_name']} {pokeapi_form} -> {pkmn_form}")
         else:
             print(
-                f"Warning: {row['showdown_name']} form mismatch - PokéAPI: {pokeapi_form}, Showdown: {showdown_form}"
+                f"Warning: {row['pkmn_name']} form mismatch - PokéAPI: {pokeapi_form}, PKMN: {pkmn_form}"
             )
     else:
         print(
-            f"Info: Flabebe family PokéAPI form {row['pokeapi_form_name']} has no Showdown match"
+            f"Info: Flabebe family PokéAPI form {row['pokeapi_form_name']} has no PKMN match"
         )

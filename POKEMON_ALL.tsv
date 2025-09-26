@@ -1,4 +1,4 @@
-national_pokedex_number	pokeapi_species_id	pokeapi_species_id_name	pokeapi_pokemon_id	pokeapi_pokemon_id_name	pokeapi_form_id	pokeapi_form_id_name	pokeapi_form_order	pokeapi_form_name	pokeapi_species_name_ja	pokeapi_form_name_ja	pokeapi_species_name_en	pokeapi_form_name_en	showdown_form_order	showdown_name	showdown_id_name	showdown_base_species	showdown_forme	yakkuncom_id	yakkuncom_name	yakkuncom_form_name
+national_pokedex_number	pokeapi_species_id	pokeapi_species_id_name	pokeapi_pokemon_id	pokeapi_pokemon_id_name	pokeapi_form_id	pokeapi_form_id_name	pokeapi_form_order	pokeapi_form_name	pokeapi_species_name_ja	pokeapi_form_name_ja	pokeapi_species_name_en	pokeapi_form_name_en	pkmn_form_order	pkmn_name	pkmn_id_name	pkmn_base_species	pkmn_forme	yakkuncom_id	yakkuncom_name	yakkuncom_form_name
 1	1	bulbasaur	1	bulbasaur	1	bulbasaur	1		フシギダネ		Bulbasaur		1	Bulbasaur	bulbasaur	Bulbasaur		n1	フシギダネ	
 2	2	ivysaur	2	ivysaur	2	ivysaur	1		フシギソウ		Ivysaur		1	Ivysaur	ivysaur	Ivysaur		n2	フシギソウ	
 3	3	venusaur	3	venusaur	3	venusaur	1		フシギバナ		Venusaur		1	Venusaur	venusaur	Venusaur		n3	フシギバナ	

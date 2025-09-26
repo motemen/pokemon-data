@@ -4,19 +4,19 @@ import { PokemonDataAll } from "./schema";
 import { z } from "zod";
 
 describe("POKEMON_ALL.json フォーム整合性チェック", () => {
-  it("pokeapi_form_name と showdown_forme の実質的な不一致がないことを確認", () => {
+  it("pokeapi_form_name と pkmn_forme の実質的な不一致がないことを確認", () => {
     const mismatches: Array<{
       index: number;
       national_pokedex_number: number;
       pokeapi_species_id_name: string;
       pokeapi_form_name: string | null;
-      showdown_forme: string | null;
+      pkmn_forme: string | null;
     }> = [];
 
     (POKEMON_ALL as z.TypeOf<typeof PokemonDataAll>).forEach(
       (pokemon, index) => {
         // 両方の値が存在する場合のみチェック
-        if (!pokemon.pokeapi_form_name || !pokemon.showdown_forme) {
+        if (!pokemon.pokeapi_form_name || !pokemon.pkmn_forme) {
           return;
         }
 
@@ -25,31 +25,31 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
           str.toLowerCase().replace(/[-'\s]/g, "");
 
         const pokeapi = normalize(pokemon.pokeapi_form_name);
-        const showdown = normalize(pokemon.showdown_forme);
+        const pkmn = normalize(pokemon.pkmn_forme);
 
         // 既に一致している場合はスキップ
-        if (pokeapi === showdown) {
+        if (pokeapi === pkmn) {
           return;
         }
 
         // 性別フォームを無視
         if (
-          (pokeapi === "male" && showdown === "m") ||
-          (pokeapi === "female" && showdown === "f")
+          (pokeapi === "male" && pkmn === "m") ||
+          (pokeapi === "female" && pkmn === "f")
         ) {
           return;
         }
 
         // Totemフォームを無視
-        if (pokeapi.includes("totem") || showdown.includes("totem")) {
+        if (pokeapi.includes("totem") || pkmn.includes("totem")) {
           return;
         }
 
         // ネクロズマ: dusk -> dusk-mane, dawn -> dawn-wings
         if (
           pokemon.pokeapi_species_id_name === "necrozma" &&
-          ((pokeapi === "dusk" && showdown === "duskmane") ||
-           (pokeapi === "dawn" && showdown === "dawnwings"))
+          ((pokeapi === "dusk" && pkmn === "duskmane") ||
+           (pokeapi === "dawn" && pkmn === "dawnwings"))
         ) {
           return;
         }
@@ -57,7 +57,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // ゲッコウガ: battle-bond -> bond
         if (
           pokemon.pokeapi_species_id_name === "greninja" &&
-          pokeapi === "battlebond" && showdown === "bond"
+          pokeapi === "battlebond" && pkmn === "bond"
         ) {
           return;
         }
@@ -65,8 +65,8 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // マウスホールド: family-of-four -> four, family-of-three -> three
         if (
           pokemon.pokeapi_species_id_name === "maushold" &&
-          ((pokeapi === "familyoffour" && showdown === "four") ||
-           (pokeapi === "familyofthree" && showdown === "three"))
+          ((pokeapi === "familyoffour" && pkmn === "four") ||
+           (pokeapi === "familyofthree" && pkmn === "three"))
         ) {
           return;
         }
@@ -74,9 +74,9 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // オーガポン: *-mask -> マスク名
         if (
           pokemon.pokeapi_species_id_name === "ogerpon" &&
-          ((pokeapi === "wellspringmask" && showdown === "wellspring") ||
-           (pokeapi === "hearthflamemask" && showdown === "hearthflame") ||
-           (pokeapi === "cornerstonemask" && showdown === "cornerstone"))
+          ((pokeapi === "wellspringmask" && pkmn === "wellspring") ||
+           (pokeapi === "hearthflamemask" && pkmn === "hearthflame") ||
+           (pokeapi === "cornerstonemask" && pkmn === "cornerstone"))
         ) {
           return;
         }
@@ -84,9 +84,9 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // タウロス: paldea-*-breed -> paldea-*
         if (
           pokemon.pokeapi_species_id_name === "tauros" &&
-          ((pokeapi === "paldeacombatbreed" && showdown === "paldeacombat") ||
-           (pokeapi === "paldeablazebreed" && showdown === "paldeablaze") ||
-           (pokeapi === "paldeaaquabreed" && showdown === "paldeaaqua"))
+          ((pokeapi === "paldeacombatbreed" && pkmn === "paldeacombat") ||
+           (pokeapi === "paldeablazebreed" && pkmn === "paldeablaze") ||
+           (pokeapi === "paldeaaquabreed" && pkmn === "paldeaaqua"))
         ) {
           return;
         }
@@ -94,7 +94,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // ヒヒダルマ: galar-standard -> galar
         if (
           pokemon.pokeapi_species_id_name === "darmanitan" &&
-          pokeapi === "galarstandard" && showdown === "galar"
+          pokeapi === "galarstandard" && pkmn === "galar"
         ) {
           return;
         }
@@ -102,10 +102,10 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // アカツキガラス: *-plumage -> 色名
         if (
           pokemon.pokeapi_species_id_name === "squawkabilly" &&
-          ((pokeapi === "greenplumage" && showdown === "green") ||
-           (pokeapi === "blueplumage" && showdown === "blue") ||
-           (pokeapi === "yellowplumage" && showdown === "yellow") ||
-           (pokeapi === "whiteplumage" && showdown === "white"))
+          ((pokeapi === "greenplumage" && pkmn === "green") ||
+           (pokeapi === "blueplumage" && pkmn === "blue") ||
+           (pokeapi === "yellowplumage" && pkmn === "yellow") ||
+           (pokeapi === "whiteplumage" && pkmn === "white"))
         ) {
           return;
         }
@@ -113,7 +113,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // イワンコ: own-tempo -> dusk
         if (
           pokemon.pokeapi_species_id_name === "rockruff" &&
-          pokeapi === "owntempo" && showdown === "dusk"
+          pokeapi === "owntempo" && pkmn === "dusk"
         ) {
           return;
         }
@@ -121,10 +121,10 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // ジガルデ: パーセント記号とpower-constructパターンのマッチング
         if (
           pokemon.pokeapi_species_id_name === "zygarde" &&
-          ((pokeapi === "50" && showdown === "50%") ||
-           (pokeapi === "10powerconstruct" && showdown === "10%") ||
-           (pokeapi === "50powerconstruct" && showdown === "50%") ||
-           (pokeapi === "10" && showdown === "10%"))
+          ((pokeapi === "50" && pkmn === "50%") ||
+           (pokeapi === "10powerconstruct" && pkmn === "10%") ||
+           (pokeapi === "50powerconstruct" && pkmn === "50%") ||
+           (pokeapi === "10" && pkmn === "10%"))
         ) {
           return;
         }
@@ -132,7 +132,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // メテノ: *meteor -> meteor (一般化)
         if (pokemon.pokeapi_species_id_name === "minior") {
           const pokemonMeteor = pokeapi.replace(/.*meteor/, "meteor");
-          if (pokemonMeteor === showdown && showdown === "meteor") {
+          if (pokemonMeteor === pkmn && pkmn === "meteor") {
             return;
           }
         }
@@ -140,9 +140,9 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // ストリンダー・ウーラオスのGmaxフォーム: gmax -> 特定フォーム
         if (
           (pokemon.pokeapi_pokemon_id_name === "toxtricity-low-key-gmax" &&
-            showdown === "lowkeygmax") ||
+            pkmn === "lowkeygmax") ||
           (pokemon.pokeapi_pokemon_id_name === "urshifu-rapid-strike-gmax" &&
-            showdown === "rapidstrikegmax")
+            pkmn === "rapidstrikegmax")
         ) {
           return;
         }
@@ -151,7 +151,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         if (pokemon.pokeapi_species_id_name === "pikachu") {
           const pokemonPikachu = pokeapi.replace(/cap$/, "");
           if (
-            pokemonPikachu === showdown &&
+            pokemonPikachu === pkmn &&
             pokemon.national_pokedex_number === 25
           ) {
             return;
@@ -161,7 +161,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
         // マホミル: *-strawberry-sweet を削除してマッチング
         if (pokemon.pokeapi_species_id_name === "alcremie") {
           const pokemonAlcremie = pokeapi.replace(/strawberrysweet$/, "");
-          if (pokemonAlcremie === showdown) {
+          if (pokemonAlcremie === pkmn) {
             return;
           }
         }
@@ -172,7 +172,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
           national_pokedex_number: pokemon.national_pokedex_number,
           pokeapi_species_id_name: pokemon.pokeapi_species_id_name,
           pokeapi_form_name: pokemon.pokeapi_form_name,
-          showdown_forme: pokemon.showdown_forme,
+          pkmn_forme: pokemon.pkmn_forme,
         });
       }
     );
@@ -184,7 +184,7 @@ describe("POKEMON_ALL.json フォーム整合性チェック", () => {
           `行${mismatch.index + 1}: #${mismatch.national_pokedex_number} ${
             mismatch.pokeapi_species_id_name
           } - ` +
-            `PokéAPI: "${mismatch.pokeapi_form_name}" vs Showdown: "${mismatch.showdown_forme}"`
+            `PokéAPI: "${mismatch.pokeapi_form_name}" vs PKMN: "${mismatch.pkmn_forme}"`
         );
       });
     }
