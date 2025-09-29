@@ -1,3 +1,10 @@
+## 9.5.0 (2025-09-29)
+
+- BREAKING: Mass refactor
+  - modified schema
+  - import pkmn data
+  - removed pokedbtokyo data from pokemon dataset, as it should be able to be derived from national_pokedex_number and form_order.
+
 ## 9.4.0 (2025-07-16)
 
 - BREAKING: removed pokedbtokyo_id from ITEM_ALL
