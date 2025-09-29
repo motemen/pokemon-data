@@ -5,6 +5,16 @@ all: pokemon items index.d.ts
 clean:
 	rm -f POKEMON_ALL.json POKEMON_ALL.tsv index.d.ts
 
+.PHONY: distclean
+distclean: clean
+	rm -rf data/
+	rm -f source/pokeapi-allpokemons.json \
+		source/pokeapi-item_names.csv \
+		source/yakkuncom-zukan.html \
+		source/yakkuncom-item.html \
+		source/bulbapedia-items-gen9.html \
+		bulbapedia-items.tsv
+
 .PHONY: pokemon
 pokemon: data/merged/pokeapi_pkmn.tsv data/merged/pokeapi_yakkuncom.tsv
 	uv run python merge-pokemon-all.py
