@@ -1,29 +1,53 @@
 declare module "@motemen/pokemon-data" {
   const POKEMON_ALL: {
-      yakkuncom_id: string | null;
-      yakkuncom_name: string | null;
-      pokeapi_id: number;
-      pokeapi_name: string;
+      national_pokedex_number: number;
+      pokeapi_form_order: number;
+      pokeapi_form_name: string | null;
+      pokeapi_species_id: number;
+      pokeapi_species_id_name: string;
+      pokeapi_pokemon_id: number;
+      pokeapi_pokemon_id_name: string;
+      pokeapi_form_id: number;
+      pokeapi_form_id_name: string;
       pokeapi_species_name_ja: string;
       pokeapi_form_name_ja: string | null;
-      pokedbtokyo_id: string | null;
-      pkmn_id: string | null;
+      pokeapi_species_name_en: string;
+      pokeapi_form_name_en: string | null;
+      pkmn_form_order: number | null;
       pkmn_name: string | null;
+      pkmn_id_name: string | null;
+      pkmn_base_species: string | null;
+      pkmn_forme: string | null;
+      yakkuncom_id: string | null;
+      yakkuncom_name: string | null;
+      yakkuncom_form_name: string | null;
   }[];
   export default POKEMON_ALL;
 }
 
 declare module "@motemen/pokemon-data/POKEMON_ALL.json" {
   const POKEMON_ALL: {
-      yakkuncom_id: string | null;
-      yakkuncom_name: string | null;
-      pokeapi_id: number;
-      pokeapi_name: string;
+      national_pokedex_number: number;
+      pokeapi_form_order: number;
+      pokeapi_form_name: string | null;
+      pokeapi_species_id: number;
+      pokeapi_species_id_name: string;
+      pokeapi_pokemon_id: number;
+      pokeapi_pokemon_id_name: string;
+      pokeapi_form_id: number;
+      pokeapi_form_id_name: string;
       pokeapi_species_name_ja: string;
       pokeapi_form_name_ja: string | null;
-      pokedbtokyo_id: string | null;
-      pkmn_id: string | null;
+      pokeapi_species_name_en: string;
+      pokeapi_form_name_en: string | null;
+      pkmn_form_order: number | null;
       pkmn_name: string | null;
+      pkmn_id_name: string | null;
+      pkmn_base_species: string | null;
+      pkmn_forme: string | null;
+      yakkuncom_id: string | null;
+      yakkuncom_name: string | null;
+      yakkuncom_form_name: string | null;
   }[];
   export default POKEMON_ALL;
 }

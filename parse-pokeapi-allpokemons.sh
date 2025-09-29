@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# ヘッダー行を出力
+# ヘッダー行を1カラム1行で定義し、タブ区切りで出力
+header_cols=(
+  "national_pokedex_number" # Use this and form_order to combine with other datasets
+
+  # Additional information
+  "species_id"
+  "species_id_name"
+  "pokemon_id"
+  "pokemon_id_name"
+  "form_id"  # Primary key
+  "form_id_name" # human-readable form ID
+  "form_order"
+  "form_name"
+
+  # Names in different languages
+  "species_name_ja"
+  "form_name_ja"
+  
+  "species_name_en"
+  "form_name_en"
+)
+(IFS=$'\t'; echo "${header_cols[*]}")
+
+# jqでデータを変換
+jq -r '
+.data.pokemonspeciesname[] |
+. as $root |
+.pokemonspecy.pokemons[] |
+. as $pokemon |
+.pokemonforms[] |
+[
+ 
+  $root.pokemonspecy.pokedex_number[0].pokedex_number,
+
+  $root.pokemonspecy.id,
+  $root.pokemonspecy.id_name,
+  $pokemon.id,
+  $pokemon.id_name,
+  .id,
+  .id_name,
+  .form_order,
+  .form_name,
+
+  $root.name_ja,
+  (.name_ja[0].name // ""),
+  $root.pokemonspecy.name_en[0].name,
+  (.name_en[0].name // "")
+] | @tsv
+' "$1"

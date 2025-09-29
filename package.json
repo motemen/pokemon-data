@@ -12,6 +12,7 @@
   "devDependencies": {
     "@pkmn/data": "^0.9.35",
     "@pkmn/dex": "^0.9.35",
+    "@types/node": "^24.0.15",
     "tsx": "^4.16.0",
     "typescript": "^5.5.2",
     "vitest": "^1.6.0",

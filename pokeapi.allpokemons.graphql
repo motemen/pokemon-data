@@ -1,0 +1,31 @@
+{
+  pokemonspeciesname(where: { language_id: { _eq: 1 } }) {
+    name_ja: name
+    pokemonspecy {
+      id
+      id_name: name
+      name_en: pokemonspeciesnames(where: { language_id: { _eq: 9 } }) {
+        name
+      }
+      pokedex_number: pokemondexnumbers(where: { pokedex_id: { _eq: 1 } }) {
+        pokedex_number
+      }
+      pokemons {
+        id
+        id_name: name
+        pokemonforms {
+          id
+          id_name: name
+          form_name
+          form_order
+          name_ja: pokemonformnames(where: { language_id: { _eq: 1 } }) {
+            name
+          }
+          name_en: pokemonformnames(where: { language_id: { _eq: 9 } }) {
+            name
+          }
+        }
+      }
+    }
+  }
+}
